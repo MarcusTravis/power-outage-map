@@ -1,6 +1,6 @@
 # Power Outage Map
 
-An unofficial static site that plots significant power outages on an [OpenStreetMap](https://www.openstreetmap.org/copyright) basemap and lists them in a sortable table. Haskell County, Texas (ZIP 79521) is called out at the top.
+An unofficial static site that plots significant power outages on an [OpenStreetMap](https://www.openstreetmap.org/copyright) basemap and lists them in a sortable table.
 
 This is not an official government or utility outage map. Confirm any outage with the local utility.
 
@@ -16,7 +16,7 @@ Edit `data.json` only. The page fetches that file with a cache-busting query str
 
 Refresh cadence for the data itself:
 
-- United States and Haskell County: every 30 minutes
+- United States: every 30 minutes
 - Worldwide list: a few times a day (about four)
 
 Set `as_of` to the snapshot time in Central Time (CT), for example `"2:35 PM CT, Thursday, November 12, 2026"`.
@@ -26,7 +26,7 @@ Each object in `outages` should use these fields (leave a value blank when it is
 | Field | Meaning |
 | --- | --- |
 | `lat`, `lon` | Approximate coordinates. Use `null` for nationwide totals that should appear in the table but not as a single map dot. |
-| `place` | Location name. Keep a row whose `place` contains "Haskell" and whose `region` mentions Texas or the United States so the top callout can find it. |
+| `place` | Location name |
 | `region` | Broader area or country |
 | `cause` | Why the outage or shortfall is happening |
 | `affected` | Customers out, MW shortfall, or a short qualitative note |

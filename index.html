@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Power Outage Map</title>
-  <meta name="description" content="Unofficial map of significant power outages, with a live callout for Haskell County, Texas.">
+  <meta name="description" content="Unofficial map of significant power outages worldwide.">
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -324,21 +324,10 @@
       <p class="dateline">As of <strong id="as-of">loading…</strong><br>Times in Central Time (CT)</p>
     </header>
 
-    <p class="cadence">U.S. and Haskell County numbers refresh every 30 minutes. The worldwide list updates a few times a day (about four). This page reloads the data file every five minutes.</p>
+    <p class="cadence">U.S. numbers refresh about every 30 minutes. The worldwide list updates a few times a day (about four). This page reloads the data file every five minutes.</p>
 
     <div id="error" hidden class="error" role="alert"></div>
 
-    <section class="callout" id="haskell-callout" aria-label="Haskell County, Texas">
-      <div>
-        <p class="kicker">Home county</p>
-        <h2>Haskell County, Texas</h2>
-        <p class="meta" id="haskell-meta">ZIP 79521 · Loading current status…</p>
-      </div>
-      <div>
-        <div class="figure" id="haskell-figure">—</div>
-        <div class="status-label" id="haskell-status"></div>
-      </div>
-    </section>
 
     <div class="metrics" id="metrics" hidden>
       <article class="metric" id="metric-us"></article>
@@ -349,7 +338,6 @@
       <h2 id="map-heading">Significant outages</h2>
       <div id="map" role="img" aria-label="World map of significant power outages"></div>
       <div class="legend">
-        <span><i class="swatch home"></i> Haskell County</span>
         <span><i class="swatch clear"></i> No customers out</span>
         <span><i class="swatch active"></i> Active outage or shortfall</span>
         <span>Dot size is a rough guide to reported scale, not a precise count.</span>
@@ -382,8 +370,7 @@
     <footer>
       <h2>Sources</h2>
       <ul>
-        <li><a href="https://poweroutage.us/">PowerOutage.us</a> — U.S. and Haskell County, Texas (<a href="https://poweroutage.us/area/county/1395">county 1395</a>)</li>
-        <li><a href="https://outage-pro.com/outages/texas/haskell-county">Outage Pro</a> — secondary check for Haskell County</li>
+        <li><a href="https://poweroutage.us/">PowerOutage.us</a> — U.S. totals and state pages</li>
         <li><a href="http://www.cubadebate.cu/noticias/2026/11/12/la-une-pronostica-una-afectacion-de-1890-mw-en-horario-pico/">Unión Eléctrica / Cubadebate</a> — Cuba generation deficit</li>
         <li>Ukraine: <a href="https://ua.news/en/capital/u-kiievi-skorotili-trivalist-vidkliuchen-svitla">UA.NEWS</a>, Ukrenergo, DTEK, and local schedules</li>
         <li><a href="https://thursdaytimes.com/2026/11/12/news/economy/power-shortfall-1500mw-tarbela-lahore-load-shedding-ismo/">The Thursday Times / ISMO</a> — Pakistan shortfall</li>
@@ -426,9 +413,6 @@
 
     function $(id) { return document.getElementById(id); }
 
-    function isHaskell(row) {
-      return /haskell/i.test(row.place || "") && /texas|united states/i.test(row.region || "");
-    }
 
     function isAllClear(row) {
       const a = (row.affected || "").trim();
@@ -497,7 +481,6 @@
     }
 
     function markerColor(row) {
-      if (isHaskell(row)) return isAllClear(row) ? "#1f4b73" : "#9b1c1c";
       return isAllClear(row) ? "#0f6b42" : "#9b1c1c";
     }
 
@@ -526,24 +509,6 @@
     }
 
     function escapeAttr(s) { return escapeHtml(s).replace(/'/g, "&#39;"); }
-
-    function renderCallout(rows) {
-      const row = rows.find(isHaskell);
-      const box = $("haskell-callout");
-      if (!row) {
-        $("haskell-meta").textContent = "ZIP 79521 · No Haskell row in the latest data file.";
-        $("haskell-figure").textContent = "—";
-        $("haskell-status").textContent = "";
-        return;
-      }
-      const clear = isAllClear(row);
-      box.classList.toggle("is-out", !clear);
-      $("haskell-figure").textContent = (row.affected || "").trim() || "—";
-      $("haskell-status").textContent = clear ? "All clear" : "Outage reported";
-      const bits = ["ZIP 79521"];
-      if (row.updated) bits.push("Source updated " + row.updated);
-      $("haskell-meta").textContent = bits.join(" · ");
-    }
 
     function firstNumberPhrase(text) {
       if (!text) return "";
@@ -583,7 +548,6 @@
       body.replaceChildren();
       sorted.forEach((row) => {
         const tr = document.createElement("tr");
-        if (isHaskell(row)) tr.className = "is-home";
         tr.appendChild(Object.assign(cell(row.place), { className: "place-cell" }));
         tr.appendChild(cell(row.region));
         tr.appendChild(cell(row.cause));
@@ -619,13 +583,10 @@
         const marker = L.circleMarker([row.lat, row.lon], {
           radius: markerRadius(row),
           color: "#fff",
-          weight: isHaskell(row) ? 3 : 1.5,
+          weight: 1.5,
           fillColor: color,
           fillOpacity: 0.92
         }).bindPopup(popupHtml(row), { maxWidth: 280 });
-        if (isHaskell(row)) {
-          marker.bindTooltip("Haskell County, TX", { permanent: false, direction: "top" });
-        }
         marker.addTo(markerLayer);
         bounds.push([row.lat, row.lon]);
       });
@@ -638,7 +599,6 @@
     function render(data) {
       currentRows = Array.isArray(data.outages) ? data.outages : [];
       $("as-of").textContent = data.as_of || "time not provided in data.json";
-      renderCallout(currentRows);
       renderMetrics(currentRows);
       renderTable(currentRows);
       renderMap(currentRows);

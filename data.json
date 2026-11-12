@@ -2,18 +2,6 @@
   "as_of": "2:47 PM CT, Thursday, November 12, 2026",
   "outages": [
     {
-      "lat": 33.174,
-      "lon": -99.73,
-      "place": "Haskell County",
-      "region": "Texas, United States",
-      "cause": "",
-      "affected": "0 of 3,167 tracked (Tri-County Electric Co-op has no live feed)",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/county/1395",
-      "updated": "2:42 PM CT"
-    },
-    {
       "lat": null,
       "lon": null,
       "place": "United States",
@@ -91,7 +79,7 @@
       "place": "Lahore and Punjab",
       "region": "Pakistan",
       "cause": "National generation shortfall after the Tarbela fifth-extension incident reduced hydropower output",
-      "affected": "About 1,500 MW national shortfall (peak demand about 16,000 MW vs. about 14,500 MW available). LESCO/Lahore shortfall about 800 MW, with 3\u20134 hours of evening load-shedding.",
+      "affected": "About 1,500 MW national shortfall (peak demand about 16,000 MW vs. about 14,500 MW available). LESCO/Lahore shortfall about 800 MW, with 3–4 hours of evening load-shedding.",
       "start": "",
       "etr": "",
       "source": "https://thursdaytimes.com/2026/11/12/news/economy/power-shortfall-1500mw-tarbela-lahore-load-shedding-ismo/",
@@ -139,7 +127,7 @@
       "place": "Lagos, Abuja, Ogun, Kwara, and Oyo",
       "region": "Nigeria",
       "cause": "Gas constraints, maintenance, and reduced hydropower output; not a national grid collapse",
-      "affected": "Reduced supply reported in these areas. As of Nov 10, the minister said many communities had been restored after the Benin\u2013Egbin 330 kV line was repaired (Lagos Complex above 1,000 MW), but some outages continued.",
+      "affected": "Reduced supply reported in these areas. As of Nov 10, the minister said many communities had been restored after the Benin–Egbin 330 kV line was repaired (Lagos Complex above 1,000 MW), but some outages continued.",
       "start": "",
       "etr": "",
       "source": "https://www.vanguardngr.com/2026/11/power-outages-remain-despite-rise-in-generation-ministerial-promise/",
