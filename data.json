@@ -1,5 +1,5 @@
 {
-  "as_of": "5:37 PM CT, Thursday, November 12, 2026",
+  "as_of": "5:53 PM CT, Thursday, November 12, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "51,862 customers out",
+      "affected": "46,005 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "5:37 PM CT"
+      "updated": "5:53 PM CT"
     },
     {
       "lat": 37.1661,
@@ -19,11 +19,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "12,111 customers out",
+      "affected": "12,112 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "5:37 PM CT"
+      "updated": "5:53 PM CT"
     },
     {
       "lat": 42.9538,
@@ -31,11 +31,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "5,561 customers out",
+      "affected": "5,137 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "5:37 PM CT"
+      "updated": "5:53 PM CT"
     },
     {
       "lat": 31.1761,
@@ -43,11 +43,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "5,027 customers out",
+      "affected": "4,797 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "5:37 PM CT"
+      "updated": "5:53 PM CT"
     },
     {
       "lat": 18.338,
@@ -55,11 +55,11 @@
       "place": "St. Thomas and St. John",
       "region": "U.S. Virgin Islands",
       "cause": "Rotating outages while WAPA repairs generating units at the Randolph Harley Power Plant",
-      "affected": "3,554 customers out, almost all on St. Thomas",
+      "affected": "3,426 customers out, 3,415 on St. Thomas",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "5:37 PM CT"
+      "updated": "5:53 PM CT"
     },
     {
       "lat": 40.2862,
@@ -67,11 +67,11 @@
       "place": "Ohio",
       "region": "United States",
       "cause": "",
-      "affected": "2,866 customers out",
+      "affected": "2,867 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/ohio",
-      "updated": "5:37 PM CT"
+      "updated": "5:53 PM CT"
     },
     {
       "lat": 50.45,
