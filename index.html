@@ -3,273 +3,95 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Power Outage Map</title>
-  <meta name="description" content="Unofficial map of significant power outages worldwide.">
+  <!-- build:seo-head -->
+  <title>Live Power Outage Map: Major Blackouts Worldwide Right Now</title>
+  <meta name="description" content="Live unofficial map of significant power outages worldwide as of 5:37 PM CT, Thursday, November 12, 2026. Current outages include United States, St. Thomas and St. John, Kyiv and nationwide, Cuba, Venezuela, Lahore and Punjab. Customers affected, causes, and restoration times, with sources. Ad-free.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://marcustravis.github.io/power-outage-map/">
+  <link rel="icon" type="image/png" href="https://marcustravis.github.io/power-outage-map/favicon.png">
+  <link rel="stylesheet" href="site.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Live Power Outage Map: Major Blackouts Worldwide Right Now">
+  <meta property="og:description" content="Live unofficial map of significant power outages worldwide as of 5:37 PM CT, Thursday, November 12, 2026. Current outages include United States, St. Thomas and St. John, Kyiv and nationwide, Cuba, Venezuela, Lahore and Punjab. Customers affected, causes, and restoration times, with sources. Ad-free.">
+  <meta property="og:url" content="https://marcustravis.github.io/power-outage-map/">
+  <meta property="og:site_name" content="Live Power Outage Map">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://marcustravis.github.io/power-outage-map/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Live Power Outage Map: major blackouts worldwide right now">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Live Power Outage Map: Major Blackouts Worldwide Right Now">
+  <meta name="twitter:description" content="Live unofficial map of significant power outages worldwide as of 5:37 PM CT, Thursday, November 12, 2026. Current outages include United States, St. Thomas and St. John, Kyiv and nationwide, Cuba, Venezuela, Lahore and Punjab. Customers affected, causes, and restoration times, with sources. Ad-free.">
+  <meta name="twitter:image" content="https://marcustravis.github.io/power-outage-map/og-image.png">
+  <link rel="alternate" type="application/json" href="data.json" title="Outage data (JSON)">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "Live Power Outage Map",
+      "url": "https://marcustravis.github.io/power-outage-map/",
+      "description": "Live unofficial map of significant power outages worldwide as of 5:37 PM CT, Thursday, November 12, 2026. Current outages include United States, St. Thomas and St. John, Kyiv and nationwide, Cuba, Venezuela, Lahore and Punjab. Customers affected, causes, and restoration times, with sources. Ad-free.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Significant power outages worldwide",
+      "description": "Live unofficial map of significant power outages worldwide as of 5:37 PM CT, Thursday, November 12, 2026. Current outages include United States, St. Thomas and St. John, Kyiv and nationwide, Cuba, Venezuela, Lahore and Punjab. Customers affected, causes, and restoration times, with sources. Ad-free.",
+      "url": "https://marcustravis.github.io/power-outage-map/",
+      "isAccessibleForFree": true,
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "dateModified": "2026-11-12T17:37:00-06:00",
+      "temporalCoverage": "2026-11-12T17:37:00-06:00",
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "Worldwide"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "Live Power Outage Map"
+      },
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://marcustravis.github.io/power-outage-map/data.json"
+      },
+      "variableMeasured": "Power outages and generation shortfalls",
+      "keywords": [
+        "United States",
+        "California",
+        "New York",
+        "Texas",
+        "St. Thomas and St. John",
+        "Ohio",
+        "Kyiv and nationwide",
+        "Cuba",
+        "Venezuela",
+        "Lahore and Punjab",
+        "Logan and south-east Queensland",
+        "Mayfair, Auckland Park, and nearby suburbs",
+        "Lagos, Abuja, Ogun, Kwara, and Oyo"
+      ]
+    }
+  ]
+}
+  </script>
+  <!-- /build:seo-head -->
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-  <style>
-    :root {
-      --bg: #f3efe6;
-      --bg-deep: #e8e2d4;
-      --paper: #fffcf6;
-      --ink: #1c1915;
-      --muted: #5c574c;
-      --line: #d4cdc0;
-      --line-strong: #b7b09f;
-      --clear: #0f6b42;
-      --clear-bg: #e4f3ea;
-      --alert: #9b1c1c;
-      --alert-bg: #f8e8e4;
-      --warn: #9a4a0a;
-      --accent: #1f4b73;
-      --shadow: 0 1px 2px rgba(28, 25, 21, 0.06), 0 8px 24px rgba(28, 25, 21, 0.06);
-      --radius: 14px;
-    }
-
-    * { box-sizing: border-box; }
-    html, body { margin: 0; padding: 0; }
-    body {
-      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
-      color: var(--ink);
-      background:
-        radial-gradient(1200px 500px at 10% -10%, #fff8e8 0%, transparent 55%),
-        var(--bg);
-      line-height: 1.5;
-      min-height: 100vh;
-    }
-
-    a { color: var(--accent); }
-    a:hover { text-decoration-thickness: 2px; }
-
-    .wrap {
-      width: min(1120px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 28px 0 64px;
-    }
-
-    header.top {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px 24px;
-      justify-content: space-between;
-      align-items: flex-end;
-      margin-bottom: 18px;
-    }
-
-    header.top h1 {
-      font-family: "IBM Plex Serif", Georgia, serif;
-      font-weight: 600;
-      font-size: clamp(1.8rem, 3vw, 2.5rem);
-      letter-spacing: -0.02em;
-      line-height: 1.1;
-      margin: 0;
-    }
-
-    .dateline {
-      color: var(--muted);
-      font-size: 0.95rem;
-      text-align: right;
-    }
-
-    .dateline strong {
-      color: var(--ink);
-      font-weight: 600;
-    }
-
-    .cadence {
-      margin: 0 0 20px;
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
-
-    .metrics {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 12px;
-      margin-bottom: 18px;
-      max-width: 28rem;
-    }
-
-    .metric {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: 14px 16px;
-      box-shadow: var(--shadow);
-    }
-
-    .metric .label {
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--muted);
-    }
-
-    .metric .value {
-      font-size: 1.45rem;
-      font-weight: 700;
-      letter-spacing: -0.03em;
-      margin-top: 2px;
-    }
-
-    .metric .detail {
-      color: var(--muted);
-      font-size: 0.88rem;
-    }
-
-    .panel {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-      margin-bottom: 18px;
-    }
-
-    .panel h2 {
-      font-size: 1rem;
-      font-weight: 600;
-      margin: 0;
-      padding: 14px 16px 10px;
-    }
-
-    #map {
-      width: 100%;
-      height: min(62vh, 560px);
-      min-height: 280px;
-      background: var(--bg-deep);
-    }
-
-    .legend {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px 16px;
-      padding: 10px 16px 14px;
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
-
-    .legend span { display: inline-flex; align-items: center; gap: 6px; }
-    .swatch {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      display: inline-block;
-      box-shadow: 0 0 0 2px #fff, 0 0 0 3px currentColor;
-    }
-    .swatch.clear { color: var(--clear); background: var(--clear); }
-    .swatch.active { color: var(--alert); background: var(--alert); }
-
-    .table-wrap { overflow-x: auto; }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.9rem;
-    }
-
-    th, td {
-      padding: 10px 12px;
-      border-top: 1px solid var(--line);
-      text-align: left;
-      vertical-align: top;
-    }
-
-    th {
-      font-size: 0.72rem;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: var(--muted);
-      background: #faf7f0;
-      position: sticky;
-      top: 0;
-      white-space: nowrap;
-    }
-
-    th button {
-      font: inherit;
-      color: inherit;
-      text-transform: inherit;
-      letter-spacing: inherit;
-      background: none;
-      border: 0;
-      padding: 0;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    th button:hover, th button:focus-visible { color: var(--ink); }
-
-    th[aria-sort="ascending"] button::after { content: " ▲"; font-size: 0.7em; }
-    th[aria-sort="descending"] button::after { content: " ▼"; font-size: 0.7em; }
-
-    td.empty { color: #a39c90; }
-
-    .place-cell { font-weight: 600; min-width: 10rem; }
-    .error, .status-msg {
-      padding: 10px 16px;
-      color: var(--alert);
-      background: var(--alert-bg);
-      border-radius: 10px;
-      margin-bottom: 16px;
-    }
-
-    footer {
-      margin-top: 8px;
-      padding-top: 18px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 0.85rem;
-    }
-
-    footer h2 {
-      font-size: 0.75rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin: 0 0 8px;
-    }
-
-    footer ul {
-      margin: 0 0 12px;
-      padding-left: 1.15rem;
-    }
-
-    footer li { margin: 2px 0; }
-
-    .note {
-      margin: 0 0 18px;
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
-
-    @media (max-width: 640px) {
-      .wrap { width: min(100% - 24px, 1120px); padding-top: 20px; }
-      .metrics { grid-template-columns: 1fr; max-width: none; }
-      .dateline { text-align: left; }
-      #map { height: 52vh; }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      * { transition: none !important; }
-    }
-    /* Ko-fi tip line at the bottom of the page */
-    .kofi{max-width:1200px;margin:48px auto 36px;padding:0 24px;text-align:center;color:var(--muted);font-size:14px}
-    .kofi a{color:var(--accent);text-decoration:none}
-    .kofi a:hover{text-decoration:underline}
-  </style>
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
   <div class="wrap">
     <header class="top">
-      <h1>Power Outage Map</h1>
-      <p class="dateline">As of <strong id="as-of">loading…</strong><br>Times in Central Time (CT)</p>
+      <h1>Live Power Outage Map</h1>
+      <p class="dateline">As of <strong id="as-of">5:37 PM CT, Thursday, November 12, 2026</strong><br>Times in Central Time (CT)</p>
     </header>
 
     <p class="cadence">U.S. numbers refresh about every 30 minutes. The worldwide list updates a few times a day (about four). This page reloads the data file every five minutes.</p>
@@ -277,9 +99,24 @@
     <div id="error" hidden class="error" role="alert"></div>
 
 
-    <div class="metrics" id="metrics" hidden>
-      <article class="metric" id="metric-us"></article>
+    <div class="metrics" id="metrics">
+      <article class="metric" id="metric-us"><!-- build:metric-us --><div class="label">United States</div><div class="value">51,862</div><div class="detail">51,862 customers out</div><!-- /build:metric-us --></article>
     </div>
+
+    <nav class="region-nav" id="region-nav" aria-label="Outages by country">
+      <h2>Outages by country</h2>
+      <ul id="region-list"><!-- build:region-links -->
+      <li><a href="us/">US power outage today</a></li>
+<li><a href="ukraine/">Ukraine power outage today</a></li>
+<li><a href="cuba/">Cuba power outage today</a></li>
+<li><a href="venezuela/">Venezuela power outage today</a></li>
+<li><a href="pakistan/">Pakistan power outage today</a></li>
+<li><a href="australia/">Australia power outage today</a></li>
+<li><a href="south-africa/">South Africa power outage today</a></li>
+<li><a href="nigeria/">Nigeria power outage today</a></li>
+<li><a href="us-virgin-islands/">US Virgin Islands power outage today</a></li>
+      <!-- /build:region-links --></ul>
+    </nav>
 
     <section class="panel" aria-labelledby="map-heading">
       <h2 id="map-heading">Significant outages</h2>
@@ -309,14 +146,42 @@
               <th aria-sort="none"><button type="button" data-sort="updated">Updated</button></th>
             </tr>
           </thead>
-          <tbody id="outage-body"></tbody>
+          <tbody id="outage-body"><!-- build:table -->
+<tr><td class="place-cell"><a class="place-link" href="us/">United States</a></td><td>Nationwide</td><td class="empty">—</td><td>51,862 customers out</td><td class="empty">—</td><td class="empty">—</td><td><a href="https://poweroutage.us/" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></td><td>5:37 PM CT</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="us/">California</a></td><td>United States</td><td class="empty">—</td><td>12,111 customers out</td><td class="empty">—</td><td class="empty">—</td><td><a href="https://poweroutage.us/area/state/california" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></td><td>5:37 PM CT</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="us/">New York</a></td><td>United States</td><td class="empty">—</td><td>5,561 customers out</td><td class="empty">—</td><td class="empty">—</td><td><a href="https://poweroutage.us/area/state/new%20york" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></td><td>5:37 PM CT</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="us/">Texas</a></td><td>United States</td><td class="empty">—</td><td>5,027 customers out</td><td class="empty">—</td><td class="empty">—</td><td><a href="https://poweroutage.us/area/state/texas" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></td><td>5:37 PM CT</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="us-virgin-islands/">St. Thomas and St. John</a></td><td>U.S. Virgin Islands</td><td>Rotating outages while WAPA repairs generating units at the Randolph Harley Power Plant</td><td>3,554 customers out, almost all on St. Thomas</td><td class="empty">—</td><td class="empty">—</td><td><a href="https://poweroutage.us/area/state/virgin%20islands" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></td><td>5:37 PM CT</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="us/">Ohio</a></td><td>United States</td><td class="empty">—</td><td>2,866 customers out</td><td class="empty">—</td><td class="empty">—</td><td><a href="https://poweroutage.us/area/state/ohio" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></td><td>5:37 PM CT</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="ukraine/">Kyiv and nationwide</a></td><td>Ukraine</td><td>Rolling blackouts after attacks on energy infrastructure</td><td>Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 12–16 hours a day in many regions) are scheduled for Friday, Nov 13.</td><td class="empty">—</td><td class="empty">—</td><td><a href="https://www.obozrevatel.com/ukr/section-ekonomika-glavnaya/communalka/news-ukrenerho-pokazalo-novyy-hrafik-vidklyuchen-svitla-vidomo-rezhym-na-13-lystopada-12-11-2026.html" target="_blank" rel="noopener noreferrer">OBOZ.UA / Ukrenergo</a></td><td>Nov 12, 2026 (schedules announced for Nov 13)</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="cuba/">Cuba</a></td><td>National electric system (SEN)</td><td>Generation capacity deficit (multiple thermal units offline or in maintenance)</td><td>1,890 MW forecast to be affected at peak (1,860 MW deficit). 1,395 MW already affected at 6:00 a.m. Cuba time.</td><td class="empty">—</td><td class="empty">—</td><td><a href="http://www.cubadebate.cu/noticias/2026/11/12/la-une-pronostica-una-afectacion-de-1890-mw-en-horario-pico/" target="_blank" rel="noopener noreferrer">Cubadebate / UNE</a></td><td>Nov 12, 2026 (UNE morning report; no later official part found)</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="venezuela/">Venezuela</a></td><td>Nationwide</td><td>Widespread, ongoing grid failures</td><td class="empty">—</td><td class="empty">—</td><td class="empty">—</td><td><a href="https://www.washingtonpost.com/world/2026/11/12/venezuelan-protests-blackouts-intensify-under-us-backed-leader/" target="_blank" rel="noopener noreferrer">The Washington Post</a></td><td>Nov 12, 2026</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="pakistan/">Lahore and Punjab</a></td><td>Pakistan</td><td>National generation shortfall after the Tarbela fifth-extension incident reduced hydropower output</td><td>About 1,500 MW national shortfall (peak demand about 16,000 MW vs. about 14,500 MW available). LESCO/Lahore shortfall about 800 MW, with 3–4 hours of evening load-shedding.</td><td class="empty">—</td><td class="empty">—</td><td><a href="https://thursdaytimes.com/2026/11/12/news/economy/power-shortfall-1500mw-tarbela-lahore-load-shedding-ismo/" target="_blank" rel="noopener noreferrer">The Thursday Times</a></td><td>Nov 12, 2026</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="australia/">Logan and south-east Queensland</a></td><td>Australia</td><td>Severe storms; more than 400 powerlines downed, concentrated in Logan</td><td>Energex said 90%+ of customers who lost power had been restored as of 8:30 a.m. Nov 13 AEST. Its homepage listed 50 unplanned outages at 9:30 a.m. Nov 13 AEST. Peak was more than 80,000 customers.</td><td>Nov 11, 2026 (AEST)</td><td class="empty">—</td><td><a href="https://www.energex.com.au/" target="_blank" rel="noopener noreferrer">Energex</a></td><td>Nov 13, 2026, 9:30 a.m. AEST (5:30 PM CT Nov 12)</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="south-africa/">Mayfair, Auckland Park, and nearby suburbs</a></td><td>Johannesburg, South Africa</td><td>Damage at the Mayfair substation</td><td class="empty">—</td><td class="empty">—</td><td>Some customers as early as Sunday, Nov 15; last group by the following weekend (City Power estimates, subject to safety tests)</td><td><a href="https://www.sabcnews.com/sabcnews/mayfair-substation-first-phase-power-restoration-98-complete/" target="_blank" rel="noopener noreferrer">SABC News</a></td><td>Nov 12, 2026, 7:49 p.m. SAST (11:49 a.m. CT)</td></tr>
+<tr><td class="place-cell"><a class="place-link" href="nigeria/">Lagos, Abuja, Ogun, Kwara, and Oyo</a></td><td>Nigeria</td><td>Gas constraints, maintenance, and reduced hydropower output; not a national grid collapse</td><td>Reduced supply reported in these areas. As of Nov 10, the minister said many communities had been restored after the Benin–Egbin 330 kV line was repaired (Lagos Complex above 1,000 MW), but some outages continued.</td><td class="empty">—</td><td class="empty">—</td><td><a href="https://www.vanguardngr.com/2026/11/power-outages-remain-despite-rise-in-generation-ministerial-promise/" target="_blank" rel="noopener noreferrer">Vanguard</a></td><td>Nov 10, 2026 (most recent detailed official update found; later reports still describe ongoing outages, without newer official figures)</td></tr>
+          <!-- /build:table --></tbody>
         </table>
       </div>
     </section>
 
     <footer>
       <h2>Sources</h2>
-      <ul id="source-list"></ul>
+      <ul id="source-list"><!-- build:sources -->
+      <li><a href="https://poweroutage.us/" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></li>
+<li><a href="https://poweroutage.us/area/state/california" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></li>
+<li><a href="https://poweroutage.us/area/state/new%20york" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></li>
+<li><a href="https://poweroutage.us/area/state/texas" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></li>
+<li><a href="https://poweroutage.us/area/state/virgin%20islands" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></li>
+<li><a href="https://poweroutage.us/area/state/ohio" target="_blank" rel="noopener noreferrer">PowerOutage.us</a></li>
+<li><a href="https://www.obozrevatel.com/ukr/section-ekonomika-glavnaya/communalka/news-ukrenerho-pokazalo-novyy-hrafik-vidklyuchen-svitla-vidomo-rezhym-na-13-lystopada-12-11-2026.html" target="_blank" rel="noopener noreferrer">OBOZ.UA / Ukrenergo</a></li>
+<li><a href="http://www.cubadebate.cu/noticias/2026/11/12/la-une-pronostica-una-afectacion-de-1890-mw-en-horario-pico/" target="_blank" rel="noopener noreferrer">Cubadebate / UNE</a></li>
+<li><a href="https://www.washingtonpost.com/world/2026/11/12/venezuelan-protests-blackouts-intensify-under-us-backed-leader/" target="_blank" rel="noopener noreferrer">The Washington Post</a></li>
+<li><a href="https://thursdaytimes.com/2026/11/12/news/economy/power-shortfall-1500mw-tarbela-lahore-load-shedding-ismo/" target="_blank" rel="noopener noreferrer">The Thursday Times</a></li>
+<li><a href="https://www.energex.com.au/" target="_blank" rel="noopener noreferrer">Energex</a></li>
+<li><a href="https://www.sabcnews.com/sabcnews/mayfair-substation-first-phase-power-restoration-98-complete/" target="_blank" rel="noopener noreferrer">SABC News</a></li>
+<li><a href="https://www.vanguardngr.com/2026/11/power-outages-remain-despite-rise-in-generation-ministerial-promise/" target="_blank" rel="noopener noreferrer">Vanguard</a></li>
+      <!-- /build:sources --></ul>
       <p>This is an unofficial snapshot compiled from public utility and news reports. It is not an official government or utility outage map. Confirm outages with the local utility. Map tiles © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, rendered with <a href="https://leafletjs.com/">Leaflet</a>.</p>
     </footer>
     <p class="kofi">Free and ad-free. If this site helped you, <a href="https://ko-fi.com/marcustravis" target="_blank" rel="noopener">buy me a coffee →</a></p>
@@ -344,6 +209,24 @@
       "vanguardngr.com": "Vanguard"
     };
 
+    /* build:region-hrefs */
+    const REGION_HREFS = {
+      "United States|Nationwide": "us/",
+      "California|United States": "us/",
+      "New York|United States": "us/",
+      "Texas|United States": "us/",
+      "St. Thomas and St. John|U.S. Virgin Islands": "us-virgin-islands/",
+      "Ohio|United States": "us/",
+      "Kyiv and nationwide|Ukraine": "ukraine/",
+      "Cuba|National electric system (SEN)": "cuba/",
+      "Venezuela|Nationwide": "venezuela/",
+      "Lahore and Punjab|Pakistan": "pakistan/",
+      "Logan and south-east Queensland|Australia": "australia/",
+      "Mayfair, Auckland Park, and nearby suburbs|Johannesburg, South Africa": "south-africa/",
+      "Lagos, Abuja, Ogun, Kwara, and Oyo|Nigeria": "nigeria/"
+};
+    /* /build:region-hrefs */
+
     let map;
     let markerLayer;
     let currentRows = [];
@@ -366,6 +249,11 @@
     function sourceLabel(url) {
       const host = sourceHost(url);
       return SOURCE_LABELS[host] || host || url || "";
+    }
+
+    function regionHref(row) {
+      const key = (row.place || "") + "|" + (row.region || "");
+      return REGION_HREFS[key] || "";
     }
 
     function cell(text, isLink) {
@@ -498,7 +386,20 @@
       body.replaceChildren();
       sorted.forEach((row) => {
         const tr = document.createElement("tr");
-        tr.appendChild(Object.assign(cell(row.place), { className: "place-cell" }));
+        const placeTd = document.createElement("td");
+        placeTd.className = "place-cell";
+        const placeText = (row.place || "").trim() || "—";
+        const placeHref = regionHref(row);
+        if (placeHref && placeText !== "—") {
+          const a = document.createElement("a");
+          a.href = placeHref;
+          a.className = "place-link";
+          a.textContent = placeText;
+          placeTd.appendChild(a);
+        } else {
+          placeTd.textContent = placeText;
+        }
+        tr.appendChild(placeTd);
         tr.appendChild(cell(row.region));
         tr.appendChild(cell(row.cause));
         tr.appendChild(cell(row.affected));
