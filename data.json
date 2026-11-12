@@ -1,5 +1,5 @@
 {
-  "as_of": "4:16 PM CT, Thursday, November 12, 2026",
+  "as_of": "4:44 PM CT, Thursday, November 12, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "53,230 customers out",
+      "affected": "48,472 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "4:05 PM CT"
+      "updated": "4:44 PM CT"
     },
     {
       "lat": null,
@@ -19,11 +19,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "8,435 customers out",
+      "affected": "7,958 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "4:14 PM CT"
+      "updated": "4:44 PM CT"
     },
     {
       "lat": 36.8,
@@ -31,11 +31,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "8,986 customers out",
+      "affected": "11,010 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "4:13 PM CT"
+      "updated": "4:44 PM CT"
     },
     {
       "lat": 50.45,
@@ -115,11 +115,11 @@
       "place": "St. Thomas and St. John",
       "region": "U.S. Virgin Islands",
       "cause": "Rotating outages while WAPA repairs generating units at the Randolph Harley Power Plant",
-      "affected": "5,195 customers out",
+      "affected": "5,254 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "4:16 PM CT"
+      "updated": "4:44 PM CT"
     },
     {
       "lat": 6.524,
@@ -139,11 +139,11 @@
       "place": "North Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "7,266 customers out",
+      "affected": "2,680 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/north%20carolina",
-      "updated": "3:45 PM CT"
+      "updated": "4:44 PM CT"
     },
     {
       "lat": 42.9,
@@ -151,11 +151,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "4,538 customers out",
+      "affected": "4,300 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "4:14 PM CT"
+      "updated": "4:44 PM CT"
     },
     {
       "lat": 40.1,
