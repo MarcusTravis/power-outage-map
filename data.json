@@ -1,5 +1,5 @@
 {
-  "as_of": "3:46 PM CT, Thursday, November 12, 2026",
+  "as_of": "4:16 PM CT, Thursday, November 12, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "53,607 customers out",
+      "affected": "53,230 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "3:45 PM CT"
+      "updated": "4:05 PM CT"
     },
     {
       "lat": null,
@@ -19,11 +19,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "5,979 customers out",
+      "affected": "8,435 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "3:44 PM CT"
+      "updated": "4:14 PM CT"
     },
     {
       "lat": 36.8,
@@ -31,11 +31,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "9,736 customers out",
+      "affected": "8,986 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "3:43 PM CT"
+      "updated": "4:13 PM CT"
     },
     {
       "lat": 50.45,
@@ -115,11 +115,11 @@
       "place": "St. Thomas and St. John",
       "region": "U.S. Virgin Islands",
       "cause": "Rotating outages while WAPA repairs generating units at the Randolph Harley Power Plant",
-      "affected": "5,109 customers out",
+      "affected": "5,195 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "3:46 PM CT"
+      "updated": "4:16 PM CT"
     },
     {
       "lat": 6.524,
@@ -144,6 +144,30 @@
       "etr": "",
       "source": "https://poweroutage.us/area/state/north%20carolina",
       "updated": "3:45 PM CT"
+    },
+    {
+      "lat": 42.9,
+      "lon": -75.5,
+      "place": "New York",
+      "region": "United States",
+      "cause": "",
+      "affected": "4,538 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/new%20york",
+      "updated": "4:14 PM CT"
+    },
+    {
+      "lat": 40.1,
+      "lon": -74.5,
+      "place": "New Jersey",
+      "region": "United States",
+      "cause": "",
+      "affected": "2,307 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/new%20jersey",
+      "updated": "4:14 PM CT"
     }
   ]
 }
