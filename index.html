@@ -315,6 +315,10 @@
     @media (prefers-reduced-motion: reduce) {
       * { transition: none !important; }
     }
+    /* Ko-fi tip line at the bottom of the page */
+    .kofi{max-width:1200px;margin:48px auto 36px;padding:0 24px;text-align:center;color:var(--muted);font-size:14px}
+    .kofi a{color:var(--accent);text-decoration:none}
+    .kofi a:hover{text-decoration:underline}
   </style>
 </head>
 <body>
@@ -382,6 +386,8 @@
       </ul>
       <p>This is an unofficial snapshot compiled from public utility and news reports. It is not an official government or utility outage map. Confirm outages with the local utility. Map tiles © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, rendered with <a href="https://leafletjs.com/">Leaflet</a>.</p>
     </footer>
+    <p class="kofi">Free and ad-free. If this site helped you, <a href="https://ko-fi.com/marcustravis" target="_blank" rel="noopener">buy me a coffee →</a></p>
+
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
