@@ -1,5 +1,5 @@
 {
-  "as_of": "2:47 PM CT, Thursday, November 12, 2026",
+  "as_of": "3:27 PM CT, Thursday, November 12, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "52,499 customers out",
+      "affected": "54,363 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "2:34 PM CT"
+      "updated": "3:26 PM CT"
     },
     {
       "lat": null,
@@ -19,11 +19,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "5,685 of 15,567,667 tracked",
+      "affected": "6,361 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "2:34 PM CT"
+      "updated": "3:24 PM CT"
     },
     {
       "lat": 36.8,
@@ -31,11 +31,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "11,559 of 16,043,195 tracked (2nd most in the US)",
+      "affected": "10,735 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "2:35 PM CT"
+      "updated": "3:14 PM CT"
     },
     {
       "lat": 50.45,
@@ -79,7 +79,7 @@
       "place": "Lahore and Punjab",
       "region": "Pakistan",
       "cause": "National generation shortfall after the Tarbela fifth-extension incident reduced hydropower output",
-      "affected": "About 1,500 MW national shortfall (peak demand about 16,000 MW vs. about 14,500 MW available). LESCO/Lahore shortfall about 800 MW, with 3–4 hours of evening load-shedding.",
+      "affected": "About 1,500 MW national shortfall (peak demand about 16,000 MW vs. about 14,500 MW available). LESCO/Lahore shortfall about 800 MW, with 3\u20134 hours of evening load-shedding.",
       "start": "",
       "etr": "",
       "source": "https://thursdaytimes.com/2026/11/12/news/economy/power-shortfall-1500mw-tarbela-lahore-load-shedding-ismo/",
@@ -115,11 +115,11 @@
       "place": "St. Thomas and St. John",
       "region": "U.S. Virgin Islands",
       "cause": "Rotating outages while WAPA repairs generating units at the Randolph Harley Power Plant",
-      "affected": "5,128 of 54,725 tracked (9.37% out)",
+      "affected": "5,128 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "2:47 PM CT"
+      "updated": "3:27 PM CT"
     },
     {
       "lat": 6.524,
@@ -127,11 +127,23 @@
       "place": "Lagos, Abuja, Ogun, Kwara, and Oyo",
       "region": "Nigeria",
       "cause": "Gas constraints, maintenance, and reduced hydropower output; not a national grid collapse",
-      "affected": "Reduced supply reported in these areas. As of Nov 10, the minister said many communities had been restored after the Benin–Egbin 330 kV line was repaired (Lagos Complex above 1,000 MW), but some outages continued.",
+      "affected": "Reduced supply reported in these areas. As of Nov 10, the minister said many communities had been restored after the Benin\u2013Egbin 330 kV line was repaired (Lagos Complex above 1,000 MW), but some outages continued.",
       "start": "",
       "etr": "",
       "source": "https://www.vanguardngr.com/2026/11/power-outages-remain-despite-rise-in-generation-ministerial-promise/",
       "updated": "Nov 10, 2026 (most recent detailed official update found)"
+    },
+    {
+      "lat": 35.6,
+      "lon": -79.4,
+      "place": "North Carolina",
+      "region": "United States",
+      "cause": "",
+      "affected": "7,187 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/north%20carolina",
+      "updated": "3:26 PM CT"
     }
   ]
 }
