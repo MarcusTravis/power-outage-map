@@ -83,7 +83,7 @@
       "start": "",
       "etr": "",
       "source": "https://www.obozrevatel.com/ukr/section-ekonomika-glavnaya/communalka/news-ukrenerho-pokazalo-novyy-hrafik-vidklyuchen-svitla-vidomo-rezhym-na-13-lystopada-12-11-2026.html",
-      "updated": "Nov 12, 2026 (schedules announced for Nov 13)"
+      "updated": "Nov 12, 2026, 7:28 p.m. EET (11:28 a.m. CT)"
     },
     {
       "lat": 23.113,
@@ -95,7 +95,7 @@
       "start": "",
       "etr": "",
       "source": "http://www.cubadebate.cu/noticias/2026/11/12/la-une-pronostica-una-afectacion-de-1890-mw-en-horario-pico/",
-      "updated": "Nov 12, 2026 (UNE morning report; no later official part found)"
+      "updated": "Nov 12, 2026 (UNE morning report; no later official national part found)"
     },
     {
       "lat": 10.48,
@@ -127,11 +127,11 @@
       "place": "Logan and south-east Queensland",
       "region": "Australia",
       "cause": "Severe storms; more than 400 powerlines downed, concentrated in Logan",
-      "affected": "Energex said 90%+ of customers who lost power had been restored as of 8:30 a.m. Nov 13 AEST. Its homepage listed 50 unplanned outages at 9:30 a.m. Nov 13 AEST. Peak was more than 80,000 customers.",
+      "affected": "Energex said 90%+ of customers who lost power had been restored as of 8:30 a.m. Nov 13 AEST. Its homepage listed 50 unplanned outages at 9:45 a.m. Nov 13 AEST. Peak was more than 80,000 customers.",
       "start": "Nov 11, 2026 (AEST)",
       "etr": "",
       "source": "https://www.energex.com.au/",
-      "updated": "Nov 13, 2026, 9:30 a.m. AEST (5:30 PM CT Nov 12)"
+      "updated": "Nov 13, 2026, 9:45 a.m. AEST (5:45 PM CT Nov 12)"
     },
     {
       "lat": -26.204,
@@ -143,7 +143,7 @@
       "start": "",
       "etr": "Some customers as early as Sunday, Nov 15; last group by the following weekend (City Power estimates, subject to safety tests)",
       "source": "https://www.sabcnews.com/sabcnews/mayfair-substation-first-phase-power-restoration-98-complete/",
-      "updated": "Nov 12, 2026, 7:49 p.m. SAST (11:49 a.m. CT)"
+      "updated": "Nov 12, 2026, 7:49 p.m. SAST (11:49 a.m. CT); no later official update found"
     },
     {
       "lat": 6.524,
@@ -151,11 +151,11 @@
       "place": "Lagos, Abuja, Ogun, Kwara, and Oyo",
       "region": "Nigeria",
       "cause": "Gas constraints, maintenance, and reduced hydropower output; not a national grid collapse",
-      "affected": "Reduced supply reported in these areas. As of Nov 10, the minister said many communities had been restored after the Benin–Egbin 330 kV line was repaired (Lagos Complex above 1,000 MW), but some outages continued.",
+      "affected": "Outages were still being reported in parts of Lagos on Nov 12, despite a Nov 9 announcement that the repaired Benin–Egbin 330 kV line had lifted Lagos Complex supply above 1,000 MW. No official customer count found.",
       "start": "",
       "etr": "",
-      "source": "https://www.vanguardngr.com/2026/11/power-outages-remain-despite-rise-in-generation-ministerial-promise/",
-      "updated": "Nov 10, 2026 (most recent detailed official update found; later reports still describe ongoing outages, without newer official figures)"
+      "source": "https://thesourceng.com/lagos-remains-in-darkness-despite-ministers-claim-that-electricity-has-been-restored/",
+      "updated": "Nov 12, 2026"
     }
   ]
 }
