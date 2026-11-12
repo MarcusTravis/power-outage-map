@@ -1,0 +1,149 @@
+{
+  "as_of": "2:47 PM CT, Thursday, November 12, 2026",
+  "outages": [
+    {
+      "lat": 33.174,
+      "lon": -99.73,
+      "place": "Haskell County",
+      "region": "Texas, United States",
+      "cause": "",
+      "affected": "0 of 3,167 tracked (Tri-County Electric Co-op has no live feed)",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/county/1395",
+      "updated": "2:42 PM CT"
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "place": "United States",
+      "region": "Nationwide",
+      "cause": "",
+      "affected": "52,499 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/",
+      "updated": "2:34 PM CT"
+    },
+    {
+      "lat": null,
+      "lon": null,
+      "place": "Texas",
+      "region": "United States",
+      "cause": "",
+      "affected": "5,685 of 15,567,667 tracked",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/texas",
+      "updated": "2:34 PM CT"
+    },
+    {
+      "lat": 36.8,
+      "lon": -119.4,
+      "place": "California",
+      "region": "United States",
+      "cause": "",
+      "affected": "11,559 of 16,043,195 tracked (2nd most in the US)",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/california",
+      "updated": "2:35 PM CT"
+    },
+    {
+      "lat": 50.45,
+      "lon": 30.524,
+      "place": "Kyiv and nationwide",
+      "region": "Ukraine",
+      "cause": "Rolling blackouts after attacks on energy infrastructure",
+      "affected": "",
+      "start": "",
+      "etr": "",
+      "source": "https://ua.news/en/capital/u-kiievi-skorotili-trivalist-vidkliuchen-svitla",
+      "updated": "Nov 12, 2026"
+    },
+    {
+      "lat": 23.113,
+      "lon": -82.367,
+      "place": "Cuba",
+      "region": "National electric system (SEN)",
+      "cause": "Generation capacity deficit (multiple thermal units offline or in maintenance)",
+      "affected": "1,890 MW forecast to be affected at peak (1,860 MW deficit). 1,395 MW already affected at 6:00 a.m. Cuba time.",
+      "start": "",
+      "etr": "",
+      "source": "http://www.cubadebate.cu/noticias/2026/11/12/la-une-pronostica-una-afectacion-de-1890-mw-en-horario-pico/",
+      "updated": "Nov 12, 2026 (UNE morning report)"
+    },
+    {
+      "lat": 10.48,
+      "lon": -66.903,
+      "place": "Venezuela",
+      "region": "Nationwide",
+      "cause": "Widespread, ongoing grid failures",
+      "affected": "",
+      "start": "",
+      "etr": "",
+      "source": "https://www.washingtonpost.com/world/2026/11/12/venezuelan-protests-blackouts-intensify-under-us-backed-leader/",
+      "updated": "Nov 12, 2026"
+    },
+    {
+      "lat": 31.52,
+      "lon": 74.358,
+      "place": "Lahore and Punjab",
+      "region": "Pakistan",
+      "cause": "National generation shortfall after the Tarbela fifth-extension incident reduced hydropower output",
+      "affected": "About 1,500 MW national shortfall (peak demand about 16,000 MW vs. about 14,500 MW available). LESCO/Lahore shortfall about 800 MW, with 3\u20134 hours of evening load-shedding.",
+      "start": "",
+      "etr": "",
+      "source": "https://thursdaytimes.com/2026/11/12/news/economy/power-shortfall-1500mw-tarbela-lahore-load-shedding-ismo/",
+      "updated": "Nov 12, 2026"
+    },
+    {
+      "lat": -27.639,
+      "lon": 153.109,
+      "place": "Logan and south-east Queensland",
+      "region": "Australia",
+      "cause": "Severe storms; more than 400 powerlines downed, concentrated in Logan",
+      "affected": "About 30,000 still out as of 1:25 p.m. Nov 12 AEST, mostly in Logan; more than 80,000 at peak. Energex said more than half of the peak had been restored by 4 p.m. Nov 12 AEST.",
+      "start": "Nov 11, 2026 (AEST)",
+      "etr": "Most remaining customers targeted for the night of Nov 12 AEST; more extensive damage into Nov 13 AEST. Further storms possible.",
+      "source": "https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980",
+      "updated": "Nov 12, 2026, 4:00 p.m. AEST (Energex); ABC 1:25 p.m. AEST"
+    },
+    {
+      "lat": -26.204,
+      "lon": 28.007,
+      "place": "Mayfair, Auckland Park, and nearby suburbs",
+      "region": "Johannesburg, South Africa",
+      "cause": "Damage at the Mayfair substation",
+      "affected": "",
+      "start": "",
+      "etr": "Some customers as early as Sunday, Nov 15; last group by the following weekend (City Power estimates, subject to safety tests)",
+      "source": "https://www.sabcnews.com/sabcnews/mayfair-substation-first-phase-power-restoration-98-complete/",
+      "updated": "Nov 12, 2026, 7:49 p.m. SAST (11:49 a.m. CT)"
+    },
+    {
+      "lat": 18.338,
+      "lon": -64.894,
+      "place": "St. Thomas and St. John",
+      "region": "U.S. Virgin Islands",
+      "cause": "Rotating outages while WAPA repairs generating units at the Randolph Harley Power Plant",
+      "affected": "5,128 of 54,725 tracked (9.37% out)",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/virgin%20islands",
+      "updated": "2:47 PM CT"
+    },
+    {
+      "lat": 6.524,
+      "lon": 3.379,
+      "place": "Lagos, Abuja, Ogun, Kwara, and Oyo",
+      "region": "Nigeria",
+      "cause": "Gas constraints, maintenance, and reduced hydropower output; not a national grid collapse",
+      "affected": "Reduced supply reported in these areas. As of Nov 10, the minister said many communities had been restored after the Benin\u2013Egbin 330 kV line was repaired (Lagos Complex above 1,000 MW), but some outages continued.",
+      "start": "",
+      "etr": "",
+      "source": "https://www.vanguardngr.com/2026/11/power-outages-remain-despite-rise-in-generation-ministerial-promise/",
+      "updated": "Nov 10, 2026 (most recent detailed official update found)"
+    }
+  ]
+}

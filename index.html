@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Power Outage Map</title>
+  <meta name="description" content="Unofficial map of significant power outages, with a live callout for Haskell County, Texas.">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <style>
+    :root {
+      --bg: #f3efe6;
+      --bg-deep: #e8e2d4;
+      --paper: #fffcf6;
+      --ink: #1c1915;
+      --muted: #5c574c;
+      --line: #d4cdc0;
+      --line-strong: #b7b09f;
+      --clear: #0f6b42;
+      --clear-bg: #e4f3ea;
+      --alert: #9b1c1c;
+      --alert-bg: #f8e8e4;
+      --warn: #9a4a0a;
+      --accent: #1f4b73;
+      --shadow: 0 1px 2px rgba(28, 25, 21, 0.06), 0 8px 24px rgba(28, 25, 21, 0.06);
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 500px at 10% -10%, #fff8e8 0%, transparent 55%),
+        var(--bg);
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    a { color: var(--accent); }
+    a:hover { text-decoration-thickness: 2px; }
+
+    .wrap {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 64px;
+    }
+
+    header.top {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 18px;
+    }
+
+    header.top h1 {
+      font-family: "IBM Plex Serif", Georgia, serif;
+      font-weight: 600;
+      font-size: clamp(1.8rem, 3vw, 2.5rem);
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin: 0;
+    }
+
+    .dateline {
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: right;
+    }
+
+    .dateline strong {
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    .cadence {
+      margin: 0 0 20px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .callout {
+      background: var(--clear-bg);
+      border: 1px solid #b9d8c5;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 18px 22px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px 20px;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .callout.is-out {
+      background: var(--alert-bg);
+      border-color: #e3b6b0;
+    }
+
+    .callout .kicker {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--clear);
+      margin: 0 0 4px;
+    }
+
+    .callout.is-out .kicker { color: var(--alert); }
+
+    .callout h2 {
+      font-family: "IBM Plex Serif", Georgia, serif;
+      font-size: 1.45rem;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .callout .figure {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--clear);
+      text-align: right;
+    }
+
+    .callout.is-out .figure { color: var(--alert); }
+
+    .callout .meta, .callout .status-label {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .callout .status-label { text-align: right; font-weight: 600; color: var(--clear); }
+    .callout.is-out .status-label { color: var(--alert); }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .metric {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .metric .label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .metric .value {
+      font-size: 1.45rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin-top: 2px;
+    }
+
+    .metric .detail {
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .panel {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      margin-bottom: 18px;
+    }
+
+    .panel h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 0;
+      padding: 14px 16px 10px;
+    }
+
+    #map {
+      width: 100%;
+      height: min(62vh, 560px);
+      min-height: 280px;
+      background: var(--bg-deep);
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 16px;
+      padding: 10px 16px 14px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .swatch {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+      box-shadow: 0 0 0 2px #fff, 0 0 0 3px currentColor;
+    }
+    .swatch.clear { color: var(--clear); background: var(--clear); }
+    .swatch.active { color: var(--alert); background: var(--alert); }
+    .swatch.home { color: var(--accent); background: var(--accent); }
+
+    .table-wrap { overflow-x: auto; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      border-top: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      background: #faf7f0;
+      position: sticky;
+      top: 0;
+      white-space: nowrap;
+    }
+
+    th button {
+      font: inherit;
+      color: inherit;
+      text-transform: inherit;
+      letter-spacing: inherit;
+      background: none;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    th button:hover, th button:focus-visible { color: var(--ink); }
+
+    th[aria-sort="ascending"] button::after { content: " ▲"; font-size: 0.7em; }
+    th[aria-sort="descending"] button::after { content: " ▼"; font-size: 0.7em; }
+
+    td.empty { color: #a39c90; }
+
+    .place-cell { font-weight: 600; min-width: 10rem; }
+    tr.is-home td:first-child { box-shadow: inset 3px 0 0 var(--clear); }
+
+    .error, .status-msg {
+      padding: 10px 16px;
+      color: var(--alert);
+      background: var(--alert-bg);
+      border-radius: 10px;
+      margin-bottom: 16px;
+    }
+
+    footer {
+      margin-top: 8px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    footer h2 {
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 8px;
+    }
+
+    footer ul {
+      margin: 0 0 12px;
+      padding-left: 1.15rem;
+    }
+
+    footer li { margin: 2px 0; }
+
+    .note {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 640px) {
+      .wrap { width: min(100% - 24px, 1120px); padding-top: 20px; }
+      .callout, .metrics { grid-template-columns: 1fr; }
+      .callout .figure, .callout .status-label, .dateline { text-align: left; }
+      #map { height: 52vh; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <h1>Power Outage Map</h1>
+      <p class="dateline">As of <strong id="as-of">loading…</strong><br>Times in Central Time (CT)</p>
+    </header>
+
+    <p class="cadence">U.S. and Haskell County numbers refresh every 30 minutes. The worldwide list updates a few times a day (about four). This page reloads the data file every five minutes.</p>
+
+    <div id="error" hidden class="error" role="alert"></div>
+
+    <section class="callout" id="haskell-callout" aria-label="Haskell County, Texas">
+      <div>
+        <p class="kicker">Home county</p>
+        <h2>Haskell County, Texas</h2>
+        <p class="meta" id="haskell-meta">ZIP 79521 · Loading current status…</p>
+      </div>
+      <div>
+        <div class="figure" id="haskell-figure">—</div>
+        <div class="status-label" id="haskell-status"></div>
+      </div>
+    </section>
+
+    <div class="metrics" id="metrics" hidden>
+      <article class="metric" id="metric-us"></article>
+      <article class="metric" id="metric-tx"></article>
+    </div>
+
+    <section class="panel" aria-labelledby="map-heading">
+      <h2 id="map-heading">Significant outages</h2>
+      <div id="map" role="img" aria-label="World map of significant power outages"></div>
+      <div class="legend">
+        <span><i class="swatch home"></i> Haskell County</span>
+        <span><i class="swatch clear"></i> No customers out</span>
+        <span><i class="swatch active"></i> Active outage or shortfall</span>
+        <span>Dot size is a rough guide to reported scale, not a precise count.</span>
+      </div>
+    </section>
+
+    <p class="note">Rows without map coordinates still appear in the table. Blank cells mean the figure was not found and was not invented.</p>
+
+    <section class="panel" aria-labelledby="table-heading">
+      <h2 id="table-heading">Outage list</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th aria-sort="none"><button type="button" data-sort="place">Place</button></th>
+              <th aria-sort="none"><button type="button" data-sort="region">Region</button></th>
+              <th aria-sort="none"><button type="button" data-sort="cause">Cause</button></th>
+              <th aria-sort="none"><button type="button" data-sort="affected">Affected</button></th>
+              <th aria-sort="none"><button type="button" data-sort="start">Start</button></th>
+              <th aria-sort="none"><button type="button" data-sort="etr">ETR</button></th>
+              <th aria-sort="none"><button type="button" data-sort="source">Source</button></th>
+              <th aria-sort="none"><button type="button" data-sort="updated">Updated</button></th>
+            </tr>
+          </thead>
+          <tbody id="outage-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://poweroutage.us/">PowerOutage.us</a> — U.S. and Haskell County, Texas (<a href="https://poweroutage.us/area/county/1395">county 1395</a>)</li>
+        <li><a href="https://outage-pro.com/outages/texas/haskell-county">Outage Pro</a> — secondary check for Haskell County</li>
+        <li><a href="http://www.cubadebate.cu/noticias/2026/11/12/la-une-pronostica-una-afectacion-de-1890-mw-en-horario-pico/">Unión Eléctrica / Cubadebate</a> — Cuba generation deficit</li>
+        <li>Ukraine: <a href="https://ua.news/en/capital/u-kiievi-skorotili-trivalist-vidkliuchen-svitla">UA.NEWS</a>, Ukrenergo, DTEK, and local schedules</li>
+        <li><a href="https://thursdaytimes.com/2026/11/12/news/economy/power-shortfall-1500mw-tarbela-lahore-load-shedding-ismo/">The Thursday Times / ISMO</a> — Pakistan shortfall</li>
+        <li><a href="https://www.energex.com.au/news/2026/seq-storms-power-restored-to-32,000-customers-overnight">Energex</a> and <a href="https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980">ABC News</a> — south-east Queensland storms</li>
+        <li><a href="https://www.sabcnews.com/sabcnews/mayfair-substation-first-phase-power-restoration-98-complete/">SABC News / City Power</a> — Johannesburg Mayfair substation</li>
+        <li><a href="https://www.viwapa.vi/">WAPA</a> and <a href="https://www.vislandguide.com/wapa-power-outages">VIsland Guide</a> — U.S. Virgin Islands rotations</li>
+        <li><a href="https://www.vanguardngr.com/2026/11/power-outages-remain-despite-rise-in-generation-ministerial-promise/">Vanguard</a> and Nigeria’s Ministry of Power — Lagos, Abuja, Ogun, Kwara, and Oyo</li>
+        <li><a href="https://www.washingtonpost.com/world/2026/11/12/venezuelan-protests-blackouts-intensify-under-us-backed-leader/">The Washington Post</a> and other reporting — Venezuela</li>
+      </ul>
+      <p>This is an unofficial snapshot compiled from public utility and news reports. It is not an official government or utility outage map. Confirm outages with the local utility. Map tiles © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, rendered with <a href="https://leafletjs.com/">Leaflet</a>.</p>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script>
+    const DATA_URL = "data.json";
+    const REFRESH_MS = 5 * 60 * 1000;
+    const COLUMNS = ["place", "region", "cause", "affected", "start", "etr", "source", "updated"];
+
+    const SOURCE_LABELS = {
+      "poweroutage.us": "PowerOutage.us",
+      "outage-pro.com": "Outage Pro",
+      "cubadebate.cu": "Cubadebate / UNE",
+      "ua.news": "UA.NEWS",
+      "washingtonpost.com": "The Washington Post",
+      "thursdaytimes.com": "The Thursday Times",
+      "abc.net.au": "ABC News",
+      "energex.com.au": "Energex",
+      "sabcnews.com": "SABC News",
+      "vislandguide.com": "VIsland Guide (WAPA map)",
+      "viwapa.vi": "WAPA",
+      "vanguardngr.com": "Vanguard"
+    };
+
+    let map;
+    let markerLayer;
+    let currentRows = [];
+    let sortKey = "place";
+    let sortDir = "asc";
+
+    function $(id) { return document.getElementById(id); }
+
+    function isHaskell(row) {
+      return /haskell/i.test(row.place || "") && /texas|united states/i.test(row.region || "");
+    }
+
+    function isAllClear(row) {
+      const a = (row.affected || "").trim();
+      return /^0(\b|\s)/.test(a) || /^0\s+of\b/i.test(a);
+    }
+
+    function sourceHost(url) {
+      try { return new URL(url).hostname.replace(/^www\./, ""); }
+      catch (err) { return ""; }
+    }
+
+    function sourceLabel(url) {
+      const host = sourceHost(url);
+      return SOURCE_LABELS[host] || host || url || "";
+    }
+
+    function cell(text, isLink) {
+      const td = document.createElement("td");
+      const value = (text || "").trim();
+      if (!value) {
+        td.className = "empty";
+        td.textContent = "—";
+        return td;
+      }
+      if (isLink) {
+        const a = document.createElement("a");
+        a.href = value;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = sourceLabel(value);
+        td.appendChild(a);
+        return td;
+      }
+      td.textContent = value;
+      return td;
+    }
+
+    function compare(a, b, key) {
+      const av = (a[key] || "").toString();
+      const bv = (b[key] || "").toString();
+      const an = parseAffectedNumber(av);
+      const bn = parseAffectedNumber(bv);
+      if (key === "affected" && an != null && bn != null && an !== bn) {
+        return an - bn;
+      }
+      return av.localeCompare(bv, "en", { numeric: true, sensitivity: "base" });
+    }
+
+    function parseAffectedNumber(text) {
+      if (!text) return null;
+      const mw = text.match(/([\d,]+(?:\.\d+)?)\s*MW/i);
+      if (mw) return parseFloat(mw[1].replace(/,/g, "")) * 1000000;
+      const n = text.replace(/,/g, "").match(/(\d+)/);
+      return n ? parseInt(n[1], 10) : null;
+    }
+
+    function markerRadius(row) {
+      if (isAllClear(row)) return 8;
+      const n = parseAffectedNumber(row.affected || "");
+      if (n == null) return 11;
+      if (n >= 1000000) return 16;
+      if (n >= 20000) return 15;
+      if (n >= 5000) return 13;
+      if (n >= 1000) return 12;
+      return 10;
+    }
+
+    function markerColor(row) {
+      if (isHaskell(row)) return isAllClear(row) ? "#1f4b73" : "#9b1c1c";
+      return isAllClear(row) ? "#0f6b42" : "#9b1c1c";
+    }
+
+    function hasCoords(row) {
+      return typeof row.lat === "number" && typeof row.lon === "number";
+    }
+
+    function popupHtml(row) {
+      const parts = [`<strong>${escapeHtml(row.place || "")}</strong>`];
+      if (row.region) parts.push(escapeHtml(row.region));
+      if (row.affected) parts.push(escapeHtml(row.affected));
+      if (row.cause) parts.push(escapeHtml(row.cause));
+      if (row.etr) parts.push("ETR: " + escapeHtml(row.etr));
+      if (row.source) {
+        parts.push(`<a href="${escapeAttr(row.source)}" target="_blank" rel="noopener noreferrer">${escapeHtml(sourceLabel(row.source))}</a>`);
+      }
+      return parts.join("<br>");
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function escapeAttr(s) { return escapeHtml(s).replace(/'/g, "&#39;"); }
+
+    function renderCallout(rows) {
+      const row = rows.find(isHaskell);
+      const box = $("haskell-callout");
+      if (!row) {
+        $("haskell-meta").textContent = "ZIP 79521 · No Haskell row in the latest data file.";
+        $("haskell-figure").textContent = "—";
+        $("haskell-status").textContent = "";
+        return;
+      }
+      const clear = isAllClear(row);
+      box.classList.toggle("is-out", !clear);
+      $("haskell-figure").textContent = (row.affected || "").trim() || "—";
+      $("haskell-status").textContent = clear ? "All clear" : "Outage reported";
+      const bits = ["ZIP 79521"];
+      if (row.updated) bits.push("Source updated " + row.updated);
+      $("haskell-meta").textContent = bits.join(" · ");
+    }
+
+    function firstNumberPhrase(text) {
+      if (!text) return "";
+      const m = text.match(/[\d,]+(?:\.\d+)?(?:\s*MW)?/);
+      return m ? m[0] : text;
+    }
+
+    function renderMetrics(rows) {
+      const us = rows.find((r) => r.place === "United States");
+      const tx = rows.find((r) => r.place === "Texas");
+      const wrap = $("metrics");
+      if (!us && !tx) {
+        wrap.hidden = true;
+        return;
+      }
+      wrap.hidden = false;
+      if (us) {
+        $("metric-us").innerHTML =
+          `<div class="label">United States</div>` +
+          `<div class="value">${escapeHtml(firstNumberPhrase(us.affected) || "—")}</div>` +
+          `<div class="detail">${escapeHtml(us.affected || "")}</div>`;
+      }
+      if (tx) {
+        $("metric-tx").innerHTML =
+          `<div class="label">Texas</div>` +
+          `<div class="value">${escapeHtml(firstNumberPhrase(tx.affected) || "—")}</div>` +
+          `<div class="detail">${escapeHtml(tx.affected || "")}</div>`;
+      }
+    }
+
+    function renderTable(rows) {
+      const sorted = rows.slice().sort((a, b) => {
+        const result = compare(a, b, sortKey);
+        return sortDir === "asc" ? result : -result;
+      });
+      const body = $("outage-body");
+      body.replaceChildren();
+      sorted.forEach((row) => {
+        const tr = document.createElement("tr");
+        if (isHaskell(row)) tr.className = "is-home";
+        tr.appendChild(Object.assign(cell(row.place), { className: "place-cell" }));
+        tr.appendChild(cell(row.region));
+        tr.appendChild(cell(row.cause));
+        tr.appendChild(cell(row.affected));
+        tr.appendChild(cell(row.start));
+        tr.appendChild(cell(row.etr));
+        tr.appendChild(cell(row.source, true));
+        tr.appendChild(cell(row.updated));
+        body.appendChild(tr);
+      });
+      document.querySelectorAll("th[aria-sort]").forEach((th) => {
+        const key = th.querySelector("button").dataset.sort;
+        th.setAttribute("aria-sort", key === sortKey ? (sortDir === "asc" ? "ascending" : "descending") : "none");
+      });
+    }
+
+    function ensureMap() {
+      if (map) return;
+      map = L.map("map", { scrollWheelZoom: true, worldCopyJump: true }).setView([20, 0], 2);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a>",
+        maxZoom: 18
+      }).addTo(map);
+      markerLayer = L.layerGroup().addTo(map);
+    }
+
+    function renderMap(rows) {
+      ensureMap();
+      markerLayer.clearLayers();
+      const bounds = [];
+      rows.filter(hasCoords).forEach((row) => {
+        const color = markerColor(row);
+        const marker = L.circleMarker([row.lat, row.lon], {
+          radius: markerRadius(row),
+          color: "#fff",
+          weight: isHaskell(row) ? 3 : 1.5,
+          fillColor: color,
+          fillOpacity: 0.92
+        }).bindPopup(popupHtml(row), { maxWidth: 280 });
+        if (isHaskell(row)) {
+          marker.bindTooltip("Haskell County, TX", { permanent: false, direction: "top" });
+        }
+        marker.addTo(markerLayer);
+        bounds.push([row.lat, row.lon]);
+      });
+      if (bounds.length) {
+        map.fitBounds(bounds, { padding: [36, 36], maxZoom: 4 });
+      }
+      setTimeout(() => map.invalidateSize(), 60);
+    }
+
+    function render(data) {
+      currentRows = Array.isArray(data.outages) ? data.outages : [];
+      $("as-of").textContent = data.as_of || "time not provided in data.json";
+      renderCallout(currentRows);
+      renderMetrics(currentRows);
+      renderTable(currentRows);
+      renderMap(currentRows);
+    }
+
+    async function loadData() {
+      const res = await fetch(DATA_URL + "?t=" + Date.now(), { cache: "no-store" });
+      if (!res.ok) throw new Error("Could not load data.json (" + res.status + ")");
+      return res.json();
+    }
+
+    async function refresh() {
+      try {
+        const data = await loadData();
+        $("error").hidden = true;
+        $("error").textContent = "";
+        render(data);
+      } catch (err) {
+        $("error").hidden = false;
+        $("error").textContent = "The outage list could not be refreshed. " + (err && err.message ? err.message : "Please try again.");
+        if (!$("as-of").textContent || $("as-of").textContent === "loading…") {
+          $("as-of").textContent = "unavailable";
+        }
+      }
+    }
+
+    document.querySelectorAll("th button[data-sort]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const key = button.dataset.sort;
+        if (sortKey === key) sortDir = sortDir === "asc" ? "desc" : "asc";
+        else { sortKey = key; sortDir = "asc"; }
+        renderTable(currentRows);
+      });
+    });
+
+    refresh();
+    setInterval(refresh, REFRESH_MS);
+    window.addEventListener("resize", () => { if (map) map.invalidateSize(); });
+  </script>
+</body>
+</html>
