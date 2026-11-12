@@ -85,65 +85,12 @@
       font-size: 0.92rem;
     }
 
-    .callout {
-      background: var(--clear-bg);
-      border: 1px solid #b9d8c5;
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 18px 22px;
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 10px 20px;
-      align-items: center;
-      margin-bottom: 16px;
-    }
-
-    .callout.is-out {
-      background: var(--alert-bg);
-      border-color: #e3b6b0;
-    }
-
-    .callout .kicker {
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--clear);
-      margin: 0 0 4px;
-    }
-
-    .callout.is-out .kicker { color: var(--alert); }
-
-    .callout h2 {
-      font-family: "IBM Plex Serif", Georgia, serif;
-      font-size: 1.45rem;
-      font-weight: 600;
-      margin: 0;
-    }
-
-    .callout .figure {
-      font-size: clamp(1.6rem, 4vw, 2.2rem);
-      font-weight: 700;
-      letter-spacing: -0.03em;
-      color: var(--clear);
-      text-align: right;
-    }
-
-    .callout.is-out .figure { color: var(--alert); }
-
-    .callout .meta, .callout .status-label {
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
-
-    .callout .status-label { text-align: right; font-weight: 600; color: var(--clear); }
-    .callout.is-out .status-label { color: var(--alert); }
-
     .metrics {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       gap: 12px;
       margin-bottom: 18px;
+      max-width: 28rem;
     }
 
     .metric {
@@ -216,7 +163,6 @@
     }
     .swatch.clear { color: var(--clear); background: var(--clear); }
     .swatch.active { color: var(--alert); background: var(--alert); }
-    .swatch.home { color: var(--accent); background: var(--accent); }
 
     .table-wrap { overflow-x: auto; }
 
@@ -266,8 +212,6 @@
     td.empty { color: #a39c90; }
 
     .place-cell { font-weight: 600; min-width: 10rem; }
-    tr.is-home td:first-child { box-shadow: inset 3px 0 0 var(--clear); }
-
     .error, .status-msg {
       padding: 10px 16px;
       color: var(--alert);
@@ -307,8 +251,8 @@
 
     @media (max-width: 640px) {
       .wrap { width: min(100% - 24px, 1120px); padding-top: 20px; }
-      .callout, .metrics { grid-template-columns: 1fr; }
-      .callout .figure, .callout .status-label, .dateline { text-align: left; }
+      .metrics { grid-template-columns: 1fr; max-width: none; }
+      .dateline { text-align: left; }
       #map { height: 52vh; }
     }
 
@@ -335,7 +279,6 @@
 
     <div class="metrics" id="metrics" hidden>
       <article class="metric" id="metric-us"></article>
-      <article class="metric" id="metric-tx"></article>
     </div>
 
     <section class="panel" aria-labelledby="map-heading">
@@ -373,17 +316,7 @@
 
     <footer>
       <h2>Sources</h2>
-      <ul>
-        <li><a href="https://poweroutage.us/">PowerOutage.us</a> — U.S. totals and state pages</li>
-        <li><a href="http://www.cubadebate.cu/noticias/2026/11/12/la-une-pronostica-una-afectacion-de-1890-mw-en-horario-pico/">Unión Eléctrica / Cubadebate</a> — Cuba generation deficit</li>
-        <li>Ukraine: <a href="https://ua.news/en/capital/u-kiievi-skorotili-trivalist-vidkliuchen-svitla">UA.NEWS</a>, Ukrenergo, DTEK, and local schedules</li>
-        <li><a href="https://thursdaytimes.com/2026/11/12/news/economy/power-shortfall-1500mw-tarbela-lahore-load-shedding-ismo/">The Thursday Times / ISMO</a> — Pakistan shortfall</li>
-        <li><a href="https://www.energex.com.au/news/2026/seq-storms-power-restored-to-32,000-customers-overnight">Energex</a> and <a href="https://www.abc.net.au/news/2026-11-12/qld-more-storms-forecast-as-clean-up-underway/107375980">ABC News</a> — south-east Queensland storms</li>
-        <li><a href="https://www.sabcnews.com/sabcnews/mayfair-substation-first-phase-power-restoration-98-complete/">SABC News / City Power</a> — Johannesburg Mayfair substation</li>
-        <li><a href="https://www.viwapa.vi/">WAPA</a> and <a href="https://www.vislandguide.com/wapa-power-outages">VIsland Guide</a> — U.S. Virgin Islands rotations</li>
-        <li><a href="https://www.vanguardngr.com/2026/11/power-outages-remain-despite-rise-in-generation-ministerial-promise/">Vanguard</a> and Nigeria’s Ministry of Power — Lagos, Abuja, Ogun, Kwara, and Oyo</li>
-        <li><a href="https://www.washingtonpost.com/world/2026/11/12/venezuelan-protests-blackouts-intensify-under-us-backed-leader/">The Washington Post</a> and other reporting — Venezuela</li>
-      </ul>
+      <ul id="source-list"></ul>
       <p>This is an unofficial snapshot compiled from public utility and news reports. It is not an official government or utility outage map. Confirm outages with the local utility. Map tiles © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, rendered with <a href="https://leafletjs.com/">Leaflet</a>.</p>
     </footer>
     <p class="kofi">Free and ad-free. If this site helped you, <a href="https://ko-fi.com/marcustravis" target="_blank" rel="noopener">buy me a coffee →</a></p>
@@ -398,9 +331,9 @@
 
     const SOURCE_LABELS = {
       "poweroutage.us": "PowerOutage.us",
-      "outage-pro.com": "Outage Pro",
       "cubadebate.cu": "Cubadebate / UNE",
       "ua.news": "UA.NEWS",
+      "obozrevatel.com": "OBOZ.UA / Ukrenergo",
       "washingtonpost.com": "The Washington Post",
       "thursdaytimes.com": "The Thursday Times",
       "abc.net.au": "ABC News",
@@ -522,27 +455,38 @@
       return m ? m[0] : text;
     }
 
+    function renderSources(rows) {
+      const list = $("source-list");
+      if (!list) return;
+      const seen = new Set();
+      list.replaceChildren();
+      rows.forEach((row) => {
+        const url = (row.source || "").trim();
+        if (!url || seen.has(url)) return;
+        seen.add(url);
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = sourceLabel(url);
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+    }
+
     function renderMetrics(rows) {
       const us = rows.find((r) => r.place === "United States");
-      const tx = rows.find((r) => r.place === "Texas");
       const wrap = $("metrics");
-      if (!us && !tx) {
+      if (!us) {
         wrap.hidden = true;
         return;
       }
       wrap.hidden = false;
-      if (us) {
-        $("metric-us").innerHTML =
-          `<div class="label">United States</div>` +
-          `<div class="value">${escapeHtml(firstNumberPhrase(us.affected) || "—")}</div>` +
-          `<div class="detail">${escapeHtml(us.affected || "")}</div>`;
-      }
-      if (tx) {
-        $("metric-tx").innerHTML =
-          `<div class="label">Texas</div>` +
-          `<div class="value">${escapeHtml(firstNumberPhrase(tx.affected) || "—")}</div>` +
-          `<div class="detail">${escapeHtml(tx.affected || "")}</div>`;
-      }
+      $("metric-us").innerHTML =
+        `<div class="label">United States</div>` +
+        `<div class="value">${escapeHtml(firstNumberPhrase(us.affected) || "—")}</div>` +
+        `<div class="detail">${escapeHtml(us.affected || "")}</div>`;
     }
 
     function renderTable(rows) {
@@ -606,6 +550,7 @@
       currentRows = Array.isArray(data.outages) ? data.outages : [];
       $("as-of").textContent = data.as_of || "time not provided in data.json";
       renderMetrics(currentRows);
+      renderSources(currentRows);
       renderTable(currentRows);
       renderMap(currentRows);
     }
