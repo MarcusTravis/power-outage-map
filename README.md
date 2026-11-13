@@ -61,7 +61,7 @@ Then open <http://localhost:8080/>.
 
 ## GitHub Pages
 
-The site is served from the `main` branch root at <https://marcustravis.github.io/power-outage-map/>. If a custom domain is added later, update `SITE_BASE` in `build.py` and rebuild so canonical URLs, the sitemap, and social tags use it.
+The site is served from the `main` branch root at <https://blackoutsmap.com>. The GitHub Pages project URL redirects there. If the custom domain changes, update `SITE_BASE` in `build.py` and the `CNAME` file, then rebuild so canonical URLs, the sitemap, and social tags stay in sync.
 
 Leaflet is loaded from the unpkg CDN. Map tiles come from OpenStreetMap and must keep the attribution shown in the footer and on the map.
 

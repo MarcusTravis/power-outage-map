@@ -29,8 +29,9 @@ SITEMAP_PATH = ROOT / "sitemap.xml"
 ROBOTS_PATH = ROOT / "robots.txt"
 GENERATED_MARKER = ".generated"
 
-# Public site URL (GitHub Pages project site). Change this if a custom domain is added.
-SITE_BASE = "https://marcustravis.github.io/power-outage-map"
+# Public site URL. Keep the CNAME file at the repo root (blackoutsmap.com);
+# this script must not delete it.
+SITE_BASE = "https://blackoutsmap.com"
 
 HOME_TITLE = "Live Power Outage Map: Major Blackouts Worldwide Right Now"
 
