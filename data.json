@@ -1,5 +1,5 @@
 {
-  "as_of": "3:00 PM CT, Friday, November 13, 2026",
+  "as_of": "4:03 PM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,23 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "64,953 customers out",
+      "affected": "51,774 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "3:00 PM CT"
-    },
-    {
-      "lat": 42.9538,
-      "lon": -75.5268,
-      "place": "New York",
-      "region": "United States",
-      "cause": "",
-      "affected": "20,184 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "3:00 PM CT"
+      "updated": "4:03 PM CT"
     },
     {
       "lat": 37.1661,
@@ -31,11 +19,35 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "16,419 customers out",
+      "affected": "19,749 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "3:00 PM CT"
+      "updated": "4:03 PM CT"
+    },
+    {
+      "lat": 42.9538,
+      "lon": -75.5268,
+      "place": "New York",
+      "region": "United States",
+      "cause": "",
+      "affected": "8,910 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/new%20york",
+      "updated": "4:03 PM CT"
+    },
+    {
+      "lat": 28.6305,
+      "lon": -82.4497,
+      "place": "Florida",
+      "region": "United States",
+      "cause": "",
+      "affected": "4,774 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/florida",
+      "updated": "4:03 PM CT"
     },
     {
       "lat": 18.338,
@@ -43,11 +55,11 @@
       "place": "U.S. Virgin Islands",
       "region": "United States",
       "cause": "",
-      "affected": "7,994 customers out",
+      "affected": "3,944 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "3:00 PM CT"
+      "updated": "4:03 PM CT"
     },
     {
       "lat": 31.1761,
@@ -55,23 +67,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "2,728 customers out",
+      "affected": "2,221 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "3:00 PM CT"
-    },
-    {
-      "lat": 45.2538,
-      "lon": -69.4455,
-      "place": "Maine",
-      "region": "United States",
-      "cause": "",
-      "affected": "2,035 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/maine",
-      "updated": "3:00 PM CT"
+      "updated": "4:03 PM CT"
     },
     {
       "lat": 50.45,
@@ -79,7 +79,7 @@
       "place": "Kyiv and nationwide",
       "region": "Ukraine",
       "cause": "Rolling and emergency blackouts after attacks on energy infrastructure",
-      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 6\u201312 hours a day) are in effect in some regions throughout Friday, Nov 13, with industrial capacity limits also in place. Ukraine's Energy Ministry said Friday morning that some consumers remained without power in 12 regions: Dnipropetrovsk, Donetsk, Zaporizhia, Zhytomyr, Kyiv, Mykolaiv, Odesa, Rivne, Sumy, Kharkiv, Khmelnytsky, and Chernihiv. DTEK said emergency cuts were in effect Friday morning in the Bucha, Fastiv, Bila Tserkva, and Obukhiv districts of the Kyiv region. Chernihivoblenergo said a Russian attack left about 150,000 customers without power in the Nizhyn and Pryluky districts; crews would start repairs when the security situation allows. UA.NEWS reported that nearly 700,000 households remained without power as of Nov 12.",
+      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 6–12 hours a day) are in effect in some regions throughout Friday, Nov 13, with industrial capacity limits also in place. Ukraine's Energy Ministry said Friday morning that some consumers remained without power in 12 regions: Dnipropetrovsk, Donetsk, Zaporizhia, Zhytomyr, Kyiv, Mykolaiv, Odesa, Rivne, Sumy, Kharkiv, Khmelnytsky, and Chernihiv. DTEK said emergency cuts were in effect Friday morning in the Bucha, Fastiv, Bila Tserkva, and Obukhiv districts of the Kyiv region. Chernihivoblenergo said a Russian attack left about 150,000 customers without power in the Nizhyn and Pryluky districts; crews would start repairs when the security situation allows. UA.NEWS reported that nearly 700,000 households remained without power as of Nov 12.",
       "start": "",
       "etr": "",
       "source": "https://lb.ua/society/2026/11/13/780800_chernigivschini_cherez_rosiysku.html",
@@ -91,7 +91,7 @@
       "place": "Cuba",
       "region": "National electric system (SEN)",
       "cause": "Generation capacity deficit (multiple thermal units offline or in maintenance)",
-      "affected": "1,930 MW forecast to be affected at peak on Nov 13 (1,900 MW deficit), according to UNE. At 6:00 a.m. Cuba time, 900 MW was available, demand was 2,142 MW, and 1,245 MW was already affected; UNE estimated 1,600 MW affected at midday. Thursday's maximum affectation was 1,920 MW at 7:00 p.m. The morning forecast listed several thermal units offline or in maintenance, including Guiteras, Felton, Santa Cruz, Rent\u00e9, and Nuevitas. CubaNet, citing a later UNE note, said unit 2 of the Ernesto Guevara plant in Santa Cruz went offline at 8:55 a.m. Cuba time due to an oil leak in a turbine bearing, leaving all three units at that plant out of service; that failure was not included in the morning peak forecast.",
+      "affected": "1,930 MW forecast to be affected at peak on Nov 13 (1,900 MW deficit), according to UNE. At 6:00 a.m. Cuba time, 900 MW was available, demand was 2,142 MW, and 1,245 MW was already affected; UNE estimated 1,600 MW affected at midday. Thursday's maximum affectation was 1,920 MW at 7:00 p.m. The morning forecast listed several thermal units offline or in maintenance, including Guiteras, Felton, Santa Cruz, Renté, and Nuevitas. CubaNet, citing a later UNE note, said unit 2 of the Ernesto Guevara plant in Santa Cruz went offline at 8:55 a.m. Cuba time due to an oil leak in a turbine bearing, leaving all three units at that plant out of service; that failure was not included in the morning peak forecast.",
       "start": "",
       "etr": "",
       "source": "http://www.cubadebate.cu/noticias/2026/11/13/la-union-electrica-pronostica-una-afectacion-de-1930-mw-en-horario-pico/",
@@ -103,7 +103,7 @@
       "place": "Venezuela",
       "region": "Nationwide",
       "cause": "Widespread, ongoing grid failures after years of underinvestment, worsened by June earthquakes",
-      "affected": "No official customer count. Bloomberg L\u00ednea reported Nov 13 that outages are worsening nationwide, with M\u00e9rida, T\u00e1chira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts.",
+      "affected": "No official customer count. Bloomberg Línea reported Nov 13 that outages are worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts.",
       "start": "",
       "etr": "",
       "source": "https://www.bloomberglinea.com/latinoamerica/venezuela/apagones-se-agravan-en-venezuela-y-aumentan-la-presion-politica-sobre-el-gobierno-de-delcy-rodriguez/",
