@@ -1,5 +1,5 @@
 {
-  "as_of": "5:50 AM CT, Friday, November 13, 2026",
+  "as_of": "5:58 AM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -78,12 +78,12 @@
       "lon": 30.524,
       "place": "Kyiv and nationwide",
       "region": "Ukraine",
-      "cause": "Rolling blackouts after attacks on energy infrastructure",
-      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 6\u201312 hours a day) are scheduled in some regions for Friday, Nov 13.",
+      "cause": "Rolling and emergency blackouts after attacks on energy infrastructure",
+      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 6–12 hours a day) are in effect in some regions on Friday, Nov 13. UA.NEWS also reported emergency outages in parts of the Kyiv region and in the Kharkiv, Dnipropetrovsk, Zhytomyr, Chernihiv, and Cherkasy regions, including about 80,000 households in the Koryukivka, Novhorod-Siverskyi, and Nizhyn districts of Chernihiv after an accident at a power facility. The same report said nearly 700,000 households remained without power as of Nov 12.",
       "start": "",
       "etr": "",
-      "source": "https://www.unian.ua/economics/energetics/grafiki-vidklyuchen-na-13-listopada-de-ne-bude-svitla-v-ukrajini-u-p-yatnicyu-13558107.html",
-      "updated": "Nov 12, 2026, 9:17 p.m. EET (1:17 p.m. CT)"
+      "source": "https://ua.news/en/ukraine/vidkliuchennia-svitla-13-listopada-u-niztsi-oblastei-diiut-avariini-grafiki",
+      "updated": "Nov 13, 2026, 12:24 p.m. EET (4:24 a.m. CT)"
     },
     {
       "lat": 23.113,
@@ -91,11 +91,11 @@
       "place": "Cuba",
       "region": "National electric system (SEN)",
       "cause": "Generation capacity deficit (multiple thermal units offline or in maintenance)",
-      "affected": "1,890 MW forecast to be affected at peak on Nov 12 (1,860 MW deficit). 1,395 MW already affected at 6:00 a.m. Cuba time Nov 12. No Nov 13 official national part found as of early Friday morning Cuba time.",
+      "affected": "1,890 MW forecast to be affected at peak on Nov 12 (1,860 MW deficit). 1,395 MW already affected at 6:00 a.m. Cuba time Nov 12, with 840 MW available, according to UNE. No official national UNE report for Nov 13 was found as of early Friday morning Cuba time. Empresa Eléctrica de La Habana reported 126 distribution circuits and 312 MW affected in Havana at 3:03 a.m. Nov 13 due to the generation deficit.",
       "start": "",
       "etr": "",
       "source": "http://www.cubadebate.cu/noticias/2026/11/12/la-une-pronostica-una-afectacion-de-1890-mw-en-horario-pico/",
-      "updated": "Nov 12, 2026 (UNE morning report; no later official national part found)"
+      "updated": "Nov 13, 2026, early morning CT (Havana 3:03 a.m. local figures; still no official Nov 13 national UNE report)"
     },
     {
       "lat": 10.48,
@@ -103,7 +103,7 @@
       "place": "Venezuela",
       "region": "Nationwide",
       "cause": "Widespread, ongoing grid failures after years of underinvestment, worsened by June earthquakes",
-      "affected": "No official customer count. Bloomberg L\u00ednea reported Nov 13 that outages are worsening nationwide, with M\u00e9rida, T\u00e1chira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts.",
+      "affected": "No official customer count. Bloomberg Línea reported Nov 13 that outages are worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts.",
       "start": "",
       "etr": "",
       "source": "https://www.bloomberglinea.com/latinoamerica/venezuela/apagones-se-agravan-en-venezuela-y-aumentan-la-presion-politica-sobre-el-gobierno-de-delcy-rodriguez/",
@@ -115,11 +115,11 @@
       "place": "Lahore and nationwide",
       "region": "Pakistan",
       "cause": "National generation shortfall; Tarbela hydropower about 800 MW below normal after reduced water releases following the fifth-extension incident, plus seasonal hydrology and LNG limits",
-      "affected": "About 1,500 MW national shortfall during evening peak (peak demand about 16,000 MW vs. about 14,500 MW available), according to ISMO figures for Nov 11. Discos were following existing 1.5 to 2 hour load-management schedules; reports from Lahore described 3\u20134 hours of evening outages.",
+      "affected": "About 1,500 MW national shortfall during evening peak on Nov 11 (peak demand about 16,000 MW vs. about 14,500 MW available), according to ISMO figures cited Nov 12. Discos were following existing 1.5 to 2 hour load-management schedules; The Nation reported some areas still facing up to five hours of additional load-shedding. No later official ISMO update was found as of early Friday morning CT.",
       "start": "",
       "etr": "",
       "source": "https://www.nation.com.pk/12-Nov-2026/discos-carrying-2-hours-additional-loadshedding",
-      "updated": "Nov 12, 2026; no later official ISMO update found"
+      "updated": "Nov 12, 2026; no later official ISMO update found as of early Friday morning CT"
     },
     {
       "lat": -26.204,
