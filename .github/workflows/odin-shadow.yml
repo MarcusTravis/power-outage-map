@@ -1,0 +1,57 @@
+name: ODIN shadow (US outages)
+
+# SHADOW MODE: fetches US outage data from DOE/ORNL ODIN every 30 minutes and
+# writes it to the separate `odin-shadow` branch for comparison with the
+# poweroutage.us numbers in data.json. It never edits data.json or main, so the
+# live site (GitHub Pages from main) is unaffected.
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: odin-shadow
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out main (script + data.json for comparison)
+        uses: actions/checkout@v4
+        with:
+          path: main
+
+      - name: Check out odin-shadow branch
+        uses: actions/checkout@v4
+        with:
+          ref: odin-shadow
+          path: shadow-branch
+
+      - name: Fetch ODIN and write shadow output
+        run: |
+          python3 main/scripts/fetch_odin.py \
+            --out shadow-branch/shadow/odin_us.json \
+            --log shadow-branch/shadow/odin_log.csv \
+            --compare main/data.json
+
+      - name: Commit and push (retry on concurrent pushes)
+        working-directory: shadow-branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add shadow/
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -q -m "ODIN shadow snapshot $(TZ=America/Chicago date '+%-I:%M %p CT')"
+          for i in 1 2 3 4 5; do
+            if git push -q origin HEAD:odin-shadow; then echo "Pushed"; exit 0; fi
+            echo "Push rejected (attempt $i); rebasing and retrying"
+            sleep $((i * 5))
+            git pull -q --rebase origin odin-shadow || { git rebase --abort; exit 1; }
+          done
+          echo "Push failed after 5 attempts"; exit 1

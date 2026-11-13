@@ -37,6 +37,7 @@ HOME_TITLE = "Live Power Outage Map: Major Blackouts Worldwide Right Now"
 
 SOURCE_LABELS = {
     "poweroutage.us": "PowerOutage.us",
+    "odin.ornl.gov": "ODIN (DOE / ORNL)",
     "cubadebate.cu": "Cubadebate / UNE",
     "ua.news": "UA.NEWS",
     "obozrevatel.com": "OBOZ.UA / Ukrenergo",
