@@ -1,5 +1,5 @@
 {
-  "as_of": "1:22 AM CT, Friday, November 13, 2026",
+  "as_of": "1:54 AM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "53,050 customers out",
+      "affected": "49,910 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "1:22 AM CT"
+      "updated": "1:54 AM CT"
     },
     {
       "lat": 37.1661,
@@ -19,11 +19,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "16,358 customers out",
+      "affected": "16,417 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "1:22 AM CT"
+      "updated": "1:54 AM CT"
     },
     {
       "lat": 42.9538,
@@ -31,11 +31,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "14,273 customers out",
+      "affected": "14,578 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "1:22 AM CT"
+      "updated": "1:54 AM CT"
     },
     {
       "lat": 38.3566,
@@ -43,23 +43,11 @@
       "place": "Missouri",
       "region": "United States",
       "cause": "",
-      "affected": "4,306 customers out",
+      "affected": "4,264 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/missouri",
-      "updated": "1:22 AM CT"
-    },
-    {
-      "lat": 28.6305,
-      "lon": -82.4497,
-      "place": "Florida",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,208 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/florida",
-      "updated": "1:22 AM CT"
+      "updated": "1:54 AM CT"
     },
     {
       "lat": 40.9133,
@@ -67,11 +55,23 @@
       "place": "Pennsylvania",
       "region": "United States",
       "cause": "",
-      "affected": "2,424 customers out",
+      "affected": "2,242 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/pennsylvania",
-      "updated": "1:22 AM CT"
+      "updated": "1:54 AM CT"
+    },
+    {
+      "lat": 31.1761,
+      "lon": -99.3453,
+      "place": "Texas",
+      "region": "United States",
+      "cause": "",
+      "affected": "1,659 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/texas",
+      "updated": "1:54 AM CT"
     },
     {
       "lat": 50.45,
@@ -79,7 +79,7 @@
       "place": "Kyiv and nationwide",
       "region": "Ukraine",
       "cause": "Rolling blackouts after attacks on energy infrastructure",
-      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 6–12 hours a day) are scheduled in some regions for Friday, Nov 13.",
+      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 6\u201312 hours a day) are scheduled in some regions for Friday, Nov 13.",
       "start": "",
       "etr": "",
       "source": "https://www.unian.ua/economics/energetics/grafiki-vidklyuchen-na-13-listopada-de-ne-bude-svitla-v-ukrajini-u-p-yatnicyu-13558107.html",
@@ -103,7 +103,7 @@
       "place": "Venezuela",
       "region": "Nationwide",
       "cause": "Widespread, ongoing grid failures after years of underinvestment, worsened by June earthquakes",
-      "affected": "No official customer count. Bloomberg Línea reported Nov 13 that outages are worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts.",
+      "affected": "No official customer count. Bloomberg L\u00ednea reported Nov 13 that outages are worsening nationwide, with M\u00e9rida, T\u00e1chira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts.",
       "start": "",
       "etr": "",
       "source": "https://www.bloomberglinea.com/latinoamerica/venezuela/apagones-se-agravan-en-venezuela-y-aumentan-la-presion-politica-sobre-el-gobierno-de-delcy-rodriguez/",
@@ -115,7 +115,7 @@
       "place": "Lahore and nationwide",
       "region": "Pakistan",
       "cause": "National generation shortfall; Tarbela hydropower about 800 MW below normal after reduced water releases following the fifth-extension incident, plus seasonal hydrology and LNG limits",
-      "affected": "About 1,500 MW national shortfall during evening peak (peak demand about 16,000 MW vs. about 14,500 MW available), according to ISMO figures for Nov 11. Discos were following existing 1.5 to 2 hour load-management schedules; reports from Lahore described 3–4 hours of evening outages.",
+      "affected": "About 1,500 MW national shortfall during evening peak (peak demand about 16,000 MW vs. about 14,500 MW available), according to ISMO figures for Nov 11. Discos were following existing 1.5 to 2 hour load-management schedules; reports from Lahore described 3\u20134 hours of evening outages.",
       "start": "",
       "etr": "",
       "source": "https://www.nation.com.pk/12-Nov-2026/discos-carrying-2-hours-additional-loadshedding",
