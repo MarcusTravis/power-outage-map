@@ -1,5 +1,7 @@
 # Power Outage Map
 
+**Live site:** [https://blackoutsmap.com](https://blackoutsmap.com)
+
 An unofficial static site that plots significant power outages on an [OpenStreetMap](https://www.openstreetmap.org/copyright) basemap and lists them in a sortable table.
 
 This is not an official government or utility outage map. Confirm any outage with the local utility.
