@@ -1,5 +1,5 @@
 {
-  "as_of": "1:06 PM CT, Friday, November 13, 2026",
+  "as_of": "2:06 PM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "72,003 customers out",
+      "affected": "61,000 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "1:06 PM CT"
+      "updated": "2:06 PM CT"
     },
     {
       "lat": 42.9538,
@@ -19,11 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "20,300 customers out",
+      "affected": "21,168 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "1:06 PM CT"
+      "updated": "2:06 PM CT"
     },
     {
       "lat": 37.1661,
@@ -31,11 +31,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "18,856 customers out",
+      "affected": "12,835 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "1:06 PM CT"
+      "updated": "2:06 PM CT"
     },
     {
       "lat": 18.338,
@@ -43,11 +43,11 @@
       "place": "U.S. Virgin Islands",
       "region": "United States",
       "cause": "",
-      "affected": "5,064 customers out",
+      "affected": "6,437 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "1:06 PM CT"
+      "updated": "2:06 PM CT"
     },
     {
       "lat": 31.1761,
@@ -55,23 +55,23 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "4,444 customers out",
+      "affected": "3,836 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "1:06 PM CT"
+      "updated": "2:06 PM CT"
     },
     {
-      "lat": 44.0687,
-      "lon": -72.6658,
-      "place": "Vermont",
+      "lat": 42.3667,
+      "lon": -71.9167,
+      "place": "Massachusetts",
       "region": "United States",
       "cause": "",
-      "affected": "2,062 customers out",
+      "affected": "1,705 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/vermont",
-      "updated": "1:06 PM CT"
+      "source": "https://poweroutage.us/area/state/massachusetts",
+      "updated": "2:06 PM CT"
     },
     {
       "lat": 50.45,
