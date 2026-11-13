@@ -1,5 +1,5 @@
 {
-  "as_of": "7:23 AM CT, Friday, November 13, 2026",
+  "as_of": "7:53 AM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "57,351 customers out",
+      "affected": "61,412 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "7:23 AM CT"
+      "updated": "7:53 AM CT"
     },
     {
       "lat": 42.9538,
@@ -19,11 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "16,405 customers out",
+      "affected": "16,771 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "7:23 AM CT"
+      "updated": "7:53 AM CT"
     },
     {
       "lat": 37.1661,
@@ -31,11 +31,23 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "14,646 customers out",
+      "affected": "14,665 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "7:23 AM CT"
+      "updated": "7:53 AM CT"
+    },
+    {
+      "lat": 46.2807,
+      "lon": -94.3053,
+      "place": "Minnesota",
+      "region": "United States",
+      "cause": "",
+      "affected": "3,892 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/minnesota",
+      "updated": "7:53 AM CT"
     },
     {
       "lat": 18.338,
@@ -43,35 +55,23 @@
       "place": "U.S. Virgin Islands",
       "region": "United States",
       "cause": "",
-      "affected": "3,722 customers out",
+      "affected": "3,714 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "7:23 AM CT"
+      "updated": "7:53 AM CT"
     },
     {
-      "lat": 41.6762,
-      "lon": -71.5562,
-      "place": "Rhode Island",
+      "lat": 31.1761,
+      "lon": -99.3453,
+      "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "2,890 customers out",
+      "affected": "3,427 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/rhode%20island",
-      "updated": "7:23 AM CT"
-    },
-    {
-      "lat": 28.6305,
-      "lon": -82.4497,
-      "place": "Florida",
-      "region": "United States",
-      "cause": "",
-      "affected": "2,316 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/florida",
-      "updated": "7:23 AM CT"
+      "source": "https://poweroutage.us/area/state/texas",
+      "updated": "7:53 AM CT"
     },
     {
       "lat": 50.45,
