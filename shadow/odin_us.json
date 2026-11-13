@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-13T15:59:56Z",
- "generated_at_ct": "9:59 AM CT, Friday, November 13, 2026",
+ "generated_at_utc": "2026-11-13T16:00:30Z",
+ "generated_at_ct": "10:00 AM CT, Friday, November 13, 2026",
  "mode": "shadow (not used by the live site)",
  "source": "https://odin.ornl.gov/odi?format=JSON",
  "fallback_used": false,
@@ -11,13 +11,13 @@
   "stale_6h_plus": 2,
   "with_error": 10
  },
- "total": 24964,
+ "total": 25188,
  "states": [
   {
    "fips": "36",
    "state": "New York",
-   "customers_out": 11587,
-   "records": 479,
+   "customers_out": 11615,
+   "records": 484,
    "utilities": [
     "AVANGRID",
     "CENTRAL HUDSON GAS & ELEC CORP",
@@ -27,8 +27,8 @@
   {
    "fips": "06",
    "state": "California",
-   "customers_out": 3532,
-   "records": 30,
+   "customers_out": 3648,
+   "records": 40,
    "utilities": [
     "PACIFICORP",
     "SOUTHERN CALIFORNIA EDISON CO"
@@ -37,8 +37,8 @@
   {
    "fips": "41",
    "state": "Oregon",
-   "customers_out": 2778,
-   "records": 42,
+   "customers_out": 2775,
+   "records": 39,
    "utilities": [
     "CONSUMERS POWER, INC",
     "Central Lincoln Peoples Ut Dt",
@@ -50,10 +50,11 @@
   {
    "fips": "42",
    "state": "Pennsylvania",
-   "customers_out": 2608,
-   "records": 39,
+   "customers_out": 2609,
+   "records": 40,
    "utilities": [
     "CITIZENS ELECTRIC CO - (PA)",
+    "DUQUESNE LIGHT CO",
     "METROPOLITAN EDISON CO",
     "PENNSYLVANIA ELECTRIC CO",
     "PENNSYLVANIA POWER CO",
@@ -63,8 +64,8 @@
   {
    "fips": "48",
    "state": "Texas",
-   "customers_out": 2381,
-   "records": 129,
+   "customers_out": 2355,
+   "records": 124,
    "utilities": [
     "CENTERPOINT ENERGY",
     "GRAYSON-COLLIN ELEC COOP, INC"
@@ -77,6 +78,15 @@
    "records": 8,
    "utilities": [
     "JERSEY CENTRAL POWER & LT CO"
+   ]
+  },
+  {
+   "fips": "49",
+   "state": "Utah",
+   "customers_out": 293,
+   "records": 20,
+   "utilities": [
+    "PACIFICORP"
    ]
   },
   {
@@ -101,15 +111,6 @@
     "CLEVELAND ELECTRIC ILLUM CO",
     "OHIO EDISON CO",
     "THE TOLEDO EDISON CO"
-   ]
-  },
-  {
-   "fips": "49",
-   "state": "Utah",
-   "customers_out": 171,
-   "records": 16,
-   "utilities": [
-    "PACIFICORP"
    ]
   },
   {
@@ -142,20 +143,10 @@
    ]
   },
   {
-   "fips": "04",
-   "state": "Arizona",
-   "customers_out": 99,
-   "records": 6,
-   "utilities": [
-    "ARIZONA PUBLIC SERVICE CO",
-    "TRICO ELECTRIC COOPERATIVE INC"
-   ]
-  },
-  {
    "fips": "47",
    "state": "Tennessee",
-   "customers_out": 95,
-   "records": 12,
+   "customers_out": 103,
+   "records": 15,
    "utilities": [
     "BENTON COUNTY",
     "CITY OF LAWRENCEBURG",
@@ -165,6 +156,16 @@
     "KNOXVILLE UTILITIES BOARD",
     "MIDDLE TENNESSEE E M C",
     "SEQUACHEE VALLEY ELECTRIC COOP"
+   ]
+  },
+  {
+   "fips": "04",
+   "state": "Arizona",
+   "customers_out": 94,
+   "records": 5,
+   "utilities": [
+    "ARIZONA PUBLIC SERVICE CO",
+    "TRICO ELECTRIC COOPERATIVE INC"
    ]
   },
   {
@@ -190,19 +191,21 @@
   {
    "fips": "37",
    "state": "North Carolina",
-   "customers_out": 42,
-   "records": 15,
+   "customers_out": 53,
+   "records": 17,
    "utilities": [
     "BLUE RIDGE ELEC MEMBER CORP - (NC)",
     "CARTERET-CRAVEN EL MEMBER CORP",
     "EDGECOMBE-MARTIN COUNTY E M C",
     "ENERGYUNITED ELEC MEMBER CORP",
     "FRENCH BROAD ELEC MEMBER CORP",
+    "HALIFAX ELECTRIC MEMBER CORP",
     "HAYWOOD ELECTRIC MEMBER CORP",
     "JONES-ONSLOW ELEC MEMBER CORP",
     "LUMBEE RIVER ELEC MEMBER CORP",
     "PEE DEE ELECTRIC MEMBER CORP",
     "ROANOKE ELECTRIC MEMBER CORP",
+    "SURRY-YADKIN ELEC MEMBER CORP",
     "WAKE ELECTRIC MEMBERSHIP CORP"
    ]
   },
@@ -237,16 +240,6 @@
    ]
   },
   {
-   "fips": "25",
-   "state": "Massachusetts",
-   "customers_out": 32,
-   "records": 6,
-   "utilities": [
-    "NATIONAL GRID",
-    "UNITIL ENERGY SYSTEMS"
-   ]
-  },
-  {
    "fips": "16",
    "state": "Idaho",
    "customers_out": 14,
@@ -256,21 +249,21 @@
    ]
   },
   {
+   "fips": "22",
+   "state": "Louisiana",
+   "customers_out": 14,
+   "records": 3,
+   "utilities": [
+    "DIXIE ELECTRIC MEMBERSHIP CORP"
+   ]
+  },
+  {
    "fips": "26",
    "state": "Michigan",
    "customers_out": 14,
    "records": 4,
    "utilities": [
     "GREAT LAKES ENERGY COOP"
-   ]
-  },
-  {
-   "fips": "22",
-   "state": "Louisiana",
-   "customers_out": 13,
-   "records": 2,
-   "utilities": [
-    "DIXIE ELECTRIC MEMBERSHIP CORP"
    ]
   },
   {
@@ -318,6 +311,15 @@
    "records": 1,
    "utilities": [
     "DELAWARE ELECTRIC COOPERATIVE"
+   ]
+  },
+  {
+   "fips": "25",
+   "state": "Massachusetts",
+   "customers_out": 3,
+   "records": 3,
+   "utilities": [
+    "NATIONAL GRID"
    ]
   },
   {
@@ -385,7 +387,7 @@
   }
  ],
  "states_with_outages": 35,
- "records": 902,
+ "records": 916,
  "unmapped_customers": 0,
  "customers_in_records_older_than_14d": 112,
  "rows": [
@@ -395,11 +397,11 @@
    "place": "United States",
    "region": "Nationwide",
    "cause": "",
-   "affected": "24,964 customers out",
+   "affected": "25,188 customers out",
    "start": "",
    "etr": "",
    "source": "https://odin.ornl.gov/",
-   "updated": "9:59 AM CT"
+   "updated": "10:00 AM CT"
   },
   {
    "lat": 42.9538,
@@ -407,11 +409,11 @@
    "place": "New York",
    "region": "United States",
    "cause": "",
-   "affected": "11,587 customers out",
+   "affected": "11,615 customers out",
    "start": "",
    "etr": "",
    "source": "https://odin.ornl.gov/",
-   "updated": "9:59 AM CT"
+   "updated": "10:00 AM CT"
   },
   {
    "lat": 37.1661,
@@ -419,11 +421,11 @@
    "place": "California",
    "region": "United States",
    "cause": "",
-   "affected": "3,532 customers out",
+   "affected": "3,648 customers out",
    "start": "",
    "etr": "",
    "source": "https://odin.ornl.gov/",
-   "updated": "9:59 AM CT"
+   "updated": "10:00 AM CT"
   },
   {
    "lat": 43.9336,
@@ -431,11 +433,11 @@
    "place": "Oregon",
    "region": "United States",
    "cause": "",
-   "affected": "2,778 customers out",
+   "affected": "2,775 customers out",
    "start": "",
    "etr": "",
    "source": "https://odin.ornl.gov/",
-   "updated": "9:59 AM CT"
+   "updated": "10:00 AM CT"
   },
   {
    "lat": 40.9133,
@@ -443,11 +445,11 @@
    "place": "Pennsylvania",
    "region": "United States",
    "cause": "",
-   "affected": "2,608 customers out",
+   "affected": "2,609 customers out",
    "start": "",
    "etr": "",
    "source": "https://odin.ornl.gov/",
-   "updated": "9:59 AM CT"
+   "updated": "10:00 AM CT"
   },
   {
    "lat": 31.1761,
@@ -455,11 +457,11 @@
    "place": "Texas",
    "region": "United States",
    "cause": "",
-   "affected": "2,381 customers out",
+   "affected": "2,355 customers out",
    "start": "",
    "etr": "",
    "source": "https://odin.ornl.gov/",
-   "updated": "9:59 AM CT"
+   "updated": "10:00 AM CT"
   }
  ],
  "poweroutage_us_in_data_json": {
