@@ -1,5 +1,5 @@
 {
-  "as_of": "10:22 PM CT, Thursday, November 12, 2026",
+  "as_of": "10:56 PM CT, Thursday, November 12, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "53,335 customers out",
+      "affected": "51,455 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "10:22 PM CT"
+      "updated": "10:56 PM CT"
     },
     {
       "lat": 42.9538,
@@ -19,11 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "13,494 customers out",
+      "affected": "14,000 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "10:22 PM CT"
+      "updated": "10:56 PM CT"
     },
     {
       "lat": 37.1661,
@@ -31,11 +31,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "12,439 customers out",
+      "affected": "11,122 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "10:22 PM CT"
+      "updated": "10:56 PM CT"
     },
     {
       "lat": 18.338,
@@ -43,11 +43,11 @@
       "place": "St. Thomas",
       "region": "U.S. Virgin Islands",
       "cause": "",
-      "affected": "6,278 customers out, 6,237 on St. Thomas",
+      "affected": "6,271 customers out, 6,260 on St. Thomas",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "10:22 PM CT"
+      "updated": "10:56 PM CT"
     },
     {
       "lat": 40.9133,
@@ -55,11 +55,11 @@
       "place": "Pennsylvania",
       "region": "United States",
       "cause": "",
-      "affected": "5,750 customers out",
+      "affected": "4,211 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/pennsylvania",
-      "updated": "10:22 PM CT"
+      "updated": "10:56 PM CT"
     },
     {
       "lat": 40.2862,
@@ -67,11 +67,11 @@
       "place": "Ohio",
       "region": "United States",
       "cause": "",
-      "affected": "3,467 customers out",
+      "affected": "3,728 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/ohio",
-      "updated": "10:22 PM CT"
+      "updated": "10:56 PM CT"
     },
     {
       "lat": 50.45,
