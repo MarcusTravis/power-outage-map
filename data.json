@@ -1,5 +1,5 @@
 {
-  "as_of": "8:22 PM CT, Thursday, November 12, 2026",
+  "as_of": "8:59 PM CT, Thursday, November 12, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "33,072 customers out",
+      "affected": "33,576 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "8:22 PM CT"
+      "updated": "8:59 PM CT"
     },
     {
       "lat": 42.9538,
@@ -19,11 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "8,453 customers out",
+      "affected": "8,916 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "8:22 PM CT"
+      "updated": "8:59 PM CT"
     },
     {
       "lat": 18.338,
@@ -35,7 +35,7 @@
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "8:22 PM CT"
+      "updated": "8:59 PM CT"
     },
     {
       "lat": 31.1761,
@@ -43,11 +43,23 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "3,578 customers out",
+      "affected": "3,854 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "8:22 PM CT"
+      "updated": "8:59 PM CT"
+    },
+    {
+      "lat": 40.9133,
+      "lon": -77.8467,
+      "place": "Pennsylvania",
+      "region": "United States",
+      "cause": "",
+      "affected": "1,907 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/pennsylvania",
+      "updated": "8:59 PM CT"
     },
     {
       "lat": 37.1661,
@@ -55,23 +67,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "1,799 customers out",
+      "affected": "1,699 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "8:22 PM CT"
-    },
-    {
-      "lat": 39.895,
-      "lon": -86.2706,
-      "place": "Indiana",
-      "region": "United States",
-      "cause": "",
-      "affected": "1,155 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/indiana",
-      "updated": "8:22 PM CT"
+      "updated": "8:59 PM CT"
     },
     {
       "lat": 50.45,
