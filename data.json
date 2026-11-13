@@ -1,5 +1,5 @@
 {
-  "as_of": "6:28 PM CT, Thursday, November 12, 2026",
+  "as_of": "6:58 PM CT, Thursday, November 12, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "42,583 customers out",
+      "affected": "44,037 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "6:28 PM CT"
+      "updated": "6:58 PM CT"
     },
     {
       "lat": 37.1661,
@@ -19,11 +19,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "11,434 customers out",
+      "affected": "13,666 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "6:28 PM CT"
+      "updated": "6:58 PM CT"
     },
     {
       "lat": 42.9538,
@@ -31,11 +31,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "6,016 customers out",
+      "affected": "5,965 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "6:28 PM CT"
+      "updated": "6:58 PM CT"
     },
     {
       "lat": 31.1761,
@@ -43,11 +43,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "4,132 customers out",
+      "affected": "3,601 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "6:28 PM CT"
+      "updated": "6:58 PM CT"
     },
     {
       "lat": 18.338,
@@ -55,23 +55,23 @@
       "place": "St. Thomas and St. John",
       "region": "U.S. Virgin Islands",
       "cause": "",
-      "affected": "3,405 customers out, 3,394 on St. Thomas",
+      "affected": "3,444 customers out, 3,433 on St. Thomas",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "6:28 PM CT"
+      "updated": "6:58 PM CT"
     },
     {
-      "lat": 39.895,
-      "lon": -86.2706,
-      "place": "Indiana",
+      "lat": 40.9133,
+      "lon": -77.8467,
+      "place": "Pennsylvania",
       "region": "United States",
       "cause": "",
-      "affected": "2,222 customers out",
+      "affected": "2,168 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/indiana",
-      "updated": "6:28 PM CT"
+      "source": "https://poweroutage.us/area/state/pennsylvania",
+      "updated": "6:58 PM CT"
     },
     {
       "lat": 50.45,
