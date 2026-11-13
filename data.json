@@ -1,5 +1,5 @@
 {
-  "as_of": "11:07 AM CT, Friday, November 13, 2026",
+  "as_of": "11:52 AM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -79,11 +79,11 @@
       "place": "Kyiv and nationwide",
       "region": "Ukraine",
       "cause": "Rolling and emergency blackouts after attacks on energy infrastructure",
-      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 6\u201312 hours a day) are in effect in some regions on Friday, Nov 13. UA.NEWS also reported emergency outages in parts of the Kyiv region and in the Kharkiv, Dnipropetrovsk, Zhytomyr, Chernihiv, and Cherkasy regions, including about 80,000 households in the Koryukivka, Novhorod-Siverskyi, and Nizhyn districts of Chernihiv after an accident at a power facility. The same report said nearly 700,000 households remained without power as of Nov 12.",
+      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 6\u201312 hours a day) are in effect in some regions throughout Friday, Nov 13, with industrial capacity limits also in place. Ukraine's Energy Ministry said Friday morning that some consumers remained without power in 12 regions: Dnipropetrovsk, Donetsk, Zaporizhia, Zhytomyr, Kyiv, Mykolaiv, Odesa, Rivne, Sumy, Kharkiv, Khmelnytsky, and Chernihiv. DTEK said emergency cuts were in effect Friday morning in the Bucha, Fastiv, Bila Tserkva, and Obukhiv districts of the Kyiv region. Chernihivoblenergo said a Russian attack left about 150,000 customers without power in the Nizhyn and Pryluky districts; crews would start repairs when the security situation allows. UA.NEWS reported that nearly 700,000 households remained without power as of Nov 12.",
       "start": "",
       "etr": "",
-      "source": "https://ua.news/en/ukraine/vidkliuchennia-svitla-13-listopada-u-niztsi-oblastei-diiut-avariini-grafiki",
-      "updated": "Nov 13, 2026, 12:24 p.m. EET (4:24 a.m. CT)"
+      "source": "https://lb.ua/society/2026/11/13/780800_chernigivschini_cherez_rosiysku.html",
+      "updated": "Nov 13, 2026, 2:55 p.m. EET (6:55 a.m. CT)"
     },
     {
       "lat": 23.113,
@@ -91,11 +91,11 @@
       "place": "Cuba",
       "region": "National electric system (SEN)",
       "cause": "Generation capacity deficit (multiple thermal units offline or in maintenance)",
-      "affected": "1,890 MW forecast to be affected at peak on Nov 12 (1,860 MW deficit). 1,395 MW already affected at 6:00 a.m. Cuba time Nov 12, with 840 MW available, according to UNE. No official national UNE report for Nov 13 was found as of early Friday morning Cuba time. Empresa El\u00e9ctrica de La Habana reported 126 distribution circuits and 312 MW affected in Havana at 3:03 a.m. Nov 13 due to the generation deficit.",
+      "affected": "1,930 MW forecast to be affected at peak on Nov 13 (1,900 MW deficit), according to UNE. At 6:00 a.m. Cuba time, 900 MW was available, demand was 2,142 MW, and 1,245 MW was already affected; UNE estimated 1,600 MW affected at midday. Thursday's maximum affectation was 1,920 MW at 7:00 p.m. The morning forecast listed several thermal units offline or in maintenance, including Guiteras, Felton, Santa Cruz, Rent\u00e9, and Nuevitas. CubaNet, citing a later UNE note, said unit 2 of the Ernesto Guevara plant in Santa Cruz went offline at 8:55 a.m. Cuba time due to an oil leak in a turbine bearing, leaving all three units at that plant out of service; that failure was not included in the morning peak forecast.",
       "start": "",
       "etr": "",
-      "source": "http://www.cubadebate.cu/noticias/2026/11/12/la-une-pronostica-una-afectacion-de-1890-mw-en-horario-pico/",
-      "updated": "Nov 13, 2026, early morning CT (Havana 3:03 a.m. local figures; still no official Nov 13 national UNE report)"
+      "source": "http://www.cubadebate.cu/noticias/2026/11/13/la-union-electrica-pronostica-una-afectacion-de-1930-mw-en-horario-pico/",
+      "updated": "Nov 13, 2026, late morning CT (UNE 6:00 a.m. Cuba figures; later UNE note on Santa Cruz unit 2)"
     },
     {
       "lat": 10.48,
@@ -107,7 +107,7 @@
       "start": "",
       "etr": "",
       "source": "https://www.bloomberglinea.com/latinoamerica/venezuela/apagones-se-agravan-en-venezuela-y-aumentan-la-presion-politica-sobre-el-gobierno-de-delcy-rodriguez/",
-      "updated": "Nov 13, 2026, 12:04 a.m."
+      "updated": "Nov 13, 2026, 12:04 a.m.; rechecked late Friday morning CT, no later official customer count found"
     },
     {
       "lat": 31.52,
@@ -115,23 +115,23 @@
       "place": "Lahore and nationwide",
       "region": "Pakistan",
       "cause": "National generation shortfall; Tarbela hydropower about 800 MW below normal after reduced water releases following the fifth-extension incident, plus seasonal hydrology and LNG limits",
-      "affected": "About 1,500 MW national shortfall during evening peak on Nov 11 (peak demand about 16,000 MW vs. about 14,500 MW available), according to ISMO figures cited Nov 12. Discos were following existing 1.5 to 2 hour load-management schedules; The Nation reported some areas still facing up to five hours of additional load-shedding. No later official ISMO update was found as of early Friday morning CT.",
+      "affected": "About 1,500 MW national shortfall during evening peak on Nov 11 (peak demand about 16,000 MW vs. about 14,500 MW available), according to ISMO figures cited Nov 12. Discos were following existing 1.5 to 2 hour load-management schedules; The Nation reported some areas still facing up to five hours of additional load-shedding. No later official ISMO update was found as of late Friday morning CT.",
       "start": "",
       "etr": "",
       "source": "https://www.nation.com.pk/12-Nov-2026/discos-carrying-2-hours-additional-loadshedding",
-      "updated": "Nov 12, 2026; no later official ISMO update found as of early Friday morning CT"
+      "updated": "Nov 12, 2026; no later official ISMO update found as of late Friday morning CT"
     },
     {
       "lat": -26.204,
       "lon": 28.007,
-      "place": "Mayfair, Crosby, Reuven, and nearby suburbs",
+      "place": "Mayfair, Crosby, Homestead Park, Mayfair West, and nearby suburbs",
       "region": "Johannesburg, South Africa",
-      "cause": "Fire at the Mayfair substation; the cause of the fire is being investigated",
-      "affected": "No official customer count. City Power said Friday morning that essential services and Crown Mines businesses have been restored, but some residents in Mayfair, Crosby, Reuven, and surrounding areas could remain without power.",
-      "start": "",
-      "etr": "Some customers by the weekend; full restoration could take until the end of next week or the following weekend (City Power, Nov 13)",
-      "source": "https://www.enca.com/news-top-stories-videos/mayfair-substation-repairs-continue-city-power-works-restore-power",
-      "updated": "Nov 13, 2026, 7:30 a.m. SAST (11:30 p.m. CT Nov 12)"
+      "cause": "Fire and a later explosion at the Mayfair substation; after overnight restoration, the Hursthill substation tripped early Friday because of a network overload. The cause of the Mayfair fire is being investigated",
+      "affected": "No official customer count. City Power said power restored overnight to essential services and some residential and industrial customers was lost again when Hursthill tripped early Friday. The outage again affected the SABC, Netcare Garden City Hospital, Sentech, residents in Crosby, Homestead Park, Mayfair, and Mayfair West, and about 50% of customers in Crown's industrial area.",
+      "start": "Early Sunday morning, Nov 8, 2026 (SAST)",
+      "etr": "City Power said Friday it would gradually restore supply during the day and into the weekend, depending on network stability",
+      "source": "https://www.jacarandafm.com/news/news/joburg-power-disrupted-as-hursthill-trips-again/",
+      "updated": "Nov 13, 2026, 12:02 p.m. SAST (4:02 a.m. CT)"
     }
   ]
 }
