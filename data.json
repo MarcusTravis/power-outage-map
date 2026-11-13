@@ -1,5 +1,5 @@
 {
-  "as_of": "8:59 PM CT, Thursday, November 12, 2026",
+  "as_of": "9:19 PM CT, Thursday, November 12, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "33,576 customers out",
+      "affected": "33,122 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "8:59 PM CT"
+      "updated": "9:19 PM CT"
     },
     {
       "lat": 42.9538,
@@ -19,11 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "8,916 customers out",
+      "affected": "9,403 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "8:59 PM CT"
+      "updated": "9:19 PM CT"
     },
     {
       "lat": 18.338,
@@ -35,7 +35,7 @@
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "8:59 PM CT"
+      "updated": "9:19 PM CT"
     },
     {
       "lat": 31.1761,
@@ -43,11 +43,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "3,854 customers out",
+      "affected": "2,179 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "8:59 PM CT"
+      "updated": "9:19 PM CT"
     },
     {
       "lat": 40.9133,
@@ -55,23 +55,23 @@
       "place": "Pennsylvania",
       "region": "United States",
       "cause": "",
-      "affected": "1,907 customers out",
+      "affected": "1,852 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/pennsylvania",
-      "updated": "8:59 PM CT"
+      "updated": "9:19 PM CT"
     },
     {
-      "lat": 37.1661,
-      "lon": -119.4494,
-      "place": "California",
+      "lat": 28.6305,
+      "lon": -82.4497,
+      "place": "Florida",
       "region": "United States",
       "cause": "",
-      "affected": "1,699 customers out",
+      "affected": "1,845 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/california",
-      "updated": "8:59 PM CT"
+      "source": "https://poweroutage.us/area/state/florida",
+      "updated": "9:19 PM CT"
     },
     {
       "lat": 50.45,
@@ -79,7 +79,7 @@
       "place": "Kyiv and nationwide",
       "region": "Ukraine",
       "cause": "Rolling blackouts after attacks on energy infrastructure",
-      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 12\u201316 hours a day in many regions) are scheduled for Friday, Nov 13.",
+      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 12–16 hours a day in many regions) are scheduled for Friday, Nov 13.",
       "start": "",
       "etr": "",
       "source": "https://www.obozrevatel.com/ukr/section-ekonomika-glavnaya/communalka/news-ukrenerho-pokazalo-novyy-hrafik-vidklyuchen-svitla-vidomo-rezhym-na-13-lystopada-12-11-2026.html",
@@ -115,7 +115,7 @@
       "place": "Lahore and Punjab",
       "region": "Pakistan",
       "cause": "National generation shortfall after the Tarbela fifth-extension incident reduced hydropower output",
-      "affected": "About 1,500 MW national shortfall (peak demand about 16,000 MW vs. about 14,500 MW available). LESCO/Lahore shortfall about 800 MW, with 3\u20134 hours of evening load-shedding.",
+      "affected": "About 1,500 MW national shortfall (peak demand about 16,000 MW vs. about 14,500 MW available). LESCO/Lahore shortfall about 800 MW, with 3–4 hours of evening load-shedding.",
       "start": "",
       "etr": "",
       "source": "https://thursdaytimes.com/2026/11/12/news/economy/power-shortfall-1500mw-tarbela-lahore-load-shedding-ismo/",
@@ -151,7 +151,7 @@
       "place": "Lagos, Abuja, Ogun, Kwara, and Oyo",
       "region": "Nigeria",
       "cause": "Gas constraints, maintenance, and reduced hydropower output; not a national grid collapse",
-      "affected": "Outages were still being reported in parts of Lagos on Nov 12, despite a Nov 9 announcement that the repaired Benin\u2013Egbin 330 kV line had lifted Lagos Complex supply above 1,000 MW. No official customer count found.",
+      "affected": "Outages were still being reported in parts of Lagos on Nov 12, despite a Nov 9 announcement that the repaired Benin–Egbin 330 kV line had lifted Lagos Complex supply above 1,000 MW. No official customer count found.",
       "start": "",
       "etr": "",
       "source": "https://thesourceng.com/lagos-remains-in-darkness-despite-ministers-claim-that-electricity-has-been-restored/",
