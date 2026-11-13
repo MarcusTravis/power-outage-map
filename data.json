@@ -1,5 +1,5 @@
 {
-  "as_of": "11:52 AM CT, Friday, November 13, 2026",
+  "as_of": "12:05 PM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "64,721 customers out",
+      "affected": "73,085 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "11:07 AM CT"
+      "updated": "12:05 PM CT"
     },
     {
       "lat": 42.9538,
@@ -19,11 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "20,936 customers out",
+      "affected": "20,383 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "11:07 AM CT"
+      "updated": "12:05 PM CT"
     },
     {
       "lat": 37.1661,
@@ -31,23 +31,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "6,816 customers out",
+      "affected": "17,396 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "11:07 AM CT"
-    },
-    {
-      "lat": 31.1761,
-      "lon": -99.3453,
-      "place": "Texas",
-      "region": "United States",
-      "cause": "",
-      "affected": "5,306 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/texas",
-      "updated": "11:07 AM CT"
+      "updated": "12:05 PM CT"
     },
     {
       "lat": 18.338,
@@ -55,23 +43,35 @@
       "place": "U.S. Virgin Islands",
       "region": "United States",
       "cause": "",
-      "affected": "4,412 customers out",
+      "affected": "5,062 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "11:07 AM CT"
+      "updated": "12:05 PM CT"
     },
     {
-      "lat": 35.6,
-      "lon": -79.4,
-      "place": "North Carolina",
+      "lat": 31.1761,
+      "lon": -99.3453,
+      "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "3,308 customers out",
+      "affected": "4,622 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/north%20carolina",
-      "updated": "11:07 AM CT"
+      "source": "https://poweroutage.us/area/state/texas",
+      "updated": "12:05 PM CT"
+    },
+    {
+      "lat": 40.9133,
+      "lon": -77.8467,
+      "place": "Pennsylvania",
+      "region": "United States",
+      "cause": "",
+      "affected": "2,522 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/pennsylvania",
+      "updated": "12:05 PM CT"
     },
     {
       "lat": 50.45,
