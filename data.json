@@ -1,5 +1,5 @@
 {
-  "as_of": "7:53 AM CT, Friday, November 13, 2026",
+  "as_of": "8:26 AM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "61,412 customers out",
+      "affected": "70,763 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "7:53 AM CT"
+      "updated": "8:26 AM CT"
     },
     {
       "lat": 42.9538,
@@ -19,11 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "16,771 customers out",
+      "affected": "19,608 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "7:53 AM CT"
+      "updated": "8:26 AM CT"
     },
     {
       "lat": 37.1661,
@@ -31,11 +31,23 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "14,665 customers out",
+      "affected": "15,624 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "7:53 AM CT"
+      "updated": "8:26 AM CT"
+    },
+    {
+      "lat": 40.2862,
+      "lon": -82.7937,
+      "place": "Ohio",
+      "region": "United States",
+      "cause": "",
+      "affected": "3,977 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/ohio",
+      "updated": "8:26 AM CT"
     },
     {
       "lat": 46.2807,
@@ -43,11 +55,11 @@
       "place": "Minnesota",
       "region": "United States",
       "cause": "",
-      "affected": "3,892 customers out",
+      "affected": "3,905 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/minnesota",
-      "updated": "7:53 AM CT"
+      "updated": "8:26 AM CT"
     },
     {
       "lat": 18.338,
@@ -55,23 +67,11 @@
       "place": "U.S. Virgin Islands",
       "region": "United States",
       "cause": "",
-      "affected": "3,714 customers out",
+      "affected": "3,745 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "7:53 AM CT"
-    },
-    {
-      "lat": 31.1761,
-      "lon": -99.3453,
-      "place": "Texas",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,427 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/texas",
-      "updated": "7:53 AM CT"
+      "updated": "8:26 AM CT"
     },
     {
       "lat": 50.45,
@@ -79,7 +79,7 @@
       "place": "Kyiv and nationwide",
       "region": "Ukraine",
       "cause": "Rolling and emergency blackouts after attacks on energy infrastructure",
-      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 6\u201312 hours a day) are in effect in some regions on Friday, Nov 13. UA.NEWS also reported emergency outages in parts of the Kyiv region and in the Kharkiv, Dnipropetrovsk, Zhytomyr, Chernihiv, and Cherkasy regions, including about 80,000 households in the Koryukivka, Novhorod-Siverskyi, and Nizhyn districts of Chernihiv after an accident at a power facility. The same report said nearly 700,000 households remained without power as of Nov 12.",
+      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 6–12 hours a day) are in effect in some regions on Friday, Nov 13. UA.NEWS also reported emergency outages in parts of the Kyiv region and in the Kharkiv, Dnipropetrovsk, Zhytomyr, Chernihiv, and Cherkasy regions, including about 80,000 households in the Koryukivka, Novhorod-Siverskyi, and Nizhyn districts of Chernihiv after an accident at a power facility. The same report said nearly 700,000 households remained without power as of Nov 12.",
       "start": "",
       "etr": "",
       "source": "https://ua.news/en/ukraine/vidkliuchennia-svitla-13-listopada-u-niztsi-oblastei-diiut-avariini-grafiki",
@@ -91,7 +91,7 @@
       "place": "Cuba",
       "region": "National electric system (SEN)",
       "cause": "Generation capacity deficit (multiple thermal units offline or in maintenance)",
-      "affected": "1,890 MW forecast to be affected at peak on Nov 12 (1,860 MW deficit). 1,395 MW already affected at 6:00 a.m. Cuba time Nov 12, with 840 MW available, according to UNE. No official national UNE report for Nov 13 was found as of early Friday morning Cuba time. Empresa El\u00e9ctrica de La Habana reported 126 distribution circuits and 312 MW affected in Havana at 3:03 a.m. Nov 13 due to the generation deficit.",
+      "affected": "1,890 MW forecast to be affected at peak on Nov 12 (1,860 MW deficit). 1,395 MW already affected at 6:00 a.m. Cuba time Nov 12, with 840 MW available, according to UNE. No official national UNE report for Nov 13 was found as of early Friday morning Cuba time. Empresa Eléctrica de La Habana reported 126 distribution circuits and 312 MW affected in Havana at 3:03 a.m. Nov 13 due to the generation deficit.",
       "start": "",
       "etr": "",
       "source": "http://www.cubadebate.cu/noticias/2026/11/12/la-une-pronostica-una-afectacion-de-1890-mw-en-horario-pico/",
@@ -103,7 +103,7 @@
       "place": "Venezuela",
       "region": "Nationwide",
       "cause": "Widespread, ongoing grid failures after years of underinvestment, worsened by June earthquakes",
-      "affected": "No official customer count. Bloomberg L\u00ednea reported Nov 13 that outages are worsening nationwide, with M\u00e9rida, T\u00e1chira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts.",
+      "affected": "No official customer count. Bloomberg Línea reported Nov 13 that outages are worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts.",
       "start": "",
       "etr": "",
       "source": "https://www.bloomberglinea.com/latinoamerica/venezuela/apagones-se-agravan-en-venezuela-y-aumentan-la-presion-politica-sobre-el-gobierno-de-delcy-rodriguez/",
