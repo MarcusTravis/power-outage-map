@@ -49,6 +49,11 @@ SOURCE_LABELS = {
     "vislandguide.com": "VIsland Guide (WAPA map)",
     "viwapa.vi": "WAPA",
     "vanguardngr.com": "Vanguard",
+    "cbc.ca": "CBC News",
+    "jacarandafm.com": "Jacaranda FM",
+    "bloomberglinea.com": "Bloomberg Línea",
+    "elalambique.net": "El Alambique",
+    "nation.com.pk": "The Nation",
 }
 
 # Primary country/region pages. A row can also appear on a related page (e.g. USVI on /us/).
@@ -108,6 +113,12 @@ PAGE_INFO = {
         "title": "Nigeria Power Outage Today | Live Power Outage Map",
         "link": "Nigeria power outage today",
     },
+    "canada": {
+        "name": "Canada",
+        "heading": "Canada Power Outage Today",
+        "title": "Canada Power Outage Today | Live Power Outage Map",
+        "link": "Canada power outage today",
+    },
 }
 
 # Display order for the homepage country links.
@@ -120,6 +131,7 @@ LINK_ORDER = [
     "australia",
     "south-africa",
     "nigeria",
+    "canada",
     "us-virgin-islands",
 ]
 
@@ -171,6 +183,8 @@ def classify(row: dict) -> str | None:
         return "south-africa"
     if "nigeria" in blob:
         return "nigeria"
+    if "canada" in blob or "newfoundland" in blob:
+        return "canada"
     return None
 
 
