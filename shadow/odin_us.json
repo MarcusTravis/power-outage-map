@@ -1,0 +1,491 @@
+{
+ "generated_at_utc": "2026-11-13T15:59:56Z",
+ "generated_at_ct": "9:59 AM CT, Friday, November 13, 2026",
+ "mode": "shadow (not used by the live site)",
+ "source": "https://odin.ornl.gov/odi?format=JSON",
+ "fallback_used": false,
+ "attribution": "Outage Data Initiative Nationwide (ODIN), Oak Ridge National Laboratory / U.S. DOE",
+ "reporting_status": {
+  "utilities_listed": 159,
+  "updated_within_6h": 157,
+  "stale_6h_plus": 2,
+  "with_error": 10
+ },
+ "total": 24964,
+ "states": [
+  {
+   "fips": "36",
+   "state": "New York",
+   "customers_out": 11587,
+   "records": 479,
+   "utilities": [
+    "AVANGRID",
+    "CENTRAL HUDSON GAS & ELEC CORP",
+    "NATIONAL GRID"
+   ]
+  },
+  {
+   "fips": "06",
+   "state": "California",
+   "customers_out": 3532,
+   "records": 30,
+   "utilities": [
+    "PACIFICORP",
+    "SOUTHERN CALIFORNIA EDISON CO"
+   ]
+  },
+  {
+   "fips": "41",
+   "state": "Oregon",
+   "customers_out": 2778,
+   "records": 42,
+   "utilities": [
+    "CONSUMERS POWER, INC",
+    "Central Lincoln Peoples Ut Dt",
+    "DOUGLAS ELECTRIC COOP - (OR)",
+    "PACIFICORP",
+    "PORTLAND GENERAL ELECTRIC CO"
+   ]
+  },
+  {
+   "fips": "42",
+   "state": "Pennsylvania",
+   "customers_out": 2608,
+   "records": 39,
+   "utilities": [
+    "CITIZENS ELECTRIC CO - (PA)",
+    "METROPOLITAN EDISON CO",
+    "PENNSYLVANIA ELECTRIC CO",
+    "PENNSYLVANIA POWER CO",
+    "WEST PENN POWER COMPANY"
+   ]
+  },
+  {
+   "fips": "48",
+   "state": "Texas",
+   "customers_out": 2381,
+   "records": 129,
+   "utilities": [
+    "CENTERPOINT ENERGY",
+    "GRAYSON-COLLIN ELEC COOP, INC"
+   ]
+  },
+  {
+   "fips": "34",
+   "state": "New Jersey",
+   "customers_out": 548,
+   "records": 8,
+   "utilities": [
+    "JERSEY CENTRAL POWER & LT CO"
+   ]
+  },
+  {
+   "fips": "53",
+   "state": "Washington",
+   "customers_out": 229,
+   "records": 15,
+   "utilities": [
+    "Avista Corp",
+    "PUD No 1 of Benton County",
+    "PUD No 1 of Douglas County",
+    "Puget Sound Energy Inc",
+    "TANNER ELECTRIC COOP"
+   ]
+  },
+  {
+   "fips": "39",
+   "state": "Ohio",
+   "customers_out": 172,
+   "records": 14,
+   "utilities": [
+    "CLEVELAND ELECTRIC ILLUM CO",
+    "OHIO EDISON CO",
+    "THE TOLEDO EDISON CO"
+   ]
+  },
+  {
+   "fips": "49",
+   "state": "Utah",
+   "customers_out": 171,
+   "records": 16,
+   "utilities": [
+    "PACIFICORP"
+   ]
+  },
+  {
+   "fips": "19",
+   "state": "Iowa",
+   "customers_out": 153,
+   "records": 21,
+   "utilities": [
+    "BUTLER COUNTY RURAL ELEC COOP - (IA)",
+    "MIDAMERICAN ENERGY CO"
+   ]
+  },
+  {
+   "fips": "15",
+   "state": "Hawaii",
+   "customers_out": 113,
+   "records": 2,
+   "utilities": [
+    "HAWAIIAN ELECTRIC CO INC"
+   ]
+  },
+  {
+   "fips": "08",
+   "state": "Colorado",
+   "customers_out": 112,
+   "records": 9,
+   "utilities": [
+    "LA PLATA ELECTRIC ASSN, INC",
+    "UNITED POWER, INC"
+   ]
+  },
+  {
+   "fips": "04",
+   "state": "Arizona",
+   "customers_out": 99,
+   "records": 6,
+   "utilities": [
+    "ARIZONA PUBLIC SERVICE CO",
+    "TRICO ELECTRIC COOPERATIVE INC"
+   ]
+  },
+  {
+   "fips": "47",
+   "state": "Tennessee",
+   "customers_out": 95,
+   "records": 12,
+   "utilities": [
+    "BENTON COUNTY",
+    "CITY OF LAWRENCEBURG",
+    "CITY OF NEWPORT",
+    "CITY OF PULASKI - (TN)",
+    "CUMBERLAND ELEC MEMBER CORP",
+    "KNOXVILLE UTILITIES BOARD",
+    "MIDDLE TENNESSEE E M C",
+    "SEQUACHEE VALLEY ELECTRIC COOP"
+   ]
+  },
+  {
+   "fips": "54",
+   "state": "West Virginia",
+   "customers_out": 75,
+   "records": 7,
+   "utilities": [
+    "MONONGAHELA POWER CO",
+    "THE POTOMAC EDISON COMPANY"
+   ]
+  },
+  {
+   "fips": "17",
+   "state": "Illinois",
+   "customers_out": 73,
+   "records": 3,
+   "utilities": [
+    "MIDAMERICAN ENERGY CO",
+    "SHELBY ELECTRIC COOP, INC"
+   ]
+  },
+  {
+   "fips": "37",
+   "state": "North Carolina",
+   "customers_out": 42,
+   "records": 15,
+   "utilities": [
+    "BLUE RIDGE ELEC MEMBER CORP - (NC)",
+    "CARTERET-CRAVEN EL MEMBER CORP",
+    "EDGECOMBE-MARTIN COUNTY E M C",
+    "ENERGYUNITED ELEC MEMBER CORP",
+    "FRENCH BROAD ELEC MEMBER CORP",
+    "HAYWOOD ELECTRIC MEMBER CORP",
+    "JONES-ONSLOW ELEC MEMBER CORP",
+    "LUMBEE RIVER ELEC MEMBER CORP",
+    "PEE DEE ELECTRIC MEMBER CORP",
+    "ROANOKE ELECTRIC MEMBER CORP",
+    "WAKE ELECTRIC MEMBERSHIP CORP"
+   ]
+  },
+  {
+   "fips": "27",
+   "state": "Minnesota",
+   "customers_out": 41,
+   "records": 19,
+   "utilities": [
+    "AGRALITE ELECTRIC COOP",
+    "BELTRAMI ELECTRIC COOP, INC",
+    "EAST CENTRAL ENERGY",
+    "FREEBORN-MOWER COOP SERVICES",
+    "LAKE COUNTRY POWER",
+    "MILLE LACS ENERGY COOPERATIVE",
+    "MINNESOTA VALLEY ELECTRIC COOP",
+    "NOBLES COOPERATIVE ELECTRIC",
+    "PEOPLE'S COOPERATIVE SERVICES",
+    "SIOUX VALLEY SW ELEC COOP",
+    "STEARNS COOPERATIVE ELEC ASSN",
+    "WILD RICE ELECTRIC COOP, INC",
+    "WRIGHT-HENNEPIN COOP ELEC ASSN"
+   ]
+  },
+  {
+   "fips": "24",
+   "state": "Maryland",
+   "customers_out": 39,
+   "records": 3,
+   "utilities": [
+    "THE POTOMAC EDISON COMPANY"
+   ]
+  },
+  {
+   "fips": "25",
+   "state": "Massachusetts",
+   "customers_out": 32,
+   "records": 6,
+   "utilities": [
+    "NATIONAL GRID",
+    "UNITIL ENERGY SYSTEMS"
+   ]
+  },
+  {
+   "fips": "16",
+   "state": "Idaho",
+   "customers_out": 14,
+   "records": 4,
+   "utilities": [
+    "PACIFICORP"
+   ]
+  },
+  {
+   "fips": "26",
+   "state": "Michigan",
+   "customers_out": 14,
+   "records": 4,
+   "utilities": [
+    "GREAT LAKES ENERGY COOP"
+   ]
+  },
+  {
+   "fips": "22",
+   "state": "Louisiana",
+   "customers_out": 13,
+   "records": 2,
+   "utilities": [
+    "DIXIE ELECTRIC MEMBERSHIP CORP"
+   ]
+  },
+  {
+   "fips": "12",
+   "state": "Florida",
+   "customers_out": 12,
+   "records": 2,
+   "utilities": [
+    "CHOCTAWHATCHE ELEC COOP, INC",
+    "CITY OF OCALA"
+   ]
+  },
+  {
+   "fips": "20",
+   "state": "Kansas",
+   "customers_out": 7,
+   "records": 3,
+   "utilities": [
+    "VICTORY ELECTRIC COOP ASSN INC"
+   ]
+  },
+  {
+   "fips": "28",
+   "state": "Mississippi",
+   "customers_out": 5,
+   "records": 2,
+   "utilities": [
+    "COAST ELECTRIC POWER ASSN"
+   ]
+  },
+  {
+   "fips": "35",
+   "state": "New Mexico",
+   "customers_out": 5,
+   "records": 2,
+   "utilities": [
+    "CONTINENTAL DIVIDE EL COOP INC",
+    "LA PLATA ELECTRIC ASSN, INC"
+   ]
+  },
+  {
+   "fips": "10",
+   "state": "Delaware",
+   "customers_out": 4,
+   "records": 1,
+   "utilities": [
+    "DELAWARE ELECTRIC COOPERATIVE"
+   ]
+  },
+  {
+   "fips": "31",
+   "state": "Nebraska",
+   "customers_out": 3,
+   "records": 1,
+   "utilities": [
+    "POLK COUNTY RURAL PUB PWR DIST"
+   ]
+  },
+  {
+   "fips": "50",
+   "state": "Vermont",
+   "customers_out": 2,
+   "records": 1,
+   "utilities": [
+    "VERMONT ELECTRIC COOPERATIVE, INC"
+   ]
+  },
+  {
+   "fips": "21",
+   "state": "Kentucky",
+   "customers_out": 1,
+   "records": 1,
+   "utilities": [
+    "Henderson Municipal Power & Light"
+   ]
+  },
+  {
+   "fips": "46",
+   "state": "South Dakota",
+   "customers_out": 1,
+   "records": 1,
+   "utilities": [
+    "SIOUX VALLEY SW ELEC COOP"
+   ]
+  },
+  {
+   "fips": "51",
+   "state": "Virginia",
+   "customers_out": 1,
+   "records": 1,
+   "utilities": [
+    "NORTHERN NECK ELEC COOP, INC"
+   ]
+  },
+  {
+   "fips": "55",
+   "state": "Wisconsin",
+   "customers_out": 1,
+   "records": 1,
+   "utilities": [
+    "EAST CENTRAL ENERGY"
+   ]
+  },
+  {
+   "fips": "56",
+   "state": "Wyoming",
+   "customers_out": 1,
+   "records": 1,
+   "utilities": [
+    "POWDER RIVER ENERGY CORP"
+   ]
+  }
+ ],
+ "states_with_outages": 35,
+ "records": 902,
+ "unmapped_customers": 0,
+ "customers_in_records_older_than_14d": 112,
+ "rows": [
+  {
+   "lat": null,
+   "lon": null,
+   "place": "United States",
+   "region": "Nationwide",
+   "cause": "",
+   "affected": "24,964 customers out",
+   "start": "",
+   "etr": "",
+   "source": "https://odin.ornl.gov/",
+   "updated": "9:59 AM CT"
+  },
+  {
+   "lat": 42.9538,
+   "lon": -75.5268,
+   "place": "New York",
+   "region": "United States",
+   "cause": "",
+   "affected": "11,587 customers out",
+   "start": "",
+   "etr": "",
+   "source": "https://odin.ornl.gov/",
+   "updated": "9:59 AM CT"
+  },
+  {
+   "lat": 37.1661,
+   "lon": -119.4494,
+   "place": "California",
+   "region": "United States",
+   "cause": "",
+   "affected": "3,532 customers out",
+   "start": "",
+   "etr": "",
+   "source": "https://odin.ornl.gov/",
+   "updated": "9:59 AM CT"
+  },
+  {
+   "lat": 43.9336,
+   "lon": -120.5583,
+   "place": "Oregon",
+   "region": "United States",
+   "cause": "",
+   "affected": "2,778 customers out",
+   "start": "",
+   "etr": "",
+   "source": "https://odin.ornl.gov/",
+   "updated": "9:59 AM CT"
+  },
+  {
+   "lat": 40.9133,
+   "lon": -77.8467,
+   "place": "Pennsylvania",
+   "region": "United States",
+   "cause": "",
+   "affected": "2,608 customers out",
+   "start": "",
+   "etr": "",
+   "source": "https://odin.ornl.gov/",
+   "updated": "9:59 AM CT"
+  },
+  {
+   "lat": 31.1761,
+   "lon": -99.3453,
+   "place": "Texas",
+   "region": "United States",
+   "cause": "",
+   "affected": "2,381 customers out",
+   "start": "",
+   "etr": "",
+   "source": "https://odin.ornl.gov/",
+   "updated": "9:59 AM CT"
+  }
+ ],
+ "poweroutage_us_in_data_json": {
+  "as_of": "9:51 AM CT, Friday, November 13, 2026",
+  "total": 82689,
+  "top5": [
+   [
+    "New York",
+    23400
+   ],
+   [
+    "California",
+    15814
+   ],
+   [
+    "Texas",
+    6917
+   ],
+   [
+    "Pennsylvania",
+    4711
+   ],
+   [
+    "Ohio",
+    3989
+   ]
+  ]
+ }
+}
