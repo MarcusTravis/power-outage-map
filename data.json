@@ -1,5 +1,5 @@
 {
-  "as_of": "7:22 PM CT, Thursday, November 12, 2026",
+  "as_of": "7:54 PM CT, Thursday, November 12, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,23 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "43,934 customers out",
+      "affected": "46,038 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "7:22 PM CT"
+      "updated": "7:54 PM CT"
+    },
+    {
+      "lat": 32.6469,
+      "lon": -83.4426,
+      "place": "Georgia",
+      "region": "United States",
+      "cause": "",
+      "affected": "8,680 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/georgia",
+      "updated": "7:54 PM CT"
     },
     {
       "lat": 37.1661,
@@ -19,23 +31,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "10,694 customers out",
+      "affected": "7,484 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "7:22 PM CT"
-    },
-    {
-      "lat": 18.338,
-      "lon": -64.894,
-      "place": "St. Thomas and St. John",
-      "region": "U.S. Virgin Islands",
-      "cause": "",
-      "affected": "7,089 customers out, 7,078 on St. Thomas",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "7:22 PM CT"
+      "updated": "7:54 PM CT"
     },
     {
       "lat": 42.9538,
@@ -43,11 +43,23 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "6,127 customers out",
+      "affected": "6,603 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "7:22 PM CT"
+      "updated": "7:54 PM CT"
+    },
+    {
+      "lat": 18.338,
+      "lon": -64.894,
+      "place": "St. Thomas and St. John",
+      "region": "U.S. Virgin Islands",
+      "cause": "",
+      "affected": "6,248 customers out, 6,237 on St. Thomas",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/virgin%20islands",
+      "updated": "7:54 PM CT"
     },
     {
       "lat": 31.1761,
@@ -55,23 +67,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "3,490 customers out",
+      "affected": "3,474 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "7:22 PM CT"
-    },
-    {
-      "lat": 40.1,
-      "lon": -74.5,
-      "place": "New Jersey",
-      "region": "United States",
-      "cause": "",
-      "affected": "2,478 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/new%20jersey",
-      "updated": "7:22 PM CT"
+      "updated": "7:54 PM CT"
     },
     {
       "lat": 50.45,
@@ -79,7 +79,7 @@
       "place": "Kyiv and nationwide",
       "region": "Ukraine",
       "cause": "Rolling blackouts after attacks on energy infrastructure",
-      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 12–16 hours a day in many regions) are scheduled for Friday, Nov 13.",
+      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues (about 12\u201316 hours a day in many regions) are scheduled for Friday, Nov 13.",
       "start": "",
       "etr": "",
       "source": "https://www.obozrevatel.com/ukr/section-ekonomika-glavnaya/communalka/news-ukrenerho-pokazalo-novyy-hrafik-vidklyuchen-svitla-vidomo-rezhym-na-13-lystopada-12-11-2026.html",
@@ -115,7 +115,7 @@
       "place": "Lahore and Punjab",
       "region": "Pakistan",
       "cause": "National generation shortfall after the Tarbela fifth-extension incident reduced hydropower output",
-      "affected": "About 1,500 MW national shortfall (peak demand about 16,000 MW vs. about 14,500 MW available). LESCO/Lahore shortfall about 800 MW, with 3–4 hours of evening load-shedding.",
+      "affected": "About 1,500 MW national shortfall (peak demand about 16,000 MW vs. about 14,500 MW available). LESCO/Lahore shortfall about 800 MW, with 3\u20134 hours of evening load-shedding.",
       "start": "",
       "etr": "",
       "source": "https://thursdaytimes.com/2026/11/12/news/economy/power-shortfall-1500mw-tarbela-lahore-load-shedding-ismo/",
@@ -151,7 +151,7 @@
       "place": "Lagos, Abuja, Ogun, Kwara, and Oyo",
       "region": "Nigeria",
       "cause": "Gas constraints, maintenance, and reduced hydropower output; not a national grid collapse",
-      "affected": "Outages were still being reported in parts of Lagos on Nov 12, despite a Nov 9 announcement that the repaired Benin–Egbin 330 kV line had lifted Lagos Complex supply above 1,000 MW. No official customer count found.",
+      "affected": "Outages were still being reported in parts of Lagos on Nov 12, despite a Nov 9 announcement that the repaired Benin\u2013Egbin 330 kV line had lifted Lagos Complex supply above 1,000 MW. No official customer count found.",
       "start": "",
       "etr": "",
       "source": "https://thesourceng.com/lagos-remains-in-darkness-despite-ministers-claim-that-electricity-has-been-restored/",
