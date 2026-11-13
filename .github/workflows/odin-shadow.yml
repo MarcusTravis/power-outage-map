@@ -23,12 +23,12 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Check out main (script + data.json for comparison)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: main
 
       - name: Check out odin-shadow branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: odin-shadow
           path: shadow-branch
