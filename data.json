@@ -1,5 +1,5 @@
 {
-  "as_of": "8:26 AM CT, Friday, November 13, 2026",
+  "as_of": "9:00 AM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "70,763 customers out",
+      "affected": "84,344 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "8:26 AM CT"
+      "updated": "9:00 AM CT"
     },
     {
       "lat": 42.9538,
@@ -19,11 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "19,608 customers out",
+      "affected": "21,259 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "8:26 AM CT"
+      "updated": "9:00 AM CT"
     },
     {
       "lat": 37.1661,
@@ -31,35 +31,23 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "15,624 customers out",
+      "affected": "15,788 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "8:26 AM CT"
+      "updated": "9:00 AM CT"
     },
     {
-      "lat": 40.2862,
-      "lon": -82.7937,
-      "place": "Ohio",
+      "lat": 31.1761,
+      "lon": -99.3453,
+      "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "3,977 customers out",
+      "affected": "6,103 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/ohio",
-      "updated": "8:26 AM CT"
-    },
-    {
-      "lat": 46.2807,
-      "lon": -94.3053,
-      "place": "Minnesota",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,905 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/minnesota",
-      "updated": "8:26 AM CT"
+      "source": "https://poweroutage.us/area/state/texas",
+      "updated": "9:00 AM CT"
     },
     {
       "lat": 18.338,
@@ -67,11 +55,23 @@
       "place": "U.S. Virgin Islands",
       "region": "United States",
       "cause": "",
-      "affected": "3,745 customers out",
+      "affected": "4,839 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "8:26 AM CT"
+      "updated": "9:00 AM CT"
+    },
+    {
+      "lat": 40.2862,
+      "lon": -82.7937,
+      "place": "Ohio",
+      "region": "United States",
+      "cause": "",
+      "affected": "4,564 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/ohio",
+      "updated": "9:00 AM CT"
     },
     {
       "lat": 50.45,
