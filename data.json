@@ -1,5 +1,5 @@
 {
-  "as_of": "2:26 AM CT, Friday, November 13, 2026",
+  "as_of": "2:55 AM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "48,455 customers out",
+      "affected": "49,995 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "2:26 AM CT"
+      "updated": "2:55 AM CT"
     },
     {
       "lat": 42.9538,
@@ -19,11 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "15,752 customers out",
+      "affected": "16,517 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "2:26 AM CT"
+      "updated": "2:55 AM CT"
     },
     {
       "lat": 37.1661,
@@ -31,11 +31,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "15,453 customers out",
+      "affected": "13,283 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "2:26 AM CT"
+      "updated": "2:55 AM CT"
     },
     {
       "lat": 38.3566,
@@ -43,11 +43,23 @@
       "place": "Missouri",
       "region": "United States",
       "cause": "",
-      "affected": "4,302 customers out",
+      "affected": "4,351 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/missouri",
-      "updated": "2:26 AM CT"
+      "updated": "2:55 AM CT"
+    },
+    {
+      "lat": 33.8361,
+      "lon": -81.1637,
+      "place": "South Carolina",
+      "region": "United States",
+      "cause": "",
+      "affected": "2,690 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/south%20carolina",
+      "updated": "2:55 AM CT"
     },
     {
       "lat": 42.0751,
@@ -55,23 +67,11 @@
       "place": "Iowa",
       "region": "United States",
       "cause": "",
-      "affected": "1,513 customers out",
+      "affected": "1,539 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/iowa",
-      "updated": "2:26 AM CT"
-    },
-    {
-      "lat": 31.1761,
-      "lon": -99.3453,
-      "place": "Texas",
-      "region": "United States",
-      "cause": "",
-      "affected": "1,051 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/texas",
-      "updated": "2:26 AM CT"
+      "updated": "2:55 AM CT"
     },
     {
       "lat": 50.45,
