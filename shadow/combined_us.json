@@ -1,108 +1,94 @@
 {
- "generated_at_utc": "2026-11-14T10:12:19Z",
- "generated_at_ct": "4:12 AM CT, Saturday, November 14, 2026",
+ "generated_at_utc": "2026-11-14T10:38:34Z",
+ "generated_at_ct": "4:38 AM CT, Saturday, November 14, 2026",
  "mode": "shadow (not used by the live site)",
  "method": "direct utility outage maps for covered utilities + ODIN for everyone else; a utility in both is counted once (direct map preferred)",
- "total": 24374,
- "direct_maps_total": 14471,
- "odin_extra_total": 9903,
- "odin_only_total": 17211,
- "odin_customers_deduped": 7308,
+ "total": 20920,
+ "direct_maps_total": 12398,
+ "odin_extra_total": 8522,
+ "odin_only_total": 11134,
+ "odin_customers_deduped": 2612,
  "odin_source": "https://odin.ornl.gov/odi?format=JSON",
  "odin_error": null,
  "adapters_ok": 37,
  "adapters_failed": 0,
- "direct_coverage_customers_served": 78828584,
+ "direct_coverage_customers_served": 78828822,
  "direct_coverage_pct_of_us_customers": 48.7,
  "states": [
   {
+   "state": "New York",
+   "customers_out": 6174,
+   "direct_maps": 24,
+   "odin_extra": 6150,
+   "source": "https://outagemap.psegliny.com/"
+  },
+  {
    "state": "California",
-   "customers_out": 7841,
-   "direct_maps": 7841,
+   "customers_out": 5320,
+   "direct_maps": 5320,
    "odin_extra": 0,
    "source": "https://www.sce.com/outage-center/check-outage-status"
   },
   {
-   "state": "New York",
-   "customers_out": 6216,
-   "direct_maps": 34,
-   "odin_extra": 6182,
-   "source": "https://outagemap.psegliny.com/"
-  },
-  {
    "state": "Michigan",
-   "customers_out": 1622,
-   "direct_maps": 81,
+   "customers_out": 2204,
+   "direct_maps": 663,
    "odin_extra": 1541,
    "source": "https://outage.dteenergy.com/map"
   },
   {
+   "state": "Florida",
+   "customers_out": 1613,
+   "direct_maps": 1547,
+   "odin_extra": 66,
+   "source": "https://www.fplmaps.com/"
+  },
+  {
+   "state": "Alabama",
+   "customers_out": 1134,
+   "direct_maps": 1134,
+   "odin_extra": 0,
+   "source": "https://outagemap.alabamapower.com/"
+  },
+  {
    "state": "Louisiana",
-   "customers_out": 1531,
-   "direct_maps": 1260,
+   "customers_out": 1130,
+   "direct_maps": 859,
    "odin_extra": 271,
    "source": "https://www.etrviewoutage.com/map"
   },
   {
    "state": "Texas",
-   "customers_out": 1330,
-   "direct_maps": 1187,
-   "odin_extra": 143,
+   "customers_out": 897,
+   "direct_maps": 750,
+   "odin_extra": 147,
    "source": "https://stormcenter.oncor.com/"
   },
   {
-   "state": "North Carolina",
-   "customers_out": 1246,
-   "direct_maps": 4,
-   "odin_extra": 1242,
-   "source": "https://outagemap.dominionenergy.com/"
-  },
-  {
-   "state": "Alabama",
-   "customers_out": 1094,
-   "direct_maps": 1094,
-   "odin_extra": 0,
-   "source": "https://outagemap.alabamapower.com/"
-  },
-  {
-   "state": "Florida",
-   "customers_out": 977,
-   "direct_maps": 960,
-   "odin_extra": 17,
-   "source": "https://www.fplmaps.com/"
-  },
-  {
    "state": "Colorado",
-   "customers_out": 445,
-   "direct_maps": 376,
+   "customers_out": 487,
+   "direct_maps": 418,
    "odin_extra": 69,
    "source": "https://outagemap.xcelenergy.com/"
   },
   {
    "state": "Pennsylvania",
-   "customers_out": 236,
-   "direct_maps": 155,
+   "customers_out": 244,
+   "direct_maps": 163,
    "odin_extra": 81,
    "source": "https://outages.firstenergycorp.com/pa.html"
   },
   {
-   "state": "Arkansas",
-   "customers_out": 228,
-   "direct_maps": 228,
-   "odin_extra": 0,
-   "source": "https://www.etrviewoutage.com/map"
-  },
-  {
    "state": "Illinois",
-   "customers_out": 206,
-   "direct_maps": 206,
+   "customers_out": 213,
+   "direct_maps": 213,
    "odin_extra": 0,
    "source": "https://outagemap.ameren.com/"
   },
   {
    "state": "Ohio",
-   "customers_out": 202,
-   "direct_maps": 202,
+   "customers_out": 196,
+   "direct_maps": 196,
    "odin_extra": 0,
    "source": "https://outages.firstenergycorp.com/oh.html"
   },
@@ -115,17 +101,24 @@
   },
   {
    "state": "Georgia",
-   "customers_out": 167,
-   "direct_maps": 167,
+   "customers_out": 171,
+   "direct_maps": 171,
    "odin_extra": 0,
    "source": "https://outagemap.georgiapower.com/"
   },
   {
-   "state": "Washington",
-   "customers_out": 154,
-   "direct_maps": 2,
-   "odin_extra": 152,
-   "source": "https://www.pacificpower.net/outages-safety.html"
+   "state": "Mississippi",
+   "customers_out": 153,
+   "direct_maps": 152,
+   "odin_extra": 1,
+   "source": "https://www.etrviewoutage.com/map"
+  },
+  {
+   "state": "Virginia",
+   "customers_out": 126,
+   "direct_maps": 126,
+   "odin_extra": 0,
+   "source": "https://outagemap.dominionenergy.com/"
   },
   {
    "state": "New Jersey",
@@ -135,39 +128,32 @@
    "source": "https://outagecenter.pseg.com/"
   },
   {
-   "state": "Virginia",
-   "customers_out": 92,
-   "direct_maps": 92,
+   "state": "Oregon",
+   "customers_out": 93,
+   "direct_maps": 1,
+   "odin_extra": 92,
+   "source": "https://www.pacificpower.net/outages-safety.html"
+  },
+  {
+   "state": "Missouri",
+   "customers_out": 84,
+   "direct_maps": 84,
    "odin_extra": 0,
-   "source": "https://outagemap.appalachianpower.com/"
+   "source": "https://outagemap.ameren.com/"
   },
   {
-   "state": "Arizona",
-   "customers_out": 74,
-   "direct_maps": 0,
-   "odin_extra": 74,
-   "source": "https://odin.ornl.gov/"
-  },
-  {
-   "state": "Mississippi",
-   "customers_out": 66,
-   "direct_maps": 65,
-   "odin_extra": 1,
+   "state": "Arkansas",
+   "customers_out": 81,
+   "direct_maps": 81,
+   "odin_extra": 0,
    "source": "https://www.etrviewoutage.com/map"
   },
   {
    "state": "Oklahoma",
-   "customers_out": 59,
-   "direct_maps": 57,
+   "customers_out": 63,
+   "direct_maps": 61,
    "odin_extra": 2,
    "source": "https://outagemap.psoklahoma.com/"
-  },
-  {
-   "state": "Oregon",
-   "customers_out": 59,
-   "direct_maps": 1,
-   "odin_extra": 58,
-   "source": "https://www.pacificpower.net/outages-safety.html"
   },
   {
    "state": "Massachusetts",
@@ -184,11 +170,11 @@
    "source": "https://www.pacificpower.net/outages-safety.html"
   },
   {
-   "state": "Missouri",
-   "customers_out": 27,
-   "direct_maps": 27,
-   "odin_extra": 0,
-   "source": "https://outagemap.ameren.com/"
+   "state": "Washington",
+   "customers_out": 24,
+   "direct_maps": 2,
+   "odin_extra": 22,
+   "source": "https://www.pacificpower.net/outages-safety.html"
   },
   {
    "state": "Utah",
@@ -205,32 +191,25 @@
    "source": "https://outagemap.indianamichiganpower.com/"
   },
   {
+   "state": "North Carolina",
+   "customers_out": 19,
+   "direct_maps": 4,
+   "odin_extra": 15,
+   "source": "https://outagemap.dominionenergy.com/"
+  },
+  {
    "state": "Kentucky",
-   "customers_out": 15,
-   "direct_maps": 10,
+   "customers_out": 17,
+   "direct_maps": 12,
    "odin_extra": 5,
    "source": "https://outagemap.kentuckypower.com/"
   },
   {
-   "state": "Hawaii",
-   "customers_out": 13,
+   "state": "Arizona",
+   "customers_out": 9,
    "direct_maps": 0,
-   "odin_extra": 13,
+   "odin_extra": 9,
    "source": "https://odin.ornl.gov/"
-  },
-  {
-   "state": "Maryland",
-   "customers_out": 11,
-   "direct_maps": 11,
-   "odin_extra": 0,
-   "source": "https://www.bge.com/outages/experiencing-an-outage/outage-map"
-  },
-  {
-   "state": "West Virginia",
-   "customers_out": 10,
-   "direct_maps": 8,
-   "odin_extra": 2,
-   "source": "https://outagemap.appalachianpower.com/"
   },
   {
    "state": "Tennessee",
@@ -240,6 +219,20 @@
    "source": "https://odin.ornl.gov/"
   },
   {
+   "state": "West Virginia",
+   "customers_out": 8,
+   "direct_maps": 8,
+   "odin_extra": 0,
+   "source": "https://outagemap.appalachianpower.com/"
+  },
+  {
+   "state": "Minnesota",
+   "customers_out": 6,
+   "direct_maps": 2,
+   "odin_extra": 4,
+   "source": "https://outagemap.xcelenergy.com/"
+  },
+  {
    "state": "Kansas",
    "customers_out": 5,
    "direct_maps": 0,
@@ -247,21 +240,21 @@
    "source": "https://odin.ornl.gov/"
   },
   {
-   "state": "Minnesota",
+   "state": "New Mexico",
    "customers_out": 5,
-   "direct_maps": 2,
-   "odin_extra": 3,
+   "direct_maps": 1,
+   "odin_extra": 4,
    "source": "https://outagemap.xcelenergy.com/"
   },
   {
-   "state": "New Mexico",
+   "state": "Maryland",
    "customers_out": 4,
-   "direct_maps": 0,
-   "odin_extra": 4,
-   "source": "https://odin.ornl.gov/"
+   "direct_maps": 4,
+   "odin_extra": 0,
+   "source": "https://www.bge.com/outages/experiencing-an-outage/outage-map"
   },
   {
-   "state": "New Hampshire",
+   "state": "Hawaii",
    "customers_out": 1,
    "direct_maps": 0,
    "odin_extra": 1,
@@ -273,6 +266,13 @@
    "direct_maps": 0,
    "odin_extra": 1,
    "source": "https://odin.ornl.gov/"
+  },
+  {
+   "state": "Wyoming",
+   "customers_out": 1,
+   "direct_maps": 1,
+   "odin_extra": 0,
+   "source": "https://www.pacificpower.net/outages-safety.html"
   }
  ],
  "rows": [
@@ -282,23 +282,11 @@
    "place": "United States",
    "region": "Nationwide",
    "cause": "",
-   "affected": "24,374 customers out",
+   "affected": "20,920 customers out",
    "start": "",
    "etr": "",
    "source": "https://odin.ornl.gov/",
-   "updated": "4:12 AM CT"
-  },
-  {
-   "lat": 37.1661,
-   "lon": -119.4494,
-   "place": "California",
-   "region": "United States",
-   "cause": "",
-   "affected": "7,841 customers out",
-   "start": "",
-   "etr": "",
-   "source": "https://www.sce.com/outage-center/check-outage-status",
-   "updated": "4:12 AM CT"
+   "updated": "4:38 AM CT"
   },
   {
    "lat": 42.9538,
@@ -306,11 +294,23 @@
    "place": "New York",
    "region": "United States",
    "cause": "",
-   "affected": "6,216 customers out",
+   "affected": "6,174 customers out",
    "start": "",
    "etr": "",
    "source": "https://outagemap.psegliny.com/",
-   "updated": "4:12 AM CT"
+   "updated": "4:38 AM CT"
+  },
+  {
+   "lat": 37.1661,
+   "lon": -119.4494,
+   "place": "California",
+   "region": "United States",
+   "cause": "",
+   "affected": "5,320 customers out",
+   "start": "",
+   "etr": "",
+   "source": "https://www.sce.com/outage-center/check-outage-status",
+   "updated": "4:38 AM CT"
   },
   {
    "lat": 44.3467,
@@ -318,35 +318,35 @@
    "place": "Michigan",
    "region": "United States",
    "cause": "",
-   "affected": "1,622 customers out",
+   "affected": "2,204 customers out",
    "start": "",
    "etr": "",
    "source": "https://outage.dteenergy.com/map",
-   "updated": "4:12 AM CT"
+   "updated": "4:38 AM CT"
   },
   {
-   "lat": 31.0689,
-   "lon": -91.9968,
-   "place": "Louisiana",
+   "lat": 28.6305,
+   "lon": -82.4497,
+   "place": "Florida",
    "region": "United States",
    "cause": "",
-   "affected": "1,531 customers out",
+   "affected": "1,613 customers out",
    "start": "",
    "etr": "",
-   "source": "https://www.etrviewoutage.com/map",
-   "updated": "4:12 AM CT"
+   "source": "https://www.fplmaps.com/",
+   "updated": "4:38 AM CT"
   },
   {
-   "lat": 31.1761,
-   "lon": -99.3453,
-   "place": "Texas",
+   "lat": 32.7794,
+   "lon": -86.8287,
+   "place": "Alabama",
    "region": "United States",
    "cause": "",
-   "affected": "1,330 customers out",
+   "affected": "1,134 customers out",
    "start": "",
    "etr": "",
-   "source": "https://stormcenter.oncor.com/",
-   "updated": "4:12 AM CT"
+   "source": "https://outagemap.alabamapower.com/",
+   "updated": "4:38 AM CT"
   }
  ],
  "utilities": [
@@ -354,101 +354,127 @@
    "utility": "Southern California Edison",
    "ok": true,
    "map": "https://www.sce.com/outage-center/check-outage-status",
-   "customers_out": 6899,
+   "customers_out": 4298,
    "by_state": {
-    "California": 6899
+    "California": 4298
    },
    "served": 5200000,
    "served_is_estimate": true,
-   "seconds": 0.4
-  },
-  {
-   "utility": "Entergy",
-   "ok": true,
-   "map": "https://www.etrviewoutage.com/map",
-   "customers_out": 1550,
-   "by_state": {
-    "Louisiana": 1256,
-    "Arkansas": 224,
-    "Mississippi": 65,
-    "Texas": 5
-   },
-   "served": 3244044,
-   "served_is_estimate": false,
-   "seconds": 0.9
-  },
-  {
-   "utility": "Oncor",
-   "ok": true,
-   "map": "https://stormcenter.oncor.com/",
-   "customers_out": 1161,
-   "by_state": {
-    "Texas": 1161
-   },
-   "served": 4186430,
-   "served_is_estimate": false,
    "seconds": 0.3
   },
   {
    "utility": "Alabama Power",
    "ok": true,
    "map": "https://outagemap.alabamapower.com/",
-   "customers_out": 1094,
+   "customers_out": 1134,
    "by_state": {
-    "Alabama": 1094
+    "Alabama": 1134
    },
    "served": 1615186,
    "served_is_estimate": false,
    "seconds": 0.2
   },
   {
+   "utility": "Entergy",
+   "ok": true,
+   "map": "https://www.etrviewoutage.com/map",
+   "customers_out": 1088,
+   "by_state": {
+    "Louisiana": 854,
+    "Mississippi": 152,
+    "Arkansas": 77,
+    "Texas": 5
+   },
+   "served": 3244043,
+   "served_is_estimate": false,
+   "seconds": 1.0
+  },
+  {
    "utility": "PG&E",
    "ok": true,
    "map": "https://pgealerts.alerts.pge.com/outagecenter/",
-   "customers_out": 921,
+   "customers_out": 1002,
    "by_state": {
-    "California": 921
+    "California": 1002
    },
-   "served": 5685223,
+   "served": 5685462,
    "served_is_estimate": false,
-   "seconds": 0.4
+   "seconds": 0.2
   },
   {
    "utility": "Florida Power & Light",
    "ok": true,
    "map": "https://www.fplmaps.com/",
-   "customers_out": 640,
+   "customers_out": 793,
    "by_state": {
-    "Florida": 640
+    "Florida": 793
    },
    "served": 5615586,
    "served_is_estimate": false,
-   "seconds": 0.1
-  },
-  {
-   "utility": "Xcel Energy",
-   "ok": true,
-   "map": "https://outagemap.xcelenergy.com/",
-   "customers_out": 378,
-   "by_state": {
-    "Colorado": 376,
-    "Minnesota": 2
-   },
-   "served": 3900000,
-   "served_is_estimate": true,
    "seconds": 0.2
   },
   {
    "utility": "Tampa Electric",
    "ok": true,
    "map": "https://outage.tecoenergy.com/",
-   "customers_out": 320,
+   "customers_out": 754,
    "by_state": {
-    "Florida": 320
+    "Florida": 754
    },
    "served": 830000,
    "served_is_estimate": true,
+   "seconds": 0.5
+  },
+  {
+   "utility": "Oncor",
+   "ok": true,
+   "map": "https://stormcenter.oncor.com/",
+   "customers_out": 731,
+   "by_state": {
+    "Texas": 731
+   },
+   "served": 4186430,
+   "served_is_estimate": false,
+   "seconds": 0.1
+  },
+  {
+   "utility": "DTE Energy",
+   "ok": true,
+   "map": "https://outage.dteenergy.com/map",
+   "customers_out": 663,
+   "by_state": {
+    "Michigan": 663
+   },
+   "served": 2269910,
+   "served_is_estimate": false,
    "seconds": 0.2
+  },
+  {
+   "utility": "Xcel Energy",
+   "ok": true,
+   "map": "https://outagemap.xcelenergy.com/",
+   "customers_out": 421,
+   "by_state": {
+    "Colorado": 418,
+    "Minnesota": 2,
+    "New Mexico": 1
+   },
+   "served": 3900000,
+   "served_is_estimate": true,
+   "seconds": 0.3
+  },
+  {
+   "utility": "Ameren",
+   "ok": true,
+   "map": "https://outagemap.ameren.com/",
+   "customers_out": 214,
+   "by_state": {
+    "Illinois": 130,
+    "Missouri": 84
+   },
+   "served": 2477371,
+   "served_is_estimate": false,
+   "seconds": 0.4
   },
   {
    "utility": "Eversource",
@@ -462,42 +488,29 @@
    },
    "served": 3344278,
    "served_is_estimate": false,
-   "seconds": 0.5
+   "seconds": 0.9
   },
   {
    "utility": "FirstEnergy (Ohio)",
    "ok": true,
    "map": "https://outages.firstenergycorp.com/oh.html",
-   "customers_out": 191,
+   "customers_out": 192,
    "by_state": {
-    "Ohio": 191
+    "Ohio": 192
    },
    "served": 2105744,
    "served_is_estimate": false,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "utility": "Georgia Power",
    "ok": true,
    "map": "https://outagemap.georgiapower.com/",
-   "customers_out": 167,
+   "customers_out": 171,
    "by_state": {
-    "Georgia": 167
+    "Georgia": 171
    },
    "served": 2811272,
-   "served_is_estimate": false,
-   "seconds": 0.1
-  },
-  {
-   "utility": "Ameren",
-   "ok": true,
-   "map": "https://outagemap.ameren.com/",
-   "customers_out": 150,
-   "by_state": {
-    "Illinois": 123,
-    "Missouri": 27
-   },
-   "served": 2477371,
    "served_is_estimate": false,
    "seconds": 0.2
   },
@@ -514,18 +527,6 @@
    "seconds": 0.1
   },
   {
-   "utility": "DTE Energy",
-   "ok": true,
-   "map": "https://outage.dteenergy.com/map",
-   "customers_out": 81,
-   "by_state": {
-    "Michigan": 81
-   },
-   "served": 2269910,
-   "served_is_estimate": false,
-   "seconds": 0.4
-  },
-  {
    "utility": "PSE&G",
    "ok": true,
    "map": "https://outagecenter.pseg.com/",
@@ -535,7 +536,20 @@
    },
    "served": 2336321,
    "served_is_estimate": false,
-   "seconds": 0.1
+   "seconds": 0.3
+  },
+  {
+   "utility": "Dominion Energy",
+   "ok": true,
+   "map": "https://outagemap.dominionenergy.com/",
+   "customers_out": 80,
+   "by_state": {
+    "Virginia": 76,
+    "North Carolina": 4
+   },
+   "served": 2833334,
+   "served_is_estimate": false,
+   "seconds": 0.6
   },
   {
    "utility": "FirstEnergy (Pennsylvania)",
@@ -548,7 +562,7 @@
    },
    "served": 2066255,
    "served_is_estimate": false,
-   "seconds": 0.3
+   "seconds": 0.5
   },
   {
    "utility": "PacifiCorp (Pacific Power / Rocky Mountain Power)",
@@ -559,13 +573,25 @@
     "Idaho": 44,
     "Utah": 22,
     "Washington": 2,
-    "California": 2,
     "Oregon": 1,
-    "Wyoming": 0
+    "California": 1,
+    "Wyoming": 1
    },
    "served": 2100000,
    "served_is_estimate": true,
-   "seconds": 2.0
+   "seconds": 1.8
+  },
+  {
+   "utility": "PSO",
+   "ok": true,
+   "map": "https://outagemap.psoklahoma.com/",
+   "customers_out": 61,
+   "by_state": {
+    "Oklahoma": 61
+   },
+   "served": 571124,
+   "served_is_estimate": false,
+   "seconds": 0.1
   },
   {
    "utility": "Appalachian Power",
@@ -580,42 +606,17 @@
    },
    "served": 1046014,
    "served_is_estimate": false,
-   "seconds": 0.4
-  },
-  {
-   "utility": "PSO",
-   "ok": true,
-   "map": "https://outagemap.psoklahoma.com/",
-   "customers_out": 57,
-   "by_state": {
-    "Oklahoma": 57
-   },
-   "served": 571124,
-   "served_is_estimate": false,
-   "seconds": 0.1
+   "seconds": 0.7
   },
   {
    "utility": "PECO",
    "ok": true,
    "map": "https://www.peco.com/outages/experiencing-an-outage/outage-map",
-   "customers_out": 46,
+   "customers_out": 54,
    "by_state": {
-    "Pennsylvania": 46
+    "Pennsylvania": 54
    },
    "served": 1704347,
-   "served_is_estimate": false,
-   "seconds": 0.1
-  },
-  {
-   "utility": "Dominion Energy",
-   "ok": true,
-   "map": "https://outagemap.dominionenergy.com/",
-   "customers_out": 46,
-   "by_state": {
-    "Virginia": 42,
-    "North Carolina": 4
-   },
-   "served": 2833334,
    "served_is_estimate": false,
    "seconds": 0.3
   },
@@ -629,19 +630,7 @@
    },
    "served": 1500000,
    "served_is_estimate": true,
-   "seconds": 0.2
-  },
-  {
-   "utility": "PSEG Long Island",
-   "ok": true,
-   "map": "https://outagemap.psegliny.com/",
-   "customers_out": 26,
-   "by_state": {
-    "New York": 26
-   },
-   "served": 1159509,
-   "served_is_estimate": false,
-   "seconds": 0.1
+   "seconds": 0.4
   },
   {
    "utility": "FirstEnergy (JCP&L, New Jersey)",
@@ -653,19 +642,7 @@
    },
    "served": 1161793,
    "served_is_estimate": false,
-   "seconds": 0.3
-  },
-  {
-   "utility": "AEP Texas",
-   "ok": true,
-   "map": "https://outagemap.aeptexas.com/",
-   "customers_out": 21,
-   "by_state": {
-    "Texas": 21
-   },
-   "served": 1101855,
-   "served_is_estimate": false,
-   "seconds": 0.1
+   "seconds": 0.6
   },
   {
    "utility": "Indiana Michigan Power",
@@ -678,7 +655,7 @@
    },
    "served": 610415,
    "served_is_estimate": false,
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "utility": "SDG&E",
@@ -690,31 +667,43 @@
    },
    "served": 1552710,
    "served_is_estimate": false,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
-   "utility": "BGE",
+   "utility": "PSEG Long Island",
    "ok": true,
-   "map": "https://www.bge.com/outages/experiencing-an-outage/outage-map",
-   "customers_out": 11,
+   "map": "https://outagemap.psegliny.com/",
+   "customers_out": 17,
    "by_state": {
-    "Maryland": 11
+    "New York": 17
    },
-   "served": 1355550,
+   "served": 1159509,
+   "served_is_estimate": false,
+   "seconds": 0.3
+  },
+  {
+   "utility": "AEP Texas",
+   "ok": true,
+   "map": "https://outagemap.aeptexas.com/",
+   "customers_out": 14,
+   "by_state": {
+    "Texas": 14
+   },
+   "served": 1101855,
    "served_is_estimate": false,
    "seconds": 0.1
   },
   {
-   "utility": "AEP Ohio",
+   "utility": "Kentucky Power",
    "ok": true,
-   "map": "https://outagemap.aepohio.com/",
-   "customers_out": 11,
+   "map": "https://outagemap.kentuckypower.com/",
+   "customers_out": 12,
    "by_state": {
-    "Ohio": 11
+    "Kentucky": 12
    },
-   "served": 1527928,
+   "served": 158076,
    "served_is_estimate": false,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "utility": "Orange & Rockland",
@@ -727,28 +716,16 @@
    },
    "served": 317010,
    "served_is_estimate": false,
-   "seconds": 0.2
-  },
-  {
-   "utility": "Kentucky Power",
-   "ok": true,
-   "map": "https://outagemap.kentuckypower.com/",
-   "customers_out": 10,
-   "by_state": {
-    "Kentucky": 10
-   },
-   "served": 158076,
-   "served_is_estimate": false,
-   "seconds": 0.5
+   "seconds": 0.4
   },
   {
    "utility": "SWEPCO",
    "ok": true,
    "map": "https://outagemap.swepco.com/",
-   "customers_out": 8,
+   "customers_out": 9,
    "by_state": {
+    "Louisiana": 5,
     "Arkansas": 4,
-    "Louisiana": 4,
     "Texas": 0
    },
    "served": 548498,
@@ -756,16 +733,40 @@
    "seconds": 0.4
   },
   {
+   "utility": "BGE",
+   "ok": true,
+   "map": "https://www.bge.com/outages/experiencing-an-outage/outage-map",
+   "customers_out": 4,
+   "by_state": {
+    "Maryland": 4
+   },
+   "served": 1355550,
+   "served_is_estimate": false,
+   "seconds": 0.2
+  },
+  {
+   "utility": "AEP Ohio",
+   "ok": true,
+   "map": "https://outagemap.aepohio.com/",
+   "customers_out": 4,
+   "by_state": {
+    "Ohio": 4
+   },
+   "served": 1527928,
+   "served_is_estimate": false,
+   "seconds": 0.2
+  },
+  {
    "utility": "Con Edison",
    "ok": true,
    "map": "https://outagemap.coned.com/",
-   "customers_out": 2,
+   "customers_out": 1,
    "by_state": {
-    "New York": 2
+    "New York": 1
    },
    "served": 3626606,
    "served_is_estimate": false,
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "utility": "LG&E and KU",
@@ -779,7 +780,7 @@
    },
    "served": 1043963,
    "served_is_estimate": false,
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "utility": "Evergy",
@@ -792,7 +793,7 @@
    },
    "served": 1518235,
    "served_is_estimate": false,
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "utility": "CPS Energy",
@@ -804,7 +805,7 @@
    },
    "served": 988817,
    "served_is_estimate": false,
-   "seconds": 0.1
+   "seconds": 0.4
   },
   {
    "utility": "Austin Energy",
@@ -821,22 +822,22 @@
  ],
  "failures": [],
  "odin_extra_by_utility": {
-  "AVANGRID": 5944,
+  "AVANGRID": 5911,
   "GREAT LAKES ENERGY COOP": 1425,
-  "FRENCH BROAD ELEC MEMBER CORP": 1235,
   "DIXIE ELECTRIC MEMBERSHIP CORP": 271,
-  "NATIONAL GRID": 245,
-  "Puget Sound Energy Inc": 148,
-  "CENTERPOINT ENERGY": 143,
+  "NATIONAL GRID": 246,
+  "CENTERPOINT ENERGY": 147,
   "CONSUMERS ENERGY CO": 116,
   "DUQUESNE LIGHT CO": 81,
-  "ARIZONA PUBLIC SERVICE CO": 71,
+  "CHOCTAWHATCHE ELEC COOP, INC": 66,
   "LA PLATA ELECTRIC ASSN, INC": 57,
   "PORTLAND GENERAL ELECTRIC CO": 55,
+  "Central Lincoln Peoples Ut Dt": 37,
   "CENTRAL HUDSON GAS & ELEC CORP": 21,
-  "CHOCTAWHATCHE ELEC COOP, INC": 17,
+  "Puget Sound Energy Inc": 18,
   "UNITED POWER, INC": 16,
-  "HAWAIIAN ELECTRIC CO INC": 13,
+  "FRENCH BROAD ELEC MEMBER CORP": 8,
+  "ARIZONA PUBLIC SERVICE CO": 6,
   "VICTORY ELECTRIC COOP ASSN INC": 5,
   "LICKING VALLEY RURAL E C C": 4,
   "SEQUACHEE VALLEY ELECTRIC COOP": 4,
@@ -845,18 +846,16 @@
   "BELTRAMI ELECTRIC COOP, INC": 2,
   "EDGECOMBE-MARTIN COUNTY E M C": 2,
   "RURAL ELECTRIC COOP, INC": 2,
-  "CONSUMERS POWER, INC": 2,
   "CITY OF NEWPORT": 2,
   "PUD No 1 of Pend Oreille County": 2,
   "TANNER ELECTRIC COOP": 2,
-  "MONONGAHELA POWER CO": 2,
+  "HAWAIIAN ELECTRIC CO INC": 1,
   "NOLIN RURAL ELECTRIC COOP CORP": 1,
   "BENCO ELECTRIC COOPERATIVE": 1,
+  "PEOPLE'S COOPERATIVE SERVICES": 1,
   "COAST ELECTRIC POWER ASSN": 1,
-  "UNITIL ENERGY SYSTEMS": 1,
   "ENERGYUNITED ELEC MEMBER CORP": 1,
   "PEE DEE ELECTRIC MEMBER CORP": 1,
-  "Central Lincoln Peoples Ut Dt": 1,
   "BERKELEY ELECTRIC COOP INC": 1,
   "HOLSTON ELECTRIC COOP, INC": 1,
   "CITY OF SWEETWATER": 1
