@@ -1,5 +1,5 @@
 {
-  "as_of": "5:02 PM CT, Saturday, November 14, 2026",
+  "as_of": "5:55 PM CT, Saturday, November 14, 2026",
   "outages": [
     {
       "lat": null,
@@ -79,11 +79,11 @@
       "place": "Kyiv and nationwide",
       "region": "Ukraine",
       "cause": "Rolling and emergency blackouts after Russian attacks on energy infrastructure",
-      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues for all consumers, plus industrial capacity limits, are in effect around the clock in parts of Ukraine on Saturday, Nov 14. UNN, citing Ukrenergo, said one queue is four hours, so customers face about 6 to 12 hours without power. New Saturday outages: DTEK Odeski Elektromerezhi said a Russian attack on one of its facilities in the north of Odesa region left almost 50,000 customers without power (no restoration time given; DTEK said the facility had been hit repeatedly and that air-raid alerts were complicating the work). As of 5:30 p.m. EET Saturday, Sumyoblenergo said emergency restoration was still underway in part of Sumy region after a large-scale morning outage, and that repeated outages were possible during the work (no customer count released for security reasons). DTEK said emergency cuts are in effect in the Bucha, Fastiv, and Obukhiv districts of Kyiv region, with stabilization schedules in Kyiv city and the rest of the region. Poltava regional authorities said bad weather left about 2,000 subscribers in 13 settlements without power. On Friday, Nov 13, Chernihivoblenergo said an attack left about 150,000 customers without power in the Nizhyn and Pryluky districts; no later Chernihiv customer figure was found. On Saturday evening, Ukrenergo said Sunday, Nov 15, schedules in parts of Ukraine would ease to 1 to 2 queues around the clock, plus industrial limits.",
+      "affected": "Ukrenergo said that on Sunday, Nov 15, hourly rolling blackouts of 1 to 2 queues for all consumers, plus industrial capacity limits, are in effect around the clock in parts of Ukraine, eased from Saturday's 1.5 to 3 queues. UNN, citing Ukrenergo, previously said one queue is four hours; the Sunday notice did not restate queue length. New Saturday outages: DTEK Odeski Elektromerezhi said a Russian attack on one of its facilities in the north of Odesa region left almost 50,000 customers without power (no restoration time given; DTEK said the facility had been hit repeatedly and that air-raid alerts were complicating the work). No later official customer count or restoration notice was found. As of 5:30 p.m. EET Saturday, Sumyoblenergo said emergency restoration was still underway in part of Sumy region after a large-scale morning outage, and that repeated outages were possible during the work (no customer count released for security reasons); no later official Sumy update was found. DTEK said Saturday morning that emergency cuts were in effect in the Bucha, Fastiv, and Obukhiv districts of Kyiv region, with stabilization schedules in Kyiv city and the rest of the region; no later official update for those districts was found. Poltava regional authorities said Saturday that bad weather left about 2,000 subscribers in 13 settlements without power; no later restoration notice was found. On Friday, Nov 13, Chernihivoblenergo said an attack left about 150,000 customers without power in the Nizhyn and Pryluky districts; no later Chernihiv customer figure or confirmed restoration was found.",
       "start": "",
       "etr": "",
-      "source": "https://unn.ua/en/news/russian-attacks-on-the-energy-infrastructure-continue-where-power-outages-are-occurring-on-november-14",
-      "updated": "Nov 14, 2026, afternoon/evening Kyiv time (Sumyoblenergo 5:30 p.m. EET = 9:30 a.m. CT; Ukrenergo Sunday schedule per RBC Ukraine 7:10 p.m. EET = 11:10 a.m. CT); rechecked 11:55 AM CT"
+      "source": "https://www.ukrinform.net/rubric-ato/4184730-scheduled-power-outages-to-be-in-all-day-in-some-ukrainian-regions-on-sunday.html",
+      "updated": "Nov 14, 2026, evening Kyiv time (Ukrenergo Sunday schedule per Ukrinform 8:29 p.m. EET = 12:29 p.m. CT); Sumyoblenergo 5:30 p.m. EET Saturday = 9:30 a.m. CT; rechecked 5:55 PM CT Saturday (already early Sunday, Nov 15, in Ukraine); no later official Sunday-morning operational update found"
     },
     {
       "lat": 46.48,
@@ -91,23 +91,23 @@
       "place": "Northern Odesa region",
       "region": "Odesa, Ukraine",
       "cause": "Russian attack on a DTEK energy facility",
-      "affected": "Almost 50,000 customers without power, according to DTEK Odeski Elektromerezhi. Crews began work once it was safe, clearing rubble and repairing damaged equipment; DTEK said the facility had been hit repeatedly, that air-raid alerts were significantly complicating the work, and that restoration will take time. No restoration time was given. Later Saturday reporting still described the outage as ongoing in part of the Podilsk district; no later official customer count or restoration notice was found.",
+      "affected": "Almost 50,000 customers without power, according to DTEK Odeski Elektromerezhi. Crews began work once it was safe, clearing rubble and repairing damaged equipment; DTEK said the facility had been hit repeatedly, that air-raid alerts were significantly complicating the work, and that restoration will take time. No restoration time was given. No later official customer count or restoration notice was found.",
       "start": "Morning of Nov 14, 2026 (Kyiv time)",
       "etr": "",
       "source": "https://www.dtek-oem.com.ua/ua/news/vorog-atakuvav-ob-yekt-dtek-odeski-elektromerezhi-na-pivnochi-oblasti",
-      "updated": "Nov 14, 2026 (DTEK OEM statement); no later official restoration figure found as of 11:55 AM CT"
+      "updated": "Nov 14, 2026 (DTEK OEM statement); no later official restoration figure found as of 5:55 PM CT"
     },
     {
       "lat": 23.113,
       "lon": -82.367,
       "place": "Cuba",
       "region": "National electric system (SEN)",
-      "cause": "Generation capacity deficit, with several thermoelectric units offline due to breakdowns (Santa Cruz unit 1, Antonio Guiteras, Felton unit 2, and Rent\u00e9 unit 6) and maintenance (Santa Cruz unit 3, Nuevitas unit 5, Felton unit 1, and Rent\u00e9 unit 5); thermal generation is also limited by 283 MW",
-      "affected": "UNE's Saturday bulletin forecast 1,860 MW affected at the evening peak: 970 MW available versus 2,800 MW demand (1,830 MW deficit). At 6:00 a.m. Saturday, the grid had 920 MW available versus 2,222 MW of demand, leaving 1,301 MW unserved, and UNE estimated 1,450 MW affected at midday. On Friday, service was affected all 24 hours, with a maximum of 1,912 MW at 6:20 p.m. UNE said Rent\u00e9 unit 6 was expected to add 50 MW at the evening peak. CiberCuba's Havana circuit notices through late Saturday morning still showed rotating outages from the generation deficit. The national grid was not reported as collapsed.",
+      "cause": "Generation capacity deficit, with several thermoelectric units offline due to breakdowns (Santa Cruz unit 1, Antonio Guiteras, Felton unit 2, and Renté unit 6) and maintenance (Santa Cruz unit 3, Nuevitas unit 5, Felton unit 1, and Renté unit 5); thermal generation is also limited by 283 MW",
+      "affected": "UNE's Saturday bulletin forecast 1,860 MW affected at the evening peak: 970 MW available versus 2,800 MW demand (1,830 MW deficit). At 6:00 a.m. Saturday, the grid had 920 MW available versus 2,222 MW of demand, leaving 1,301 MW unserved, and UNE estimated 1,450 MW affected at midday. On Friday, service was affected all 24 hours, with a maximum of 1,912 MW at 6:20 p.m. UNE said Renté unit 6 was expected to add 50 MW at the evening peak. CiberCuba's compilation of Empresa Eléctrica de La Habana circuit notices showed rotating outages from the generation deficit continuing Saturday afternoon and evening, including a 5:57 p.m. Cuba time notice for circuit MR450 (Reparto Monterrey, Luyanó Moderno, and La Corea); some other Havana circuits were reported restored earlier in the day. No official Saturday evening-peak actual or Sunday UNE bulletin was found. The national grid was not reported as collapsed.",
       "start": "",
       "etr": "",
-      "source": "https://www.cubadebate.cu/noticias/2026/11/14/preven-afectacion-de-1-860-mw-durante-el-horario-pico-de-este-sabado/",
-      "updated": "Nov 14, 2026, UNE Saturday bulletin (Cubadebate); Havana circuit notices reviewed on CiberCuba through late Saturday morning; rechecked 11:55 AM CT"
+      "source": "https://www.juventudrebelde.cu/index.php/cuba/2026-11-14/preven-afectacion-de-1-860-mw-durante-el-horario-pico-de-este-sabado",
+      "updated": "Nov 14, 2026, UNE Saturday bulletin (Juventud Rebelde); Havana circuit notices reviewed on CiberCuba through 5:57 p.m. Cuba time Saturday (4:57 p.m. CT); rechecked 5:55 PM CT, no official Saturday peak actual or Sunday bulletin found"
     },
     {
       "lat": 10.48,
@@ -115,11 +115,11 @@
       "place": "Venezuela",
       "region": "Nationwide",
       "cause": "Widespread, ongoing grid failures after years of underinvestment and poor maintenance, worsened by June earthquakes",
-      "affected": "No official customer count. A Bloomberg L\u00ednea report on Nov 13, citing an AtlasIntel survey of 2,492 adults conducted Nov 5\u20139 for Bloomberg News, said about 58% of respondents had unscheduled outages daily or almost daily in the previous month, and another 20% several times a week; among those who lost power, 38% said outages lasted more than six hours and 30% said three to six hours. The same report said two June earthquakes reduced generation by about 800 MW on an already fragile grid. Earlier Nov 13 Bloomberg L\u00ednea reporting said outages were worsening nationwide, with M\u00e9rida, T\u00e1chira, and Trujillo among the hardest hit and Caracas largely spared the worst cuts. A Nov 14 Panorama report from Zulia quoted residents in San Francisco and Maracaibo describing daily outages of six to seven hours; that account is anecdotal and gave no official customer count.",
+      "affected": "No official customer count. A Bloomberg Línea report on Nov 13, citing an AtlasIntel survey of 2,492 adults conducted Nov 5–9 for Bloomberg News, said about 58% of respondents had unscheduled outages daily or almost daily in the previous month, and another 20% several times a week; among those who lost power, 38% said outages lasted more than six hours and 30% said three to six hours. The same report said two June earthquakes reduced generation by about 800 MW on an already fragile grid. Earlier Nov 13 Bloomberg Línea reporting said outages were worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit and Caracas largely spared the worst cuts.",
       "start": "",
       "etr": "",
       "source": "https://www.bloomberglinea.com/latinoamerica/venezuela/apagones-casi-diarios-afectan-a-mas-de-la-mitad-de-los-venezolanos-encuesta-atlasintel/",
-      "updated": "Nov 13, 2026 (Bloomberg L\u00ednea / AtlasIntel); Nov 14 Zulia resident accounts (Panorama); rechecked 11:55 AM CT, no official customer count found"
+      "updated": "Nov 13, 2026 (Bloomberg Línea / AtlasIntel); rechecked 5:55 PM CT, no official customer count found"
     },
     {
       "lat": 31.52,
@@ -127,23 +127,23 @@
       "place": "Lahore and nationwide",
       "region": "Pakistan",
       "cause": "National generation shortfall during evening peak; Tarbela hydropower about 800 MW below normal after reduced water releases following the fifth-extension incident, plus seasonal hydrology and LNG limits",
-      "affected": "About 1,500 MW national shortfall during evening peak on Nov 11 (peak demand about 16,000 MW vs. about 14,500 MW available), according to ISMO figures cited Nov 12. ISMO said the Nov 10 shortfall, which reached about 2,530 MW, had eased and that generation was back to the routine plan as of Nov 11, but the 1,500 MW evening-peak gap (5 p.m. to 11 p.m.) remained. Discos were following existing 1.5 to 2 hour load-management schedules; The Nation reported some areas still facing up to five hours of additional load-shedding. No later official ISMO update was found as of late Saturday morning CT.",
+      "affected": "About 1,500 MW national shortfall during evening peak on Nov 11 (peak demand about 16,000 MW vs. about 14,500 MW available), according to ISMO figures cited Nov 12. ISMO said the Nov 10 shortfall, which reached about 2,530 MW, had eased and that generation was back to the routine plan as of Nov 11, but the 1,500 MW evening-peak gap (5 p.m. to 11 p.m.) remained. Discos were following existing 1.5 to 2 hour load-management schedules; The Nation reported some areas still facing up to five hours of additional load-shedding. No later official national ISMO update was found. On Saturday, Nov 14, HESCO spokesman Sadiq Kubar said the Hyderabad utility was receiving 565 MW from the national grid against demand of 1,034 MW, a shortfall of up to 469 MW, and was carrying out an additional 2 hours of load shedding across many feeders until required supply resumed. No customer count was given.",
       "start": "",
       "etr": "",
       "source": "https://www.nation.com.pk/12-Nov-2026/discos-carrying-2-hours-additional-loadshedding",
-      "updated": "Nov 12, 2026; no later official ISMO update found as of 11:55 AM CT"
+      "updated": "Nov 12, 2026 (ISMO / The Nation); HESCO Saturday statement (UrduPoint / APP, published 9:35 p.m. PKT = 10:35 a.m. CT); rechecked 5:55 PM CT, no later official national ISMO update found"
     },
     {
       "lat": -26.204,
       "lon": 28.007,
       "place": "Mayfair, Crosby, Homestead Park, Mayfair West, and nearby suburbs",
       "region": "Johannesburg, South Africa",
-      "cause": "Fire and a later explosion at the Mayfair substation; after a Thursday-night restoration, the Hursthill substation tripped early Friday because of a network overload. The cause of the Mayfair fire is being investigated",
-      "affected": "No official customer count. In a Saturday, Nov 14, customer alert, City Power said it had restored electricity to the SABC, Netcare Garden City Hospital, and residential customers in Mayfair West after overnight repairs and testing at the Hursthill and Mayfair substations. A Friday morning attempt to restore more customers was interrupted when the network became overloaded and supply tripped again. City Power said Saturday that engineers would continue preparing for Phase 2, which is expected to restore remaining affected customers if there are no further technical challenges. A 4:00 p.m. SAST Saturday Hursthill SDC bulletin did not report that Phase 2 was complete; that bulletin said the centre was managing 1,597 open calls, 1,383 of them more than 24 hours old (a wider Hursthill service-area figure, not a customer count for the Mayfair outage alone). Separately, City Power said a 33 kV cable was cut and stolen at Florida Glen Substation early Saturday, leaving customers in Florida Glen, Quellerina, Industria North, Bergbron, and Northcliff Ext 19 without power; replacement cable was expected on site Sunday, Nov 15, and no customer count or restoration time was given.",
+      "cause": "Fire and a later explosion at the Mayfair substation; after a Thursday-night restoration, the Hursthill substation tripped early Friday because of a network overload. City Power later said the first explosion was caused by cable theft. A separate Crown Substation fault and a Florida Glen cable theft also interrupted supply",
+      "affected": "No official customer count. In a Saturday, Nov 14, customer alert, City Power said it had restored electricity to the SABC, Netcare Garden City Hospital, and residential customers in Mayfair West after overnight repairs and testing at the Hursthill and Mayfair substations. A Friday morning attempt to restore more customers was interrupted when the network became overloaded and supply tripped again. City Power said Saturday that engineers would continue preparing for Phase 2, which is expected to restore remaining affected customers if there are no further technical challenges. No later Phase 2 completion notice was found. In a Saturday afternoon SABC report, City Power's Noel Maso said parts of Mayfair, Auckland Park, Crown Mines, and Vrededorp remained without power, that restoration and replacement costs stood at R24.8 million, and that in a worst-case scenario it could take up to 14 days to restore power to all affected areas. Maso also said a fault at Crown Substation was interrupting supply to Mayfair, Crown Mines, Amalgam, and surrounding communities, and that the Sentech Tower in Brixton was affected; he said technicians were working to restore that fault, with normal supply set to be restored by Sunday. A 4:00 p.m. SAST Saturday Hursthill SDC bulletin said the centre was managing 1,597 open calls, 1,383 of them more than 24 hours old (a wider Hursthill service-area figure, not a customer count for the Mayfair outage alone). Separately, City Power said a 33 kV cable was cut and stolen at Florida Glen Substation early Saturday, leaving customers in Florida Glen, Quellerina, Industria North, Bergbron, and Northcliff Ext 19 without power; replacement cable was expected on site Sunday, Nov 15, and no customer count or restoration time was given. City Power later Saturday said power was fully restored in Founders View South and Sebenza.",
       "start": "Early Sunday morning, Nov 8, 2026 (SAST)",
-      "etr": "City Power said Saturday morning that Phase 2 is expected to restore remaining Mayfair customers if there are no further technical challenges; no later Phase 2 completion notice was found. For the separate Florida Glen cable-theft outage, replacement cable was expected on site Sunday, Nov 15, with no restoration time given",
-      "source": "https://x.com/CityPowerJhb/status/2121482027887124739",
-      "updated": "Nov 14, 2026, 7:55 a.m. SAST Mayfair customer alert (11:55 p.m. CT, Friday, Nov 13); Hursthill SDC bulletin 4:00 p.m. SAST (8:00 a.m. CT) and Florida Glen update 4:18 p.m. SAST (8:18 a.m. CT); rechecked 11:55 AM CT, no newer Mayfair Phase 2 completion notice"
+      "etr": "No Phase 2 completion notice was found. SABC, citing City Power on Saturday afternoon, said a worst-case full Mayfair-area restoration could take up to 14 days, and that a separate Crown Substation fault was targeted for Sunday. For the Florida Glen cable-theft outage, replacement cable was expected on site Sunday, Nov 15, with no restoration time given",
+      "source": "https://www.sabcnews.com/sabcnews/city-power-says-r24-mln-needed-to-fully-restore-power-after-explosion/",
+      "updated": "Nov 14, 2026, 7:55 a.m. SAST Mayfair customer alert (11:55 p.m. CT, Friday, Nov 13); SABC report 3:44 p.m. SAST (7:44 a.m. CT); Hursthill SDC bulletin 4:00 p.m. SAST (8:00 a.m. CT); Florida Glen update 4:18 p.m. SAST (8:18 a.m. CT); Founders View / Sebenza restoration noted 4:30 p.m. SAST (8:30 a.m. CT); rechecked 5:55 PM CT, no newer Mayfair Phase 2 completion notice"
     }
   ]
 }
