@@ -1,2 +1,3 @@
 timestamp_utc,combined_total,combined_top5,direct_maps_total,odin_extra_total,odin_only_total,adapters_ok,adapters_failed,coverage_pct,pous_as_of,pous_total,pous_top5
 2026-11-14T01:55:34Z,22521,"California 10,986; New York 6,506; Texas 1,100; Kentucky 708; Arkansas 343",15462,7059,8730,37,0,48.7,"7:04 PM CT, Friday, November 13, 2026",45213,"New York 15,366; California 9,006; Utah 6,243; U.S. Virgin Islands 4,028; Texas 1,643"
+2026-11-14T02:18:37Z,25558,"California 12,319; New York 7,858; Texas 1,176; Kentucky 711; Utah 520",17147,8411,12450,37,0,48.7,"7:58 PM CT, Friday, November 13, 2026",43237,"California 16,331; New York 14,058; U.S. Virgin Islands 4,135; Texas 1,373; Kentucky 1,258"
