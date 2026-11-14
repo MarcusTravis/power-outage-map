@@ -31,7 +31,7 @@ In the browser, the homepage still fetches `data.json` with a cache-busting quer
 
 Refresh cadence for the data itself:
 
-- United States: every 30 minutes
+- United States: about every hour
 - Worldwide list: a few times a day (about four)
 
 Set `as_of` to the snapshot time in Central Time (CT), for example `"2:35 PM CT, Thursday, November 12, 2026"`.
