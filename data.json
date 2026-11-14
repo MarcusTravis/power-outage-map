@@ -1,5 +1,5 @@
 {
-  "as_of": "6:03 AM CT, Saturday, November 14, 2026",
+  "as_of": "6:57 AM CT, Saturday, November 14, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "41,406 customers out",
+      "affected": "37,308 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "6:03 AM CT"
+      "updated": "6:57 AM CT"
     },
     {
       "lat": 42.9538,
@@ -19,35 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "13,268 customers out",
+      "affected": "12,442 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "6:03 AM CT"
-    },
-    {
-      "lat": 28.6305,
-      "lon": -82.4497,
-      "place": "Florida",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,780 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/florida",
-      "updated": "6:03 AM CT"
-    },
-    {
-      "lat": 32.7364,
-      "lon": -89.6678,
-      "place": "Mississippi",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,594 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/mississippi",
-      "updated": "6:03 AM CT"
+      "updated": "6:57 AM CT"
     },
     {
       "lat": 44.3467,
@@ -55,11 +31,23 @@
       "place": "Michigan",
       "region": "United States",
       "cause": "",
-      "affected": "3,394 customers out",
+      "affected": "3,225 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/michigan",
-      "updated": "6:03 AM CT"
+      "updated": "6:57 AM CT"
+    },
+    {
+      "lat": 28.6305,
+      "lon": -82.4497,
+      "place": "Florida",
+      "region": "United States",
+      "cause": "",
+      "affected": "3,206 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/florida",
+      "updated": "6:57 AM CT"
     },
     {
       "lat": 37.1661,
@@ -67,11 +55,23 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "2,734 customers out",
+      "affected": "2,280 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "6:03 AM CT"
+      "updated": "6:57 AM CT"
+    },
+    {
+      "lat": 35.5557,
+      "lon": -79.3877,
+      "place": "North Carolina",
+      "region": "United States",
+      "cause": "",
+      "affected": "2,045 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/north%20carolina",
+      "updated": "6:57 AM CT"
     },
     {
       "lat": 50.45,
@@ -115,11 +115,11 @@
       "place": "Venezuela",
       "region": "Nationwide",
       "cause": "Widespread, ongoing grid failures after years of underinvestment and poor maintenance, worsened by June earthquakes",
-      "affected": "No official customer count. Bloomberg Línea reported Nov 13 that outages are worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts. France 24 reported Nov 13 that some communities in Carabobo state go up to eight hours a day without power. A late-September Meganálisis survey cited by Bloomberg Línea found 87% of respondents lost power at least four days a week. Interim President Delcy Rodríguez said the June earthquakes took about 800 MW of generation offline, of which 600 MW had been restored.",
+      "affected": "No official customer count. Bloomberg L\u00ednea reported Nov 13 that outages are worsening nationwide, with M\u00e9rida, T\u00e1chira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts. France 24 reported Nov 13 that some communities in Carabobo state go up to eight hours a day without power. A late-September Megan\u00e1lisis survey cited by Bloomberg L\u00ednea found 87% of respondents lost power at least four days a week. Interim President Delcy Rodr\u00edguez said the June earthquakes took about 800 MW of generation offline, of which 600 MW had been restored.",
       "start": "",
       "etr": "",
       "source": "https://www.bloomberglinea.com/latinoamerica/venezuela/apagones-se-agravan-en-venezuela-y-aumentan-la-presion-politica-sobre-el-gobierno-de-delcy-rodriguez/",
-      "updated": "Nov 13, 2026 (Bloomberg Línea and France 24); rechecked 5:53 AM CT, no official customer count found"
+      "updated": "Nov 13, 2026 (Bloomberg L\u00ednea and France 24); rechecked 5:53 AM CT, no official customer count found"
     },
     {
       "lat": 31.52,
