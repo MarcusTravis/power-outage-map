@@ -1,5 +1,5 @@
 {
-  "as_of": "1:59 AM CT, Saturday, November 14, 2026",
+  "as_of": "3:03 AM CT, Saturday, November 14, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "43,014 customers out",
+      "affected": "45,761 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "1:59 AM CT"
+      "updated": "3:03 AM CT"
     },
     {
       "lat": 42.9538,
@@ -19,11 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "12,308 customers out",
+      "affected": "12,386 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "1:59 AM CT"
+      "updated": "3:03 AM CT"
     },
     {
       "lat": 37.1661,
@@ -31,23 +31,23 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "11,801 customers out",
+      "affected": "9,406 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "1:59 AM CT"
+      "updated": "3:03 AM CT"
     },
     {
-      "lat": 32.7364,
-      "lon": -89.6678,
-      "place": "Mississippi",
+      "lat": 28.6305,
+      "lon": -82.4497,
+      "place": "Florida",
       "region": "United States",
       "cause": "",
-      "affected": "4,385 customers out",
+      "affected": "5,851 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/mississippi",
-      "updated": "1:59 AM CT"
+      "source": "https://poweroutage.us/area/state/florida",
+      "updated": "3:03 AM CT"
     },
     {
       "lat": 44.3467,
@@ -55,23 +55,23 @@
       "place": "Michigan",
       "region": "United States",
       "cause": "",
-      "affected": "3,071 customers out",
+      "affected": "3,066 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/michigan",
-      "updated": "1:59 AM CT"
+      "updated": "3:03 AM CT"
     },
     {
-      "lat": 31.0689,
-      "lon": -91.9968,
-      "place": "Louisiana",
+      "lat": 35.5557,
+      "lon": -79.3877,
+      "place": "North Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "1,482 customers out",
+      "affected": "2,495 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/louisiana",
-      "updated": "1:59 AM CT"
+      "source": "https://poweroutage.us/area/state/north%20carolina",
+      "updated": "3:03 AM CT"
     },
     {
       "lat": 50.45,
@@ -103,7 +103,7 @@
       "place": "Venezuela",
       "region": "Nationwide",
       "cause": "Widespread, ongoing grid failures after years of underinvestment, worsened by June earthquakes",
-      "affected": "No official customer count. Bloomberg Línea reported Nov 13 that outages are worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts. A late-September Meganálisis survey cited in that report found 87% of respondents lost power at least four days a week, and nearly four in five said cuts usually lasted more than three hours. Interim President Delcy Rodríguez said the June earthquakes took about 800 MW of generation offline, of which 600 MW had been restored. Infobae, citing a Nov 13 Conindustria report, said manufacturers lost power during 231 of 520 working hours (44%) in the third quarter, with the Andes (324 hours) and Zulia (311 hours) the hardest hit.",
+      "affected": "No official customer count. Bloomberg L\u00ednea reported Nov 13 that outages are worsening nationwide, with M\u00e9rida, T\u00e1chira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts. A late-September Megan\u00e1lisis survey cited in that report found 87% of respondents lost power at least four days a week, and nearly four in five said cuts usually lasted more than three hours. Interim President Delcy Rodr\u00edguez said the June earthquakes took about 800 MW of generation offline, of which 600 MW had been restored. Infobae, citing a Nov 13 Conindustria report, said manufacturers lost power during 231 of 520 working hours (44%) in the third quarter, with the Andes (324 hours) and Zulia (311 hours) the hardest hit.",
       "start": "",
       "etr": "",
       "source": "https://www.bloomberglinea.com/latinoamerica/venezuela/apagones-se-agravan-en-venezuela-y-aumentan-la-presion-politica-sobre-el-gobierno-de-delcy-rodriguez/",
