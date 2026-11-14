@@ -1,5 +1,5 @@
 {
-  "as_of": "10:59 PM CT, Friday, November 13, 2026",
+  "as_of": "11:58 PM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -83,19 +83,19 @@
       "start": "",
       "etr": "",
       "source": "https://ua.news/ua/ukraine/ukrenergo-anonsuvalo-grafiki-vidkliuchennia-svitla-na-14-listopada",
-      "updated": "Nov 13, 2026, 9:26 p.m. EET (1:26 p.m. CT)"
+      "updated": "Nov 13, 2026, 9:26 p.m. EET (1:26 p.m. CT); Nov 14 schedules rechecked early Saturday CT and still in effect"
     },
     {
       "lat": 23.113,
       "lon": -82.367,
       "place": "Cuba",
       "region": "National electric system (SEN)",
-      "cause": "Generation capacity deficit (multiple thermal units offline or in maintenance), plus a Friday transmission-line trip that briefly isolated Granma",
-      "affected": "1,930 MW forecast to be affected at peak on Nov 13 (1,900 MW deficit), according to UNE's morning bulletin. At 6:00 a.m. Cuba time, 900 MW was available, demand was 2,142 MW, and 1,245 MW was already affected; UNE estimated 1,600 MW affected at midday. Thursday's maximum affectation was 1,920 MW at 7:00 p.m. The morning forecast listed several thermal units offline or in maintenance, including Guiteras, Felton, Santa Cruz, Renté, and Nuevitas. CubaNet, citing a later UNE note, said unit 2 of the Ernesto Guevara plant in Santa Cruz went offline at 8:55 a.m. Cuba time due to an oil leak in a turbine bearing, leaving all three units at that plant out of service; that failure was not included in the morning peak forecast. On Friday, a fault on the 110 kV line to Santiago de Cuba fully disconnected Granma province from the national grid; the Electric Company of Granma said the province was reconnected at 1:27 p.m. Cuba time and had 20 MW in service at 1:50 p.m., with restoration continuing gradually. Las Tunas was isolated at midday by the National Load Dispatch and resynchronized at 1:24 p.m. with 15 MW, according to the provincial utility as reported by El Alambique and CiberCuba. No later official UNE figure for the actual evening peak was found as of Friday evening CT.",
+      "cause": "Generation capacity deficit (multiple thermal units offline or in maintenance), plus Friday transmission-line and dispatch isolations that briefly cut Granma and Las Tunas from the national grid",
+      "affected": "UNE's Friday morning bulletin forecast 1,930 MW affected at peak on Nov 13 (1,900 MW deficit): 900 MW available versus 2,800 MW demand. At 6:00 a.m. Cuba time, 900 MW was available, demand was 2,142 MW, and 1,245 MW was already affected; UNE estimated 1,600 MW affected at midday. Thursday's maximum affectation was 1,920 MW at 7:00 p.m. CiberCuba, citing UNE, said unit 2 of the Ernesto Guevara plant in Santa Cruz went offline at 8:55 a.m. Cuba time due to an oil leak in a turbine bearing, leaving all three units at that plant out of service. On Friday, a fault on the 110 kV line to Santiago de Cuba fully disconnected Granma province from the national grid; the Electric Company of Granma said the province was reconnected at 1:27 p.m. Cuba time and had 20 MW in service at 1:50 p.m. Las Tunas was isolated at midday by the National Load Dispatch and resynchronized at 1:24 p.m. with 15 MW, according to the provincial utility as reported by El Alambique and CiberCuba. CiberCuba, citing the Electric Company of Havana, said that at 9:36 p.m. Cuba time Havana had 346 MW affected by deficit and 142 distribution circuits affected; some Havana circuits were later reported restored late Friday night. CiberCuba's SEN observatory, last updated at 8:01 p.m. Cuba time Nov 13, still listed the national grid as interconnected, with no total system collapse recorded. No official UNE figure for the actual Friday evening peak was found, and Saturday's morning bulletin had not been published as of early Saturday CT.",
       "start": "",
       "etr": "",
-      "source": "https://elalambique.net/historias/granma-y-las-tunas-desconectadas-del-sistema-electrico-nacional-el-mismo-dia/",
-      "updated": "Nov 13, 2026, 6:03 p.m. (El Alambique timestamp; UNE morning bulletin and Friday afternoon provincial utility notices)"
+      "source": "https://www.cibercuba.com/apagones/2026/11/13/",
+      "updated": "Nov 13, 2026, 11:47 p.m. Cuba time (10:47 p.m. CT), per CiberCuba's latest Havana circuit notices; rechecked early Saturday CT"
     },
     {
       "lat": 10.48,
@@ -103,11 +103,11 @@
       "place": "Venezuela",
       "region": "Nationwide",
       "cause": "Widespread, ongoing grid failures after years of underinvestment, worsened by June earthquakes",
-      "affected": "No official customer count. Bloomberg Línea reported Nov 13 that outages are worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts. A late-September Meganálisis survey cited in that report found 87% of respondents lost power at least four days a week, and nearly four in five said cuts usually lasted more than three hours. Interim President Delcy Rodríguez said the June earthquakes took about 800 MW of generation offline, of which 600 MW had been restored.",
+      "affected": "No official customer count. Bloomberg Línea reported Nov 13 that outages are worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts. A late-September Meganálisis survey cited in that report found 87% of respondents lost power at least four days a week, and nearly four in five said cuts usually lasted more than three hours. Interim President Delcy Rodríguez said the June earthquakes took about 800 MW of generation offline, of which 600 MW had been restored. Infobae, citing a Nov 13 Conindustria report, said manufacturers lost power during 231 of 520 working hours (44%) in the third quarter, with the Andes (324 hours) and Zulia (311 hours) the hardest hit.",
       "start": "",
       "etr": "",
       "source": "https://www.bloomberglinea.com/latinoamerica/venezuela/apagones-se-agravan-en-venezuela-y-aumentan-la-presion-politica-sobre-el-gobierno-de-delcy-rodriguez/",
-      "updated": "Nov 13, 2026, 12:04 a.m.; rechecked Friday evening CT, no later official customer count found"
+      "updated": "Nov 13, 2026, 12:04 a.m.; Infobae/Conindustria report also dated Nov 13; rechecked early Saturday CT, no later official customer count found"
     },
     {
       "lat": 31.52,
@@ -115,35 +115,23 @@
       "place": "Lahore and nationwide",
       "region": "Pakistan",
       "cause": "National generation shortfall during evening peak; Tarbela hydropower about 800 MW below normal after reduced water releases following the fifth-extension incident, plus seasonal hydrology and LNG limits",
-      "affected": "About 1,500 MW national shortfall during evening peak on Nov 11 (peak demand about 16,000 MW vs. about 14,500 MW available), according to ISMO figures cited Nov 12. ISMO said the Nov 10 shortfall, which reached about 2,530 MW, had eased and that generation was back to the routine plan as of Nov 11, but the 1,500 MW evening-peak gap (5 p.m. to 11 p.m.) remained. Discos were following existing 1.5 to 2 hour load-management schedules; The Nation reported some areas still facing up to five hours of additional load-shedding. No later official ISMO update was found as of Friday evening CT.",
+      "affected": "About 1,500 MW national shortfall during evening peak on Nov 11 (peak demand about 16,000 MW vs. about 14,500 MW available), according to ISMO figures cited Nov 12. ISMO said the Nov 10 shortfall, which reached about 2,530 MW, had eased and that generation was back to the routine plan as of Nov 11, but the 1,500 MW evening-peak gap (5 p.m. to 11 p.m.) remained. Discos were following existing 1.5 to 2 hour load-management schedules; The Nation reported some areas still facing up to five hours of additional load-shedding. No later official ISMO update was found as of early Saturday CT.",
       "start": "",
       "etr": "",
       "source": "https://www.nation.com.pk/12-Nov-2026/discos-carrying-2-hours-additional-loadshedding",
-      "updated": "Nov 12, 2026; no later official ISMO update found as of Friday evening CT"
+      "updated": "Nov 12, 2026; no later official ISMO update found as of early Saturday CT"
     },
     {
       "lat": -26.204,
       "lon": 28.007,
       "place": "Mayfair, Crosby, Homestead Park, Mayfair West, and nearby suburbs",
       "region": "Johannesburg, South Africa",
-      "cause": "Fire and a later explosion at the Mayfair substation; after overnight restoration, the Hursthill substation tripped early Friday because of a network overload. The cause of the Mayfair fire is being investigated",
-      "affected": "No official customer count. City Power said power restored overnight to essential services and some residential and industrial customers was lost again when Hursthill tripped early Friday. The outage again affected the SABC, Netcare Garden City Hospital, Sentech, residents in Crosby, Homestead Park, Mayfair, and Mayfair West, and about 50% of customers in Crown's industrial area. No later Friday evening official update was found after City Power's midday statement.",
+      "cause": "Fire and a later explosion at the Mayfair substation; after a Thursday-night restoration, the Hursthill substation tripped early Friday because of a network overload. The cause of the Mayfair fire is being investigated",
+      "affected": "No official customer count. In a Saturday, Nov 14, customer alert, City Power said it had restored electricity to the SABC, Netcare Garden City Hospital, and residential customers in Mayfair West after overnight repairs and testing at the Hursthill and Mayfair substations. A Friday morning attempt to restore more customers was interrupted when the network became overloaded and supply tripped again. City Power said Saturday that engineers would continue preparing for Phase 2, which is expected to restore remaining affected customers if there are no further technical challenges. A separate Hursthill SDC update issued at 7:30 a.m. SAST Saturday said that centre was managing 1,524 open calls, 1,266 of them more than 24 hours old; that figure covers the wider Hursthill service area and is not a customer count for the Mayfair outage alone.",
       "start": "Early Sunday morning, Nov 8, 2026 (SAST)",
-      "etr": "City Power said Friday it would gradually restore supply during the day and into the weekend, depending on network stability",
-      "source": "https://www.jacarandafm.com/news/news/joburg-power-disrupted-as-hursthill-trips-again/",
-      "updated": "Nov 13, 2026, 12:02 p.m. SAST (4:02 a.m. CT); rechecked Friday evening CT, no later official update found"
-    },
-    {
-      "lat": 47.56,
-      "lon": -52.71,
-      "place": "Newfoundland",
-      "region": "Canada",
-      "cause": "A transmission line trip triggered an under-frequency load shedding event, according to Newfoundland and Labrador Hydro",
-      "affected": "About 50,000 Newfoundland Power customers were without electricity at the peak. CBC reported that power was restored shortly before 5 p.m. NT. VOCM said the outage earlier Friday afternoon affected pockets of customers on the Avalon Peninsula, the Burin Peninsula, in central Newfoundland, and on the west coast.",
-      "start": "Friday afternoon, Nov 13, 2026 (NT)",
-      "etr": "Restored shortly before 5 p.m. NT (2:30 p.m. CT)",
-      "source": "https://www.cbc.ca/news/canada/newfoundland-labrador/power-outage-friday-9.7421179",
-      "updated": "Nov 13, 2026, shortly before 5 p.m. NT (2:30 p.m. CT)"
+      "etr": "City Power said Saturday that Phase 2 is expected to restore remaining customers if there are no further technical challenges",
+      "source": "https://x.com/CityPowerJhb/status/2121482027887124739",
+      "updated": "Nov 14, 2026, 7:55 a.m. SAST (11:55 p.m. CT, Friday, Nov 13)"
     }
   ]
 }
