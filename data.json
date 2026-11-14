@@ -1,5 +1,5 @@
 {
-  "as_of": "10:06 PM CT, Friday, November 13, 2026",
+  "as_of": "10:59 PM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "47,173 customers out",
+      "affected": "49,117 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "10:06 PM CT"
+      "updated": "10:59 PM CT"
     },
     {
       "lat": 42.9538,
@@ -19,23 +19,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "14,941 customers out",
+      "affected": "13,264 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "10:06 PM CT"
-    },
-    {
-      "lat": 37.1661,
-      "lon": -119.4494,
-      "place": "California",
-      "region": "United States",
-      "cause": "",
-      "affected": "14,003 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/california",
-      "updated": "10:06 PM CT"
+      "updated": "10:59 PM CT"
     },
     {
       "lat": 34.1672,
@@ -43,11 +31,11 @@
       "place": "New Mexico",
       "region": "United States",
       "cause": "",
-      "affected": "6,314 customers out",
+      "affected": "9,411 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20mexico",
-      "updated": "10:06 PM CT"
+      "updated": "10:59 PM CT"
     },
     {
       "lat": 18.338,
@@ -55,11 +43,23 @@
       "place": "U.S. Virgin Islands",
       "region": "United States",
       "cause": "",
-      "affected": "4,263 customers out",
+      "affected": "8,135 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "10:06 PM CT"
+      "updated": "10:59 PM CT"
+    },
+    {
+      "lat": 37.1661,
+      "lon": -119.4494,
+      "place": "California",
+      "region": "United States",
+      "cause": "",
+      "affected": "5,835 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/california",
+      "updated": "10:59 PM CT"
     },
     {
       "lat": 40.1,
@@ -67,11 +67,11 @@
       "place": "New Jersey",
       "region": "United States",
       "cause": "",
-      "affected": "1,169 customers out",
+      "affected": "2,333 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20jersey",
-      "updated": "10:06 PM CT"
+      "updated": "10:59 PM CT"
     },
     {
       "lat": 50.45,
@@ -91,7 +91,7 @@
       "place": "Cuba",
       "region": "National electric system (SEN)",
       "cause": "Generation capacity deficit (multiple thermal units offline or in maintenance), plus a Friday transmission-line trip that briefly isolated Granma",
-      "affected": "1,930 MW forecast to be affected at peak on Nov 13 (1,900 MW deficit), according to UNE's morning bulletin. At 6:00 a.m. Cuba time, 900 MW was available, demand was 2,142 MW, and 1,245 MW was already affected; UNE estimated 1,600 MW affected at midday. Thursday's maximum affectation was 1,920 MW at 7:00 p.m. The morning forecast listed several thermal units offline or in maintenance, including Guiteras, Felton, Santa Cruz, Rent\u00e9, and Nuevitas. CubaNet, citing a later UNE note, said unit 2 of the Ernesto Guevara plant in Santa Cruz went offline at 8:55 a.m. Cuba time due to an oil leak in a turbine bearing, leaving all three units at that plant out of service; that failure was not included in the morning peak forecast. On Friday, a fault on the 110 kV line to Santiago de Cuba fully disconnected Granma province from the national grid; the Electric Company of Granma said the province was reconnected at 1:27 p.m. Cuba time and had 20 MW in service at 1:50 p.m., with restoration continuing gradually. Las Tunas was isolated at midday by the National Load Dispatch and resynchronized at 1:24 p.m. with 15 MW, according to the provincial utility as reported by El Alambique and CiberCuba. No later official UNE figure for the actual evening peak was found as of Friday evening CT.",
+      "affected": "1,930 MW forecast to be affected at peak on Nov 13 (1,900 MW deficit), according to UNE's morning bulletin. At 6:00 a.m. Cuba time, 900 MW was available, demand was 2,142 MW, and 1,245 MW was already affected; UNE estimated 1,600 MW affected at midday. Thursday's maximum affectation was 1,920 MW at 7:00 p.m. The morning forecast listed several thermal units offline or in maintenance, including Guiteras, Felton, Santa Cruz, Renté, and Nuevitas. CubaNet, citing a later UNE note, said unit 2 of the Ernesto Guevara plant in Santa Cruz went offline at 8:55 a.m. Cuba time due to an oil leak in a turbine bearing, leaving all three units at that plant out of service; that failure was not included in the morning peak forecast. On Friday, a fault on the 110 kV line to Santiago de Cuba fully disconnected Granma province from the national grid; the Electric Company of Granma said the province was reconnected at 1:27 p.m. Cuba time and had 20 MW in service at 1:50 p.m., with restoration continuing gradually. Las Tunas was isolated at midday by the National Load Dispatch and resynchronized at 1:24 p.m. with 15 MW, according to the provincial utility as reported by El Alambique and CiberCuba. No later official UNE figure for the actual evening peak was found as of Friday evening CT.",
       "start": "",
       "etr": "",
       "source": "https://elalambique.net/historias/granma-y-las-tunas-desconectadas-del-sistema-electrico-nacional-el-mismo-dia/",
@@ -103,7 +103,7 @@
       "place": "Venezuela",
       "region": "Nationwide",
       "cause": "Widespread, ongoing grid failures after years of underinvestment, worsened by June earthquakes",
-      "affected": "No official customer count. Bloomberg L\u00ednea reported Nov 13 that outages are worsening nationwide, with M\u00e9rida, T\u00e1chira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts. A late-September Megan\u00e1lisis survey cited in that report found 87% of respondents lost power at least four days a week, and nearly four in five said cuts usually lasted more than three hours. Interim President Delcy Rodr\u00edguez said the June earthquakes took about 800 MW of generation offline, of which 600 MW had been restored.",
+      "affected": "No official customer count. Bloomberg Línea reported Nov 13 that outages are worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts. A late-September Meganálisis survey cited in that report found 87% of respondents lost power at least four days a week, and nearly four in five said cuts usually lasted more than three hours. Interim President Delcy Rodríguez said the June earthquakes took about 800 MW of generation offline, of which 600 MW had been restored.",
       "start": "",
       "etr": "",
       "source": "https://www.bloomberglinea.com/latinoamerica/venezuela/apagones-se-agravan-en-venezuela-y-aumentan-la-presion-politica-sobre-el-gobierno-de-delcy-rodriguez/",
