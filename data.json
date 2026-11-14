@@ -1,5 +1,5 @@
 {
-  "as_of": "7:04 PM CT, Friday, November 13, 2026",
+  "as_of": "7:58 PM CT, Friday, November 13, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,23 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "45,213 customers out",
+      "affected": "43,237 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "7:04 PM CT"
-    },
-    {
-      "lat": 42.9538,
-      "lon": -75.5268,
-      "place": "New York",
-      "region": "United States",
-      "cause": "",
-      "affected": "15,366 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "7:04 PM CT"
+      "updated": "7:58 PM CT"
     },
     {
       "lat": 37.1661,
@@ -31,23 +19,23 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "9,006 customers out",
+      "affected": "16,331 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "7:04 PM CT"
+      "updated": "7:58 PM CT"
     },
     {
-      "lat": 39.3055,
-      "lon": -111.6703,
-      "place": "Utah",
+      "lat": 42.9538,
+      "lon": -75.5268,
+      "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "6,243 customers out",
+      "affected": "14,058 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/utah",
-      "updated": "7:04 PM CT"
+      "source": "https://poweroutage.us/area/state/new%20york",
+      "updated": "7:58 PM CT"
     },
     {
       "lat": 18.338,
@@ -55,11 +43,11 @@
       "place": "U.S. Virgin Islands",
       "region": "United States",
       "cause": "",
-      "affected": "4,028 customers out",
+      "affected": "4,135 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "7:04 PM CT"
+      "updated": "7:58 PM CT"
     },
     {
       "lat": 31.1761,
@@ -67,11 +55,23 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "1,643 customers out",
+      "affected": "1,373 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "7:04 PM CT"
+      "updated": "7:58 PM CT"
+    },
+    {
+      "lat": 37.5347,
+      "lon": -85.3021,
+      "place": "Kentucky",
+      "region": "United States",
+      "cause": "",
+      "affected": "1,258 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/kentucky",
+      "updated": "7:58 PM CT"
     },
     {
       "lat": 50.45,
