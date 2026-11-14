@@ -1,5 +1,5 @@
 {
-  "as_of": "5:11 AM CT, Saturday, November 14, 2026",
+  "as_of": "5:53 AM CT, Saturday, November 14, 2026",
   "outages": [
     {
       "lat": null,
@@ -78,36 +78,48 @@
       "lon": 30.524,
       "place": "Kyiv and nationwide",
       "region": "Ukraine",
-      "cause": "Rolling and emergency blackouts after attacks on energy infrastructure",
-      "affected": "Ukrenergo said Saturday, Nov 14, hourly rolling blackouts of 1.5 to 3 queues will again be in effect around the clock in some regions, with industrial capacity limits also in place, after the same format was used throughout Friday, Nov 13. Ukrenergo and Ukraine's Energy Ministry said Friday that Russian attacks left consumers without power in 12 regions: Dnipropetrovsk, Donetsk, Zaporizhia, Zhytomyr, Kyiv, Mykolaiv, Odesa, Rivne, Sumy, Kharkiv, Khmelnytsky, and Chernihiv. Chernihivoblenergo said a Russian attack left about 150,000 customers without power in the Nizhyn and Pryluky districts; crews would start repairs when the security situation allows. Regional operators also reported emergency cuts Friday in parts of the Kyiv region (Bucha, Fastiv, Bila Tserkva, and Obukhiv districts) and in the Kharkiv, Dnipropetrovsk, Zhytomyr, Chernihiv, and Cherkasy regions. UA.NEWS, citing earlier figures, said nearly 700,000 households remained without power as of Nov 12.",
+      "cause": "Rolling and emergency blackouts after Russian attacks on energy infrastructure",
+      "affected": "Ukrenergo said hourly rolling blackouts of 1.5 to 3 queues for all consumers, plus industrial capacity limits, are in effect around the clock in parts of Ukraine on Saturday, Nov 14. New Saturday-morning outages: DTEK said a Russian attack on one of its facilities in the north of Odesa region left almost 50,000 households without power (no restoration time given); Sumyoblenergo reported a large-scale emergency outage in part of Sumy region (no customer count released for security reasons); DTEK said emergency cuts are in effect in the Bucha, Fastiv, and Obukhiv districts of Kyiv region, with stabilization schedules in Kyiv city and the rest of the region. Poltava regional authorities said bad weather left about 2,000 subscribers in 13 settlements without power. On Friday, Nov 13, Chernihivoblenergo said an attack left about 150,000 customers without power in the Nizhyn and Pryluky districts, and the Energy Ministry said consumers in 12 regions were without power; no later Chernihiv figure was found.",
       "start": "",
       "etr": "",
-      "source": "https://ua.news/ua/ukraine/ukrenergo-anonsuvalo-grafiki-vidkliuchennia-svitla-na-14-listopada",
-      "updated": "Nov 13, 2026, 9:26 p.m. EET (1:26 p.m. CT); Nov 14 schedules rechecked early Saturday CT and still in effect"
+      "source": "https://unn.ua/en/news/russian-attacks-on-the-energy-infrastructure-continue-where-power-outages-are-occurring-on-november-14",
+      "updated": "Nov 14, 2026, morning Kyiv time (UNN 8:59 a.m.; DTEK Odesa figure per Ukrainska Pravda 12:32 p.m. EET = 4:32 a.m. CT); rechecked 5:53 AM CT"
+    },
+    {
+      "lat": 46.48,
+      "lon": 30.73,
+      "place": "Northern Odesa region",
+      "region": "Odesa, Ukraine",
+      "cause": "Russian attack on a DTEK energy facility",
+      "affected": "Almost 50,000 households without power, according to DTEK. Crews were clearing rubble and repairing damaged equipment; DTEK said the facility had been hit repeatedly and restoration will take time.",
+      "start": "Morning of Nov 14, 2026 (Kyiv time)",
+      "etr": "",
+      "source": "https://www.pravda.com.ua/eng/news/2026/11/14/8062851/",
+      "updated": "Nov 14, 2026, 12:32 p.m. EET (4:32 a.m. CT)"
     },
     {
       "lat": 23.113,
       "lon": -82.367,
       "place": "Cuba",
       "region": "National electric system (SEN)",
-      "cause": "Generation capacity deficit (multiple thermal units offline or in maintenance), plus Friday transmission-line and dispatch isolations that briefly cut Granma and Las Tunas from the national grid",
-      "affected": "UNE's Friday morning bulletin forecast 1,930 MW affected at peak on Nov 13 (1,900 MW deficit): 900 MW available versus 2,800 MW demand. At 6:00 a.m. Cuba time, 900 MW was available, demand was 2,142 MW, and 1,245 MW was already affected; UNE estimated 1,600 MW affected at midday. Thursday's maximum affectation was 1,920 MW at 7:00 p.m. CiberCuba, citing UNE, said unit 2 of the Ernesto Guevara plant in Santa Cruz went offline at 8:55 a.m. Cuba time due to an oil leak in a turbine bearing, leaving all three units at that plant out of service. On Friday, a fault on the 110 kV line to Santiago de Cuba fully disconnected Granma province from the national grid; the Electric Company of Granma said the province was reconnected at 1:27 p.m. Cuba time and had 20 MW in service at 1:50 p.m. Las Tunas was isolated at midday by the National Load Dispatch and resynchronized at 1:24 p.m. with 15 MW, according to the provincial utility as reported by El Alambique and CiberCuba. CiberCuba, citing the Electric Company of Havana, said that at 9:36 p.m. Cuba time Havana had 346 MW affected by deficit and 142 distribution circuits affected; some Havana circuits were later reported restored late Friday night. CiberCuba's SEN observatory, last updated at 8:01 p.m. Cuba time Nov 13, still listed the national grid as interconnected, with no total system collapse recorded. No official UNE figure for the actual Friday evening peak was found, and Saturday's morning bulletin had not been published as of early Saturday CT.",
+      "cause": "Generation capacity deficit, with the Antonio Guiteras, Ernesto Guevara (Santa Cruz), and Felton plants all fully offline due to breakdowns and maintenance",
+      "affected": "UNE's latest daily bulletin (Friday, Nov 13) forecast 1,930 MW affected at peak: 900 MW available versus 2,800 MW demand (1,900 MW deficit), after a Thursday maximum of 1,920 MW at 7:00 p.m. and service affected all 24 hours. On Friday, Granma and Las Tunas were each briefly cut off from the national grid and reconnected with only 20 MW and 15 MW, respectively. As of 4:02 a.m. Saturday Cuba time, the Electric Company of Havana reported 258 MW affected and 117 distribution circuits out in Havana, with some circuits in Boyeros out for nearly 14 hours. CiberCuba's SEN observatory (updated 5:01 a.m. Saturday) still lists the national grid as interconnected, with no total collapse recorded. UNE's Saturday bulletin had not been published as of early Saturday CT.",
       "start": "",
       "etr": "",
-      "source": "https://www.cibercuba.com/apagones/2026/11/13/",
-      "updated": "Nov 13, 2026, 11:47 p.m. Cuba time (10:47 p.m. CT), per CiberCuba's latest Havana circuit notices; rechecked early Saturday CT"
+      "source": "https://www.cibercuba.com/apagones/2026/11/14/",
+      "updated": "Nov 14, 2026, 5:45 a.m. Cuba time (4:45 a.m. CT), per CiberCuba's latest Havana circuit notices; rechecked 5:53 AM CT"
     },
     {
       "lat": 10.48,
       "lon": -66.903,
       "place": "Venezuela",
       "region": "Nationwide",
-      "cause": "Widespread, ongoing grid failures after years of underinvestment, worsened by June earthquakes",
-      "affected": "No official customer count. Bloomberg Línea reported Nov 13 that outages are worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts. A late-September Meganálisis survey cited in that report found 87% of respondents lost power at least four days a week, and nearly four in five said cuts usually lasted more than three hours. Interim President Delcy Rodríguez said the June earthquakes took about 800 MW of generation offline, of which 600 MW had been restored. Infobae, citing a Nov 13 Conindustria report, said manufacturers lost power during 231 of 520 working hours (44%) in the third quarter, with the Andes (324 hours) and Zulia (311 hours) the hardest hit.",
+      "cause": "Widespread, ongoing grid failures after years of underinvestment and poor maintenance, worsened by June earthquakes",
+      "affected": "No official customer count. Bloomberg Línea reported Nov 13 that outages are worsening nationwide, with Mérida, Táchira, and Trujillo among the hardest hit; Caracas is largely spared the worst cuts. France 24 reported Nov 13 that some communities in Carabobo state go up to eight hours a day without power. A late-September Meganálisis survey cited by Bloomberg Línea found 87% of respondents lost power at least four days a week. Interim President Delcy Rodríguez said the June earthquakes took about 800 MW of generation offline, of which 600 MW had been restored.",
       "start": "",
       "etr": "",
       "source": "https://www.bloomberglinea.com/latinoamerica/venezuela/apagones-se-agravan-en-venezuela-y-aumentan-la-presion-politica-sobre-el-gobierno-de-delcy-rodriguez/",
-      "updated": "Nov 13, 2026, 12:04 a.m.; Infobae/Conindustria report also dated Nov 13; rechecked early Saturday CT, no later official customer count found"
+      "updated": "Nov 13, 2026 (Bloomberg Línea and France 24); rechecked 5:53 AM CT, no official customer count found"
     },
     {
       "lat": 31.52,
@@ -119,7 +131,7 @@
       "start": "",
       "etr": "",
       "source": "https://www.nation.com.pk/12-Nov-2026/discos-carrying-2-hours-additional-loadshedding",
-      "updated": "Nov 12, 2026; no later official ISMO update found as of early Saturday CT"
+      "updated": "Nov 12, 2026; no later official ISMO update found as of 5:53 AM CT"
     },
     {
       "lat": -26.204,
@@ -131,7 +143,7 @@
       "start": "Early Sunday morning, Nov 8, 2026 (SAST)",
       "etr": "City Power said Saturday that Phase 2 is expected to restore remaining customers if there are no further technical challenges",
       "source": "https://x.com/CityPowerJhb/status/2121482027887124739",
-      "updated": "Nov 14, 2026, 7:55 a.m. SAST (11:55 p.m. CT, Friday, Nov 13)"
+      "updated": "Nov 14, 2026, 7:55 a.m. SAST (11:55 p.m. CT, Friday, Nov 13); rechecked 5:53 AM CT, no newer City Power Mayfair update"
     }
   ]
 }
