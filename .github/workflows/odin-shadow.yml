@@ -1,9 +1,11 @@
-name: ODIN shadow (US outages)
+name: Utility maps + ODIN shadow (US outages)
 
-# SHADOW MODE: fetches US outage data from DOE/ORNL ODIN every 30 minutes and
-# writes it to the separate `odin-shadow` branch for comparison with the
-# poweroutage.us numbers in data.json. It never edits data.json or main, so the
-# live site (GitHub Pages from main) is unaffected.
+# SHADOW MODE: every 30 minutes (offset from the hour), reads the public outage
+# map feeds of ~37 large US utilities plus DOE/ORNL ODIN for everyone else
+# (scripts/fetch_utilities.py) and writes the combined US numbers to the
+# separate `odin-shadow` branch for comparison with the poweroutage.us numbers
+# in data.json. It never edits data.json or main, so the live site (GitHub
+# Pages from main) is unaffected.
 
 on:
   schedule:
@@ -22,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Check out main (script + data.json for comparison)
+      - name: Check out main (scripts + data.json for comparison)
         uses: actions/checkout@v5
         with:
           path: main
@@ -33,11 +35,11 @@ jobs:
           ref: odin-shadow
           path: shadow-branch
 
-      - name: Fetch ODIN and write shadow output
+      - name: Fetch utility maps + ODIN and write shadow output
         run: |
-          python3 main/scripts/fetch_odin.py \
-            --out shadow-branch/shadow/odin_us.json \
-            --log shadow-branch/shadow/odin_log.csv \
+          python3 main/scripts/fetch_utilities.py \
+            --out shadow-branch/shadow/combined_us.json \
+            --log shadow-branch/shadow/combined_log.csv \
             --compare main/data.json
 
       - name: Commit and push (retry on concurrent pushes)
@@ -47,7 +49,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add shadow/
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
-          git commit -q -m "ODIN shadow snapshot $(TZ=America/Chicago date '+%-I:%M %p CT')"
+          git commit -q -m "Combined shadow snapshot $(TZ=America/Chicago date '+%-I:%M %p CT')"
           for i in 1 2 3 4 5; do
             if git push -q origin HEAD:odin-shadow; then echo "Pushed"; exit 0; fi
             echo "Push rejected (attempt $i); rebasing and retrying"
