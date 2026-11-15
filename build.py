@@ -107,6 +107,12 @@ PAGE_INFO = {
         "title": "South Africa Power Outage Today | Live Power Outage Map",
         "link": "South Africa power outage today",
     },
+    "sudan": {
+        "name": "Sudan",
+        "heading": "Sudan Power Outage Today",
+        "title": "Sudan Power Outage Today | Live Power Outage Map",
+        "link": "Sudan power outage today",
+    },
     "nigeria": {
         "name": "Nigeria",
         "heading": "Nigeria Power Outage Today",
@@ -130,6 +136,7 @@ LINK_ORDER = [
     "pakistan",
     "australia",
     "south-africa",
+    "sudan",
     "nigeria",
     "canada",
     "us-virgin-islands",
@@ -181,6 +188,8 @@ def classify(row: dict) -> str | None:
         return "australia"
     if "south africa" in blob or "johannesburg" in blob:
         return "south-africa"
+    if "sudan" in blob:
+        return "sudan"
     if "nigeria" in blob:
         return "nigeria"
     if "canada" in blob or "newfoundland" in blob:
