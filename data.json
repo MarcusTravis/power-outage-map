@@ -1,5 +1,5 @@
 {
-  "as_of": "2:04 AM CT, Sunday, November 15, 2026",
+  "as_of": "3:04 AM CT, Sunday, November 15, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,23 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "27,344 customers out",
+      "affected": "29,353 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "2:04 AM CT"
-    },
-    {
-      "lat": 42.9538,
-      "lon": -75.5268,
-      "place": "New York",
-      "region": "United States",
-      "cause": "",
-      "affected": "5,682 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "2:04 AM CT"
+      "updated": "3:04 AM CT"
     },
     {
       "lat": 31.1761,
@@ -31,11 +19,23 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "4,591 customers out",
+      "affected": "6,518 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "2:04 AM CT"
+      "updated": "3:04 AM CT"
+    },
+    {
+      "lat": 42.9538,
+      "lon": -75.5268,
+      "place": "New York",
+      "region": "United States",
+      "cause": "",
+      "affected": "5,118 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/new%20york",
+      "updated": "3:04 AM CT"
     },
     {
       "lat": 37.1661,
@@ -43,11 +43,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "3,621 customers out",
+      "affected": "3,193 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "2:04 AM CT"
+      "updated": "3:04 AM CT"
     },
     {
       "lat": 35.858,
@@ -55,23 +55,23 @@
       "place": "Tennessee",
       "region": "United States",
       "cause": "",
-      "affected": "2,133 customers out",
+      "affected": "2,045 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/tennessee",
-      "updated": "2:04 AM CT"
+      "updated": "3:04 AM CT"
     },
     {
-      "lat": 18.338,
-      "lon": -64.894,
-      "place": "U.S. Virgin Islands",
+      "lat": 35.5557,
+      "lon": -79.3877,
+      "place": "North Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "1,882 customers out",
+      "affected": "1,960 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "2:04 AM CT"
+      "source": "https://poweroutage.us/area/state/north%20carolina",
+      "updated": "3:04 AM CT"
     },
     {
       "lat": 50.45,
@@ -102,12 +102,12 @@
       "lon": -82.367,
       "place": "Cuba",
       "region": "National electric system (SEN)",
-      "cause": "Generation capacity deficit, with several thermoelectric units offline due to breakdowns (Santa Cruz unit 1, Antonio Guiteras, Felton unit 2, and Renté unit 6) and maintenance (Santa Cruz unit 3, Nuevitas unit 5, Felton unit 1, and Renté unit 5); thermal generation is also limited by 283 MW",
-      "affected": "UNE's Saturday bulletin forecast 1,860 MW affected at the evening peak: 970 MW available versus 2,800 MW demand (1,830 MW deficit). At 6:00 a.m. Saturday, the grid had 920 MW available versus 2,222 MW of demand, leaving 1,301 MW unserved, and UNE estimated 1,450 MW affected at midday. On Friday, service was affected all 24 hours, with a maximum of 1,912 MW at 6:20 p.m. UNE said Renté unit 6 was expected to add 50 MW at the evening peak. No official Saturday evening-peak actual was found, and CiberCuba's archive of official SEN bulletins still listed the Saturday bulletin as the latest; no Sunday UNE bulletin had been published as of this check, shortly after midnight in Cuba. Just after midnight Sunday, Nov 15, Empresa Eléctrica de La Habana reported generation-deficit outages on several Havana circuits, including PG980 (Fraternidad, Callejas, San Agustín, and El Mamey), SF581, SF583, and A500, at about 12:02–12:05 a.m. Cuba time, while also reporting some other circuits restored; Empresa Eléctrica Villa Clara also reported affected circuits. The national grid was not reported as collapsed.",
+      "cause": "Generation capacity deficit, with several thermoelectric units offline due to breakdowns (Santa Cruz unit 1, Antonio Guiteras, Felton unit 2, and Rent\u00e9 unit 6) and maintenance (Santa Cruz unit 3, Nuevitas unit 5, Felton unit 1, and Rent\u00e9 unit 5); thermal generation is also limited by 283 MW",
+      "affected": "UNE's Saturday bulletin forecast 1,860 MW affected at the evening peak: 970 MW available versus 2,800 MW demand (1,830 MW deficit). At 6:00 a.m. Saturday, the grid had 920 MW available versus 2,222 MW of demand, leaving 1,301 MW unserved, and UNE estimated 1,450 MW affected at midday. On Friday, service was affected all 24 hours, with a maximum of 1,912 MW at 6:20 p.m. UNE said Rent\u00e9 unit 6 was expected to add 50 MW at the evening peak. No official Saturday evening-peak actual was found, and CiberCuba's archive of official SEN bulletins still listed the Saturday bulletin as the latest; no Sunday UNE bulletin had been published as of this check, shortly after midnight in Cuba. Just after midnight Sunday, Nov 15, Empresa El\u00e9ctrica de La Habana reported generation-deficit outages on several Havana circuits, including PG980 (Fraternidad, Callejas, San Agust\u00edn, and El Mamey), SF581, SF583, and A500, at about 12:02\u201312:05 a.m. Cuba time, while also reporting some other circuits restored; Empresa El\u00e9ctrica Villa Clara also reported affected circuits. The national grid was not reported as collapsed.",
       "start": "",
       "etr": "",
       "source": "https://www.juventudrebelde.cu/index.php/cuba/2026-11-14/preven-afectacion-de-1-860-mw-durante-el-horario-pico-de-este-sabado",
-      "updated": "Nov 14, 2026, UNE Saturday bulletin (Juventud Rebelde, 9:01 a.m. Cuba time); Havana and Villa Clara circuit notices on CiberCuba from about 12:02–12:05 a.m. Cuba time Sunday, Nov 15 (11:02–11:05 p.m. CT Saturday); rechecked 11:56 PM CT, no official Saturday peak actual or Sunday UNE bulletin found"
+      "updated": "Nov 14, 2026, UNE Saturday bulletin (Juventud Rebelde, 9:01 a.m. Cuba time); Havana and Villa Clara circuit notices on CiberCuba from about 12:02\u201312:05 a.m. Cuba time Sunday, Nov 15 (11:02\u201311:05 p.m. CT Saturday); rechecked 11:56 PM CT, no official Saturday peak actual or Sunday UNE bulletin found"
     },
     {
       "lat": 31.52,
