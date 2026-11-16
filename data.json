@@ -1,5 +1,5 @@
 {
-  "as_of": "5:55 AM CT, Monday, November 16, 2026",
+  "as_of": "5:59 AM CT, Monday, November 16, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,23 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "16,560 customers out",
+      "affected": "28,731 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "4:57 AM CT"
-    },
-    {
-      "lat": 37.1661,
-      "lon": -119.4494,
-      "place": "California",
-      "region": "United States",
-      "cause": "",
-      "affected": "5,722 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/california",
-      "updated": "4:57 AM CT"
+      "updated": "5:59 AM CT"
     },
     {
       "lat": 42.9538,
@@ -31,11 +19,35 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "2,566 customers out",
+      "affected": "9,395 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "4:57 AM CT"
+      "updated": "5:59 AM CT"
+    },
+    {
+      "lat": 28.6305,
+      "lon": -82.4497,
+      "place": "Florida",
+      "region": "United States",
+      "cause": "",
+      "affected": "5,100 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/florida",
+      "updated": "5:59 AM CT"
+    },
+    {
+      "lat": 37.1661,
+      "lon": -119.4494,
+      "place": "California",
+      "region": "United States",
+      "cause": "",
+      "affected": "4,668 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/california",
+      "updated": "5:59 AM CT"
     },
     {
       "lat": 31.1761,
@@ -43,11 +55,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "2,302 customers out",
+      "affected": "2,871 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "4:57 AM CT"
+      "updated": "5:59 AM CT"
     },
     {
       "lat": 32.6469,
@@ -55,23 +67,11 @@
       "place": "Georgia",
       "region": "United States",
       "cause": "",
-      "affected": "999 customers out",
+      "affected": "1,165 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/georgia",
-      "updated": "4:57 AM CT"
-    },
-    {
-      "lat": 41.6219,
-      "lon": -72.7273,
-      "place": "Connecticut",
-      "region": "United States",
-      "cause": "",
-      "affected": "680 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/connecticut",
-      "updated": "4:57 AM CT"
+      "updated": "5:59 AM CT"
     },
     {
       "lat": 50.45,
