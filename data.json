@@ -1,5 +1,5 @@
 {
-  "as_of": "8:58 PM CT, Sunday, November 15, 2026",
+  "as_of": "9:58 PM CT, Sunday, November 15, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "23,409 customers out",
+      "affected": "22,228 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "8:58 PM CT"
+      "updated": "9:58 PM CT"
     },
     {
       "lat": 31.1761,
@@ -19,11 +19,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "7,848 customers out",
+      "affected": "7,355 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "8:58 PM CT"
+      "updated": "9:58 PM CT"
     },
     {
       "lat": 42.9538,
@@ -31,11 +31,23 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "2,717 customers out",
+      "affected": "2,713 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "8:58 PM CT"
+      "updated": "9:58 PM CT"
+    },
+    {
+      "lat": 44.6243,
+      "lon": -89.9941,
+      "place": "Wisconsin",
+      "region": "United States",
+      "cause": "",
+      "affected": "2,085 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/wisconsin",
+      "updated": "9:58 PM CT"
     },
     {
       "lat": 37.1661,
@@ -43,23 +55,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "2,459 customers out",
+      "affected": "1,805 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "8:58 PM CT"
-    },
-    {
-      "lat": 31.0689,
-      "lon": -91.9968,
-      "place": "Louisiana",
-      "region": "United States",
-      "cause": "",
-      "affected": "1,386 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/louisiana",
-      "updated": "8:58 PM CT"
+      "updated": "9:58 PM CT"
     },
     {
       "lat": 35.5557,
@@ -67,11 +67,11 @@
       "place": "North Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "1,165 customers out",
+      "affected": "1,170 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/north%20carolina",
-      "updated": "8:58 PM CT"
+      "updated": "9:58 PM CT"
     },
     {
       "lat": 50.45,
