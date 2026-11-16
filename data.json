@@ -1,5 +1,5 @@
 {
-  "as_of": "1:02 PM CT, Monday, November 16, 2026",
+  "as_of": "2:01 PM CT, Monday, November 16, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "62,758 customers out",
+      "affected": "48,959 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "1:02 PM CT"
+      "updated": "2:01 PM CT"
     },
     {
       "lat": 31.1761,
@@ -19,11 +19,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "16,214 customers out",
+      "affected": "9,791 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "1:02 PM CT"
+      "updated": "2:01 PM CT"
     },
     {
       "lat": 44.3467,
@@ -31,11 +31,11 @@
       "place": "Michigan",
       "region": "United States",
       "cause": "",
-      "affected": "5,314 customers out",
+      "affected": "5,657 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/michigan",
-      "updated": "1:02 PM CT"
+      "updated": "2:01 PM CT"
     },
     {
       "lat": 37.1661,
@@ -43,35 +43,35 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "4,247 customers out",
+      "affected": "4,581 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "1:02 PM CT"
+      "updated": "2:01 PM CT"
     },
     {
-      "lat": 40.9133,
-      "lon": -77.8467,
-      "place": "Pennsylvania",
+      "lat": 47.0527,
+      "lon": -109.6333,
+      "place": "Montana",
       "region": "United States",
       "cause": "",
-      "affected": "3,524 customers out",
+      "affected": "2,141 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/pennsylvania",
-      "updated": "1:02 PM CT"
+      "source": "https://poweroutage.us/area/state/montana",
+      "updated": "2:01 PM CT"
     },
     {
-      "lat": 38.9972,
-      "lon": -105.5478,
-      "place": "Colorado",
+      "lat": 43.9336,
+      "lon": -120.5583,
+      "place": "Oregon",
       "region": "United States",
       "cause": "",
-      "affected": "3,108 customers out",
+      "affected": "2,131 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/colorado",
-      "updated": "1:02 PM CT"
+      "source": "https://poweroutage.us/area/state/oregon",
+      "updated": "2:01 PM CT"
     },
     {
       "lat": 50.45,
