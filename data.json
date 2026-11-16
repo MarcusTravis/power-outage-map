@@ -1,5 +1,5 @@
 {
-  "as_of": "3:01 AM CT, Monday, November 16, 2026",
+  "as_of": "3:58 AM CT, Monday, November 16, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "21,430 customers out",
+      "affected": "19,292 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "3:01 AM CT"
+      "updated": "3:58 AM CT"
     },
     {
       "lat": 37.1661,
@@ -19,11 +19,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "6,045 customers out",
+      "affected": "5,846 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "3:01 AM CT"
+      "updated": "3:58 AM CT"
     },
     {
       "lat": 31.1761,
@@ -31,11 +31,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "4,551 customers out",
+      "affected": "4,827 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "3:01 AM CT"
+      "updated": "3:58 AM CT"
     },
     {
       "lat": 42.9538,
@@ -43,35 +43,35 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "3,144 customers out",
+      "affected": "2,565 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/new%20york",
-      "updated": "3:01 AM CT"
+      "updated": "3:58 AM CT"
     },
     {
-      "lat": 31.0689,
-      "lon": -91.9968,
-      "place": "Louisiana",
+      "lat": 32.6469,
+      "lon": -83.4426,
+      "place": "Georgia",
       "region": "United States",
       "cause": "",
-      "affected": "1,604 customers out",
+      "affected": "1,165 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/louisiana",
-      "updated": "3:01 AM CT"
+      "source": "https://poweroutage.us/area/state/georgia",
+      "updated": "3:58 AM CT"
     },
     {
-      "lat": 40.9133,
-      "lon": -77.8467,
-      "place": "Pennsylvania",
+      "lat": 38.9972,
+      "lon": -105.5478,
+      "place": "Colorado",
       "region": "United States",
       "cause": "",
-      "affected": "653 customers out",
+      "affected": "605 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/pennsylvania",
-      "updated": "3:01 AM CT"
+      "source": "https://poweroutage.us/area/state/colorado",
+      "updated": "3:58 AM CT"
     },
     {
       "lat": 50.45,
@@ -104,7 +104,7 @@
       "region": "Odesa, Ukraine",
       "cause": "Russian attack on a DTEK energy facility",
       "affected": "41,000 customers without power, according to a Nov 15 statement by DTEK Odeski Elektromerezhi. DTEK said a Russian attack overnight on Nov 15 hit one of its energy facilities, that 41,000 customers were left without electricity, that crews began work once it was safe, that specialists were inspecting surviving equipment, clearing rubble, and making repairs, that restoration will take a long time, and that air-raid alerts were significantly complicating the work. No restoration time was given. Oleh Kiper, head of the Odesa Regional Military Administration, said around 41,000 customers were temporarily left without electricity after a strike on a DTEK Odesa Electricity Networks facility. Ukraine's State Emergency Service said Russia attacked Chornomorsk; reporting on the same overnight attack said the city was left without power and that six people were injured. No later official customer count or restoration notice was found.",
-      "start": "Night of Nov 14\u201315, 2026 (Kyiv time)",
+      "start": "Night of Nov 14–15, 2026 (Kyiv time)",
       "etr": "",
       "source": "https://www.dtek-oem.com.ua/ua/news/vorog-atakuvav-ob-yekt-dtek-odeski-elektromerezhi",
       "updated": "Nov 15, 2026, DTEK Odeski Elektromerezhi official statement (dated Nov 15); LB.ua 10:11 a.m. EET (= 2:11 a.m. CT), citing Oleh Kiper and the State Emergency Service; rechecked 11:58 PM CT Sunday, no later official restoration figure found"
@@ -126,12 +126,12 @@
       "lon": -82.367,
       "place": "Cuba",
       "region": "National electric system (SEN)",
-      "cause": "Generation capacity deficit, with several thermoelectric units offline due to breakdowns (Santa Cruz unit 1, Antonio Guiteras, Felton unit 2, and Rent\u00e9 unit 3) and maintenance (Santa Cruz unit 3, Nuevitas unit 5, Felton unit 1, and Rent\u00e9 unit 5); thermal generation is also limited by 251 MW",
-      "affected": "UNE's Sunday bulletin, published by Cubadebate and attributed to UNE-MINEM, forecast 1,860 MW affected at the evening peak: 970 MW available versus 2,800 MW demand (1,830 MW deficit), if the forecast conditions hold. At 6:00 a.m. Sunday, the grid had 925 MW available versus 2,265 MW of demand, leaving 1,340 MW unserved, and UNE estimated 1,500 MW affected at midday. UNE said Rent\u00e9 unit 3 was expected to add 45 MW at the Sunday evening peak. On Saturday, service was affected by a generation-capacity deficit for all 24 hours and remained affected through the early morning; the maximum Saturday affectation was 1,878 MW at 7:00 p.m. Saturday solar photovoltaic output was 3,116 MWh, with a maximum of 485 MW at midday. No official Sunday midday or evening-peak actual was found, and no official Monday UNE national bulletin had been published as of this recheck (early Monday morning in Cuba). On Monday, Empresa El\u00e9ctrica de La Habana reported generation-deficit interruptions starting at 12:02 a.m. Cuba time on circuits S513/S515 in San Miguel del Padr\u00f3n and MB920, and said circuit P317 (25 y K) was restored at 12:03 a.m., according to CiberCuba's Nov 16 compilation. The national grid was not reported as collapsed.",
+      "cause": "Generation capacity deficit, with several thermoelectric units offline due to breakdowns (Santa Cruz unit 1, Antonio Guiteras, Felton unit 2, and Renté unit 3) and maintenance (Santa Cruz unit 3, Nuevitas unit 5, Felton unit 1, and Renté unit 5); thermal generation is also limited by 251 MW",
+      "affected": "UNE's Sunday bulletin, published by Cubadebate and attributed to UNE-MINEM, forecast 1,860 MW affected at the evening peak: 970 MW available versus 2,800 MW demand (1,830 MW deficit), if the forecast conditions hold. At 6:00 a.m. Sunday, the grid had 925 MW available versus 2,265 MW of demand, leaving 1,340 MW unserved, and UNE estimated 1,500 MW affected at midday. UNE said Renté unit 3 was expected to add 45 MW at the Sunday evening peak. On Saturday, service was affected by a generation-capacity deficit for all 24 hours and remained affected through the early morning; the maximum Saturday affectation was 1,878 MW at 7:00 p.m. Saturday solar photovoltaic output was 3,116 MWh, with a maximum of 485 MW at midday. No official Sunday midday or evening-peak actual was found, and no official Monday UNE national bulletin had been published as of this recheck (early Monday morning in Cuba). On Monday, Empresa Eléctrica de La Habana reported generation-deficit interruptions starting at 12:02 a.m. Cuba time on circuits S513/S515 in San Miguel del Padrón and MB920, and said circuit P317 (25 y K) was restored at 12:03 a.m., according to CiberCuba's Nov 16 compilation. The national grid was not reported as collapsed.",
       "start": "",
       "etr": "",
       "source": "http://www.cubadebate.cu/noticias/2026/11/15/union-electrica-estima-en-1860-mw-el-deficit-para-pico-nocturno-este-domingo/",
-      "updated": "Nov 15, 2026, UNE Sunday bulletin via Cubadebate (attributed to UNE-MINEM); Empresa El\u00e9ctrica de La Habana 6:00 a.m. Cuba time Sunday (= 5:00 a.m. CT) as compiled by CiberCuba, 9:15 a.m. Cuba time Sunday (= 8:15 a.m. CT) as compiled by El Alambique, and 5:48 p.m. Cuba time Sunday (= 4:48 p.m. CT) circuit interruptions as compiled by CiberCuba; early-Monday Havana circuit reports via CiberCuba, 12:02\u201312:03 a.m. Cuba time Monday, Nov 16 (= 11:02\u201311:03 p.m. CT Sunday); rechecked 11:58 PM CT Sunday, no official Sunday midday or evening-peak actual and no Monday UNE national bulletin found"
+      "updated": "Nov 15, 2026, UNE Sunday bulletin via Cubadebate (attributed to UNE-MINEM); Empresa Eléctrica de La Habana 6:00 a.m. Cuba time Sunday (= 5:00 a.m. CT) as compiled by CiberCuba, 9:15 a.m. Cuba time Sunday (= 8:15 a.m. CT) as compiled by El Alambique, and 5:48 p.m. Cuba time Sunday (= 4:48 p.m. CT) circuit interruptions as compiled by CiberCuba; early-Monday Havana circuit reports via CiberCuba, 12:02–12:03 a.m. Cuba time Monday, Nov 16 (= 11:02–11:03 p.m. CT Sunday); rechecked 11:58 PM CT Sunday, no official Sunday midday or evening-peak actual and no Monday UNE national bulletin found"
     },
     {
       "lat": -26.204,
