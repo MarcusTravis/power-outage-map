@@ -31,7 +31,7 @@ In the browser, the homepage still fetches `data.json` with a cache-busting quer
 
 Refresh cadence for the data itself:
 
-- United States: about every hour
+- United States: about every hour, automatically, by the GitHub Actions workflow `.github/workflows/us-outage-update.yml`, which runs `scripts/fetch_us_outages.py` (free MassOutage API, CC BY 4.0) and pushes only when the numbers changed
 - Worldwide list: a few times a day (about four)
 
 Set `as_of` to the snapshot time in Central Time (CT), for example `"2:35 PM CT, Thursday, November 12, 2026"`.

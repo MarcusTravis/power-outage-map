@@ -37,6 +37,7 @@ HOME_TITLE = "Live Power Outage Map: Major Blackouts Worldwide Right Now"
 
 SOURCE_LABELS = {
     "poweroutage.us": "PowerOutage.us",
+    "massoutage.com": "MassOutage",
     "odin.ornl.gov": "ODIN (DOE / ORNL)",
     "cubadebate.cu": "Cubadebate / UNE",
     "ua.news": "UA.NEWS",
@@ -620,10 +621,15 @@ def write_images(as_of: str, rows: list[dict]) -> None:
 
     serif_bold = [
         "/usr/share/fonts/truetype/sand-box/google/IBM Plex Serif/IBMPlexSerif-SemiBold.ttf",
+        # Ubuntu fonts-ibm-plex package (GitHub Actions runner)
+        "/usr/share/fonts/opentype/ibm-plex/IBMPlexSerif-SemiBold.otf",
+        "/usr/share/fonts/truetype/ibm-plex/IBMPlexSerif-SemiBold.ttf",
         "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
     ]
     serif = [
         "/usr/share/fonts/truetype/sand-box/google/IBM Plex Serif/IBMPlexSerif-Regular.ttf",
+        "/usr/share/fonts/opentype/ibm-plex/IBMPlexSerif-Regular.otf",
+        "/usr/share/fonts/truetype/ibm-plex/IBMPlexSerif-Regular.ttf",
         "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
     ]
     sans = [

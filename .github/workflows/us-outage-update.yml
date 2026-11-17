@@ -1,0 +1,75 @@
+name: US outage data update
+
+# Hourly: reads the free MassOutage API (CC BY 4.0, one request per run),
+# replaces only the US rows + as_of in data.json, runs build.py, and pushes
+# to main only if something changed. Worldwide rows are never touched.
+#
+# OFF until switched on: scheduled runs do nothing unless the repository
+# variable US_AUTO_UPDATE is "true" (gh variable set US_AUTO_UPDATE --body true).
+# Manual runs: `gh workflow run us-outage-update.yml -f dry_run=true` fetches and
+# builds but does not commit; dry_run=false commits and pushes.
+
+on:
+  schedule:
+    - cron: "3 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Fetch and build only; do not commit or push"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+
+concurrency:
+  group: data-json-main
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.event_name == 'workflow_dispatch' || vars.US_AUTO_UPDATE == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install build dependencies (Pillow + fonts for the share image)
+        run: |
+          sudo apt-get -qq update
+          sudo apt-get -qq install -y fonts-ibm-plex fonts-dejavu-core >/dev/null
+          python3 -m pip install --quiet pillow || python3 -m pip install --quiet --break-system-packages pillow
+
+      - name: Fetch US outages and rebuild
+        run: python3 scripts/fetch_us_outages.py
+
+      - name: Show changes (dry run)
+        if: github.event_name == 'workflow_dispatch' && inputs.dry_run
+        run: git status --short && git diff --stat && git diff data.json | head -80
+
+      - name: Commit and push if changed (rebase and retry on conflicts)
+        if: github.event_name == 'schedule' || !inputs.dry_run
+        run: |
+          git config user.name "MarcusTravis"
+          git config user.email "60115444+MarcusTravis@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -q -m "Update US outage data ($(TZ=America/Chicago date '+%-I:%M %p CT'))"
+          for i in 1 2 3 4 5; do
+            if git push -q origin HEAD:main; then echo "Pushed"; exit 0; fi
+            echo "Push rejected (attempt $i); rebasing and retrying"
+            sleep $((i * 5))
+            if ! git pull -q --rebase origin main; then
+              # Someone else changed the same files; redo the update on top of theirs.
+              git rebase --abort
+              git reset -q --hard origin/main
+              python3 scripts/fetch_us_outages.py
+              git add -A
+              git diff --cached --quiet && { echo "No changes after rebase"; exit 0; }
+              git commit -q -m "Update US outage data ($(TZ=America/Chicago date '+%-I:%M %p CT'))"
+            fi
+          done
+          echo "Push failed after 5 attempts"; exit 1
