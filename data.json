@@ -1,5 +1,5 @@
 {
-  "as_of": "8:06 AM CT, Tuesday, November 17, 2026",
+  "as_of": "9:02 AM CT, Tuesday, November 17, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,47 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "37,626 customers out",
+      "affected": "64,424 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "8:06 AM CT"
-    },
-    {
-      "lat": 37.1661,
-      "lon": -119.4494,
-      "place": "California",
-      "region": "United States",
-      "cause": "",
-      "affected": "6,014 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/california",
-      "updated": "8:06 AM CT"
-    },
-    {
-      "lat": 43.9336,
-      "lon": -120.5583,
-      "place": "Oregon",
-      "region": "United States",
-      "cause": "",
-      "affected": "5,814 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/oregon",
-      "updated": "8:06 AM CT"
-    },
-    {
-      "lat": 44.3509,
-      "lon": -114.613,
-      "place": "Idaho",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,420 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/idaho",
-      "updated": "8:06 AM CT"
+      "updated": "9:02 AM CT"
     },
     {
       "lat": 31.1761,
@@ -55,11 +19,35 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "2,446 customers out",
+      "affected": "6,543 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "8:06 AM CT"
+      "updated": "9:02 AM CT"
+    },
+    {
+      "lat": 37.1661,
+      "lon": -119.4494,
+      "place": "California",
+      "region": "United States",
+      "cause": "",
+      "affected": "6,426 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/california",
+      "updated": "9:02 AM CT"
+    },
+    {
+      "lat": 43.9336,
+      "lon": -120.5583,
+      "place": "Oregon",
+      "region": "United States",
+      "cause": "",
+      "affected": "5,716 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/oregon",
+      "updated": "9:02 AM CT"
     },
     {
       "lat": 18.338,
@@ -67,11 +55,23 @@
       "place": "U.S. Virgin Islands",
       "region": "United States",
       "cause": "",
-      "affected": "2,269 customers out",
+      "affected": "4,862 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "8:06 AM CT"
+      "updated": "9:02 AM CT"
+    },
+    {
+      "lat": 38.3566,
+      "lon": -92.458,
+      "place": "Missouri",
+      "region": "United States",
+      "cause": "",
+      "affected": "4,402 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/missouri",
+      "updated": "9:02 AM CT"
     },
     {
       "lat": 50.45,
