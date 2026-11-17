@@ -1,5 +1,5 @@
 {
-  "as_of": "1:06 PM CT, Tuesday, November 17, 2026",
+  "as_of": "2:02 PM CT, Tuesday, November 17, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "56,758 customers out",
+      "affected": "53,774 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/",
-      "updated": "1:06 PM CT"
+      "updated": "2:02 PM CT"
     },
     {
       "lat": 37.1661,
@@ -19,11 +19,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "9,639 customers out",
+      "affected": "10,717 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/california",
-      "updated": "1:06 PM CT"
+      "updated": "2:02 PM CT"
     },
     {
       "lat": 43.9336,
@@ -31,11 +31,23 @@
       "place": "Oregon",
       "region": "United States",
       "cause": "",
-      "affected": "5,679 customers out",
+      "affected": "5,662 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/oregon",
-      "updated": "1:06 PM CT"
+      "updated": "2:02 PM CT"
+    },
+    {
+      "lat": 18.338,
+      "lon": -64.894,
+      "place": "U.S. Virgin Islands",
+      "region": "United States",
+      "cause": "",
+      "affected": "5,060 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/virgin%20islands",
+      "updated": "2:02 PM CT"
     },
     {
       "lat": 31.1761,
@@ -43,35 +55,23 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "4,951 customers out",
+      "affected": "4,266 customers out",
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
-      "updated": "1:06 PM CT"
+      "updated": "2:02 PM CT"
     },
     {
-      "lat": 28.6305,
-      "lon": -82.4497,
-      "place": "Florida",
+      "lat": 38.4937,
+      "lon": -98.3804,
+      "place": "Kansas",
       "region": "United States",
       "cause": "",
-      "affected": "3,757 customers out",
+      "affected": "2,760 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/florida",
-      "updated": "1:06 PM CT"
-    },
-    {
-      "lat": 35.5557,
-      "lon": -79.3877,
-      "place": "North Carolina",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,332 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/north%20carolina",
-      "updated": "1:06 PM CT"
+      "source": "https://poweroutage.us/area/state/kansas",
+      "updated": "2:02 PM CT"
     },
     {
       "lat": 50.45,
@@ -150,12 +150,12 @@
       "lon": -82.367,
       "place": "Cuba",
       "region": "National electric system (SEN)",
-      "cause": "Generation capacity deficit, with several thermoelectric units offline due to breakdowns and maintenance. UNE's Tuesday bulletin, published by Cubadebate, said that unit 8 of CTE Mariel, unit 1 of CTE Santa Cruz, and unit 2 of CTE Felton were in breakdown, and that unit 3 of CTE Santa Cruz, unit 5 of CTE Nuevitas, and unit 5 of CTE Renté were in maintenance; thermal generation was also limited by 426 MW",
-      "affected": "UNE's Tuesday bulletin, published by Cubadebate, is the latest official national forecast found: 1,730 MW affected at the evening peak, with 1,050 MW available versus 2,750 MW demand (1,700 MW deficit), if the forecast conditions hold. At 6:00 a.m. Tuesday, the grid had 1,050 MW available versus 2,175 MW of demand, leaving 1,130 MW unserved, and UNE estimated 1,200 MW affected at midday. On Monday, service was affected by a generation-capacity deficit for all 24 hours and remained affected through the early morning; the maximum Monday affectation was 1,849 MW at 7:00 p.m. Monday. Monday solar photovoltaic output was 4,284 MWh, with a maximum of 666 MW at midday. The Tuesday bulletin no longer listed the Antonio Guiteras unit or unit 1 of CTE Felton among units in breakdown or maintenance; CiberCuba, in a Monday report, said the Antonio Guiteras plant synchronized with the National Electric System on Monday after five days of emergency repairs, after going offline on Wednesday, Nov 11. CiberCuba, citing the Empresa Eléctrica de La Habana, said that at 6:01 a.m. Tuesday La Habana reported 36 distribution circuits affected by a deficit, with 89 MW affected, and that at 3:00 a.m. Tuesday it had reported 44 circuits and 110 MW affected; the utility also reported overnight restorations on circuits C16, H443, OP319, and GC14. No later official Tuesday afternoon national actual or Havana circuit update was found. On Monday evening, CiberCuba, citing the Empresa Eléctrica de Las Tunas, said the province was disconnected from the National Electric System at 6:02 p.m. Monday because of a system emergency; it did not give a customer count or a reconnection time, and no later official reconnection notice was found. Official UNE and Cubadebate sources did not report a total collapse of the national grid.",
+      "cause": "Generation capacity deficit, with several thermoelectric units offline due to breakdowns and maintenance. UNE's Tuesday bulletin, published by Cubadebate, said that unit 8 of CTE Mariel, unit 1 of CTE Santa Cruz, and unit 2 of CTE Felton were in breakdown, and that unit 3 of CTE Santa Cruz, unit 5 of CTE Nuevitas, and unit 5 of CTE Rent\u00e9 were in maintenance; thermal generation was also limited by 426 MW",
+      "affected": "UNE's Tuesday bulletin, published by Cubadebate, is the latest official national forecast found: 1,730 MW affected at the evening peak, with 1,050 MW available versus 2,750 MW demand (1,700 MW deficit), if the forecast conditions hold. At 6:00 a.m. Tuesday, the grid had 1,050 MW available versus 2,175 MW of demand, leaving 1,130 MW unserved, and UNE estimated 1,200 MW affected at midday. On Monday, service was affected by a generation-capacity deficit for all 24 hours and remained affected through the early morning; the maximum Monday affectation was 1,849 MW at 7:00 p.m. Monday. Monday solar photovoltaic output was 4,284 MWh, with a maximum of 666 MW at midday. The Tuesday bulletin no longer listed the Antonio Guiteras unit or unit 1 of CTE Felton among units in breakdown or maintenance; CiberCuba, in a Monday report, said the Antonio Guiteras plant synchronized with the National Electric System on Monday after five days of emergency repairs, after going offline on Wednesday, Nov 11. CiberCuba, citing the Empresa El\u00e9ctrica de La Habana, said that at 6:01 a.m. Tuesday La Habana reported 36 distribution circuits affected by a deficit, with 89 MW affected, and that at 3:00 a.m. Tuesday it had reported 44 circuits and 110 MW affected; the utility also reported overnight restorations on circuits C16, H443, OP319, and GC14. No later official Tuesday afternoon national actual or Havana circuit update was found. On Monday evening, CiberCuba, citing the Empresa El\u00e9ctrica de Las Tunas, said the province was disconnected from the National Electric System at 6:02 p.m. Monday because of a system emergency; it did not give a customer count or a reconnection time, and no later official reconnection notice was found. Official UNE and Cubadebate sources did not report a total collapse of the national grid.",
       "start": "",
       "etr": "",
       "source": "http://www.cubadebate.cu/noticias/2026/11/17/union-electrica-estima-1730-mw-de-afectacion-para-el-pico-nocturno-de-hoy/",
-      "updated": "Nov 17, 2026, UNE Tuesday bulletin via Cubadebate; 6:00 a.m. Cuba time Tuesday figures (= 5:00 a.m. CT) and evening-peak forecast from that bulletin; Empresa Eléctrica de La Habana 6:01 a.m. and 3:00 a.m. Cuba time Tuesday (= 5:01 a.m. and 2:00 a.m. CT) via CiberCuba's Nov 17 daily summary; Guiteras synchronization, CiberCuba Monday 9:21 a.m. Cuba time (= 8:21 a.m. CT); Las Tunas disconnection at 6:02 p.m. Cuba time Monday (= 5:02 p.m. CT) via CiberCuba citing the provincial electric company; rechecked 12:10 PM CT Tuesday, no later official Tuesday afternoon national actual from UNE or later Havana circuit update found, and no later official Las Tunas reconnection notice found"
+      "updated": "Nov 17, 2026, UNE Tuesday bulletin via Cubadebate; 6:00 a.m. Cuba time Tuesday figures (= 5:00 a.m. CT) and evening-peak forecast from that bulletin; Empresa El\u00e9ctrica de La Habana 6:01 a.m. and 3:00 a.m. Cuba time Tuesday (= 5:01 a.m. and 2:00 a.m. CT) via CiberCuba's Nov 17 daily summary; Guiteras synchronization, CiberCuba Monday 9:21 a.m. Cuba time (= 8:21 a.m. CT); Las Tunas disconnection at 6:02 p.m. Cuba time Monday (= 5:02 p.m. CT) via CiberCuba citing the provincial electric company; rechecked 12:10 PM CT Tuesday, no later official Tuesday afternoon national actual from UNE or later Havana circuit update found, and no later official Las Tunas reconnection notice found"
     },
     {
       "lat": -26.204,
