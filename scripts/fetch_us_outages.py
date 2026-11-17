@@ -174,7 +174,9 @@ def main() -> None:
             old = int((r.get("affected") or "").split()[0].replace(",", ""))
         except ValueError:
             continue
-        new = new_by_name.get(r.get("place"), 0)
+        if r.get("place") not in new_by_name:
+            continue  # not covered by MassOutage at all (e.g. Puerto Rico), not a feed drop
+        new = new_by_name[r["place"]]
         if old - new >= DROP_MIN_CUSTOMERS and new <= old * (1 - DROP_MIN_SHARE):
             drops.append(f"{r.get('place')} {old:,} -> {new:,}")
     if drops:
