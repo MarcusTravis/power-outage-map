@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-11-17T18:00:00-06:00",
+  "source": "poweroutage.us",
+  "national_total": 37736,
+  "places": [
+    {
+      "name": "California",
+      "customers_out": 7234,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-17T18:00:00-06:00"
+    },
+    {
+      "name": "Oregon",
+      "customers_out": 5742,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-17T18:00:00-06:00"
+    },
+    {
+      "name": "U.S. Virgin Islands",
+      "customers_out": 5229,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-17T18:00:00-06:00"
+    },
+    {
+      "name": "Texas",
+      "customers_out": 4292,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-17T18:00:00-06:00"
+    },
+    {
+      "name": "Florida",
+      "customers_out": 2252,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-17T18:00:00-06:00"
+    }
+  ]
+}

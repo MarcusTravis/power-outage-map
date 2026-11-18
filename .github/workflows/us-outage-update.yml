@@ -1,8 +1,10 @@
 name: US outage data update
 
 # Hourly: reads the free MassOutage API (CC BY 4.0, one request per run),
-# replaces only the US rows + as_of in data.json, runs build.py, and pushes
-# to main only if something changed. Worldwide rows are never touched.
+# merges in us_supplement.json (twice-daily PowerOutage.us gap-fill) when
+# that file is under 13 hours old, replaces only the US rows + as_of in
+# data.json, runs build.py, and pushes to main only if something changed.
+# Worldwide rows and us_supplement.json are never written by this job.
 #
 # OFF until switched on: scheduled runs do nothing unless the repository
 # variable US_AUTO_UPDATE is "true" (gh variable set US_AUTO_UPDATE --body true).

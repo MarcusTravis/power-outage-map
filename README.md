@@ -31,10 +31,25 @@ In the browser, the homepage still fetches `data.json` with a cache-busting quer
 
 Refresh cadence for the data itself:
 
-- United States: about every hour, automatically, by the GitHub Actions workflow `.github/workflows/us-outage-update.yml`, which runs `scripts/fetch_us_outages.py` (free MassOutage API, CC BY 4.0) and pushes only when the numbers changed
+- United States: about every hour, automatically, by the GitHub Actions workflow `.github/workflows/us-outage-update.yml`, which runs `scripts/fetch_us_outages.py` (free MassOutage API, CC BY 4.0) and pushes only when the numbers changed. A twice-daily PowerOutage.us check writes `us_supplement.json`; the hourly job merges it in for places MassOutage does not cover (Puerto Rico, the U.S. Virgin Islands, and other territories) and for states where PowerOutage.us is higher, as long as the supplement is under 13 hours old. The hourly job does not edit `us_supplement.json`.
 - Worldwide list: a few times a day (about four)
 
 Set `as_of` to the snapshot time in Central Time (CT), for example `"2:35 PM CT, Thursday, November 12, 2026"`.
+
+`us_supplement.json` holds the latest PowerOutage.us snapshot used by the merge. The hourly MassOutage job only reads this file. The twice-daily check should overwrite it (and only it, plus a commit of that file) with:
+
+```json
+{
+  "as_of": "2026-11-17T18:00:00-06:00",
+  "source": "poweroutage.us",
+  "national_total": 37736,
+  "places": [
+    {"name": "California", "customers_out": 7234, "source": "poweroutage.us", "as_of": "2026-11-17T18:00:00-06:00"}
+  ]
+}
+```
+
+`as_of` should be ISO-8601 with an offset (America/Chicago). Include every territory MassOutage does not cover that has customers out, and every state where PowerOutage.us is materially higher than the current MassOutage figure. Do not put a "United States" total in `places` — the script adds uncovered counts and per-state differences to the MassOutage national total itself. Do not edit MassOutage or worldwide rows in `data.json`.
 
 Each object in `outages` should use these fields (leave a value blank when it is unknown — do not invent numbers):
 

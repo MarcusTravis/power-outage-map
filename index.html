@@ -185,7 +185,7 @@
 <li><a href="https://www.sabcnews.com/sabcnews/city-power-restores-power-to-sabc-and-gardens-city-hospital/" target="_blank" rel="noopener noreferrer">SABC News</a></li>
 <li><a href="https://www.aljazeera.com/features/2026/11/15/drone-strikes-on-power-stations-plunges-sudans-cities-into-darkness" target="_blank" rel="noopener noreferrer">aljazeera.com</a></li>
       <!-- /build:sources --></ul>
-      <p>This is an unofficial snapshot compiled from public utility and news reports. It is not an official government or utility outage map. Confirm outages with the local utility. Map tiles © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, rendered with <a href="https://leafletjs.com/">Leaflet</a>.</p>
+      <p>This is an unofficial snapshot compiled from public utility and news reports. It is not an official government or utility outage map. Confirm outages with the local utility. US outage figures are from <a href="https://massoutage.com/" target="_blank" rel="noopener noreferrer">MassOutage</a>, licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>; some state and territory counts also use PowerOutage.us. Map tiles © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, rendered with <a href="https://leafletjs.com/">Leaflet</a>.</p>
     </footer>
     <p class="kofi">Free and ad-free. If this site helped you, <a href="https://ko-fi.com/marcustravis" target="_blank" rel="noopener">buy me a coffee →</a></p>
 
@@ -252,7 +252,8 @@
       catch (err) { return ""; }
     }
 
-    function sourceLabel(url) {
+    function sourceLabel(url, row) {
+      if (row && row.source_label) return row.source_label;
       const host = sourceHost(url);
       return SOURCE_LABELS[host] || host || url || "";
     }
@@ -262,7 +263,7 @@
       return REGION_HREFS[key] || "";
     }
 
-    function cell(text, isLink) {
+    function cell(text, isLink, row) {
       const td = document.createElement("td");
       const value = (text || "").trim();
       if (!value) {
@@ -275,7 +276,7 @@
         a.href = value;
         a.target = "_blank";
         a.rel = "noopener noreferrer";
-        a.textContent = sourceLabel(value);
+        a.textContent = sourceLabel(value, row);
         td.appendChild(a);
         return td;
       }
@@ -328,7 +329,7 @@
       if (row.cause) parts.push(escapeHtml(row.cause));
       if (row.etr) parts.push("ETR: " + escapeHtml(row.etr));
       if (row.source) {
-        parts.push(`<a href="${escapeAttr(row.source)}" target="_blank" rel="noopener noreferrer">${escapeHtml(sourceLabel(row.source))}</a>`);
+        parts.push(`<a href="${escapeAttr(row.source)}" target="_blank" rel="noopener noreferrer">${escapeHtml(sourceLabel(row.source, row))}</a>`);
       }
       return parts.join("<br>");
     }
@@ -363,7 +364,7 @@
         a.href = url;
         a.target = "_blank";
         a.rel = "noopener noreferrer";
-        a.textContent = sourceLabel(url);
+        a.textContent = sourceLabel(url, row);
         li.appendChild(a);
         list.appendChild(li);
       });
@@ -411,7 +412,7 @@
         tr.appendChild(cell(row.affected));
         tr.appendChild(cell(row.start));
         tr.appendChild(cell(row.etr));
-        tr.appendChild(cell(row.source, true));
+        tr.appendChild(cell(row.source, true, row));
         tr.appendChild(cell(row.updated));
         body.appendChild(tr);
       });

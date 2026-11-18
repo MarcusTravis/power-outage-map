@@ -157,7 +157,11 @@ def source_host(url: str) -> str:
         return ""
 
 
-def source_label(url: str) -> str:
+def source_label(url: str, row: dict | None = None) -> str:
+    if row:
+        custom = (row.get("source_label") or "").strip()
+        if custom:
+            return custom
     host = source_host(url)
     return SOURCE_LABELS.get(host) or host or url or ""
 
@@ -287,7 +291,7 @@ def table_rows_html(rows: list[dict], hrefs: dict[str, str], href_prefix: str = 
         if source:
             source_html = (
                 f'<a href="{esc(source)}" target="_blank" rel="noopener noreferrer">'
-                f"{esc(source_label(source))}</a>"
+                f"{esc(source_label(source, row))}</a>"
             )
         else:
             source_html = '<span class="empty">—</span>'
@@ -338,7 +342,7 @@ def sources_html(rows: list[dict]) -> str:
         seen.add(url)
         items.append(
             f'<li><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">'
-            f"{esc(source_label(url))}</a></li>"
+            f"{esc(source_label(url, row))}</a></li>"
         )
     return "\n".join(items)
 
@@ -510,6 +514,13 @@ def write_region_page(slug: str, as_of: str, rows: list[dict], hrefs: dict[str, 
     # Place links on a region page should stay on this page or go to a sibling; hrefs are like "ukraine/".
     # Prefix with ../ so they resolve from /ukraine/ to /ukraine/ or /us/.
     sources = sources_html(rows)
+    us_credit = ""
+    if slug in {"us", "us-virgin-islands", "puerto-rico"}:
+        us_credit = (
+            ' US outage figures are from <a href="https://massoutage.com/" target="_blank" rel="noopener noreferrer">MassOutage</a>, '
+            'licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>; '
+            "some state and territory counts also use PowerOutage.us."
+        )
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -552,7 +563,7 @@ def write_region_page(slug: str, as_of: str, rows: list[dict], hrefs: dict[str, 
       <ul>
 {sources}
       </ul>
-      <p>This is an unofficial snapshot compiled from public utility and news reports. It is not an official government or utility outage map. Confirm outages with the local utility.</p>
+      <p>This is an unofficial snapshot compiled from public utility and news reports. It is not an official government or utility outage map. Confirm outages with the local utility.{us_credit}</p>
     </footer>
     {kofi_html()}
   </div>
