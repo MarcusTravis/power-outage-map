@@ -278,8 +278,53 @@ def replace_block(text: str, name: str, inner: str) -> str:
     raise SystemExit(f"Missing build markers for {name}")
 
 
+# Long Cause, Affected, Start, ETR, and Updated cells show a short preview plus a "…"
+# button. The full text stays in the HTML for SEO and is revealed on click.
+PREVIEW_LIMIT = 72
+PREVIEW_MIN = 40
+PREVIEW_GRACE = 12
+
+
+def preview_text(text: str, limit: int = PREVIEW_LIMIT) -> str | None:
+    """Return a word-boundary preview, or None if the value is already short."""
+    text = (text or "").strip()
+    if len(text) <= limit + PREVIEW_GRACE:
+        return None
+    cut = text[:limit]
+    spaces = [m.start() for m in re.finditer(r"\s", cut)]
+    if spaces and spaces[-1] >= PREVIEW_MIN:
+        cut = cut[: spaces[-1]]
+    cut = cut.rstrip()
+    return cut or text[:limit]
+
+
 def table_rows_html(rows: list[dict], hrefs: dict[str, str], href_prefix: str = "") -> str:
     out = []
+    clamp_seq = 0
+
+    def next_clamp_id() -> str:
+        nonlocal clamp_seq
+        clamp_seq += 1
+        return f"clamp-full-{clamp_seq}"
+
+    def cell(value: str | None, clamp: bool = False) -> str:
+        text = (value or "").strip()
+        if not text:
+            return '<td class="empty">—</td>'
+        if clamp:
+            preview = preview_text(text)
+            if preview:
+                fid = next_clamp_id()
+                return (
+                    f'<td class="clamp-cell">'
+                    f'<span class="clamp-preview">{esc(preview)}</span>'
+                    f'<span class="clamp-full" id="{fid}">{esc(text)}</span>'
+                    f'<button type="button" class="clamp-toggle" aria-expanded="false" '
+                    f'aria-label="Show full text" aria-controls="{fid}">…</button>'
+                    f"</td>"
+                )
+        return f"<td>{esc(text)}</td>"
+
     for row in rows:
         href = hrefs.get(row_key(row), "")
         place = dash(row.get("place"))
@@ -296,22 +341,16 @@ def table_rows_html(rows: list[dict], hrefs: dict[str, str], href_prefix: str = 
         else:
             source_html = '<span class="empty">—</span>'
 
-        def cell(value: str | None) -> str:
-            text = (value or "").strip()
-            if not text:
-                return '<td class="empty">—</td>'
-            return f"<td>{esc(text)}</td>"
-
         out.append(
             "<tr>"
             f'<td class="place-cell">{place_html}</td>'
             f"{cell(row.get('region'))}"
-            f"{cell(row.get('cause'))}"
-            f"{cell(row.get('affected'))}"
-            f"{cell(row.get('start'))}"
-            f"{cell(row.get('etr'))}"
+            f"{cell(row.get('cause'), clamp=True)}"
+            f"{cell(row.get('affected'), clamp=True)}"
+            f"{cell(row.get('start'), clamp=True)}"
+            f"{cell(row.get('etr'), clamp=True)}"
             f"<td>{source_html}</td>"
-            f"{cell(row.get('updated'))}"
+            f"{cell(row.get('updated'), clamp=True)}"
             "</tr>"
         )
     return "\n".join(out)
@@ -527,6 +566,10 @@ def write_region_page(slug: str, as_of: str, rows: list[dict], hrefs: dict[str, 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 {head}
+  <noscript><style>
+    .clamp-cell .clamp-preview, .clamp-cell .clamp-toggle {{ display: none !important; }}
+    .clamp-cell .clamp-full {{ display: inline !important; }}
+  </style></noscript>
 </head>
 <body>
   <div class="wrap">
@@ -567,6 +610,7 @@ def write_region_page(slug: str, as_of: str, rows: list[dict], hrefs: dict[str, 
     </footer>
     {kofi_html()}
   </div>
+  <script src="../table-expand.js" defer></script>
 {analytics_html()}
 </body>
 </html>

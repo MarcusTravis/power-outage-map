@@ -292,3 +292,51 @@
     .kofi{max-width:1200px;margin:48px auto 36px;padding:0 24px;text-align:center;color:var(--muted);font-size:14px}
     .kofi a{color:var(--accent);text-decoration:none}
     .kofi a:hover{text-decoration:underline}
+
+
+    /* Long Cause, Affected, Start, ETR, and Updated cells: short preview + expandable "…" */
+    .clamp-cell {
+      min-width: 11rem;
+      max-width: 22rem;
+      overflow-wrap: break-word;
+    }
+    .clamp-cell .clamp-full { display: none; }
+    .clamp-cell.is-expanded {
+      max-width: 36rem;
+    }
+    .clamp-cell.is-expanded .clamp-preview { display: none; }
+    .clamp-cell.is-expanded .clamp-full { display: inline; }
+
+    .clamp-toggle {
+      position: relative;
+      font: inherit;
+      font-weight: 600;
+      color: var(--accent);
+      background: none;
+      border: 0;
+      padding: 0 0.1em;
+      margin: 0;
+      cursor: pointer;
+      line-height: inherit;
+      vertical-align: baseline;
+    }
+    .clamp-cell.is-expanded .clamp-toggle {
+      margin-left: 0.45em;
+      font-size: 0.88em;
+    }
+    .clamp-toggle::before {
+      content: "";
+      position: absolute;
+      inset: -8px -10px;
+    }
+    .clamp-toggle:hover { text-decoration: underline; }
+    .clamp-toggle:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+
+    @media (max-width: 640px) {
+      .clamp-cell { min-width: 10rem; max-width: 16rem; }
+      .clamp-cell.is-expanded { max-width: 22rem; }
+    }
