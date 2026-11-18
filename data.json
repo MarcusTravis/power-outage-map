@@ -1,5 +1,5 @@
 {
-  "as_of": "6:40 PM CT, Tuesday, November 17, 2026",
+  "as_of": "7:00 PM CT, Tuesday, November 17, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "41,543 customers out",
+      "affected": "44,718 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "6:40 PM CT",
+      "updated": "7:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -51,6 +51,18 @@
       "updated": "6:00 PM CT"
     },
     {
+      "lat": 28.6305,
+      "lon": -82.4497,
+      "place": "Florida",
+      "region": "United States",
+      "cause": "",
+      "affected": "4,758 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/florida",
+      "updated": "7:00 PM CT"
+    },
+    {
       "lat": 31.1761,
       "lon": -99.3453,
       "place": "Texas",
@@ -61,18 +73,6 @@
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
       "updated": "6:00 PM CT"
-    },
-    {
-      "lat": 28.6305,
-      "lon": -82.4497,
-      "place": "Florida",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,822 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/florida",
-      "updated": "6:40 PM CT"
     },
     {
       "lat": 50.45,
