@@ -1,5 +1,5 @@
 {
-  "as_of": "4:01 PM CT, Wednesday, November 18, 2026",
+  "as_of": "4:55 PM CT, Wednesday, November 18, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "142,074 customers out",
+      "affected": "142,615 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "4:01 PM CT",
+      "updated": "4:55 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,11 +20,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "49,861 customers out",
+      "affected": "54,903 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/california",
-      "updated": "4:01 PM CT"
+      "updated": "4:55 PM CT"
     },
     {
       "lat": 18.338,
@@ -44,11 +44,23 @@
       "place": "Florida",
       "region": "United States",
       "cause": "",
-      "affected": "9,309 customers out",
+      "affected": "8,317 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/florida",
-      "updated": "4:01 PM CT"
+      "source": "https://poweroutage.us/area/state/florida",
+      "updated": "2:12 PM CT"
+    },
+    {
+      "lat": 31.1761,
+      "lon": -99.3453,
+      "place": "Texas",
+      "region": "United States",
+      "cause": "",
+      "affected": "6,988 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/texas",
+      "updated": "4:55 PM CT"
     },
     {
       "lat": 44.3467,
@@ -61,18 +73,6 @@
       "etr": "",
       "source": "https://poweroutage.us/area/state/michigan",
       "updated": "2:12 PM CT"
-    },
-    {
-      "lat": 31.1761,
-      "lon": -99.3453,
-      "place": "Texas",
-      "region": "United States",
-      "cause": "",
-      "affected": "5,937 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/texas",
-      "updated": "4:01 PM CT"
     },
     {
       "lat": 50.45,
