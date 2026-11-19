@@ -1,5 +1,5 @@
 {
-  "as_of": "12:05 PM CT, Thursday, November 19, 2026",
+  "as_of": "11:40 AM CT, Thursday, November 19, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "108,274 customers out",
+      "affected": "107,918 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "11:00 AM CT",
+      "updated": "11:40 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,11 +20,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "45,072 customers out",
+      "affected": "29,244 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/california",
-      "updated": "11:00 AM CT"
+      "updated": "11:40 AM CT"
     },
     {
       "lat": 31.1761,
@@ -32,23 +32,35 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "8,987 customers out",
+      "affected": "9,170 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/texas",
-      "updated": "11:00 AM CT"
+      "updated": "11:40 AM CT"
     },
     {
-      "lat": 28.6305,
-      "lon": -82.4497,
-      "place": "Florida",
+      "lat": 31.0689,
+      "lon": -91.9968,
+      "place": "Louisiana",
       "region": "United States",
       "cause": "",
-      "affected": "6,066 customers out",
+      "affected": "6,119 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/florida",
-      "updated": "11:00 AM CT"
+      "source": "https://massoutage.com/louisiana",
+      "updated": "11:40 AM CT"
+    },
+    {
+      "lat": 38.3566,
+      "lon": -92.458,
+      "place": "Missouri",
+      "region": "United States",
+      "cause": "",
+      "affected": "6,034 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/missouri",
+      "updated": "11:40 AM CT"
     },
     {
       "lat": 44.6243,
@@ -56,23 +68,11 @@
       "place": "Wisconsin",
       "region": "United States",
       "cause": "",
-      "affected": "5,923 customers out",
+      "affected": "4,943 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/wisconsin",
-      "updated": "11:00 AM CT"
-    },
-    {
-      "lat": 40.9133,
-      "lon": -77.8467,
-      "place": "Pennsylvania",
-      "region": "United States",
-      "cause": "",
-      "affected": "2,883 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/pennsylvania",
-      "updated": "11:00 AM CT"
+      "updated": "11:40 AM CT"
     },
     {
       "lat": 50.45,
