@@ -1,5 +1,5 @@
 {
-  "as_of": "3:00 PM CT, Thursday, November 19, 2026",
+  "as_of": "4:00 PM CT, Thursday, November 19, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "101,777 customers out",
+      "affected": "105,419 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "3:00 PM CT",
+      "updated": "4:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -39,16 +39,28 @@
       "updated": "2:06 PM CT"
     },
     {
+      "lat": 40.9133,
+      "lon": -77.8467,
+      "place": "Pennsylvania",
+      "region": "United States",
+      "cause": "",
+      "affected": "6,366 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/pennsylvania",
+      "updated": "4:00 PM CT"
+    },
+    {
       "lat": 31.1761,
       "lon": -99.3453,
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "6,590 customers out",
+      "affected": "5,489 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/texas",
-      "updated": "3:00 PM CT"
+      "updated": "4:00 PM CT"
     },
     {
       "lat": 38.3566,
@@ -60,18 +72,6 @@
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/missouri",
-      "updated": "2:06 PM CT"
-    },
-    {
-      "lat": 44.3467,
-      "lon": -85.4102,
-      "place": "Michigan",
-      "region": "United States",
-      "cause": "",
-      "affected": "4,789 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/michigan",
       "updated": "2:06 PM CT"
     },
     {
