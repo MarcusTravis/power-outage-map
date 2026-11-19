@@ -1,5 +1,5 @@
 {
-  "as_of": "5:50 AM CT, Thursday, November 19, 2026",
+  "as_of": "6:00 AM CT, Thursday, November 19, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "43,042 customers out",
+      "affected": "49,745 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "4:40 AM CT",
+      "updated": "6:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -32,11 +32,11 @@
       "place": "Florida",
       "region": "United States",
       "cause": "",
-      "affected": "3,854 customers out",
+      "affected": "8,392 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/florida",
-      "updated": "2:10 AM CT"
+      "source": "https://massoutage.com/florida",
+      "updated": "6:00 AM CT"
     },
     {
       "lat": 31.1761,
@@ -44,11 +44,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "3,853 customers out",
+      "affected": "2,867 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/texas",
-      "updated": "4:40 AM CT"
+      "updated": "6:00 AM CT"
     },
     {
       "lat": 37.5347,
@@ -56,11 +56,11 @@
       "place": "Kentucky",
       "region": "United States",
       "cause": "",
-      "affected": "2,640 customers out",
+      "affected": "2,721 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/kentucky",
-      "updated": "4:40 AM CT"
+      "updated": "6:00 AM CT"
     },
     {
       "lat": 18.338,
