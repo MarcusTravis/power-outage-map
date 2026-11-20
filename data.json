@@ -1,5 +1,5 @@
 {
-  "as_of": "7:00 AM CT, Friday, November 20, 2026",
+  "as_of": "8:05 AM CT, Friday, November 20, 2026",
   "outages": [
     {
       "lat": null,
@@ -73,6 +73,18 @@
       "etr": "",
       "source": "https://poweroutage.us/area/state/washington",
       "updated": "2:12 AM CT"
+    },
+    {
+      "lat": 19.27,
+      "lon": 84.92,
+      "place": "Southern Odisha, including Ganjam, Gajapati, and Nabarangpur",
+      "region": "Odisha, India",
+      "cause": "Cyclone Akvan",
+      "affected": "Odisha Stand, in a Nov 20, 2026 article from Berhampur, reported that TPSODL said Cyclone Akvan affected 1,083,348 consumers (written as 10,83,348 in that report) across TPSODL's operational area, including 534,361 consumers in Ganjam district and 123,252 in Nabarangpur district (written as Nabarangapur in that report). Those TPSODL figures are the number of consumers the utility reported as affected, not an official count of how many remained without power. The same article said TPSODL CEO Amit Kumar Garg visited cyclone-affected areas of Ganjam district, including Narendrapur Section and Tala Putabagada village, to review restoration, and that TPSODL teams were repairing damaged distribution infrastructure and restoring electricity supply to consumers. The Blink, in a report updated at 1:15 p.m. IST Friday, Nov 20 (1:45 a.m. CT Friday), said that within hours of Cyclonic Storm Akvan crossing the South Odisha coast near Gopalpur, interior blocks of Ganjam, such as Sorada, Aska, and Bhanjanagar, and hilly belts of Gajapati, including Mohana and R. Udayagiri, were facing widespread outages due to downed poles and tree-blocked 33 kV and 11 kV lines. The Blink did not give a customer count. No later official remaining-outage count from TPSODL or the Odisha government was found, and no official estimated restoration time was given.",
+      "start": "Morning of Nov 20, 2026 (IST), when Cyclone Akvan made landfall near Gopalpur",
+      "etr": "",
+      "source": "https://odishastand.com/on-the-ground-after-cyclone-akvan-tpsodl-ceo-reviews-restoration-in-ganjam",
+      "updated": "Nov 20, 2026, TPSODL figures via Odisha Stand (Nov 20); The Blink, updated 1:15 p.m. IST Friday (= 1:45 a.m. CT); no later official remaining-outage count from TPSODL or the Odisha government found as of 8:05 AM CT Friday"
     },
     {
       "lat": 50.45,
