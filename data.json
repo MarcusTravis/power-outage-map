@@ -1,5 +1,5 @@
 {
-  "as_of": "8:00 AM CT, Friday, November 20, 2026",
+  "as_of": "9:00 AM CT, Friday, November 20, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "54,399 customers out",
+      "affected": "61,450 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "8:00 AM CT",
+      "updated": "9:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -32,11 +32,35 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "6,844 customers out",
+      "affected": "6,537 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/texas",
-      "updated": "8:00 AM CT"
+      "updated": "9:00 AM CT"
+    },
+    {
+      "lat": 28.6305,
+      "lon": -82.4497,
+      "place": "Florida",
+      "region": "United States",
+      "cause": "",
+      "affected": "4,032 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/florida",
+      "updated": "9:00 AM CT"
+    },
+    {
+      "lat": 44.3467,
+      "lon": -85.4102,
+      "place": "Michigan",
+      "region": "United States",
+      "cause": "",
+      "affected": "3,761 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/michigan",
+      "updated": "9:00 AM CT"
     },
     {
       "lat": 44.6243,
@@ -44,35 +68,11 @@
       "place": "Wisconsin",
       "region": "United States",
       "cause": "",
-      "affected": "3,605 customers out",
+      "affected": "3,685 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/wisconsin",
-      "updated": "8:00 AM CT"
-    },
-    {
-      "lat": 33.8361,
-      "lon": -81.1637,
-      "place": "South Carolina",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,597 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/south-carolina",
-      "updated": "8:00 AM CT"
-    },
-    {
-      "lat": 40.9133,
-      "lon": -77.8467,
-      "place": "Pennsylvania",
-      "region": "United States",
-      "cause": "",
-      "affected": "2,222 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/pennsylvania",
-      "updated": "8:00 AM CT"
+      "updated": "9:00 AM CT"
     },
     {
       "lat": 19.27,
