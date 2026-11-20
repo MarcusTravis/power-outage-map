@@ -1,5 +1,5 @@
 {
-  "as_of": "4:00 AM CT, Friday, November 20, 2026",
+  "as_of": "4:35 AM CT, Friday, November 20, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "39,133 customers out",
+      "affected": "42,420 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "4:00 AM CT",
+      "updated": "4:35 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -32,11 +32,11 @@
       "place": "Florida",
       "region": "United States",
       "cause": "",
-      "affected": "5,482 customers out",
+      "affected": "4,292 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/florida",
-      "updated": "4:00 AM CT"
+      "updated": "4:35 AM CT"
     },
     {
       "lat": 31.1761,
@@ -44,11 +44,23 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "3,400 customers out",
+      "affected": "3,441 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/texas",
-      "updated": "4:00 AM CT"
+      "updated": "4:35 AM CT"
+    },
+    {
+      "lat": 31.0689,
+      "lon": -91.9968,
+      "place": "Louisiana",
+      "region": "United States",
+      "cause": "",
+      "affected": "3,268 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/louisiana",
+      "updated": "4:35 AM CT"
     },
     {
       "lat": 42.2596,
@@ -60,18 +72,6 @@
       "start": "",
       "etr": "",
       "source": "https://poweroutage.us/area/state/massachusetts",
-      "updated": "2:12 AM CT"
-    },
-    {
-      "lat": 47.3826,
-      "lon": -120.4472,
-      "place": "Washington",
-      "region": "United States",
-      "cause": "",
-      "affected": "1,863 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/washington",
       "updated": "2:12 AM CT"
     },
     {
