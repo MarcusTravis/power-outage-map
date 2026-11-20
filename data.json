@@ -1,5 +1,5 @@
 {
-  "as_of": "3:00 PM CT, Friday, November 20, 2026",
+  "as_of": "3:50 PM CT, Friday, November 20, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "75,777 customers out",
+      "affected": "80,041 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "3:00 PM CT",
+      "updated": "3:50 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -44,11 +44,11 @@
       "place": "Florida",
       "region": "United States",
       "cause": "",
-      "affected": "10,131 customers out",
+      "affected": "9,494 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/florida",
-      "updated": "3:00 PM CT"
+      "updated": "3:50 PM CT"
     },
     {
       "lat": 31.1761,
@@ -56,23 +56,23 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "4,533 customers out",
+      "affected": "4,528 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/texas",
-      "updated": "3:00 PM CT"
+      "updated": "3:50 PM CT"
     },
     {
-      "lat": 39.3289,
-      "lon": -116.6312,
-      "place": "Nevada",
+      "lat": 37.4316,
+      "lon": -78.6569,
+      "place": "Virginia",
       "region": "United States",
       "cause": "",
-      "affected": "2,666 customers out",
+      "affected": "4,471 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/nevada",
-      "updated": "3:00 PM CT"
+      "source": "https://massoutage.com/virginia",
+      "updated": "3:50 PM CT"
     },
     {
       "lat": 19.27,
