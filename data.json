@@ -1,5 +1,5 @@
 {
-  "as_of": "8:05 AM CT, Friday, November 20, 2026",
+  "as_of": "8:00 AM CT, Friday, November 20, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "41,776 customers out",
+      "affected": "54,399 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "7:00 AM CT",
+      "updated": "8:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -32,47 +32,47 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "5,901 customers out",
+      "affected": "6,844 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/texas",
-      "updated": "7:00 AM CT"
+      "updated": "8:00 AM CT"
     },
     {
-      "lat": 28.6305,
-      "lon": -82.4497,
-      "place": "Florida",
+      "lat": 44.6243,
+      "lon": -89.9941,
+      "place": "Wisconsin",
       "region": "United States",
       "cause": "",
-      "affected": "2,805 customers out",
+      "affected": "3,605 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/florida",
-      "updated": "7:00 AM CT"
+      "source": "https://massoutage.com/wisconsin",
+      "updated": "8:00 AM CT"
     },
     {
-      "lat": 42.2596,
-      "lon": -71.8083,
-      "place": "Massachusetts",
+      "lat": 33.8361,
+      "lon": -81.1637,
+      "place": "South Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "1,954 customers out",
+      "affected": "3,597 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/massachusetts",
-      "updated": "2:12 AM CT"
+      "source": "https://massoutage.com/south-carolina",
+      "updated": "8:00 AM CT"
     },
     {
-      "lat": 47.3826,
-      "lon": -120.4472,
-      "place": "Washington",
+      "lat": 40.9133,
+      "lon": -77.8467,
+      "place": "Pennsylvania",
       "region": "United States",
       "cause": "",
-      "affected": "1,863 customers out",
+      "affected": "2,222 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/washington",
-      "updated": "2:12 AM CT"
+      "source": "https://massoutage.com/pennsylvania",
+      "updated": "8:00 AM CT"
     },
     {
       "lat": 19.27,
