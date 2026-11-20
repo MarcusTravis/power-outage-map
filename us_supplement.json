@@ -1,319 +1,307 @@
 {
-  "as_of": "2026-11-19T14:06:51-06:00",
+  "as_of": "2026-11-20T02:12:32-06:00",
   "source": "poweroutage.us",
-  "national_total": 93801,
+  "national_total": 29877,
   "places": [
     {
       "name": "California",
-      "customers_out": 38675,
+      "customers_out": 10710,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Florida",
-      "customers_out": 7001,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Texas",
-      "customers_out": 5222,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Missouri",
-      "customers_out": 4951,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Michigan",
-      "customers_out": 4789,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Wisconsin",
-      "customers_out": 4614,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "U.S. Virgin Islands",
-      "customers_out": 4077,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "North Carolina",
-      "customers_out": 1907,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Illinois",
-      "customers_out": 1795,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "West Virginia",
-      "customers_out": 1789,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Nevada",
-      "customers_out": 1780,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Pennsylvania",
-      "customers_out": 1636,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Tennessee",
-      "customers_out": 1258,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Ohio",
-      "customers_out": 1196,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Virginia",
-      "customers_out": 1171,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Louisiana",
-      "customers_out": 1092,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Alabama",
-      "customers_out": 1048,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Kentucky",
-      "customers_out": 898,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "New Jersey",
-      "customers_out": 680,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Indiana",
-      "customers_out": 634,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Georgia",
-      "customers_out": 594,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Colorado",
-      "customers_out": 552,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Utah",
-      "customers_out": 547,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Washington",
-      "customers_out": 545,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Kansas",
-      "customers_out": 466,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Oregon",
-      "customers_out": 439,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "New York",
-      "customers_out": 429,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Mississippi",
-      "customers_out": 426,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Minnesota",
-      "customers_out": 391,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Idaho",
-      "customers_out": 371,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Arkansas",
-      "customers_out": 368,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Arizona",
-      "customers_out": 301,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "South Dakota",
-      "customers_out": 256,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Iowa",
-      "customers_out": 226,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Maryland",
-      "customers_out": 202,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Hawaii",
-      "customers_out": 193,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Oklahoma",
-      "customers_out": 171,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Alaska",
-      "customers_out": 161,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "South Carolina",
-      "customers_out": 146,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
-    },
-    {
-      "name": "Wyoming",
-      "customers_out": 140,
-      "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
       "name": "Massachusetts",
-      "customers_out": 128,
+      "customers_out": 1954,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
-      "name": "New Mexico",
-      "customers_out": 124,
+      "name": "Washington",
+      "customers_out": 1863,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
-      "name": "Delaware",
-      "customers_out": 117,
+      "name": "South Dakota",
+      "customers_out": 1558,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
-      "name": "Nebraska",
-      "customers_out": 85,
+      "name": "U.S. Virgin Islands",
+      "customers_out": 1443,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
-      "name": "Montana",
-      "customers_out": 73,
+      "name": "New York",
+      "customers_out": 1179,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
-      "name": "Maine",
-      "customers_out": 41,
+      "name": "Ohio",
+      "customers_out": 1137,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
-      "name": "New Hampshire",
-      "customers_out": 35,
+      "name": "Alaska",
+      "customers_out": 1134,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Florida",
+      "customers_out": 1052,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Colorado",
+      "customers_out": 1047,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Michigan",
+      "customers_out": 1006,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Tennessee",
+      "customers_out": 902,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Texas",
+      "customers_out": 727,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Arizona",
+      "customers_out": 724,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Louisiana",
+      "customers_out": 369,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
       "name": "Connecticut",
-      "customers_out": 26,
+      "customers_out": 364,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
-      "name": "North Dakota",
-      "customers_out": 24,
+      "name": "Pennsylvania",
+      "customers_out": 330,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
-      "name": "Vermont",
-      "customers_out": 6,
+      "name": "Utah",
+      "customers_out": 250,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
-      "name": "Rhode Island",
-      "customers_out": 4,
+      "name": "Illinois",
+      "customers_out": 249,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Mississippi",
+      "customers_out": 241,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "North Carolina",
+      "customers_out": 236,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Nevada",
+      "customers_out": 218,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "West Virginia",
+      "customers_out": 185,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Wyoming",
+      "customers_out": 130,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Virginia",
+      "customers_out": 111,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Oregon",
+      "customers_out": 90,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "New Mexico",
+      "customers_out": 89,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Maryland",
+      "customers_out": 79,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Alabama",
+      "customers_out": 73,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Indiana",
+      "customers_out": 67,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Nebraska",
+      "customers_out": 40,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Hawaii",
+      "customers_out": 39,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "New Jersey",
+      "customers_out": 38,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
     },
     {
       "name": "District of Columbia",
+      "customers_out": 34,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Wisconsin",
+      "customers_out": 33,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "South Carolina",
+      "customers_out": 30,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Georgia",
+      "customers_out": 23,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Minnesota",
+      "customers_out": 23,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Kansas",
+      "customers_out": 14,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Arkansas",
+      "customers_out": 12,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Delaware",
+      "customers_out": 11,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Idaho",
+      "customers_out": 11,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Iowa",
+      "customers_out": 11,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Missouri",
+      "customers_out": 11,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Kentucky",
+      "customers_out": 10,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Oklahoma",
+      "customers_out": 7,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Montana",
+      "customers_out": 6,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "North Dakota",
+      "customers_out": 5,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Rhode Island",
       "customers_out": 1,
       "source": "poweroutage.us",
-      "as_of": "2026-11-19T14:06:51-06:00"
+      "as_of": "2026-11-20T02:12:32-06:00"
+    },
+    {
+      "name": "Vermont",
+      "customers_out": 1,
+      "source": "poweroutage.us",
+      "as_of": "2026-11-20T02:12:32-06:00"
     }
   ]
 }
