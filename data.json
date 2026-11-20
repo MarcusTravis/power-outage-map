@@ -1,5 +1,5 @@
 {
-  "as_of": "11:55 PM CT, Thursday, November 19, 2026",
+  "as_of": "12:15 AM CT, Friday, November 20, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "102,311 customers out",
+      "affected": "104,549 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "11:00 PM CT",
+      "updated": "12:15 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -32,11 +32,11 @@
       "place": "Alaska",
       "region": "United States",
       "cause": "",
-      "affected": "8,148 customers out",
+      "affected": "7,970 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/alaska",
-      "updated": "11:00 PM CT"
+      "updated": "12:15 AM CT"
     },
     {
       "lat": 28.6305,
