@@ -1,5 +1,5 @@
 {
-  "as_of": "8:55 PM CT, Thursday, November 19, 2026",
+  "as_of": "10:00 PM CT, Thursday, November 19, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "95,515 customers out",
+      "affected": "94,534 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "8:55 PM CT",
+      "updated": "10:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
