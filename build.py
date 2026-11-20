@@ -27,6 +27,7 @@ OG_IMAGE_PATH = ROOT / "og-image.png"
 FAVICON_PATH = ROOT / "favicon.png"
 SITEMAP_PATH = ROOT / "sitemap.xml"
 ROBOTS_PATH = ROOT / "robots.txt"
+LLMS_PATH = ROOT / "llms.txt"
 GENERATED_MARKER = ".generated"
 
 # Public site URL. Keep the CNAME file at the repo root (blackoutsmap.com);
@@ -34,6 +35,75 @@ GENERATED_MARKER = ".generated"
 SITE_BASE = "https://blackoutsmap.com"
 
 HOME_TITLE = "Live Power Outage Map: Major Blackouts Worldwide Right Now"
+SITE_NAME = "Live Power Outage Map"
+
+# IndexNow key. The matching key file (<key>.txt) lives at the site root.
+INDEXNOW_KEY = "e9161ea684aac6c828f5a9c38a2dbecc"
+
+# Crawlers explicitly welcomed in robots.txt (search engines and AI search/assistants).
+ALLOWED_BOTS = [
+    "Googlebot",
+    "Bingbot",
+    "Google-Extended",
+    "GPTBot",
+    "OAI-SearchBot",
+    "ChatGPT-User",
+    "ClaudeBot",
+    "Claude-SearchBot",
+    "Claude-User",
+    "PerplexityBot",
+    "Perplexity-User",
+    "Applebot",
+    "DuckDuckBot",
+]
+
+# Visible homepage FAQ. The FAQPage JSON-LD is generated from this same list,
+# so structured data always matches what visitors see. Answers are plain text.
+FAQ = [
+    (
+        "What is this map?",
+        "Live Power Outage Map is a free, ad-free, unofficial website that tracks significant power outages "
+        "and electricity shortfalls around the world. Each outage is shown as a dot on the map and as a row "
+        "in the table, with the number of customers affected, the cause, when it started, the estimated "
+        "restoration time when one is published, and a link to the source.",
+    ),
+    (
+        "Where does the outage data come from?",
+        "United States figures come from MassOutage (CC BY 4.0), with some state and territory counts from "
+        "PowerOutage.us. Outages outside the US come from utilities, grid operators, and news reports, and "
+        "every row links to the report it is based on. Numbers are never estimated or invented; if a figure "
+        "is not published, the cell is left blank.",
+    ),
+    (
+        "How often is the map updated?",
+        "US numbers refresh about every hour. The worldwide list is reviewed and updated a few times a day, "
+        "and new major events are added as they are reported. The open page reloads the data every five "
+        "minutes, and each page shows the time of the latest snapshot in US Central Time.",
+    ),
+    (
+        "Which countries are covered?",
+        "Any country can appear. The map lists large or newsworthy outages anywhere in the world, so the "
+        "countries shown change with events: storms, grid failures, fuel shortages, scheduled load shedding, "
+        "and attacks on power infrastructure. Countries with current outages also get their own page.",
+    ),
+    (
+        "How do I check if the power is out near me?",
+        "This map focuses on large outages, so it will not show every street. For your own address, use "
+        "your electric utility's official outage map or app, which shows local outages and restoration "
+        "estimates. If you are not sure who your utility is, check your electricity bill.",
+    ),
+    (
+        "How do I report a power outage?",
+        "Report it directly to your electric utility by phone, app, website, or text, using the outage "
+        "contact on its website or your bill. This site cannot receive outage reports or pass them on. "
+        "If you see a downed power line, stay well away from it and call your local emergency number.",
+    ),
+    (
+        "Is this an official outage map?",
+        "No. It is an independent snapshot compiled from public sources and is not run by any government, "
+        "grid operator, or utility. Always confirm an outage and its restoration time with the local utility.",
+    ),
+]
 
 SOURCE_LABELS = {
     "poweroutage.us": "PowerOutage.us",
@@ -240,10 +310,9 @@ def home_description(as_of: str, rows: list[dict]) -> str:
             places.append(place)
         if len(places) >= 6:
             break
-    where = ", ".join(places[:6]) if places else "major blackouts worldwide"
     return (
-        f"Live unofficial map of significant power outages worldwide as of {as_of}. "
-        f"Current outages include {where}. Customers affected, causes, and restoration times, with sources. Ad-free."
+        "Free, ad-free live map of major power outages and blackouts worldwide: customers out, causes, "
+        "and restoration times, with a source for every outage. Updated hourly for the US."
     )
 
 
@@ -256,14 +325,14 @@ def short_description(as_of: str, name: str, rows: list[dict]) -> str:
         if len(bits) >= 2:
             break
     detail = " ".join(bits)
-    base = f"Current power outages in {name} as of {as_of}."
+    base = f"Power outages in {name} right now: customers affected, causes, and restoration times, with sources."
     if detail:
-        # Keep meta descriptions reasonably short.
+        # Keep meta descriptions short enough not to be cut off in results.
         combined = f"{base} {detail}"
-        if len(combined) > 220:
-            combined = combined[:217].rstrip() + "…"
-        return combined + " Unofficial snapshot with sources."
-    return f"{base} Unofficial snapshot of significant outages, with sources. Ad-free."
+        if len(combined) > 200:
+            combined = combined[:197].rstrip(" ,;:") + "…"
+        return combined
+    return f"{base} Free and ad-free."
 
 
 def replace_block(text: str, name: str, inner: str) -> str:
@@ -386,44 +455,113 @@ def sources_html(rows: list[dict]) -> str:
     return "\n".join(items)
 
 
-def region_links_html(slugs: list[str]) -> str:
+def region_links_html(slugs: list[str], prefix: str = "", current: str | None = None) -> str:
     items = []
     for slug in slugs:
+        if slug == current:
+            continue
         info = PAGE_INFO[slug]
-        items.append(f'<li><a href="{esc(slug)}/">{esc(info["link"])}</a></li>')
+        items.append(f'<li><a href="{esc(prefix + slug)}/">{esc(info["link"])}</a></li>')
     return "\n".join(items)
 
 
-def json_ld_home(as_of: str, description: str, rows: list[dict]) -> str:
-    places = [(row.get("place") or "").strip() for row in rows if (row.get("place") or "").strip()]
+def faq_html() -> str:
+    items = []
+    for question, answer in FAQ:
+        items.append(
+            '      <div class="faq-item">\n'
+            f"        <h3>{esc(question)}</h3>\n"
+            f"        <p>{esc(answer)}</p>\n"
+            "      </div>"
+        )
+    return "\n".join(items)
+
+
+def _publisher() -> dict:
+    return {"@type": "Organization", "@id": SITE_BASE + "/#publisher", "name": SITE_NAME, "url": SITE_BASE + "/"}
+
+
+def _website() -> dict:
+    return {
+        "@type": "WebSite",
+        "@id": SITE_BASE + "/#website",
+        "name": SITE_NAME,
+        "alternateName": "blackoutsmap.com",
+        "url": SITE_BASE + "/",
+        "description": "Free, ad-free live map of major power outages and blackouts worldwide, with sources.",
+        "inLanguage": "en",
+        "publisher": {"@id": SITE_BASE + "/#publisher"},
+    }
+
+
+def json_ld_home(as_of: str, description: str, rows: list[dict], slugs: list[str]) -> str:
+    modified = isoformat_as_of(as_of)
+    countries = sorted({PAGE_INFO[s]["name"].replace("the ", "", 1) for s in slugs})
     data = {
         "@context": "https://schema.org",
         "@graph": [
+            _publisher(),
+            _website(),
             {
-                "@type": "WebSite",
-                "name": "Live Power Outage Map",
+                "@type": "WebPage",
+                "@id": SITE_BASE + "/#webpage",
                 "url": SITE_BASE + "/",
+                "name": HOME_TITLE,
                 "description": description,
+                "isPartOf": {"@id": SITE_BASE + "/#website"},
+                "about": {"@id": SITE_BASE + "/#dataset"},
+                "dateModified": modified,
+                "primaryImageOfPage": SITE_BASE + "/og-image.png",
                 "inLanguage": "en",
             },
             {
                 "@type": "Dataset",
-                "name": "Significant power outages worldwide",
-                "description": description,
+                "@id": SITE_BASE + "/#dataset",
+                "name": "Significant power outages worldwide (live snapshot)",
+                "description": (
+                    "A frequently updated list of significant power outages and electricity shortfalls worldwide. "
+                    "Each record gives the place, country or region, cause, customers affected or MW shortfall, "
+                    "start time, estimated restoration time when published, the source URL, and when it was last "
+                    "checked. US figures come from MassOutage (CC BY 4.0), with some state and territory counts "
+                    "from PowerOutage.us; other rows come from utility, grid operator, and news reports linked "
+                    "on each row. US data refreshes about hourly; the worldwide list updates a few times a day."
+                ),
                 "url": SITE_BASE + "/",
                 "isAccessibleForFree": True,
-                "license": "https://creativecommons.org/licenses/by/4.0/",
-                "dateModified": isoformat_as_of(as_of),
-                "temporalCoverage": isoformat_as_of(as_of),
+                "dateModified": modified,
+                "temporalCoverage": modified,
                 "spatialCoverage": {"@type": "Place", "name": "Worldwide"},
-                "creator": {"@type": "Organization", "name": "Live Power Outage Map"},
+                "creator": {"@id": SITE_BASE + "/#publisher"},
+                "publisher": {"@id": SITE_BASE + "/#publisher"},
+                "isBasedOn": [
+                    "https://massoutage.com/",
+                    "https://poweroutage.us/",
+                ],
                 "distribution": {
                     "@type": "DataDownload",
                     "encodingFormat": "application/json",
                     "contentUrl": SITE_BASE + "/data.json",
                 },
-                "variableMeasured": "Power outages and generation shortfalls",
-                "keywords": places,
+                "variableMeasured": [
+                    "Customers without power",
+                    "Generation shortfall (MW)",
+                    "Outage cause",
+                    "Estimated restoration time",
+                ],
+                "keywords": ["power outage", "blackout", "outage map", "load shedding"] + countries,
+            },
+            {
+                "@type": "FAQPage",
+                "@id": SITE_BASE + "/#faq",
+                "url": SITE_BASE + "/",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": q,
+                        "acceptedAnswer": {"@type": "Answer", "text": a},
+                    }
+                    for q, a in FAQ
+                ],
             },
         ],
     }
@@ -434,13 +572,28 @@ def json_ld_region(slug: str, as_of: str, description: str, info: dict) -> str:
     url = f"{SITE_BASE}/{slug}/"
     data = {
         "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": info["heading"],
-        "url": url,
-        "description": description,
-        "isPartOf": {"@type": "WebSite", "name": "Live Power Outage Map", "url": SITE_BASE + "/"},
-        "dateModified": isoformat_as_of(as_of),
-        "about": {"@type": "Dataset", "name": f"Significant power outages in {info['name']}", "url": url},
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": url + "#webpage",
+                "name": info["heading"],
+                "url": url,
+                "description": description,
+                "isPartOf": {"@type": "WebSite", "@id": SITE_BASE + "/#website", "name": SITE_NAME, "url": SITE_BASE + "/"},
+                "dateModified": isoformat_as_of(as_of),
+                "inLanguage": "en",
+                "breadcrumb": {"@id": url + "#breadcrumb"},
+                "about": {"@type": "Dataset", "name": f"Significant power outages in {info['name']}", "url": url},
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": url + "#breadcrumb",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": SITE_NAME, "item": SITE_BASE + "/"},
+                    {"@type": "ListItem", "position": 2, "name": info["heading"], "item": url},
+                ],
+            },
+        ],
     }
     return json.dumps(data, ensure_ascii=False, indent=2)
 
@@ -458,7 +611,8 @@ def seo_head(
         [
             f"  <title>{esc(title)}</title>",
             f'  <meta name="description" content="{esc(description)}">',
-            '  <meta name="robots" content="index,follow">',
+            '  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">',
+            '  <meta name="theme-color" content="#f3efe6">',
             f'  <link rel="canonical" href="{esc(canonical)}">',
             f'  <link rel="icon" type="image/png" href="{esc(SITE_BASE + "/favicon.png")}">',
             f'  <link rel="stylesheet" href="{esc(stylesheet)}">',
@@ -477,6 +631,7 @@ def seo_head(
             f'  <meta name="twitter:title" content="{esc(title)}">',
             f'  <meta name="twitter:description" content="{esc(description)}">',
             f'  <meta name="twitter:image" content="{esc(image)}">',
+            '  <meta name="twitter:image:alt" content="Live Power Outage Map: major blackouts worldwide right now">',
             extra_links,
             '  <script type="application/ld+json">',
             json_ld,
@@ -493,7 +648,7 @@ def patch_index(as_of: str, rows: list[dict], hrefs: dict[str, str], slugs: list
         HOME_TITLE,
         description,
         canonical,
-        json_ld_home(as_of, description, rows),
+        json_ld_home(as_of, description, rows, slugs),
         "site.css",
         extra_links='  <link rel="alternate" type="application/json" href="data.json" title="Outage data (JSON)">',
     )
@@ -512,6 +667,7 @@ def patch_index(as_of: str, rows: list[dict], hrefs: dict[str, str], slugs: list
     else:
         text = text.replace('<div class="metrics" id="metrics">', '<div class="metrics" id="metrics" hidden>', 1)
     text = replace_block(text, "region-links", "\n      " + region_links_html(slugs) + "\n      ")
+    text = replace_block(text, "faq", "\n" + faq_html() + "\n      ")
     text = replace_block(text, "table", "\n" + table_rows_html(rows, hrefs) + "\n          ")
     text = replace_block(text, "sources", "\n      " + sources_html(rows) + "\n      ")
     hrefs_js = "    const REGION_HREFS = " + json.dumps(hrefs, ensure_ascii=False, indent=6) + ";"
@@ -536,7 +692,9 @@ def analytics_html() -> str:
     )
 
 
-def write_region_page(slug: str, as_of: str, rows: list[dict], hrefs: dict[str, str], info: dict) -> None:
+def write_region_page(
+    slug: str, as_of: str, rows: list[dict], hrefs: dict[str, str], info: dict, slugs: list[str]
+) -> None:
     directory = ROOT / slug
     directory.mkdir(exist_ok=True)
     (directory / GENERATED_MARKER).write_text("generated by build.py; do not edit\n", encoding="utf-8")
@@ -553,6 +711,15 @@ def write_region_page(slug: str, as_of: str, rows: list[dict], hrefs: dict[str, 
     # Place links on a region page should stay on this page or go to a sibling; hrefs are like "ukraine/".
     # Prefix with ../ so they resolve from /ukraine/ to /ukraine/ or /us/.
     sources = sources_html(rows)
+    other_links = region_links_html(slugs, prefix="../", current=slug)
+    other_nav = ""
+    if other_links:
+        other_nav = (
+            '    <nav class="region-nav" aria-label="Other countries">\n'
+            "      <h2>Power outages in other countries</h2>\n"
+            f"      <ul>\n{other_links}\n      </ul>\n"
+            "    </nav>\n"
+        )
     us_credit = ""
     if slug in {"us", "us-virgin-islands", "puerto-rico"}:
         us_credit = (
@@ -573,7 +740,8 @@ def write_region_page(slug: str, as_of: str, rows: list[dict], hrefs: dict[str, 
 </head>
 <body>
   <div class="wrap">
-    <p class="back-link"><a href="../">← Live worldwide power outage map</a></p>
+    <main>
+    <nav class="breadcrumb back-link" aria-label="Breadcrumb"><a href="../">← Live worldwide power outage map</a> <span aria-hidden="true">/</span> <span aria-current="page">{esc(info["heading"])}</span></nav>
     <header class="top">
       <h1>{esc(info["heading"])}</h1>
       <p class="dateline">As of <strong>{esc(as_of)}</strong><br>Times in Central Time (CT)</p>
@@ -601,6 +769,8 @@ def write_region_page(slug: str, as_of: str, rows: list[dict], hrefs: dict[str, 
         </table>
       </div>
     </section>
+    <p class="region-lede">To check the power at your own address, use your electric utility's official outage map, and report outages to the utility directly. See the <a href="../#faq">FAQ</a> for how this map works.</p>
+{other_nav}    </main>
     <footer>
       <h2>Sources</h2>
       <ul>
@@ -628,12 +798,55 @@ def clean_stale_pages(keep: set[str]) -> None:
 
 
 def write_robots() -> None:
-    ROBOTS_PATH.write_text(
-        "User-agent: *\n"
-        "Allow: /\n"
-        f"Sitemap: {SITE_BASE}/sitemap.xml\n",
-        encoding="utf-8",
+    lines = ["# Everyone is welcome to crawl this site, including search engines and AI assistants.", ""]
+    for bot in ALLOWED_BOTS:
+        lines += [f"User-agent: {bot}", "Allow: /", ""]
+    lines += ["User-agent: *", "Allow: /", "", f"Sitemap: {SITE_BASE}/sitemap.xml", ""]
+    ROBOTS_PATH.write_text("\n".join(lines), encoding="utf-8")
+
+
+def write_llms(as_of: str, slugs: list[str]) -> None:
+    pages = "\n".join(
+        f"- [{PAGE_INFO[s]['heading']}]({SITE_BASE}/{s}/): current outages in {PAGE_INFO[s]['name']}" for s in slugs
     )
+    faq = "\n\n".join(f"### {q}\n\n{a}" for q, a in FAQ)
+    text = f"""# {SITE_NAME} (blackoutsmap.com)
+
+> Free, ad-free, unofficial live map and table of significant power outages and blackouts worldwide. Each outage lists the place, country, cause, customers affected (or MW shortfall), start time, estimated restoration time when published, a source link, and when it was last checked.
+
+Latest snapshot: {as_of}. Times on the site are US Central Time (CT).
+
+## What the site shows
+
+- A world map with a dot for each significant outage or electricity shortfall, plus a sortable table of the same rows.
+- A running total of US customers without power.
+- A separate page for each country that currently has a listed outage.
+- Rows only use published figures; when a number is not published, it is left blank rather than estimated.
+
+## Update frequency
+
+- United States: about every hour.
+- Worldwide list: a few times a day (about four), plus new major events as they are reported.
+- The open homepage reloads the data every five minutes.
+
+## Sources
+
+- US outage counts: MassOutage (https://massoutage.com/, CC BY 4.0), with some state and territory counts from PowerOutage.us.
+- Outside the US: utilities, grid operators, and news reports. Every row links to its source.
+- This is not an official government or utility outage map. For an individual address, use the local electric utility's outage map, and report outages to the utility.
+
+## Key pages
+
+- [Live worldwide power outage map]({SITE_BASE}/): map, full outage table, and FAQ
+{pages}
+- [Raw data (JSON)]({SITE_BASE}/data.json): the current outage list used by the map
+- [Sitemap]({SITE_BASE}/sitemap.xml)
+
+## FAQ
+
+{faq}
+"""
+    LLMS_PATH.write_text(text, encoding="utf-8")
 
 
 def write_sitemap(as_of: str, slugs: list[str]) -> None:
@@ -790,11 +1003,12 @@ def main() -> None:
     patch_index(as_of, rows, hrefs, slugs)
     clean_stale_pages(set(slugs))
     for slug in slugs:
-        write_region_page(slug, as_of, rows_for_slug(slug, rows), hrefs, PAGE_INFO[slug])
+        write_region_page(slug, as_of, rows_for_slug(slug, rows), hrefs, PAGE_INFO[slug], slugs)
     write_robots()
+    write_llms(as_of, slugs)
     write_sitemap(as_of, slugs)
     write_images(as_of, rows)
-    print(f"Built homepage, {len(slugs)} region pages, sitemap, and share image.")
+    print(f"Built homepage, {len(slugs)} region pages, sitemap, robots.txt, llms.txt, and share image.")
     print("Region pages: " + ", ".join(f"/{s}/" for s in slugs))
 
 

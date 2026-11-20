@@ -1,0 +1,65 @@
+# Live Power Outage Map (blackoutsmap.com)
+
+> Free, ad-free, unofficial live map and table of significant power outages and blackouts worldwide. Each outage lists the place, country, cause, customers affected (or MW shortfall), start time, estimated restoration time when published, a source link, and when it was last checked.
+
+Latest snapshot: 3:50 PM CT, Friday, November 20, 2026. Times on the site are US Central Time (CT).
+
+## What the site shows
+
+- A world map with a dot for each significant outage or electricity shortfall, plus a sortable table of the same rows.
+- A running total of US customers without power.
+- A separate page for each country that currently has a listed outage.
+- Rows only use published figures; when a number is not published, it is left blank rather than estimated.
+
+## Update frequency
+
+- United States: about every hour.
+- Worldwide list: a few times a day (about four), plus new major events as they are reported.
+- The open homepage reloads the data every five minutes.
+
+## Sources
+
+- US outage counts: MassOutage (https://massoutage.com/, CC BY 4.0), with some state and territory counts from PowerOutage.us.
+- Outside the US: utilities, grid operators, and news reports. Every row links to its source.
+- This is not an official government or utility outage map. For an individual address, use the local electric utility's outage map, and report outages to the utility.
+
+## Key pages
+
+- [Live worldwide power outage map](https://blackoutsmap.com/): map, full outage table, and FAQ
+- [US Power Outage Today](https://blackoutsmap.com/us/): current outages in the United States
+- [Ukraine Power Outage Today](https://blackoutsmap.com/ukraine/): current outages in Ukraine
+- [Cuba Power Outage Today](https://blackoutsmap.com/cuba/): current outages in Cuba
+- [Sudan Power Outage Today](https://blackoutsmap.com/sudan/): current outages in Sudan
+- [US Virgin Islands Power Outage Today](https://blackoutsmap.com/us-virgin-islands/): current outages in the U.S. Virgin Islands
+- [Raw data (JSON)](https://blackoutsmap.com/data.json): the current outage list used by the map
+- [Sitemap](https://blackoutsmap.com/sitemap.xml)
+
+## FAQ
+
+### What is this map?
+
+Live Power Outage Map is a free, ad-free, unofficial website that tracks significant power outages and electricity shortfalls around the world. Each outage is shown as a dot on the map and as a row in the table, with the number of customers affected, the cause, when it started, the estimated restoration time when one is published, and a link to the source.
+
+### Where does the outage data come from?
+
+United States figures come from MassOutage (CC BY 4.0), with some state and territory counts from PowerOutage.us. Outages outside the US come from utilities, grid operators, and news reports, and every row links to the report it is based on. Numbers are never estimated or invented; if a figure is not published, the cell is left blank.
+
+### How often is the map updated?
+
+US numbers refresh about every hour. The worldwide list is reviewed and updated a few times a day, and new major events are added as they are reported. The open page reloads the data every five minutes, and each page shows the time of the latest snapshot in US Central Time.
+
+### Which countries are covered?
+
+Any country can appear. The map lists large or newsworthy outages anywhere in the world, so the countries shown change with events: storms, grid failures, fuel shortages, scheduled load shedding, and attacks on power infrastructure. Countries with current outages also get their own page.
+
+### How do I check if the power is out near me?
+
+This map focuses on large outages, so it will not show every street. For your own address, use your electric utility's official outage map or app, which shows local outages and restoration estimates. If you are not sure who your utility is, check your electricity bill.
+
+### How do I report a power outage?
+
+Report it directly to your electric utility by phone, app, website, or text, using the outage contact on its website or your bill. This site cannot receive outage reports or pass them on. If you see a downed power line, stay well away from it and call your local emergency number.
+
+### Is this an official outage map?
+
+No. It is an independent snapshot compiled from public sources and is not run by any government, grid operator, or utility. Always confirm an outage and its restoration time with the local utility.

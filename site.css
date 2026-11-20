@@ -340,3 +340,25 @@
       .clamp-cell { min-width: 10rem; max-width: 16rem; }
       .clamp-cell.is-expanded { max-width: 22rem; }
     }
+
+    /* Homepage intro and FAQ */
+    .intro {
+      margin: 0 0 12px;
+      max-width: 46rem;
+      font-size: 1.02rem;
+    }
+    .faq h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 18px 0 4px;
+    }
+    .faq .faq-item:first-of-type h3 { margin-top: 6px; }
+    .faq p {
+      margin: 0;
+      max-width: 46rem;
+      color: var(--muted);
+    }
+    .breadcrumb span[aria-current] { color: var(--muted); }
+    .faq .faq-item { padding: 0 16px; }
+    .faq .faq-item:last-of-type { padding-bottom: 16px; }
+    td a { display: inline-block; padding: 4px 0; }

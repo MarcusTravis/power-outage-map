@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- build:seo-head -->
   <title>Live Power Outage Map: Major Blackouts Worldwide Right Now</title>
-  <meta name="description" content="Live unofficial map of significant power outages worldwide as of 3:50 PM CT, Friday, November 20, 2026. Current outages include United States, U.S. Virgin Islands, Southern Odisha, including Ganjam, Gajapati, Rayagada, Koraput, Malkangiri, Nabarangpur, Kandhamal, and Boudh, Kyiv and nationwide, Dnipro and nearby districts, Odesa and Rozdilna districts. Customers affected, causes, and restoration times, with sources. Ad-free.">
-  <meta name="robots" content="index,follow">
+  <meta name="description" content="Free, ad-free live map of major power outages and blackouts worldwide: customers out, causes, and restoration times, with a source for every outage. Updated hourly for the US.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <meta name="theme-color" content="#f3efe6">
   <link rel="canonical" href="https://blackoutsmap.com/">
   <link rel="icon" type="image/png" href="https://blackoutsmap.com/favicon.png">
   <link rel="stylesheet" href="site.css">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Live Power Outage Map: Major Blackouts Worldwide Right Now">
-  <meta property="og:description" content="Live unofficial map of significant power outages worldwide as of 3:50 PM CT, Friday, November 20, 2026. Current outages include United States, U.S. Virgin Islands, Southern Odisha, including Ganjam, Gajapati, Rayagada, Koraput, Malkangiri, Nabarangpur, Kandhamal, and Boudh, Kyiv and nationwide, Dnipro and nearby districts, Odesa and Rozdilna districts. Customers affected, causes, and restoration times, with sources. Ad-free.">
+  <meta property="og:description" content="Free, ad-free live map of major power outages and blackouts worldwide: customers out, causes, and restoration times, with a source for every outage. Updated hourly for the US.">
   <meta property="og:url" content="https://blackoutsmap.com/">
   <meta property="og:site_name" content="Live Power Outage Map">
   <meta property="og:locale" content="en_US">
@@ -23,27 +24,55 @@
   <meta property="og:image:alt" content="Live Power Outage Map: major blackouts worldwide right now">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Live Power Outage Map: Major Blackouts Worldwide Right Now">
-  <meta name="twitter:description" content="Live unofficial map of significant power outages worldwide as of 3:50 PM CT, Friday, November 20, 2026. Current outages include United States, U.S. Virgin Islands, Southern Odisha, including Ganjam, Gajapati, Rayagada, Koraput, Malkangiri, Nabarangpur, Kandhamal, and Boudh, Kyiv and nationwide, Dnipro and nearby districts, Odesa and Rozdilna districts. Customers affected, causes, and restoration times, with sources. Ad-free.">
+  <meta name="twitter:description" content="Free, ad-free live map of major power outages and blackouts worldwide: customers out, causes, and restoration times, with a source for every outage. Updated hourly for the US.">
   <meta name="twitter:image" content="https://blackoutsmap.com/og-image.png">
+  <meta name="twitter:image:alt" content="Live Power Outage Map: major blackouts worldwide right now">
   <link rel="alternate" type="application/json" href="data.json" title="Outage data (JSON)">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "WebSite",
+      "@type": "Organization",
+      "@id": "https://blackoutsmap.com/#publisher",
       "name": "Live Power Outage Map",
+      "url": "https://blackoutsmap.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://blackoutsmap.com/#website",
+      "name": "Live Power Outage Map",
+      "alternateName": "blackoutsmap.com",
       "url": "https://blackoutsmap.com/",
-      "description": "Live unofficial map of significant power outages worldwide as of 3:50 PM CT, Friday, November 20, 2026. Current outages include United States, U.S. Virgin Islands, Southern Odisha, including Ganjam, Gajapati, Rayagada, Koraput, Malkangiri, Nabarangpur, Kandhamal, and Boudh, Kyiv and nationwide, Dnipro and nearby districts, Odesa and Rozdilna districts. Customers affected, causes, and restoration times, with sources. Ad-free.",
+      "description": "Free, ad-free live map of major power outages and blackouts worldwide, with sources.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://blackoutsmap.com/#publisher"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://blackoutsmap.com/#webpage",
+      "url": "https://blackoutsmap.com/",
+      "name": "Live Power Outage Map: Major Blackouts Worldwide Right Now",
+      "description": "Free, ad-free live map of major power outages and blackouts worldwide: customers out, causes, and restoration times, with a source for every outage. Updated hourly for the US.",
+      "isPartOf": {
+        "@id": "https://blackoutsmap.com/#website"
+      },
+      "about": {
+        "@id": "https://blackoutsmap.com/#dataset"
+      },
+      "dateModified": "2026-11-20T15:50:00-06:00",
+      "primaryImageOfPage": "https://blackoutsmap.com/og-image.png",
       "inLanguage": "en"
     },
     {
       "@type": "Dataset",
-      "name": "Significant power outages worldwide",
-      "description": "Live unofficial map of significant power outages worldwide as of 3:50 PM CT, Friday, November 20, 2026. Current outages include United States, U.S. Virgin Islands, Southern Odisha, including Ganjam, Gajapati, Rayagada, Koraput, Malkangiri, Nabarangpur, Kandhamal, and Boudh, Kyiv and nationwide, Dnipro and nearby districts, Odesa and Rozdilna districts. Customers affected, causes, and restoration times, with sources. Ad-free.",
+      "@id": "https://blackoutsmap.com/#dataset",
+      "name": "Significant power outages worldwide (live snapshot)",
+      "description": "A frequently updated list of significant power outages and electricity shortfalls worldwide. Each record gives the place, country or region, cause, customers affected or MW shortfall, start time, estimated restoration time when published, the source URL, and when it was last checked. US figures come from MassOutage (CC BY 4.0), with some state and territory counts from PowerOutage.us; other rows come from utility, grid operator, and news reports linked on each row. US data refreshes about hourly; the worldwide list updates a few times a day.",
       "url": "https://blackoutsmap.com/",
       "isAccessibleForFree": true,
-      "license": "https://creativecommons.org/licenses/by/4.0/",
       "dateModified": "2026-11-20T15:50:00-06:00",
       "temporalCoverage": "2026-11-20T15:50:00-06:00",
       "spatialCoverage": {
@@ -51,30 +80,99 @@
         "name": "Worldwide"
       },
       "creator": {
-        "@type": "Organization",
-        "name": "Live Power Outage Map"
+        "@id": "https://blackoutsmap.com/#publisher"
       },
+      "publisher": {
+        "@id": "https://blackoutsmap.com/#publisher"
+      },
+      "isBasedOn": [
+        "https://massoutage.com/",
+        "https://poweroutage.us/"
+      ],
       "distribution": {
         "@type": "DataDownload",
         "encodingFormat": "application/json",
         "contentUrl": "https://blackoutsmap.com/data.json"
       },
-      "variableMeasured": "Power outages and generation shortfalls",
+      "variableMeasured": [
+        "Customers without power",
+        "Generation shortfall (MW)",
+        "Outage cause",
+        "Estimated restoration time"
+      ],
       "keywords": [
-        "United States",
-        "U.S. Virgin Islands",
-        "California",
-        "Florida",
-        "Texas",
-        "Virginia",
-        "Southern Odisha, including Ganjam, Gajapati, Rayagada, Koraput, Malkangiri, Nabarangpur, Kandhamal, and Boudh",
-        "Kyiv and nationwide",
-        "Dnipro and nearby districts",
-        "Odesa and Rozdilna districts",
-        "Donetsk, Makiivka, Mariupol, Horlivka, Yenakiieve, Khartsyzk, Torez, Debaltseve, and nearby districts",
-        "Crimea, including Alushta and Sudak",
+        "power outage",
+        "blackout",
+        "outage map",
+        "load shedding",
         "Cuba",
-        "Khartoum, Port Sudan, and nationwide"
+        "Sudan",
+        "U.S. Virgin Islands",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://blackoutsmap.com/#faq",
+      "url": "https://blackoutsmap.com/",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is this map?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Live Power Outage Map is a free, ad-free, unofficial website that tracks significant power outages and electricity shortfalls around the world. Each outage is shown as a dot on the map and as a row in the table, with the number of customers affected, the cause, when it started, the estimated restoration time when one is published, and a link to the source."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where does the outage data come from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "United States figures come from MassOutage (CC BY 4.0), with some state and territory counts from PowerOutage.us. Outages outside the US come from utilities, grid operators, and news reports, and every row links to the report it is based on. Numbers are never estimated or invented; if a figure is not published, the cell is left blank."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often is the map updated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "US numbers refresh about every hour. The worldwide list is reviewed and updated a few times a day, and new major events are added as they are reported. The open page reloads the data every five minutes, and each page shows the time of the latest snapshot in US Central Time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which countries are covered?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Any country can appear. The map lists large or newsworthy outages anywhere in the world, so the countries shown change with events: storms, grid failures, fuel shortages, scheduled load shedding, and attacks on power infrastructure. Countries with current outages also get their own page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I check if the power is out near me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This map focuses on large outages, so it will not show every street. For your own address, use your electric utility's official outage map or app, which shows local outages and restoration estimates. If you are not sure who your utility is, check your electricity bill."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I report a power outage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Report it directly to your electric utility by phone, app, website, or text, using the outage contact on its website or your bill. This site cannot receive outage reports or pass them on. If you see a downed power line, stay well away from it and call your local emergency number."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this an official outage map?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is an independent snapshot compiled from public sources and is not run by any government, grid operator, or utility. Always confirm an outage and its restoration time with the local utility."
+          }
+        }
       ]
     }
   ]
@@ -84,7 +182,9 @@
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,500&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <link rel="stylesheet" href="site.css">
   <noscript><style>
@@ -94,10 +194,13 @@
 </head>
 <body>
   <div class="wrap">
+    <main>
     <header class="top">
       <h1>Live Power Outage Map</h1>
       <p class="dateline">As of <strong id="as-of">3:50 PM CT, Friday, November 20, 2026</strong><br>Times in Central Time (CT)</p>
     </header>
+
+    <p class="intro">This free, ad-free map tracks significant power outages and blackouts around the world right now. Each outage shows where it is, how many customers are affected, the cause, and the estimated restoration time when one is published, with a link to the source. It is unofficial: for your own address, check your electric utility's outage map. <a href="#faq">How this map works</a></p>
 
     <p class="cadence">U.S. numbers refresh about every hour. The worldwide list updates a few times a day (about four). This page reloads the data file every five minutes.</p>
 
@@ -167,6 +270,41 @@
       </div>
     </section>
 
+    <section class="panel faq" id="faq" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently asked questions</h2>
+<!-- build:faq -->
+      <div class="faq-item">
+        <h3>What is this map?</h3>
+        <p>Live Power Outage Map is a free, ad-free, unofficial website that tracks significant power outages and electricity shortfalls around the world. Each outage is shown as a dot on the map and as a row in the table, with the number of customers affected, the cause, when it started, the estimated restoration time when one is published, and a link to the source.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Where does the outage data come from?</h3>
+        <p>United States figures come from MassOutage (CC BY 4.0), with some state and territory counts from PowerOutage.us. Outages outside the US come from utilities, grid operators, and news reports, and every row links to the report it is based on. Numbers are never estimated or invented; if a figure is not published, the cell is left blank.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How often is the map updated?</h3>
+        <p>US numbers refresh about every hour. The worldwide list is reviewed and updated a few times a day, and new major events are added as they are reported. The open page reloads the data every five minutes, and each page shows the time of the latest snapshot in US Central Time.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Which countries are covered?</h3>
+        <p>Any country can appear. The map lists large or newsworthy outages anywhere in the world, so the countries shown change with events: storms, grid failures, fuel shortages, scheduled load shedding, and attacks on power infrastructure. Countries with current outages also get their own page.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How do I check if the power is out near me?</h3>
+        <p>This map focuses on large outages, so it will not show every street. For your own address, use your electric utility&#x27;s official outage map or app, which shows local outages and restoration estimates. If you are not sure who your utility is, check your electricity bill.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How do I report a power outage?</h3>
+        <p>Report it directly to your electric utility by phone, app, website, or text, using the outage contact on its website or your bill. This site cannot receive outage reports or pass them on. If you see a downed power line, stay well away from it and call your local emergency number.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is this an official outage map?</h3>
+        <p>No. It is an independent snapshot compiled from public sources and is not run by any government, grid operator, or utility. Always confirm an outage and its restoration time with the local utility.</p>
+      </div>
+      <!-- /build:faq -->
+    </section>
+    </main>
+
     <footer>
       <h2>Sources</h2>
       <ul id="source-list"><!-- build:sources -->
@@ -191,7 +329,7 @@
 
   </div>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
   <script src="table-expand.js" defer></script>
   <script>
     const DATA_URL = "data.json";
@@ -538,8 +676,13 @@
       });
     });
 
-    refresh();
-    setInterval(refresh, REFRESH_MS);
+    // Leaflet loads with defer, so start once the document (and deferred scripts) are ready.
+    function start() {
+      refresh();
+      setInterval(refresh, REFRESH_MS);
+    }
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
+    else start();
     window.addEventListener("resize", () => { if (map) map.invalidateSize(); });
   </script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7234bf51ba3b43458e810475e5d79c30"}'></script><!-- End Cloudflare Web Analytics -->
