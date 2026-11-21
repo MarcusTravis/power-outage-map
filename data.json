@@ -1,5 +1,5 @@
 {
-  "as_of": "9:00 PM CT, Friday, November 20, 2026",
+  "as_of": "9:45 PM CT, Friday, November 20, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "69,108 customers out",
+      "affected": "70,794 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "9:00 PM CT",
+      "updated": "9:45 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -56,11 +56,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "3,653 customers out",
+      "affected": "5,784 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/texas",
-      "updated": "2:09 PM CT"
+      "source": "https://massoutage.com/texas",
+      "updated": "9:45 PM CT"
     },
     {
       "lat": 39.3289,
@@ -68,11 +68,11 @@
       "place": "Nevada",
       "region": "United States",
       "cause": "",
-      "affected": "2,584 customers out",
+      "affected": "2,585 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/nevada",
-      "updated": "9:00 PM CT"
+      "updated": "9:45 PM CT"
     },
     {
       "lat": 19.27,
