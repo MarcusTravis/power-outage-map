@@ -1,5 +1,5 @@
 {
-  "as_of": "2:40 PM CT, Saturday, November 21, 2026",
+  "as_of": "4:00 PM CT, Saturday, November 21, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "37,667 customers out",
+      "affected": "37,869 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "2:40 PM CT",
+      "updated": "4:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -39,28 +39,16 @@
       "updated": "2:10 PM CT"
     },
     {
-      "lat": 32.6469,
-      "lon": -83.4426,
-      "place": "Georgia",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,497 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/georgia",
-      "updated": "2:40 PM CT"
-    },
-    {
       "lat": 37.1661,
       "lon": -119.4494,
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "3,399 customers out",
+      "affected": "3,713 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/california",
-      "updated": "2:10 PM CT"
+      "source": "https://massoutage.com/california",
+      "updated": "4:00 PM CT"
     },
     {
       "lat": 31.1761,
@@ -73,6 +61,18 @@
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
       "updated": "2:10 PM CT"
+    },
+    {
+      "lat": 34.2744,
+      "lon": -111.6602,
+      "place": "Arizona",
+      "region": "United States",
+      "cause": "",
+      "affected": "2,975 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/arizona",
+      "updated": "4:00 PM CT"
     },
     {
       "lat": 19.27,
