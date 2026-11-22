@@ -1,5 +1,5 @@
 {
-  "as_of": "3:00 PM CT, Sunday, November 22, 2026",
+  "as_of": "3:40 PM CT, Sunday, November 22, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,12 +7,24 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "39,868 customers out",
+      "affected": "44,170 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "3:00 PM CT",
+      "updated": "3:40 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
+    },
+    {
+      "lat": 35.858,
+      "lon": -86.3505,
+      "place": "Tennessee",
+      "region": "United States",
+      "cause": "",
+      "affected": "6,884 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/tennessee",
+      "updated": "3:40 PM CT"
     },
     {
       "lat": 35.5557,
@@ -20,11 +32,11 @@
       "place": "North Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "4,948 customers out",
+      "affected": "4,494 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/north-carolina",
-      "updated": "3:00 PM CT"
+      "source": "https://poweroutage.us/area/state/north%20carolina",
+      "updated": "2:07 PM CT"
     },
     {
       "lat": 37.1661,
@@ -49,18 +61,6 @@
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
       "updated": "2:07 PM CT"
-    },
-    {
-      "lat": 39.3055,
-      "lon": -111.6703,
-      "place": "Utah",
-      "region": "United States",
-      "cause": "",
-      "affected": "2,835 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/utah",
-      "updated": "3:00 PM CT"
     },
     {
       "lat": 20.2927,
