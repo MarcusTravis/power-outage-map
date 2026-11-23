@@ -1,5 +1,5 @@
 {
-  "as_of": "10:00 PM CT, Sunday, November 22, 2026",
+  "as_of": "11:00 PM CT, Sunday, November 22, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "43,116 customers out",
+      "affected": "45,938 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "10:00 PM CT",
+      "updated": "11:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -24,7 +24,7 @@
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/ohio",
-      "updated": "10:00 PM CT"
+      "updated": "11:00 PM CT"
     },
     {
       "lat": 35.5557,
@@ -63,16 +63,16 @@
       "updated": "2:07 PM CT"
     },
     {
-      "lat": 39.895,
-      "lon": -86.2706,
-      "place": "Indiana",
+      "lat": 42.9538,
+      "lon": -75.5268,
+      "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "2,646 customers out",
+      "affected": "3,351 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/indiana",
-      "updated": "10:00 PM CT"
+      "source": "https://massoutage.com/new-york",
+      "updated": "11:00 PM CT"
     },
     {
       "lat": -24.5,
