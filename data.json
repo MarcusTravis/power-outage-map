@@ -1,5 +1,5 @@
 {
-  "as_of": "3:00 PM CT, Monday, November 23, 2026",
+  "as_of": "4:00 PM CT, Monday, November 23, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,24 +7,12 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "58,031 customers out",
+      "affected": "54,970 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "3:00 PM CT",
+      "updated": "4:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
-    },
-    {
-      "lat": 37.1661,
-      "lon": -119.4494,
-      "place": "California",
-      "region": "United States",
-      "cause": "",
-      "affected": "7,207 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/california",
-      "updated": "3:00 PM CT"
     },
     {
       "lat": 18.338,
@@ -51,16 +39,28 @@
       "updated": "2:13 PM CT"
     },
     {
+      "lat": 37.1661,
+      "lon": -119.4494,
+      "place": "California",
+      "region": "United States",
+      "cause": "",
+      "affected": "5,698 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/california",
+      "updated": "4:00 PM CT"
+    },
+    {
       "lat": 43.9336,
       "lon": -120.5583,
       "place": "Oregon",
       "region": "United States",
       "cause": "",
-      "affected": "5,523 customers out",
+      "affected": "5,396 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/oregon",
-      "updated": "3:00 PM CT"
+      "updated": "4:00 PM CT"
     },
     {
       "lat": 32.6469,
