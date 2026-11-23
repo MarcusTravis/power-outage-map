@@ -1,5 +1,5 @@
 {
-  "as_of": "6:00 AM CT, Monday, November 23, 2026",
+  "as_of": "7:00 AM CT, Monday, November 23, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "38,269 customers out",
+      "affected": "39,481 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "6:00 AM CT",
+      "updated": "7:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -39,6 +39,18 @@
       "updated": "2:06 AM CT"
     },
     {
+      "lat": 31.1761,
+      "lon": -99.3453,
+      "place": "Texas",
+      "region": "United States",
+      "cause": "",
+      "affected": "4,084 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/texas",
+      "updated": "7:00 AM CT"
+    },
+    {
       "lat": 18.338,
       "lon": -64.894,
       "place": "U.S. Virgin Islands",
@@ -49,18 +61,6 @@
       "etr": "",
       "source": "https://poweroutage.us/area/state/virgin%20islands",
       "updated": "2:06 AM CT"
-    },
-    {
-      "lat": 31.1761,
-      "lon": -99.3453,
-      "place": "Texas",
-      "region": "United States",
-      "cause": "",
-      "affected": "2,868 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/texas",
-      "updated": "6:00 AM CT"
     },
     {
       "lat": 32.7364,
