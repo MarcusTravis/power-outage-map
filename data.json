@@ -1,5 +1,5 @@
 {
-  "as_of": "12:00 PM CT, Monday, November 23, 2026",
+  "as_of": "3:00 PM CT, Monday, November 23, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,24 +7,12 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "64,961 customers out",
+      "affected": "58,031 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "8:45 AM CT",
+      "updated": "3:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
-    },
-    {
-      "lat": 38.6409,
-      "lon": -80.6227,
-      "place": "West Virginia",
-      "region": "United States",
-      "cause": "",
-      "affected": "11,760 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/west-virginia",
-      "updated": "8:45 AM CT"
     },
     {
       "lat": 37.1661,
@@ -32,11 +20,23 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "9,304 customers out",
+      "affected": "7,207 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/california",
-      "updated": "8:45 AM CT"
+      "updated": "3:00 PM CT"
+    },
+    {
+      "lat": 18.338,
+      "lon": -64.894,
+      "place": "U.S. Virgin Islands",
+      "region": "United States",
+      "cause": "",
+      "affected": "6,636 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/virgin%20islands",
+      "updated": "2:13 PM CT"
     },
     {
       "lat": 31.1761,
@@ -44,35 +44,35 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "5,695 customers out",
+      "affected": "5,927 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/texas",
-      "updated": "8:45 AM CT"
+      "source": "https://poweroutage.us/area/state/texas",
+      "updated": "2:13 PM CT"
     },
     {
-      "lat": 47.3826,
-      "lon": -120.4472,
-      "place": "Washington",
+      "lat": 43.9336,
+      "lon": -120.5583,
+      "place": "Oregon",
       "region": "United States",
       "cause": "",
-      "affected": "4,838 customers out",
+      "affected": "5,523 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/washington",
-      "updated": "2:06 AM CT"
+      "source": "https://massoutage.com/oregon",
+      "updated": "3:00 PM CT"
     },
     {
-      "lat": 28.6305,
-      "lon": -82.4497,
-      "place": "Florida",
+      "lat": 32.6469,
+      "lon": -83.4426,
+      "place": "Georgia",
       "region": "United States",
       "cause": "",
-      "affected": "4,679 customers out",
+      "affected": "3,326 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/florida",
-      "updated": "8:45 AM CT"
+      "source": "https://poweroutage.us/area/state/georgia",
+      "updated": "2:13 PM CT"
     },
     {
       "lat": -24.5,
