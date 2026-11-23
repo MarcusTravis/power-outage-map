@@ -1,5 +1,5 @@
 {
-  "as_of": "9:00 PM CT, Sunday, November 22, 2026",
+  "as_of": "10:00 PM CT, Sunday, November 22, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,12 +7,24 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "36,748 customers out",
+      "affected": "43,116 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "9:00 PM CT",
+      "updated": "10:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
+    },
+    {
+      "lat": 40.2862,
+      "lon": -82.7937,
+      "place": "Ohio",
+      "region": "United States",
+      "cause": "",
+      "affected": "5,256 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/ohio",
+      "updated": "10:00 PM CT"
     },
     {
       "lat": 35.5557,
@@ -51,28 +63,16 @@
       "updated": "2:07 PM CT"
     },
     {
-      "lat": 20.2927,
-      "lon": -156.3737,
-      "place": "Hawaii",
+      "lat": 39.895,
+      "lon": -86.2706,
+      "place": "Indiana",
       "region": "United States",
       "cause": "",
-      "affected": "2,583 customers out",
+      "affected": "2,646 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/hawaii",
-      "updated": "2:07 PM CT"
-    },
-    {
-      "lat": 31.1761,
-      "lon": -99.3453,
-      "place": "Texas",
-      "region": "United States",
-      "cause": "",
-      "affected": "2,386 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/texas",
-      "updated": "9:00 PM CT"
+      "source": "https://massoutage.com/indiana",
+      "updated": "10:00 PM CT"
     },
     {
       "lat": -24.5,
