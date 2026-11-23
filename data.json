@@ -1,5 +1,5 @@
 {
-  "as_of": "3:00 AM CT, Monday, November 23, 2026",
+  "as_of": "4:00 AM CT, Monday, November 23, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "33,664 customers out",
+      "affected": "36,961 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "3:00 AM CT",
+      "updated": "4:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -51,16 +51,16 @@
       "updated": "2:06 AM CT"
     },
     {
-      "lat": 35.5557,
-      "lon": -79.3877,
-      "place": "North Carolina",
+      "lat": 39.895,
+      "lon": -86.2706,
+      "place": "Indiana",
       "region": "United States",
       "cause": "",
-      "affected": "2,058 customers out",
+      "affected": "2,600 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/north-carolina",
-      "updated": "3:00 AM CT"
+      "source": "https://massoutage.com/indiana",
+      "updated": "4:00 AM CT"
     },
     {
       "lat": 32.7364,
