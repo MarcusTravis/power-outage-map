@@ -1,5 +1,5 @@
 {
-  "as_of": "11:55 AM CT, Tuesday, November 24, 2026",
+  "as_of": "12:00 PM CT, Tuesday, November 24, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "70,536 customers out",
+      "affected": "63,589 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "10:50 AM CT",
+      "updated": "12:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,11 +20,11 @@
       "place": "Washington",
       "region": "United States",
       "cause": "",
-      "affected": "15,820 customers out",
+      "affected": "13,189 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/washington",
-      "updated": "10:50 AM CT"
+      "updated": "12:00 PM CT"
     },
     {
       "lat": 37.1661,
@@ -32,11 +32,11 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "10,097 customers out",
+      "affected": "8,918 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/california",
-      "updated": "10:50 AM CT"
+      "updated": "12:00 PM CT"
     },
     {
       "lat": 31.1761,
@@ -44,11 +44,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "5,804 customers out",
+      "affected": "5,846 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/texas",
-      "updated": "10:50 AM CT"
+      "updated": "12:00 PM CT"
     },
     {
       "lat": 35.5557,
@@ -56,11 +56,11 @@
       "place": "North Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "2,729 customers out",
+      "affected": "2,974 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/north-carolina",
-      "updated": "10:50 AM CT"
+      "updated": "12:00 PM CT"
     },
     {
       "lat": 43.9336,
@@ -68,11 +68,11 @@
       "place": "Oregon",
       "region": "United States",
       "cause": "",
-      "affected": "2,544 customers out",
+      "affected": "2,633 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/oregon",
-      "updated": "10:50 AM CT"
+      "updated": "12:00 PM CT"
     },
     {
       "lat": 50.45,
