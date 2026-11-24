@@ -1,5 +1,5 @@
 {
-  "as_of": "6:20 PM CT, Monday, November 23, 2026",
+  "as_of": "10:00 PM CT, Monday, November 23, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "62,588 customers out",
+      "affected": "52,959 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "6:20 PM CT",
+      "updated": "10:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -51,28 +51,28 @@
       "updated": "2:13 PM CT"
     },
     {
-      "lat": 35.858,
-      "lon": -86.3505,
-      "place": "Tennessee",
+      "lat": 43.9336,
+      "lon": -120.5583,
+      "place": "Oregon",
       "region": "United States",
       "cause": "",
-      "affected": "5,544 customers out",
+      "affected": "4,441 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/tennessee",
-      "updated": "6:20 PM CT"
+      "source": "https://poweroutage.us/area/state/oregon",
+      "updated": "2:13 PM CT"
     },
     {
-      "lat": 20.2927,
-      "lon": -156.3737,
-      "place": "Hawaii",
+      "lat": 32.6469,
+      "lon": -83.4426,
+      "place": "Georgia",
       "region": "United States",
       "cause": "",
-      "affected": "5,038 customers out",
+      "affected": "3,326 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/hawaii",
-      "updated": "6:20 PM CT"
+      "source": "https://poweroutage.us/area/state/georgia",
+      "updated": "2:13 PM CT"
     },
     {
       "lat": 50.45,
