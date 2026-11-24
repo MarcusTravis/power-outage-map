@@ -2,7 +2,7 @@
 
 > Free, ad-free, unofficial live map and table of significant power outages and blackouts worldwide. Each outage lists the place, country, cause, customers affected (or MW shortfall), start time, estimated restoration time when published, a source link, and when it was last checked.
 
-Latest snapshot: 4:00 PM CT, Tuesday, November 24, 2026. Times on the site are US Central Time (CT).
+Latest snapshot: 4:50 PM CT, Tuesday, November 24, 2026. Times on the site are US Central Time (CT).
 
 ## What the site shows
 
