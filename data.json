@@ -1,5 +1,5 @@
 {
-  "as_of": "7:00 PM CT, Tuesday, November 24, 2026",
+  "as_of": "8:00 PM CT, Tuesday, November 24, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "86,079 customers out",
+      "affected": "82,207 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "7:00 PM CT",
+      "updated": "8:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -63,16 +63,16 @@
       "updated": "2:14 PM CT"
     },
     {
-      "lat": 38.3566,
-      "lon": -92.458,
-      "place": "Missouri",
+      "lat": 40.1907,
+      "lon": -74.6728,
+      "place": "New Jersey",
       "region": "United States",
       "cause": "",
-      "affected": "3,558 customers out",
+      "affected": "2,561 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/missouri",
-      "updated": "7:00 PM CT"
+      "source": "https://poweroutage.us/area/state/new%20jersey",
+      "updated": "2:14 PM CT"
     },
     {
       "lat": 50.45,
