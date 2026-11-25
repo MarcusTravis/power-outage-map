@@ -1,5 +1,5 @@
 {
-  "as_of": "3:40 AM CT, Wednesday, November 25, 2026",
+  "as_of": "5:00 AM CT, Wednesday, November 25, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "56,651 customers out",
+      "affected": "56,920 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "3:40 AM CT",
+      "updated": "5:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,11 +20,23 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "20,767 customers out",
+      "affected": "14,978 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/california",
-      "updated": "3:40 AM CT"
+      "source": "https://poweroutage.us/area/state/california",
+      "updated": "2:02 AM CT"
+    },
+    {
+      "lat": 31.0689,
+      "lon": -91.9968,
+      "place": "Louisiana",
+      "region": "United States",
+      "cause": "",
+      "affected": "7,661 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/louisiana",
+      "updated": "5:00 AM CT"
     },
     {
       "lat": 31.1761,
@@ -56,23 +68,11 @@
       "place": "South Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "3,525 customers out",
+      "affected": "4,354 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/south-carolina",
-      "updated": "3:40 AM CT"
-    },
-    {
-      "lat": 32.7364,
-      "lon": -89.6678,
-      "place": "Mississippi",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,135 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/mississippi",
-      "updated": "3:40 AM CT"
+      "updated": "5:00 AM CT"
     },
     {
       "lat": 50.45,
