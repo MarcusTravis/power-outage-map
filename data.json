@@ -1,5 +1,5 @@
 {
-  "as_of": "10:00 PM CT, Tuesday, November 24, 2026",
+  "as_of": "10:55 PM CT, Tuesday, November 24, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "81,720 customers out",
+      "affected": "83,724 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "10:00 PM CT",
+      "updated": "10:55 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -56,11 +56,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "4,614 customers out",
+      "affected": "4,793 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/texas",
-      "updated": "2:14 PM CT"
+      "source": "https://massoutage.com/texas",
+      "updated": "10:55 PM CT"
     },
     {
       "lat": 40.1907,
