@@ -1,5 +1,5 @@
 {
-  "as_of": "7:00 AM CT, Wednesday, November 25, 2026",
+  "as_of": "8:00 AM CT, Wednesday, November 25, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "53,213 customers out",
+      "affected": "55,975 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "7:00 AM CT",
+      "updated": "8:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -32,11 +32,23 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "6,603 customers out",
+      "affected": "7,240 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/texas",
-      "updated": "2:02 AM CT"
+      "source": "https://massoutage.com/texas",
+      "updated": "8:00 AM CT"
+    },
+    {
+      "lat": 32.7364,
+      "lon": -89.6678,
+      "place": "Mississippi",
+      "region": "United States",
+      "cause": "",
+      "affected": "5,526 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/mississippi",
+      "updated": "8:00 AM CT"
     },
     {
       "lat": 18.338,
@@ -51,28 +63,16 @@
       "updated": "2:02 AM CT"
     },
     {
-      "lat": 32.7364,
-      "lon": -89.6678,
-      "place": "Mississippi",
+      "lat": 31.0689,
+      "lon": -91.9968,
+      "place": "Louisiana",
       "region": "United States",
       "cause": "",
-      "affected": "3,441 customers out",
+      "affected": "2,897 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/mississippi",
-      "updated": "7:00 AM CT"
-    },
-    {
-      "lat": 28.6305,
-      "lon": -82.4497,
-      "place": "Florida",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,080 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/florida",
-      "updated": "7:00 AM CT"
+      "source": "https://poweroutage.us/area/state/louisiana",
+      "updated": "2:02 AM CT"
     },
     {
       "lat": 50.45,
