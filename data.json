@@ -1,5 +1,5 @@
 {
-  "as_of": "8:00 AM CT, Wednesday, November 25, 2026",
+  "as_of": "10:40 AM CT, Wednesday, November 25, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "55,975 customers out",
+      "affected": "62,542 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "8:00 AM CT",
+      "updated": "10:40 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -32,23 +32,11 @@
       "place": "Texas",
       "region": "United States",
       "cause": "",
-      "affected": "7,240 customers out",
+      "affected": "6,603 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/texas",
-      "updated": "8:00 AM CT"
-    },
-    {
-      "lat": 32.7364,
-      "lon": -89.6678,
-      "place": "Mississippi",
-      "region": "United States",
-      "cause": "",
-      "affected": "5,526 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/mississippi",
-      "updated": "8:00 AM CT"
+      "source": "https://poweroutage.us/area/state/texas",
+      "updated": "2:02 AM CT"
     },
     {
       "lat": 18.338,
@@ -68,11 +56,23 @@
       "place": "Louisiana",
       "region": "United States",
       "cause": "",
-      "affected": "2,897 customers out",
+      "affected": "3,877 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/louisiana",
-      "updated": "2:02 AM CT"
+      "source": "https://massoutage.com/louisiana",
+      "updated": "10:40 AM CT"
+    },
+    {
+      "lat": 35.5557,
+      "lon": -79.3877,
+      "place": "North Carolina",
+      "region": "United States",
+      "cause": "",
+      "affected": "3,536 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/north-carolina",
+      "updated": "10:40 AM CT"
     },
     {
       "lat": 50.45,
