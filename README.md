@@ -80,7 +80,7 @@ Then open <http://localhost:8080/>.
 
 The site is served from the `main` branch root at <https://blackoutsmap.com>. The GitHub Pages project URL redirects there. If the custom domain changes, update `SITE_BASE` in `build.py` and the `CNAME` file, then rebuild so canonical URLs, the sitemap, and social tags stay in sync.
 
-Leaflet is loaded from the unpkg CDN. Map tiles come from OpenStreetMap and must keep the attribution shown in the footer and on the map.
+Leaflet 1.9.4 is vendored at `assets/vendor/leaflet/` and IBM Plex is self-hosted at `assets/fonts/`. Map tiles still come from OpenStreetMap and must keep the attribution shown in the footer and on the map.
 
 ## Sources used for the first snapshot
 

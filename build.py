@@ -8,6 +8,11 @@ Run this after every data.json update, before committing:
 The live page still fetches data.json in the browser and refreshes every
 five minutes. This script bakes the current snapshot into static HTML so
 search engines can read the outages without JavaScript.
+
+Typography is self-hosted in site.css (latin-subset IBM Plex under
+assets/fonts/). The homepage Leaflet tags live outside the build
+markers in index.html and must keep the local assets/vendor/leaflet/
+paths. Do not add third-party font or Leaflet CDN links.
 """
 
 from __future__ import annotations
