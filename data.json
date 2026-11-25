@@ -1,5 +1,5 @@
 {
-  "as_of": "4:00 PM CT, Wednesday, November 25, 2026",
+  "as_of": "5:00 PM CT, Wednesday, November 25, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "48,259 customers out",
+      "affected": "52,799 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "4:00 PM CT",
+      "updated": "5:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -27,6 +27,18 @@
       "updated": "2:08 PM CT"
     },
     {
+      "lat": 35.5557,
+      "lon": -79.3877,
+      "place": "North Carolina",
+      "region": "United States",
+      "cause": "",
+      "affected": "10,308 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/north-carolina",
+      "updated": "5:00 PM CT"
+    },
+    {
       "lat": 31.1761,
       "lon": -99.3453,
       "place": "Texas",
@@ -37,18 +49,6 @@
       "etr": "",
       "source": "https://poweroutage.us/area/state/texas",
       "updated": "2:08 PM CT"
-    },
-    {
-      "lat": 35.5557,
-      "lon": -79.3877,
-      "place": "North Carolina",
-      "region": "United States",
-      "cause": "",
-      "affected": "3,986 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/north-carolina",
-      "updated": "4:00 PM CT"
     },
     {
       "lat": 37.1661,
@@ -68,11 +68,11 @@
       "place": "Arizona",
       "region": "United States",
       "cause": "",
-      "affected": "1,897 customers out",
+      "affected": "1,910 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/arizona",
-      "updated": "4:00 PM CT"
+      "updated": "5:00 PM CT"
     },
     {
       "lat": 50.45,
