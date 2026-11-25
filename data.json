@@ -1,5 +1,5 @@
 {
-  "as_of": "12:00 PM CT, Wednesday, November 25, 2026",
+  "as_of": "1:00 PM CT, Wednesday, November 25, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "62,532 customers out",
+      "affected": "56,327 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "12:00 PM CT",
+      "updated": "1:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -56,23 +56,23 @@
       "place": "Arkansas",
       "region": "United States",
       "cause": "",
-      "affected": "4,481 customers out",
+      "affected": "4,457 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/arkansas",
-      "updated": "12:00 PM CT"
+      "updated": "1:00 PM CT"
     },
     {
-      "lat": 35.5557,
-      "lon": -79.3877,
-      "place": "North Carolina",
+      "lat": 31.0689,
+      "lon": -91.9968,
+      "place": "Louisiana",
       "region": "United States",
       "cause": "",
-      "affected": "3,854 customers out",
+      "affected": "2,897 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/north-carolina",
-      "updated": "12:00 PM CT"
+      "source": "https://poweroutage.us/area/state/louisiana",
+      "updated": "2:02 AM CT"
     },
     {
       "lat": 50.45,
