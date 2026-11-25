@@ -1,5 +1,5 @@
 {
-  "as_of": "6:00 AM CT, Wednesday, November 25, 2026",
+  "as_of": "7:00 AM CT, Wednesday, November 25, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "50,387 customers out",
+      "affected": "53,213 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "6:00 AM CT",
+      "updated": "7:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -51,28 +51,28 @@
       "updated": "2:02 AM CT"
     },
     {
-      "lat": 31.0689,
-      "lon": -91.9968,
-      "place": "Louisiana",
-      "region": "United States",
-      "cause": "",
-      "affected": "5,240 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/louisiana",
-      "updated": "6:00 AM CT"
-    },
-    {
       "lat": 32.7364,
       "lon": -89.6678,
       "place": "Mississippi",
       "region": "United States",
       "cause": "",
-      "affected": "3,508 customers out",
+      "affected": "3,441 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/mississippi",
-      "updated": "6:00 AM CT"
+      "updated": "7:00 AM CT"
+    },
+    {
+      "lat": 28.6305,
+      "lon": -82.4497,
+      "place": "Florida",
+      "region": "United States",
+      "cause": "",
+      "affected": "3,080 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/florida",
+      "updated": "7:00 AM CT"
     },
     {
       "lat": 50.45,
