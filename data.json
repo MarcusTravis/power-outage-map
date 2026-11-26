@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "690,450 customers out",
+      "affected": "736,684 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "11:00 AM CT",
+      "updated": "12:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,23 +20,11 @@
       "place": "Virginia",
       "region": "United States",
       "cause": "",
-      "affected": "221,848 customers out",
+      "affected": "208,492 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/virginia",
-      "updated": "11:00 AM CT"
-    },
-    {
-      "lat": 38.3566,
-      "lon": -92.458,
-      "place": "Missouri",
-      "region": "United States",
-      "cause": "",
-      "affected": "145,625 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/missouri",
-      "updated": "11:00 AM CT"
+      "updated": "12:00 PM CT"
     },
     {
       "lat": 39.055,
@@ -44,23 +32,23 @@
       "place": "Maryland",
       "region": "United States",
       "cause": "",
-      "affected": "111,110 customers out",
+      "affected": "148,557 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/maryland",
-      "updated": "11:00 AM CT"
+      "updated": "12:00 PM CT"
     },
     {
-      "lat": 35.5557,
-      "lon": -79.3877,
-      "place": "North Carolina",
+      "lat": 38.3566,
+      "lon": -92.458,
+      "place": "Missouri",
       "region": "United States",
       "cause": "",
-      "affected": "48,772 customers out",
+      "affected": "134,979 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/north%20carolina",
-      "updated": "2:07 AM CT"
+      "source": "https://massoutage.com/missouri",
+      "updated": "12:00 PM CT"
     },
     {
       "lat": 40.9133,
@@ -68,11 +56,23 @@
       "place": "Pennsylvania",
       "region": "United States",
       "cause": "",
-      "affected": "47,649 customers out",
+      "affected": "72,403 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/pennsylvania",
-      "updated": "11:00 AM CT"
+      "updated": "12:00 PM CT"
+    },
+    {
+      "lat": 40.1907,
+      "lon": -74.6728,
+      "place": "New Jersey",
+      "region": "United States",
+      "cause": "",
+      "affected": "54,003 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/new-jersey",
+      "updated": "12:00 PM CT"
     },
     {
       "lat": 50.45,
