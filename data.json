@@ -1,5 +1,5 @@
 {
-  "as_of": "12:00 AM CT, Thursday, November 26, 2026",
+  "as_of": "3:00 AM CT, Thursday, November 26, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "139,857 customers out",
+      "affected": "256,703 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "11:00 PM CT",
+      "updated": "3:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,11 +20,11 @@
       "place": "North Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "52,374 customers out",
+      "affected": "80,894 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/north-carolina",
-      "updated": "11:00 PM CT"
+      "updated": "3:00 AM CT"
     },
     {
       "lat": 38.3566,
@@ -32,23 +32,35 @@
       "place": "Missouri",
       "region": "United States",
       "cause": "",
-      "affected": "14,171 customers out",
+      "affected": "73,067 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/missouri",
-      "updated": "11:00 PM CT"
+      "updated": "3:00 AM CT"
     },
     {
-      "lat": 18.338,
-      "lon": -64.894,
-      "place": "U.S. Virgin Islands",
+      "lat": 37.4316,
+      "lon": -78.6569,
+      "place": "Virginia",
       "region": "United States",
       "cause": "",
-      "affected": "13,875 customers out",
+      "affected": "56,396 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/virgin%20islands",
-      "updated": "2:08 PM CT"
+      "source": "https://massoutage.com/virginia",
+      "updated": "3:00 AM CT"
+    },
+    {
+      "lat": 40.0417,
+      "lon": -89.1965,
+      "place": "Illinois",
+      "region": "United States",
+      "cause": "",
+      "affected": "15,307 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/illinois",
+      "updated": "3:00 AM CT"
     },
     {
       "lat": 47.3826,
@@ -56,23 +68,11 @@
       "place": "Washington",
       "region": "United States",
       "cause": "",
-      "affected": "9,196 customers out",
+      "affected": "3,031 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/washington",
-      "updated": "11:00 PM CT"
-    },
-    {
-      "lat": 33.8361,
-      "lon": -81.1637,
-      "place": "South Carolina",
-      "region": "United States",
-      "cause": "",
-      "affected": "7,589 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/south-carolina",
-      "updated": "11:00 PM CT"
+      "updated": "3:00 AM CT"
     },
     {
       "lat": 50.45,
