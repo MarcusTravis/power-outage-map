@@ -1,5 +1,5 @@
 {
-  "as_of": "9:00 PM CT, Wednesday, November 25, 2026",
+  "as_of": "10:00 PM CT, Wednesday, November 25, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "112,417 customers out",
+      "affected": "120,063 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "9:00 PM CT",
+      "updated": "10:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,11 +20,11 @@
       "place": "North Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "49,029 customers out",
+      "affected": "46,089 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/north-carolina",
-      "updated": "9:00 PM CT"
+      "updated": "10:00 PM CT"
     },
     {
       "lat": 18.338,
@@ -39,28 +39,16 @@
       "updated": "2:08 PM CT"
     },
     {
-      "lat": 37.1661,
-      "lon": -119.4494,
-      "place": "California",
+      "lat": 38.3566,
+      "lon": -92.458,
+      "place": "Missouri",
       "region": "United States",
       "cause": "",
-      "affected": "6,098 customers out",
+      "affected": "7,258 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/california",
-      "updated": "9:00 PM CT"
-    },
-    {
-      "lat": 20.2927,
-      "lon": -156.3737,
-      "place": "Hawaii",
-      "region": "United States",
-      "cause": "",
-      "affected": "4,622 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/hawaii",
-      "updated": "9:00 PM CT"
+      "source": "https://massoutage.com/missouri",
+      "updated": "10:00 PM CT"
     },
     {
       "lat": 37.4316,
@@ -68,11 +56,23 @@
       "place": "Virginia",
       "region": "United States",
       "cause": "",
-      "affected": "4,612 customers out",
+      "affected": "5,660 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/virginia",
-      "updated": "9:00 PM CT"
+      "updated": "10:00 PM CT"
+    },
+    {
+      "lat": 33.8361,
+      "lon": -81.1637,
+      "place": "South Carolina",
+      "region": "United States",
+      "cause": "",
+      "affected": "4,980 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/south-carolina",
+      "updated": "10:00 PM CT"
     },
     {
       "lat": 50.45,
