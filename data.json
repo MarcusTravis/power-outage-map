@@ -1,5 +1,5 @@
 {
-  "as_of": "1:00 PM CT, Thursday, November 26, 2026",
+  "as_of": "2:01 PM CT, Thursday, November 26, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "804,165 customers out",
+      "affected": "835,978 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "1:00 PM CT",
+      "updated": "2:01 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,11 +20,11 @@
       "place": "Virginia",
       "region": "United States",
       "cause": "",
-      "affected": "197,846 customers out",
+      "affected": "193,915 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/virginia",
-      "updated": "1:00 PM CT"
+      "source": "https://poweroutage.us/area/state/virginia",
+      "updated": "2:08 PM CT"
     },
     {
       "lat": 39.055,
@@ -32,23 +32,11 @@
       "place": "Maryland",
       "region": "United States",
       "cause": "",
-      "affected": "170,797 customers out",
+      "affected": "175,748 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/maryland",
-      "updated": "1:00 PM CT"
-    },
-    {
-      "lat": 38.3566,
-      "lon": -92.458,
-      "place": "Missouri",
-      "region": "United States",
-      "cause": "",
-      "affected": "126,457 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/missouri",
-      "updated": "1:00 PM CT"
+      "source": "https://poweroutage.us/area/state/maryland",
+      "updated": "2:08 PM CT"
     },
     {
       "lat": 40.9133,
@@ -56,11 +44,23 @@
       "place": "Pennsylvania",
       "region": "United States",
       "cause": "",
-      "affected": "108,128 customers out",
+      "affected": "136,764 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/pennsylvania",
-      "updated": "1:00 PM CT"
+      "updated": "2:01 PM CT"
+    },
+    {
+      "lat": 38.3566,
+      "lon": -92.458,
+      "place": "Missouri",
+      "region": "United States",
+      "cause": "",
+      "affected": "126,363 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/missouri",
+      "updated": "2:01 PM CT"
     },
     {
       "lat": 40.1907,
@@ -68,11 +68,11 @@
       "place": "New Jersey",
       "region": "United States",
       "cause": "",
-      "affected": "63,160 customers out",
+      "affected": "80,478 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/new-jersey",
-      "updated": "1:00 PM CT"
+      "updated": "2:01 PM CT"
     },
     {
       "lat": 50.45,
