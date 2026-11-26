@@ -1,5 +1,5 @@
 {
-  "as_of": "8:00 PM CT, Wednesday, November 25, 2026",
+  "as_of": "9:00 PM CT, Wednesday, November 25, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "87,428 customers out",
+      "affected": "112,417 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "8:00 PM CT",
+      "updated": "9:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,11 +20,11 @@
       "place": "North Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "36,666 customers out",
+      "affected": "49,029 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/north-carolina",
-      "updated": "8:00 PM CT"
+      "updated": "9:00 PM CT"
     },
     {
       "lat": 18.338,
@@ -44,35 +44,35 @@
       "place": "California",
       "region": "United States",
       "cause": "",
-      "affected": "7,072 customers out",
+      "affected": "6,098 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/california",
-      "updated": "8:00 PM CT"
+      "updated": "9:00 PM CT"
     },
     {
-      "lat": 31.1761,
-      "lon": -99.3453,
-      "place": "Texas",
+      "lat": 20.2927,
+      "lon": -156.3737,
+      "place": "Hawaii",
       "region": "United States",
       "cause": "",
-      "affected": "4,554 customers out",
+      "affected": "4,622 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/texas",
-      "updated": "2:08 PM CT"
+      "source": "https://massoutage.com/hawaii",
+      "updated": "9:00 PM CT"
     },
     {
-      "lat": 38.3566,
-      "lon": -92.458,
-      "place": "Missouri",
+      "lat": 37.4316,
+      "lon": -78.6569,
+      "place": "Virginia",
       "region": "United States",
       "cause": "",
-      "affected": "2,866 customers out",
+      "affected": "4,612 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/missouri",
-      "updated": "8:00 PM CT"
+      "source": "https://massoutage.com/virginia",
+      "updated": "9:00 PM CT"
     },
     {
       "lat": 50.45,
