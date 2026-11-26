@@ -1,5 +1,5 @@
 {
-  "as_of": "12:00 PM CT, Thursday, November 26, 2026",
+  "as_of": "1:00 PM CT, Thursday, November 26, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "736,684 customers out",
+      "affected": "804,165 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "12:00 PM CT",
+      "updated": "1:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,11 +20,11 @@
       "place": "Virginia",
       "region": "United States",
       "cause": "",
-      "affected": "208,492 customers out",
+      "affected": "197,846 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/virginia",
-      "updated": "12:00 PM CT"
+      "updated": "1:00 PM CT"
     },
     {
       "lat": 39.055,
@@ -32,11 +32,11 @@
       "place": "Maryland",
       "region": "United States",
       "cause": "",
-      "affected": "148,557 customers out",
+      "affected": "170,797 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/maryland",
-      "updated": "12:00 PM CT"
+      "updated": "1:00 PM CT"
     },
     {
       "lat": 38.3566,
@@ -44,11 +44,11 @@
       "place": "Missouri",
       "region": "United States",
       "cause": "",
-      "affected": "134,979 customers out",
+      "affected": "126,457 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/missouri",
-      "updated": "12:00 PM CT"
+      "updated": "1:00 PM CT"
     },
     {
       "lat": 40.9133,
@@ -56,11 +56,11 @@
       "place": "Pennsylvania",
       "region": "United States",
       "cause": "",
-      "affected": "72,403 customers out",
+      "affected": "108,128 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/pennsylvania",
-      "updated": "12:00 PM CT"
+      "updated": "1:00 PM CT"
     },
     {
       "lat": 40.1907,
@@ -68,11 +68,11 @@
       "place": "New Jersey",
       "region": "United States",
       "cause": "",
-      "affected": "54,003 customers out",
+      "affected": "63,160 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/new-jersey",
-      "updated": "12:00 PM CT"
+      "updated": "1:00 PM CT"
     },
     {
       "lat": 50.45,
