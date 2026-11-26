@@ -1,5 +1,5 @@
 {
-  "as_of": "3:00 PM CT, Thursday, November 26, 2026",
+  "as_of": "4:00 PM CT, Thursday, November 26, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,12 +7,24 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "901,206 customers out",
+      "affected": "971,267 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "3:00 PM CT",
+      "updated": "4:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
+    },
+    {
+      "lat": 40.9133,
+      "lon": -77.8467,
+      "place": "Pennsylvania",
+      "region": "United States",
+      "cause": "",
+      "affected": "215,061 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/pennsylvania",
+      "updated": "4:00 PM CT"
     },
     {
       "lat": 37.4316,
@@ -25,18 +37,6 @@
       "etr": "",
       "source": "https://poweroutage.us/area/state/virginia",
       "updated": "2:08 PM CT"
-    },
-    {
-      "lat": 40.9133,
-      "lon": -77.8467,
-      "place": "Pennsylvania",
-      "region": "United States",
-      "cause": "",
-      "affected": "178,482 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/pennsylvania",
-      "updated": "3:00 PM CT"
     },
     {
       "lat": 39.055,
@@ -68,11 +68,11 @@
       "place": "New Jersey",
       "region": "United States",
       "cause": "",
-      "affected": "87,506 customers out",
+      "affected": "119,600 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/new-jersey",
-      "updated": "3:00 PM CT"
+      "updated": "4:00 PM CT"
     },
     {
       "lat": 50.45,
