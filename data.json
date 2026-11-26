@@ -1,5 +1,5 @@
 {
-  "as_of": "4:00 AM CT, Thursday, November 26, 2026",
+  "as_of": "5:00 AM CT, Thursday, November 26, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "321,768 customers out",
+      "affected": "357,621 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "4:00 AM CT",
+      "updated": "5:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,11 +20,11 @@
       "place": "Missouri",
       "region": "United States",
       "cause": "",
-      "affected": "101,436 customers out",
+      "affected": "115,503 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/missouri",
-      "updated": "4:00 AM CT"
+      "updated": "5:00 AM CT"
     },
     {
       "lat": 37.4316,
@@ -32,11 +32,11 @@
       "place": "Virginia",
       "region": "United States",
       "cause": "",
-      "affected": "89,295 customers out",
+      "affected": "110,009 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/virginia",
-      "updated": "4:00 AM CT"
+      "updated": "5:00 AM CT"
     },
     {
       "lat": 35.5557,
@@ -44,11 +44,11 @@
       "place": "North Carolina",
       "region": "United States",
       "cause": "",
-      "affected": "77,123 customers out",
+      "affected": "73,658 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/north-carolina",
-      "updated": "4:00 AM CT"
+      "updated": "5:00 AM CT"
     },
     {
       "lat": 40.0417,
@@ -56,23 +56,23 @@
       "place": "Illinois",
       "region": "United States",
       "cause": "",
-      "affected": "15,071 customers out",
+      "affected": "14,168 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/illinois",
-      "updated": "4:00 AM CT"
+      "source": "https://poweroutage.us/area/state/illinois",
+      "updated": "2:07 AM CT"
     },
     {
-      "lat": 32.7794,
-      "lon": -86.8287,
-      "place": "Alabama",
+      "lat": 39.055,
+      "lon": -76.7909,
+      "place": "Maryland",
       "region": "United States",
       "cause": "",
-      "affected": "4,812 customers out",
+      "affected": "6,728 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/alabama",
-      "updated": "4:00 AM CT"
+      "source": "https://massoutage.com/maryland",
+      "updated": "5:00 AM CT"
     },
     {
       "lat": 50.45,
