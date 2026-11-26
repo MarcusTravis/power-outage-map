@@ -212,6 +212,12 @@ PAGE_INFO = {
         "title": "Iran Power Outage Today | Live Power Outage Map",
         "link": "Iran power outage today",
     },
+    "brazil": {
+        "name": "Brazil",
+        "heading": "Brazil Power Outage Today",
+        "title": "Brazil Power Outage Today | Live Power Outage Map",
+        "link": "Brazil power outage today",
+    },
     "iraq": {
         "name": "Iraq",
         "heading": "Iraq Power Outage Today",
@@ -246,6 +252,7 @@ LINK_ORDER = [
     "sudan",
     "iran",
     "iraq",
+    "brazil",
     "nigeria",
     "canada",
     "us-virgin-islands",
@@ -299,7 +306,9 @@ def classify(row: dict) -> str | None:
         return "colombia"
     if "malaysia" in blob or "sabah" in blob:
         return "malaysia"
-    if "iran" in blob:
+    if "brazil" in blob or "roraima" in blob:
+        return "brazil"
+    if " iran " in f" {blob} ":
         return "iran"
     if "iraq" in blob:
         return "iraq"

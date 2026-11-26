@@ -2,7 +2,7 @@
 
 > Free, ad-free, unofficial live map and table of significant power outages and blackouts worldwide. Each outage lists the place, country, cause, customers affected (or MW shortfall), start time, estimated restoration time when published, a source link, and when it was last checked.
 
-Latest snapshot: 5:00 PM CT, Thursday, November 26, 2026. Times on the site are US Central Time (CT).
+Latest snapshot: 5:55 PM CT, Thursday, November 26, 2026. Times on the site are US Central Time (CT).
 
 ## What the site shows
 
@@ -35,6 +35,7 @@ Latest snapshot: 5:00 PM CT, Thursday, November 26, 2026. Times on the site are 
 - [Sudan Power Outage Today](https://blackoutsmap.com/sudan/): current outages in Sudan
 - [Iran Power Outage Today](https://blackoutsmap.com/iran/): current outages in Iran
 - [Iraq Power Outage Today](https://blackoutsmap.com/iraq/): current outages in Iraq
+- [Brazil Power Outage Today](https://blackoutsmap.com/brazil/): current outages in Brazil
 - [Raw data (JSON)](https://blackoutsmap.com/data.json): the current outage list used by the map
 - [Sitemap](https://blackoutsmap.com/sitemap.xml)
 
