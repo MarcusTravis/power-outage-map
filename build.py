@@ -132,6 +132,9 @@ SOURCE_LABELS = {
     "bloomberglinea.com": "Bloomberg Línea",
     "elalambique.net": "El Alambique",
     "nation.com.pk": "The Nation",
+    "sinarharian.com.my": "Sinar Harian",
+    "thestar.com.my": "The Star",
+    "malaymail.com": "Malay Mail",
 }
 
 # Primary country/region pages. A row can also appear on a related page (e.g. USVI on /us/).
@@ -197,6 +200,12 @@ PAGE_INFO = {
         "title": "Colombia Power Outage Today | Live Power Outage Map",
         "link": "Colombia power outage today",
     },
+    "malaysia": {
+        "name": "Malaysia",
+        "heading": "Malaysia Power Outage Today",
+        "title": "Malaysia Power Outage Today | Live Power Outage Map",
+        "link": "Malaysia power outage today",
+    },
     "iran": {
         "name": "Iran",
         "heading": "Iran Power Outage Today",
@@ -230,6 +239,7 @@ LINK_ORDER = [
     "cuba",
     "venezuela",
     "colombia",
+    "malaysia",
     "pakistan",
     "australia",
     "south-africa",
@@ -287,6 +297,8 @@ def classify(row: dict) -> str | None:
         return "venezuela"
     if "colombia" in blob:
         return "colombia"
+    if "malaysia" in blob or "sabah" in blob:
+        return "malaysia"
     if "iran" in blob:
         return "iran"
     if "iraq" in blob:
