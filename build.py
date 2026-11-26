@@ -115,6 +115,8 @@ SOURCE_LABELS = {
     "massoutage.com": "MassOutage",
     "odin.ornl.gov": "ODIN (DOE / ORNL)",
     "cubadebate.cu": "Cubadebate / UNE",
+    "minenergia.gov.co": "Minenergía",
+    "xm.com.co": "XM",
     "ua.news": "UA.NEWS",
     "obozrevatel.com": "OBOZ.UA / Ukrenergo",
     "washingtonpost.com": "The Washington Post",
@@ -189,6 +191,24 @@ PAGE_INFO = {
         "title": "Sudan Power Outage Today | Live Power Outage Map",
         "link": "Sudan power outage today",
     },
+    "colombia": {
+        "name": "Colombia",
+        "heading": "Colombia Power Outage Today",
+        "title": "Colombia Power Outage Today | Live Power Outage Map",
+        "link": "Colombia power outage today",
+    },
+    "iran": {
+        "name": "Iran",
+        "heading": "Iran Power Outage Today",
+        "title": "Iran Power Outage Today | Live Power Outage Map",
+        "link": "Iran power outage today",
+    },
+    "iraq": {
+        "name": "Iraq",
+        "heading": "Iraq Power Outage Today",
+        "title": "Iraq Power Outage Today | Live Power Outage Map",
+        "link": "Iraq power outage today",
+    },
     "nigeria": {
         "name": "Nigeria",
         "heading": "Nigeria Power Outage Today",
@@ -209,10 +229,13 @@ LINK_ORDER = [
     "ukraine",
     "cuba",
     "venezuela",
+    "colombia",
     "pakistan",
     "australia",
     "south-africa",
     "sudan",
+    "iran",
+    "iraq",
     "nigeria",
     "canada",
     "us-virgin-islands",
@@ -262,6 +285,12 @@ def classify(row: dict) -> str | None:
         return "cuba"
     if "venezuela" in blob:
         return "venezuela"
+    if "colombia" in blob:
+        return "colombia"
+    if "iran" in blob:
+        return "iran"
+    if "iraq" in blob:
+        return "iraq"
     if "pakistan" in blob:
         return "pakistan"
     if "australia" in blob:
