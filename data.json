@@ -1,5 +1,5 @@
 {
-  "as_of": "1:50 AM CT, Friday, November 27, 2026",
+  "as_of": "3:00 AM CT, Friday, November 27, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "770,804 customers out",
+      "affected": "766,887 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "1:50 AM CT",
+      "updated": "3:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -68,11 +68,11 @@
       "place": "Missouri",
       "region": "United States",
       "cause": "",
-      "affected": "87,347 customers out",
+      "affected": "86,816 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/missouri",
-      "updated": "1:50 AM CT"
+      "updated": "3:00 AM CT"
     },
     {
       "lat": 50.45,
