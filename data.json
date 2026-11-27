@@ -1,5 +1,5 @@
 {
-  "as_of": "12:15 AM CT, Friday, November 27, 2026",
+  "as_of": "1:50 AM CT, Friday, November 27, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,36 +7,12 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "1,051,123 customers out",
+      "affected": "771,466 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "12:15 AM CT",
+      "updated": "1:50 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
-    },
-    {
-      "lat": 37.4316,
-      "lon": -78.6569,
-      "place": "Virginia",
-      "region": "United States",
-      "cause": "",
-      "affected": "193,915 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/virginia",
-      "updated": "2:08 PM CT"
-    },
-    {
-      "lat": 39.055,
-      "lon": -76.7909,
-      "place": "Maryland",
-      "region": "United States",
-      "cause": "",
-      "affected": "175,748 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://poweroutage.us/area/state/maryland",
-      "updated": "2:08 PM CT"
     },
     {
       "lat": 40.9133,
@@ -44,11 +20,11 @@
       "place": "Pennsylvania",
       "region": "United States",
       "cause": "",
-      "affected": "168,738 customers out",
+      "affected": "159,023 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/pennsylvania",
-      "updated": "12:15 AM CT"
+      "source": "https://poweroutage.us/area/state/pennsylvania",
+      "updated": "2:08 AM CT"
     },
     {
       "lat": 40.1907,
@@ -56,11 +32,35 @@
       "place": "New Jersey",
       "region": "United States",
       "cause": "",
-      "affected": "160,273 customers out",
+      "affected": "149,850 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/new-jersey",
-      "updated": "12:15 AM CT"
+      "source": "https://poweroutage.us/area/state/new%20jersey",
+      "updated": "2:08 AM CT"
+    },
+    {
+      "lat": 39.055,
+      "lon": -76.7909,
+      "place": "Maryland",
+      "region": "United States",
+      "cause": "",
+      "affected": "103,461 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/maryland",
+      "updated": "2:08 AM CT"
+    },
+    {
+      "lat": 37.4316,
+      "lon": -78.6569,
+      "place": "Virginia",
+      "region": "United States",
+      "cause": "",
+      "affected": "91,696 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://poweroutage.us/area/state/virginia",
+      "updated": "2:08 AM CT"
     },
     {
       "lat": 38.3566,
@@ -68,11 +68,11 @@
       "place": "Missouri",
       "region": "United States",
       "cause": "",
-      "affected": "123,890 customers out",
+      "affected": "87,699 customers out",
       "start": "",
       "etr": "",
-      "source": "https://poweroutage.us/area/state/missouri",
-      "updated": "2:08 PM CT"
+      "source": "https://massoutage.com/missouri",
+      "updated": "1:50 AM CT"
     },
     {
       "lat": 50.45,
