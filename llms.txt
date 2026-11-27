@@ -2,7 +2,7 @@
 
 > Free, ad-free, unofficial live map and table of significant power outages and blackouts worldwide. Each outage lists the place, country, cause, customers affected (or MW shortfall), start time, estimated restoration time when published, a source link, and when it was last checked.
 
-Latest snapshot: 11:00 AM CT, Friday, November 27, 2026. Times on the site are US Central Time (CT).
+Latest snapshot: 12:00 PM CT, Friday, November 27, 2026. Times on the site are US Central Time (CT).
 
 ## What the site shows
 
@@ -29,7 +29,6 @@ Latest snapshot: 11:00 AM CT, Friday, November 27, 2026. Times on the site are U
 - [US Power Outage Today](https://blackoutsmap.com/us/): current outages in the United States
 - [Ukraine Power Outage Today](https://blackoutsmap.com/ukraine/): current outages in Ukraine
 - [Cuba Power Outage Today](https://blackoutsmap.com/cuba/): current outages in Cuba
-- [Venezuela Power Outage Today](https://blackoutsmap.com/venezuela/): current outages in Venezuela
 - [Colombia Power Outage Today](https://blackoutsmap.com/colombia/): current outages in Colombia
 - [Malaysia Power Outage Today](https://blackoutsmap.com/malaysia/): current outages in Malaysia
 - [Sudan Power Outage Today](https://blackoutsmap.com/sudan/): current outages in Sudan
