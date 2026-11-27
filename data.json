@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "1,034,044 customers out",
+      "affected": "1,087,745 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "5:00 PM CT",
+      "updated": "5:55 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -20,11 +20,11 @@
       "place": "Pennsylvania",
       "region": "United States",
       "cause": "",
-      "affected": "235,596 customers out",
+      "affected": "232,815 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/pennsylvania",
-      "updated": "5:00 PM CT"
+      "updated": "5:55 PM CT"
     },
     {
       "lat": 37.4316,
@@ -39,6 +39,18 @@
       "updated": "2:08 PM CT"
     },
     {
+      "lat": 40.1907,
+      "lon": -74.6728,
+      "place": "New Jersey",
+      "region": "United States",
+      "cause": "",
+      "affected": "177,014 customers out",
+      "start": "",
+      "etr": "",
+      "source": "https://massoutage.com/new-jersey",
+      "updated": "5:55 PM CT"
+    },
+    {
       "lat": 39.055,
       "lon": -76.7909,
       "place": "Maryland",
@@ -49,18 +61,6 @@
       "etr": "",
       "source": "https://poweroutage.us/area/state/maryland",
       "updated": "2:08 PM CT"
-    },
-    {
-      "lat": 40.1907,
-      "lon": -74.6728,
-      "place": "New Jersey",
-      "region": "United States",
-      "cause": "",
-      "affected": "145,110 customers out",
-      "start": "",
-      "etr": "",
-      "source": "https://massoutage.com/new-jersey",
-      "updated": "5:00 PM CT"
     },
     {
       "lat": 38.3566,
