@@ -1,5 +1,5 @@
 {
-  "as_of": "2:00 PM CT, Friday, November 27, 2026",
+  "as_of": "3:00 PM CT, Friday, November 27, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "449,922 customers out",
+      "affected": "448,997 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "2:00 PM CT",
+      "updated": "3:00 PM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -56,11 +56,11 @@
       "place": "Maryland",
       "region": "United States",
       "cause": "",
-      "affected": "55,220 customers out",
+      "affected": "54,909 customers out",
       "start": "",
       "etr": "",
-      "source": "https://massoutage.com/maryland",
-      "updated": "2:00 PM CT"
+      "source": "https://poweroutage.us/area/state/maryland",
+      "updated": "2:02 PM CT"
     },
     {
       "lat": 37.4316,
