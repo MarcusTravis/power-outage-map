@@ -1,5 +1,5 @@
 {
-  "as_of": "7:00 AM CT, Saturday, November 28, 2026",
+  "as_of": "8:00 AM CT, Saturday, November 28, 2026",
   "outages": [
     {
       "lat": null,
@@ -7,11 +7,11 @@
       "place": "United States",
       "region": "Nationwide",
       "cause": "",
-      "affected": "227,726 customers out",
+      "affected": "230,176 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/",
-      "updated": "7:00 AM CT",
+      "updated": "8:00 AM CT",
       "source_label": "MassOutage + PowerOutage.us"
     },
     {
@@ -44,11 +44,11 @@
       "place": "New York",
       "region": "United States",
       "cause": "",
-      "affected": "36,604 customers out",
+      "affected": "35,891 customers out",
       "start": "",
       "etr": "",
       "source": "https://massoutage.com/new-york",
-      "updated": "7:00 AM CT"
+      "updated": "8:00 AM CT"
     },
     {
       "lat": 39.055,
